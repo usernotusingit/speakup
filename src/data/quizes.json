@@ -1,0 +1,179 @@
+{
+  "quizes": [
+    {
+      "id": 1,
+      "title": "Greetings & Introductions",
+      "level": "A1",
+      "description": "Test your knowledge of basic greetings, farewells, family vocabulary, and simple sentences with like, speak, drink and eat.",
+      "questions": [
+        {
+          "q": "Which greeting means \"Bom dia!\" in English?",
+          "options": ["Good morning!", "Good afternoon!", "Good evening!", "Good night!"],
+          "answer": 0
+        },
+        {
+          "q": "When you ARRIVE somewhere in the evening, you say:",
+          "options": ["Good evening!", "Good night!", "Good morning!", "Goodbye!"],
+          "answer": 0
+        },
+        {
+          "q": "\"Good night!\" is used when:",
+          "options": ["Leaving at night", "Arriving at night", "In the morning", "After lunch"],
+          "answer": 0
+        },
+        {
+          "q": "How do you say \"Eu gosto de você\" in English?",
+          "options": ["I like you.", "I like of you.", "I like to you.", "I am like you."],
+          "answer": 0
+        },
+        {
+          "q": "Between two verbs, English uses the word:",
+          "options": ["to", "of", "and", "with"],
+          "answer": 0
+        },
+        {
+          "q": "\"Filha\" in English is:",
+          "options": ["daughter", "sister", "mother", "son"],
+          "answer": 0
+        },
+        {
+          "q": "\"Irmão\" in English is:",
+          "options": ["brother", "sister", "son", "father"],
+          "answer": 0
+        },
+        {
+          "q": "Which sentence is correct?",
+          "options": ["I like to eat fish.", "I like eating of fish.", "I like eat fish.", "I like to eating fish."],
+          "answer": 0
+        },
+        {
+          "q": "How do you say \"Eu falo português\" in English?",
+          "options": ["I speak Portuguese.", "I like Portuguese.", "I drink Portuguese.", "I eat Portuguese."],
+          "answer": 0
+        },
+        {
+          "q": "How do you say \"Eu gosto de beber leite\" in English?",
+          "options": ["I like to drink milk.", "I like drinking of milk.", "I drink to like milk.", "I like milk to drink."],
+          "answer": 0
+        }
+      ]
+    },
+    {
+      "id": 2,
+      "title": "Work, Need & Negation",
+      "level": "A1",
+      "description": "Practice the verbs work, need, play and study. Includes negation with don't, articles a / an, and everyday vocabulary.",
+      "questions": [
+        {
+          "q": "\"I don't work.\" — \"don't\" is used to:",
+          "options": ["Make a sentence negative", "Make a question", "Express ability", "Show possession"],
+          "answer": 0
+        },
+        {
+          "q": "\"Eu preciso estudar\" in English is:",
+          "options": ["I need to study.", "I need study.", "I need of study.", "I need studying."],
+          "answer": 0
+        },
+        {
+          "q": "Which article goes before a vowel sound?",
+          "options": ["an", "a", "the", "one"],
+          "answer": 0
+        },
+        {
+          "q": "\"A cup of coffee\" — what is \"cup\" in Portuguese?",
+          "options": ["xícara", "copo", "fatia", "prato"],
+          "answer": 0
+        },
+        {
+          "q": "\"Você trabalha com sua irmã.\" in English is:",
+          "options": ["You work with your sister.", "You work with your brother.", "You work with your daughter.", "You work with your mother."],
+          "answer": 0
+        },
+        {
+          "q": "How do you say \"Eu não gosto de estudar\" in English?",
+          "options": ["I don't like to study.", "I not like to study.", "I don't like study.", "I am not liking to study."],
+          "answer": 0
+        },
+        {
+          "q": "\"To play the piano\" — which article is used with musical instruments?",
+          "options": ["the", "a", "an", "No article"],
+          "answer": 0
+        },
+        {
+          "q": "\"Amanhã\" in English is:",
+          "options": ["tomorrow", "today", "yesterday", "later"],
+          "answer": 0
+        },
+        {
+          "q": "Which sentence is correct?",
+          "options": ["I don't work today.", "I don't works today.", "I doesn't work today.", "I not work today."],
+          "answer": 0
+        },
+        {
+          "q": "\"A glass of water\" — \"glass\" in Portuguese means:",
+          "options": ["copo", "xícara", "fatia", "garrafa"],
+          "answer": 0
+        },
+        {
+          "q": "\"Meus pais não falam alemão.\" in English is:",
+          "options": ["My parents don't speak German.", "My parents don't speak English.", "My parents don't speak Portuguese.", "My parents not speak German."],
+          "answer": 0
+        },
+        {
+          "q": "\"Tchau!\" in English is:",
+          "options": ["Goodbye! / Bye-bye!", "Hello!", "Welcome!", "Please!"],
+          "answer": 0
+        }
+      ]
+    },
+    {
+      "id": 3,
+      "title": "Can / Can't — Abilities",
+      "level": "A1+",
+      "description": "Express ability and inability using can / can't with everyday activity vocabulary.",
+      "questions": []
+    },
+    {
+      "id": 4,
+      "title": "Daily Routines",
+      "level": "A1+",
+      "description": "Present simple quiz focused on daily routines, time expressions, and frequency adverbs.",
+      "questions": []
+    },
+    {
+      "id": 5,
+      "title": "Past Simple — Regular Verbs",
+      "level": "A2",
+      "description": "Form past simple sentences with regular verbs. Includes affirmative, negative, and questions.",
+      "questions": []
+    },
+    {
+      "id": 6,
+      "title": "Irregular Verbs Challenge",
+      "level": "A2",
+      "description": "Match 20 common irregular verbs to their past tense forms.",
+      "questions": []
+    },
+    {
+      "id": 7,
+      "title": "Present Perfect vs Past Simple",
+      "level": "B1",
+      "description": "Choose the correct tense: present perfect or past simple in context.",
+      "questions": []
+    },
+    {
+      "id": 8,
+      "title": "Future: Will vs Going To",
+      "level": "B1",
+      "description": "Identify whether to use will or going to based on context and speaker intention.",
+      "questions": []
+    },
+    {
+      "id": 9,
+      "title": "Conditionals 1 & 2",
+      "level": "B1/B2",
+      "description": "First and second conditional sentence completion and error correction.",
+      "questions": []
+    }
+  ]
+}

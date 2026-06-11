@@ -1,0 +1,378 @@
+// ─── Types ────────────────────────────────────────────────────────────────────
+
+export interface WordPair {
+  en: string;
+  pt: string;
+}
+
+export interface QuizLesson {
+  id: number;
+  title: string;
+  verbs: WordPair[];
+  grammarPoints: WordPair[];
+  vocabulary: WordPair[];
+  expressions: WordPair[];
+}
+
+export interface FlipCardsChallenge {
+  type: "flipcards";
+  label: string;
+  cards: WordPair[];
+}
+
+export interface MultipleChoiceChallenge {
+  type: "multiple-choice";
+  question: string;
+  options: string[];
+  answer: number; // index into options
+}
+
+export interface FillBlankChallenge {
+  type: "fill-blank";
+  before: string;  // text before blank
+  after: string;   // text after blank
+  hint: string;    // Portuguese translation
+  options: string[];
+  answer: number;
+}
+
+export interface TrueFalseChallenge {
+  type: "true-false";
+  sentence: string;
+  correct: boolean; // true = sentence IS correct English
+  explanation: string;
+}
+
+export interface MatchingChallenge {
+  type: "matching";
+  pairs: WordPair[]; // left=PT, right=EN — right will be shuffled in component
+}
+
+export interface WordOrderChallenge {
+  type: "word-order";
+  words: string[];   // shuffled tiles
+  answer: string;    // correct sentence (no trailing punctuation)
+  hint: string;      // Portuguese
+}
+
+export type Challenge =
+  | FlipCardsChallenge
+  | MultipleChoiceChallenge
+  | FillBlankChallenge
+  | TrueFalseChallenge
+  | MatchingChallenge
+  | WordOrderChallenge;
+
+// ─── Helpers ──────────────────────────────────────────────────────────────────
+
+export function shuffle<T>(arr: T[]): T[] {
+  const a = [...arr];
+  for (let i = a.length - 1; i > 0; i--) {
+    const j = Math.floor(Math.random() * (i + 1));
+    [a[i], a[j]] = [a[j], a[i]];
+  }
+  return a;
+}
+
+export function pick<T>(arr: T[], n: number): T[] {
+  return shuffle(arr).slice(0, Math.min(n, arr.length));
+}
+
+export function makeOptions(
+  pool: string[],
+  correct: string
+): { options: string[]; answer: number } {
+  const distractors = shuffle(pool.filter((p) => p !== correct)).slice(0, 3);
+  const all = shuffle([correct, ...distractors]);
+  return { options: all, answer: all.indexOf(correct) };
+}
+
+export function verbBase(verbEn: string): string {
+  // "to like, liked" → "like"
+  return verbEn.replace(/^to\s+/i, "").split(",")[0].trim().toLowerCase();
+}
+
+export function findLastVerbInSentence(
+  sentence: string,
+  verbBases: string[]
+): string | null {
+  const words = sentence.toLowerCase().match(/\b\w+\b/g) ?? [];
+  let lastVerb: string | null = null;
+  for (const word of words) {
+    if (verbBases.includes(word)) {
+      lastVerb = word;
+    }
+  }
+  return lastVerb;
+}
+
+export function introduceError(
+  sentence: string,
+  verbBases: string[]
+): { wrong: string; explanation: string } | null {
+  // Strategy 1: "don't X" → "don't Xs" (verb after don't shouldn't conjugate)
+  const dontMatch = sentence.match(/\bdon't\s+(\w+)\b/i);
+  if (dontMatch) {
+    const verb = dontMatch[1].toLowerCase();
+    if (verbBases.includes(verb)) {
+      const wrong = sentence.replace(
+        /\bdon't\s+(\w+)\b/i,
+        `don't ${verb}s`
+      );
+      return {
+        wrong,
+        explanation: `After "don't", the verb does NOT get an "s". Correct: "${sentence}"`,
+      };
+    }
+  }
+
+  // Strategy 2: "like to drink" → "like drink" (missing "to" between verbs)
+  const toVerbMatch = sentence.match(/\b(like|need|want|love)\s+to\s+(\w+)\b/i);
+  if (toVerbMatch) {
+    const wrong = sentence.replace(/\bto\s+(\w+)\b/i, toVerbMatch[2]);
+    return {
+      wrong,
+      explanation: `When two verbs follow each other, use "to": "${toVerbMatch[1]} to ${toVerbMatch[2]}". Correct: "${sentence}"`,
+    };
+  }
+
+  // Strategy 3: "I like" → "I likes" (wrong conjugation with I/You)
+  const iSubjectMatch = sentence.match(/^(I|You)\s+(like|speak|drink|eat|work|need|play|study)\b/i);
+  if (iSubjectMatch) {
+    const subj = iSubjectMatch[1];
+    const verb = iSubjectMatch[2];
+    const wrong = sentence.replace(
+      new RegExp(`^${subj}\\s+${verb}\\b`, "i"),
+      `${subj} ${verb}s`
+    );
+    return {
+      wrong,
+      explanation: `With "${subj}", the verb does NOT get an "s". Correct: "${sentence}"`,
+    };
+  }
+
+  // Strategy 4: "I like you" → "I like of you" (PT interference)
+  if (/\blike\s+(you|him|her|us|them)\b/i.test(sentence)) {
+    const wrong = sentence.replace(/\blike\s+(you|him|her|us|them)\b/i, (m, p) => `like of ${p}`);
+    return {
+      wrong,
+      explanation: `In English we say "like you" — no preposition "of". Correct: "${sentence}"`,
+    };
+  }
+
+  return null;
+}
+
+// ─── Main builder ─────────────────────────────────────────────────────────────
+
+export function buildChallenges(lesson: QuizLesson): Challenge[] {
+  const challenges: Challenge[] = [];
+
+  const verbBases = lesson.verbs.map((v) => verbBase(v.en));
+  const verbPtPool = lesson.verbs.map((v) => v.pt);
+  const vocabPtPool = lesson.vocabulary.map((v) => v.pt);
+  const vocabEnPool = lesson.vocabulary.map((v) => v.en);
+  const exprPtPool = lesson.expressions.map((e) => e.pt);
+  const exprEnPool = lesson.expressions.map((e) => e.en);
+
+  // Shuffle vocab for batching
+  const vocabShuffled = shuffle(lesson.vocabulary);
+  const vocabBatch1 = vocabShuffled.slice(0, 8);
+  const vocabBatch2 = vocabShuffled.slice(8, 16);
+
+  // 1. FlipCards — vocabulary batch 1
+  challenges.push({
+    type: "flipcards",
+    label: "Vocabulary",
+    cards: vocabBatch1,
+  });
+
+  // 2. MultipleChoice × 4 — one per verb: EN → PT
+  for (const verb of lesson.verbs) {
+    const { options, answer } = makeOptions(verbPtPool, verb.pt);
+    challenges.push({
+      type: "multiple-choice",
+      question: `What does "${verb.en}" mean in Portuguese?`,
+      options,
+      answer,
+    });
+  }
+
+  // 3. TrueFalse × up to 4 — alternating correct/incorrect
+  const trueFalseChallenges: TrueFalseChallenge[] = [];
+  for (const gp of lesson.grammarPoints) {
+    if (trueFalseChallenges.length >= 4) break;
+    const sentence = gp.en.trim();
+
+    // Alternate: even idx = correct, odd = incorrect
+    if (trueFalseChallenges.length % 2 === 0) {
+      trueFalseChallenges.push({
+        type: "true-false",
+        sentence,
+        correct: true,
+        explanation: `Correct! "${sentence}" is proper English.`,
+      });
+    } else {
+      const errorResult = introduceError(sentence, verbBases);
+      if (errorResult) {
+        trueFalseChallenges.push({
+          type: "true-false",
+          sentence: errorResult.wrong,
+          correct: false,
+          explanation: errorResult.explanation,
+        });
+      } else {
+        // fallback to a correct one
+        trueFalseChallenges.push({
+          type: "true-false",
+          sentence,
+          correct: true,
+          explanation: `Correct! "${sentence}" is proper English.`,
+        });
+      }
+    }
+  }
+  challenges.push(...trueFalseChallenges);
+
+  // 4. MultipleChoice × 5 — vocab EN→PT
+  const vocabForMC1 = pick(lesson.vocabulary, 5);
+  for (const v of vocabForMC1) {
+    const { options, answer } = makeOptions(vocabPtPool, v.pt);
+    challenges.push({
+      type: "multiple-choice",
+      question: `What does "${v.en}" mean in Portuguese?`,
+      options,
+      answer,
+    });
+  }
+
+  // 5. FlipCards — vocabulary batch 2
+  if (vocabBatch2.length > 0) {
+    challenges.push({
+      type: "flipcards",
+      label: "Vocabulary",
+      cards: vocabBatch2,
+    });
+  }
+
+  // 6. FillBlank × up to 5 — from grammar points
+  const fillBlanks: FillBlankChallenge[] = [];
+  for (const gp of lesson.grammarPoints) {
+    if (fillBlanks.length >= 5) break;
+    const s = gp.en.trim();
+    // Skip compound or complex sentences
+    if (s.includes("—") || s.includes("(") || s.includes(",")) continue;
+    const stripped = s.replace(/[.!?]$/, "");
+    const words = stripped.split(" ");
+    if (words.length < 3) continue;
+
+    const lastVerb = findLastVerbInSentence(stripped, verbBases);
+    if (!lastVerb) continue;
+
+    // Find position of last occurrence
+    const wordLower = words.map((w) => w.toLowerCase());
+    let blankIdx = -1;
+    for (let i = words.length - 1; i >= 0; i--) {
+      if (wordLower[i] === lastVerb) {
+        blankIdx = i;
+        break;
+      }
+    }
+    if (blankIdx === -1) continue;
+
+    const before = words.slice(0, blankIdx).join(" ");
+    const after = words.slice(blankIdx + 1).join(" ") + (s.match(/[.!?]$/) ? s.slice(-1) : "");
+    const { options, answer } = makeOptions(verbBases, lastVerb);
+
+    fillBlanks.push({
+      type: "fill-blank",
+      before,
+      after,
+      hint: gp.pt,
+      options,
+      answer,
+    });
+  }
+  challenges.push(...fillBlanks);
+
+  // 7. Matching × 1 — 5 vocab pairs (batch 1)
+  const matchVocab1 = pick(vocabBatch1, 5);
+  if (matchVocab1.length >= 2) {
+    challenges.push({
+      type: "matching",
+      pairs: matchVocab1.map((v) => ({ en: v.en, pt: v.pt })),
+    });
+  }
+
+  // 8. MultipleChoice × 4 — vocab PT→EN
+  const vocabForMC2 = pick(lesson.vocabulary, 4);
+  for (const v of vocabForMC2) {
+    const { options, answer } = makeOptions(vocabEnPool, v.en);
+    challenges.push({
+      type: "multiple-choice",
+      question: `"${v.pt}" in English is:`,
+      options,
+      answer,
+    });
+  }
+
+  // 9. Matching × 1 — 5 more vocab pairs (batch 2)
+  const matchVocab2 = pick(vocabBatch2.length >= 5 ? vocabBatch2 : lesson.vocabulary, 5);
+  if (matchVocab2.length >= 2) {
+    challenges.push({
+      type: "matching",
+      pairs: matchVocab2.map((v) => ({ en: v.en, pt: v.pt })),
+    });
+  }
+
+  // 10. FlipCards — expressions batch
+  if (lesson.expressions.length > 0) {
+    challenges.push({
+      type: "flipcards",
+      label: "Expressions",
+      cards: lesson.expressions,
+    });
+  }
+
+  // 11. MultipleChoice × 4 — expression EN→PT
+  const exprsForMC = pick(lesson.expressions, 4);
+  for (const e of exprsForMC) {
+    const { options, answer } = makeOptions(exprPtPool, e.pt);
+    challenges.push({
+      type: "multiple-choice",
+      question: `What does "${e.en}" mean in Portuguese?`,
+      options,
+      answer,
+    });
+  }
+
+  // 12. Matching × 1 — 5 expression pairs
+  const matchExprs = pick(lesson.expressions, 5);
+  if (matchExprs.length >= 2) {
+    challenges.push({
+      type: "matching",
+      pairs: matchExprs.map((e) => ({ en: e.en, pt: e.pt })),
+    });
+  }
+
+  // 13. WordOrder × 3 — grammar point sentences with 4+ words
+  const wordOrderCandidates = lesson.grammarPoints.filter((gp) => {
+    const s = gp.en.trim().replace(/[.!?]$/, "");
+    const words = s.split(" ");
+    return words.length >= 4 && !gp.en.includes("—") && !gp.en.includes("(");
+  });
+
+  const wordOrderPicked = pick(wordOrderCandidates, 3);
+  for (const gp of wordOrderPicked) {
+    const answer = gp.en.trim().replace(/[.!?]$/, "");
+    const words = shuffle(answer.split(" "));
+    challenges.push({
+      type: "word-order",
+      words,
+      answer,
+      hint: gp.pt,
+    });
+  }
+
+  return challenges;
+}

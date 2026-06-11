@@ -1,0 +1,649 @@
+{
+  "practice": [
+    {
+      "bookId": 1,
+      "lessonId": 1,
+      "practiceVerbs": [
+        { "pt": "Eu gosto de falar./ beber/ comer", "en": "I like to speak./ drink/ eat" },
+        { "pt": "Você gosta de comer./ beber/ falar", "en": "You like to eat./ drink/ speak" },
+        { "pt": "Eu gosto de comer./ falar/ beber", "en": "I like to eat./ speak/ drink" },
+        { "pt": "Você gosta de comer./ beber/ falar", "en": "You like to eat./ drink/ speak" },
+        { "pt": "Eu gosto de falar./ comer/ beber", "en": "I like to speak./ eat/ drink" }
+      ],
+      "practiceVocabulary": [
+        { "pt": "Eu gosto do meu pai./ irmão/ mãe/ filho/ filha", "en": "I like my father./ brother/ mother/ son/ daughter" },
+        { "pt": "Eu falo com minha mãe./ irmão/ irmã/ filho", "en": "I speak with my mother./ brother/ sister/ son" },
+        { "pt": "Eu bebo vinho./ cerveja/ água/ suco/ leite", "en": "I drink wine./ beer/ water/ juice/ milk" },
+        { "pt": "Você come carne./ peixe/ pão e manteiga", "en": "You eat meat./ fish/ bread and butter" },
+        { "pt": "Eu gosto de falar inglês./ português", "en": "I like to speak English./ Portuguese" },
+        { "pt": "Você fala com sua filha./ irmã/ irmão/ filho", "en": "You speak with your daughter./ sister/ brother/ son" },
+        { "pt": "Eu gosto do meu pai e da minha mãe./ irmão e da minha irmã/ filho e da minha filha", "en": "I like my father and my mother./ brother and sister/ son and daughter" },
+        { "pt": "Você gosta de tomar leite./ suco/ água/ vinho/ cerveja", "en": "You like to drink milk./ juice/ water/ wine/ beer" },
+        { "pt": "Eu gosto de comer peixe./ carne/ pão com manteiga", "en": "I like to eat fish./ meat/ bread with butter" },
+        { "pt": "Você gosta de falar inglês./ português", "en": "You like to speak English./ Portuguese" },
+        { "pt": "Eu gosto de falar com seu filho./ filha/ irmão/ irmã", "en": "I like to speak with your son./ daughter/ brother/ sister" }
+      ],
+      "practiceExpressions": [
+        { "pt": "Oi! Eu bebo vinho./ cerveja/ suco", "en": "Hi! I drink wine./ beer/ juice" },
+        { "pt": "Olá! Você gosta de carne./ água/ peixe", "en": "Hello! You like meat./ water/ fish" },
+        { "pt": "Bom dia! Eu gosto de tomar suco./ leite", "en": "Good morning! I like to drink juice./ milk" },
+        { "pt": "Boa tarde! Eu falo inglês com você./ com seu pai/ com seu filho/ com sua irmã", "en": "Good afternoon! I speak English with you./ with your father/ with your son/ with your sister" },
+        { "pt": "Boa noite! Eu gosto de comer pão./ carne/ peixe", "en": "Good night! I like to eat bread./ meat/ fish" }
+      ],
+      "practicingPart2": [
+        { "pt": "Meu pai e minha irmã falam inglês./ português", "en": "My father and my sister speak English./ Portuguese" },
+        { "pt": "Meu irmão e minha irmã bebem vinho./ cerveja/ suco", "en": "My brother and my sister drink wine./ beer/ juice" },
+        { "pt": "Meu filho e minha filha comem peixe./ carne/ pão/ manteiga", "en": "My son and my daughter eat fish./ meat/ bread/ butter" },
+        { "pt": "Eu falo inglês com meu pai./ mãe/ irmão/ irmã", "en": "I speak English with my father./ mother/ brother/ sister" },
+        { "pt": "Você fala português com seu filho./ filha/ pai", "en": "You speak Portuguese with your son./ daughter/ father" },
+        { "pt": "Eu gosto de beber água./ leite/ suco/ cerveja", "en": "I like to drink water./ milk/ juice/ beer" },
+        { "pt": "Eu falo inglês e português.", "en": "I speak English and Portuguese." },
+        { "pt": "Eu gosto de beber vinho e cerveja./ leite e suco", "en": "I like to drink wine and beer./ milk and juice" },
+        { "pt": "Você come pão e carne./ pão e manteiga/ peixe", "en": "You eat bread and meat./ bread and butter/ fish" },
+        { "pt": "Você gosta de beber vinho./ cerveja/ água", "en": "You like to drink wine./ beer/ water" },
+        { "pt": "Meu filho e minha filha falam português./ inglês", "en": "My son and daughter speak Portuguese./ English" },
+        { "pt": "Você fala inglês com seu pai./ mãe/ irmão/ filha", "en": "You speak English with your father./ mother/ brother/ daughter" },
+        { "pt": "Oi! Eu bebo leite./ vinho/ cerveja/ água", "en": "Hi! I drink milk./ wine/ beer/ water" },
+        { "pt": "Boa tarde! Eu gosto da sua filha./ irmã/ filho/ irmão", "en": "Good afternoon! I like your daughter./ sister/ son/ brother" },
+        { "pt": "Olá! Eu falo inglês./ português/ inglês com sua mãe", "en": "Hello! I speak English./ Portuguese/ English with your mother" },
+        { "pt": "Bom dia! Eu gosto de comer carne./ peixe/ pão e manteiga", "en": "Good morning! I like to eat meat./ fish/ bread and butter" },
+        { "pt": "Oi! Eu falo português com você./ com seu pai/ com sua filha/ com seu irmão", "en": "Hi! I speak Portuguese with you./ with your father/ with your daughter/ with your brother" }
+      ]
+    },
+    {
+      "bookId": 1,
+      "lessonId": 2,
+      "practiceVerbs": [
+        { "pt": "Eu trabalho com meu filho./ Eu preciso beber água./ Eu jogo com meu filho./ Eu estudo inglês com meu irmão.", "en": "I work with my son./ I need to drink water./ I play with my son./ I study English with my brother." },
+        { "pt": "Você trabalha com sua irmã./ brinca com sua filha./ precisa comer peixe./ estuda com seu filho.", "en": "You work with your sister./ play with your daughter./ need to eat fish./ study with your son." },
+        { "pt": "Eu não gosto de trabalhar./ jogar/ estudar", "en": "I don't like to work./ play/ study" },
+        { "pt": "Você precisa trabalhar./ brincar/ estudar/ comer", "en": "You need to work./ play/ study/ eat" },
+        { "pt": "Eu preciso jogar./ estudar/ beber/ falar", "en": "I need to play./ study/ drink/ speak" },
+        { "pt": "Eu não trabalho com meu pai./ mãe/ irmão", "en": "I don't work with my father./ mother/ brother" },
+        { "pt": "Você precisa brincar com seu filho./ filha/ irmã", "en": "You need to play with your son./ daughter/ sister" },
+        { "pt": "Eu jogo com meu irmão./ mãe/ irmã/ filho", "en": "I play with my brother./ mother/ sister/ son" },
+        { "pt": "Você estuda inglês./ português", "en": "You study English./ Portuguese" },
+        { "pt": "Você gosta de trabalhar./ jogar/ falar", "en": "You like to work./ play/ speak" },
+        { "pt": "Eu gosto de estudar inglês./ português", "en": "I like to study English./ Portuguese" },
+        { "pt": "Eu preciso comer carne./ peixe/ pão", "en": "I need to eat meat./ fish/ bread" },
+        { "pt": "Você não precisa trabalhar com seu irmão./ filho/ filha", "en": "You don't need to work with your brother./ son/ daughter" }
+      ],
+      "practiceVocabulary": [
+        { "pt": "Meus pais trabalham./ estudam/ tocam/ bebem", "en": "My parents work./ study/ play/ drink" },
+        { "pt": "Seus filhos brincam./ comem/ estudam/ trabalham", "en": "Your children play./ eat/ study/ work" },
+        { "pt": "Eu não brinco com meus pais./ filhos/ filho", "en": "I don't play with my parents./ children/ son" },
+        { "pt": "Meus pais tocam piano./ filhos/ irmãos", "en": "My parents play the piano./ my children/ my brothers" },
+        { "pt": "Você não fala inglês./ português/ alemão", "en": "You don't speak English./ Portuguese/ German" },
+        { "pt": "Eu gosto de jogar futebol./ você/ meus filhos gostam", "en": "I like to play soccer./ you like/ my children like" },
+        { "pt": "Eu bebo uma xícara de café./ chá", "en": "I drink a cup of coffee./ tea" },
+        { "pt": "Eu tomo um copo de água./ vinho/ suco/ leite", "en": "I drink a glass of water./ wine/ juice/ milk" },
+        { "pt": "Você precisa de uma xícara de chá./ café", "en": "You need a cup of tea./ coffee" },
+        { "pt": "Eu não bebo um copo de cerveja./ vinho/ água", "en": "I don't drink a glass of beer./ wine/ water" },
+        { "pt": "Você gosta de comer uma fatia de queijo./ presunto/ pão", "en": "You like to eat a slice of cheese./ ham/ bread" },
+        { "pt": "Meus filhos não gostam de queijo./ presunto/ café/ chá", "en": "My children don't like cheese./ ham/ coffee/ tea" }
+      ],
+      "practiceExpressions": [
+        { "pt": "Obrigado! Eu gosto de jogar futebol com você./ com seu filho/ irmão", "en": "Thanks! I like to play soccer with you./ with your son/ brother" },
+        { "pt": "Obrigado! Eu gosto de queijo./ presunto/ café/ chá", "en": "Thanks! I like cheese./ ham/ coffee/ tea" },
+        { "pt": "Eu gosto de brincar./ estudar/ comer", "en": "I like to play./ to study/ to eat" },
+        { "pt": "Por favor, estude inglês./ alemão/ piano", "en": "Please, study English./ German/ the piano" },
+        { "pt": "Desculpe, eu não estudo hoje./ amanhã/ alemão", "en": "I'm sorry, I don't study today./ tomorrow/ German" },
+        { "pt": "Tchau! Eu preciso comer./ estudar/ brincar/ falar", "en": "Bye-bye! I need to eat./ study/ play/ speak" },
+        { "pt": "Com licença, eu não falo inglês./ português/ alemão", "en": "Excuse me, I don't speak English./ Portuguese/ German" },
+        { "pt": "Bem-vindo! Beba um copo de vinho com meu pai./ com meu irmão/ com meu filho", "en": "Welcome! Drink a glass of wine with my father./ with my brother/ with my son" }
+      ],
+      "practicingPart2": [
+        { "pt": "Meu pai e minha mãe precisam trabalhar./ estudar/ falar", "en": "My father and my mother need to work./ study/ speak" },
+        { "pt": "Eu não trabalho hoje./ brinco/ estudo/ como", "en": "I don't work today./ play/ study/ eat" },
+        { "pt": "Você não precisa trabalhar./ jogar/ estudar/ falar", "en": "You don't need to work./ to play/ to study/ to speak" },
+        { "pt": "Eu não gosto de beber./ tocar/ estudar", "en": "I don't like to drink./ to play/ to study" },
+        { "pt": "Meu irmão e minha irmã não trabalham./ estudam/ jogam/ comem", "en": "My brother and my sister don't work./ study/ play/ eat" },
+        { "pt": "Eu não gosto de estudar./ tocar/ trabalhar/ falar", "en": "I don't like to study./ play/ work/ speak" },
+        { "pt": "Você precisa beber água./ comer pão/ jogar/ estudar", "en": "You need to drink water./ eat bread/ play/ study" },
+        { "pt": "Eu preciso estudar inglês./ português", "en": "I need to study English./ Portuguese" },
+        { "pt": "Você não brinca com seu pai./ estuda/ joga/ fala", "en": "You don't play with your father./ study/ play/ speak" },
+        { "pt": "Eu não estudo com meu irmão./ filho/ irmã/ filha", "en": "I don't study with my brother./ son/ sister/ daughter" },
+        { "pt": "Eu não preciso de carne./ leite/ peixe/ água", "en": "I don't need meat./ milk/ fish/ water" },
+        { "pt": "Você não joga com seu filho./ irmão/ filha", "en": "You don't play with your son./ brother/ daughter" },
+        { "pt": "Eu estudo inglês amanhã./ português/ alemão", "en": "I study English tomorrow./ Portuguese/ German" },
+        { "pt": "Eu gosto de brincar com meus filhos./ estudar/ trabalhar", "en": "I like to play with my children./ study/ work" },
+        { "pt": "Você estuda piano hoje./ amanhã", "en": "You study the piano today./ tomorrow" },
+        { "pt": "Eu gosto de beber um copo de água./ de suco/ leite/ cerveja", "en": "I like to drink a glass of water./ juice/ milk/ beer" },
+        { "pt": "Eu não como uma fatia de queijo./ pão/ presunto", "en": "I don't eat a slice of cheese./ bread/ ham" },
+        { "pt": "Eu não gosto de queijo, mas gosto de presunto./ leite, mas gosto de suco", "en": "I don't like cheese, but I like ham./ I don't like milk but I like juice" },
+        { "pt": "Meus pais não falam alemão./ inglês/ português", "en": "My parents don't speak German./ English/ Portuguese" },
+        { "pt": "Eu como, mas eu não bebo./ falo - trabalho/ brinco - estudo", "en": "I eat, but I don't drink./ I speak - work/ play - study" },
+        { "pt": "Você não estuda, mas trabalha./ come, mas bebe", "en": "You don't study, but you work./ eat, but drink" },
+        { "pt": "Oi! Eu bebo um copo de água./ suco/ leite", "en": "Hi! I drink a glass of water./ juice/ milk" },
+        { "pt": "Olá! Eu estudo piano./ alemão/ inglês", "en": "Hello! I study the piano./ German/ English" },
+        { "pt": "Você não toma uma xícara de chá./ café", "en": "You don't drink a cup of tea./ coffee" },
+        { "pt": "Bom dia! Eu como uma fatia de presunto./ pão/ queijo", "en": "Good morning! I eat a slice of ham./ bread/ cheese" },
+        { "pt": "Por favor, eu preciso de um copo de suco./ leite/ água", "en": "Please, I need a glass of juice./ milk/ water" },
+        { "pt": "Com licença, eu preciso de uma fatia de queijo./ presunto/ pão", "en": "Excuse me, I need a slice of cheese./ ham/ bread" },
+        { "pt": "Por favor, jogue futebol com meu filho./ irmão/ filhos", "en": "Please, play soccer with my son./ brother/ children" },
+        { "pt": "Desculpe, meus pais não trabalham./ estudam/ bebem", "en": "Sorry, my parents don't work./ study/ drink" },
+        { "pt": "Tchau! Eu não preciso estudar inglês hoje./ alemão/ amanhã", "en": "Bye! I don't need to study English today./ German/ tomorrow" },
+        { "pt": "Obrigado! Eu gosto de tomar uma xícara de chá./ café", "en": "Thanks! I like to drink a cup of tea./ coffee" },
+        { "pt": "Com licença, eu preciso trabalhar hoje./ amanhã", "en": "Excuse me, I need to work today./ tomorrow" },
+        { "pt": "Desculpa, meus filhos não jogam futebol./ meus pais", "en": "I'm sorry, my children don't play soccer./ my parents" }
+      ]
+    },
+    {
+      "bookId": 1,
+      "lessonId": 3,
+      "practiceVerbs": [
+        { "pt": "Eu quero falar./ beber/ comer/ trabalhar", "en": "I want to speak./ drink/ eat/ work" },
+        { "pt": "Você quer estudar./ beber/ comer/ jogar", "en": "You want to study./ drink/ eat/ play" },
+        { "pt": "Eu não quero trabalhar./ estudar/ beber", "en": "I don't want to work./ study/ drink" },
+        { "pt": "Você quer ir à escola./ ao mercado/ à loja", "en": "You want to go to school./ to the market/ to the store" },
+        { "pt": "Eu preciso ir para casa./ à escola/ ao cinema", "en": "I need to go home./ to school/ to the movies" },
+        { "pt": "Eu durmo com meus pais./ meu irmão/ minha irmã", "en": "I sleep with my parents./ my brother/ my sister" },
+        { "pt": "Você dorme sozinho./ com seu filho/ com sua filha", "en": "You sleep alone./ with your son/ with your daughter" },
+        { "pt": "Eu tenho que ir ao mercado./ à loja/ à escola", "en": "I have to go to the market./ to the store/ to school" },
+        { "pt": "Você tem que trabalhar./ estudar/ beber/ comer", "en": "You have to work./ study/ drink/ eat" },
+        { "pt": "Eu não tenho que ir./ trabalhar/ estudar", "en": "I don't have to go./ work/ study" }
+      ],
+      "practiceVocabulary": [
+        { "pt": "O garoto quer ir ao cinema./ à escola/ ao mercado", "en": "The boy wants to go to the movies./ to school/ to the market" },
+        { "pt": "A garota não quer ir à loja./ à igreja/ ao centro", "en": "The girl doesn't want to go to the store./ to church/ downtown" },
+        { "pt": "Eu tenho um amigo aqui./ lá/ no centro", "en": "I have a friend here./ there/ downtown" },
+        { "pt": "Você tem um chefe./ um amigo/ uma amiga", "en": "You have a boss./ a friend (m)/ a friend (f)" },
+        { "pt": "Eu só gosto de falar inglês./ francês/ português", "en": "I only like to speak English./ French/ Portuguese" },
+        { "pt": "Meu amigo quer estudar francês./ inglês/ alemão", "en": "My friend wants to study French./ English/ German" },
+        { "pt": "Eu vou ao mercado agora./ à loja/ à escola", "en": "I go to the market now./ to the store/ to school" },
+        { "pt": "Você dorme o dia todo./ todos os dias/ agora", "en": "You sleep all day./ every day/ now" },
+        { "pt": "Eu trabalho no centro./ em casa/ na escola", "en": "I work downtown./ at home/ at school" },
+        { "pt": "O garoto e a garota estudam inglês./ francês/ português", "en": "The boy and the girl study English./ French/ Portuguese" }
+      ],
+      "practiceExpressions": [
+        { "pt": "Como vai você? Estou bem! Obrigado.", "en": "How are you? I'm fine! Thank you." },
+        { "pt": "Como vai? Mais ou menos. Eu preciso dormir.", "en": "How are you? Not bad. I need to sleep." },
+        { "pt": "Oi! Como está você? Mal. Eu quero ir para casa.", "en": "Hi! How are you? Not good. I want to go home." },
+        { "pt": "Você quer ir ao cinema no fim de semana? Sim!", "en": "Do you want to go to the movies on the weekend? Yes!" },
+        { "pt": "Eu trabalho o dia todo./ estudo/ durmo", "en": "I work all day./ study/ sleep" },
+        { "pt": "Meus pais trabalham todos os dias./ estudam/ dormem", "en": "My parents work every day./ study/ sleep" },
+        { "pt": "Você quer ir comigo ao mercado?/ à escola/ ao centro", "en": "Do you want to go to the market with me?/ to school/ downtown" }
+      ],
+      "practicingPart2": [
+        { "pt": "Eu quero ir ao cinema./ à loja/ ao mercado/ à escola", "en": "I want to go to the movies./ to the store/ to the market/ to school" },
+        { "pt": "Você quer ir à igreja no fim de semana?/ ao centro", "en": "Do you want to go to church on the weekend?/ downtown" },
+        { "pt": "Eu tenho que trabalhar hoje./ amanhã/ o dia todo", "en": "I have to work today./ tomorrow/ all day" },
+        { "pt": "O garoto não quer estudar francês./ inglês/ alemão", "en": "The boy doesn't want to study French./ English/ German" },
+        { "pt": "A garota quer ir ao cinema comigo./ com seu irmão", "en": "The girl wants to go to the movies with me./ with her brother" },
+        { "pt": "Eu durmo sozinho./ com meu irmão/ com minha irmã", "en": "I sleep alone./ with my brother./ with my sister" },
+        { "pt": "Seus pais dormem o dia todo nos fins de semana?", "en": "Do your parents sleep all day on the weekends?" },
+        { "pt": "Eu só tenho amigos aqui./ lá/ no centro/ na escola", "en": "I only have friends here./ there/ downtown/ at school" },
+        { "pt": "Meu chefe quer trabalhar todos os dias./ o dia todo", "en": "My boss wants to work every day./ all day" },
+        { "pt": "Você tem que ir ao mercado agora./ à loja/ à escola", "en": "You have to go to the market now./ to the store/ to school" },
+        { "pt": "O garoto e a garota dormem na escola? Não!", "en": "Do the boy and the girl sleep at school? No!" },
+        { "pt": "Como vai você? Mal. Eu não quero trabalhar hoje.", "en": "How are you? Not good. I don't want to work today." },
+        { "pt": "Eu tenho que ir para casa agora./ ao trabalho/ ao centro", "en": "I have to go home now./ to work/ downtown" },
+        { "pt": "Meus filhos querem ir ao cinema./ à escola/ à loja", "en": "My children want to go to the movies./ to school/ to the store" },
+        { "pt": "Oi! Como vai? Bem! Eu quero ir ao cinema hoje.", "en": "Hi! How are you? Fine! I want to go to the movies today." },
+        { "pt": "Você dorme sozinho todos os dias?/ no fim de semana", "en": "Do you sleep alone every day?/ on the weekend" },
+        { "pt": "Meu amigo tem que estudar francês./ inglês/ alemão", "en": "My friend has to study French./ English/ German" },
+        { "pt": "Eu não quero ir à loja sozinho./ ao mercado/ ao centro", "en": "I don't want to go to the store alone./ to the market/ downtown" },
+        { "pt": "A garota trabalha no centro./ na loja/ no mercado/ na escola", "en": "The girl works downtown./ at the store/ at the market/ at school" },
+        { "pt": "Bom dia! Como vai? Bem! Eu quero tomar café com você.", "en": "Good morning! How are you? Fine! I want to have coffee with you." }
+      ]
+    },
+    {
+      "bookId": 1,
+      "lessonId": 4,
+      "practicingPart2": [
+        { "pt": "Você gosta de inglês? Sim, eu gosto muito!", "en": "Do you like English? Yes, I like it a lot!" },
+        { "pt": "Você fala português? Sim, eu falo português.", "en": "Do you speak Portuguese? Yes, I speak Portuguese." },
+        { "pt": "Você come pão com manteiga? Sim, eu gosto.", "en": "Do you eat bread with butter? Yes, I like it." },
+        { "pt": "Seus pais bebem vinho? Sim, eles bebem.", "en": "Do your parents drink wine? Yes, they drink." },
+        { "pt": "Seus filhos estudam alemão? Não, eles não estudam.", "en": "Do your children study German? No, they don't." },
+        { "pt": "Você joga futebol? Sim, eu jogo com meu filho.", "en": "Do you play soccer? Yes, I play with my son." },
+        { "pt": "Você gosta de comer peixe? Não, eu não gosto.", "en": "Do you like to eat fish? No, I don't." },
+        { "pt": "Seus irmãos bebem café? Sim, eles bebem.", "en": "Do your brothers and sisters drink coffee? Yes, they do." },
+        { "pt": "Você trabalha? Sim, eu trabalho todos os dias.", "en": "Do you work? Yes, I work every day." },
+        { "pt": "Seus pais trabalham? Sim, eles trabalham no centro.", "en": "Do your parents work? Yes, they work downtown." },
+        { "pt": "Você toca piano? Não, eu não gosto de tocar piano.", "en": "Do you play the piano? No, I don't like to play the piano." },
+        { "pt": "Você dorme sozinho? Sim, eu durmo sozinho.", "en": "Do you sleep alone? Yes, I sleep alone." },
+        { "pt": "Você gosta de francês? Não, eu só gosto de inglês.", "en": "Do you like French? No, I only like English." },
+        { "pt": "Você vai ao mercado no fim de semana? Sim.", "en": "Do you go to the market on the weekend? Yes." },
+        { "pt": "Você vai à escola no fim de semana? Não.", "en": "Do you go to school on the weekend? No." },
+        { "pt": "Você estuda sozinho? Não, eu estudo com meus pais.", "en": "Do you study alone? No, I study with my parents." },
+        { "pt": "Você tem um chefe? Sim, eu tenho um chefe.", "en": "Do you have a boss? Yes, I have a boss." },
+        { "pt": "Seus pais trabalham no centro? Não, em casa.", "en": "Do your parents work downtown? No, at home." },
+        { "pt": "Seus pais têm uma loja? Sim, eles têm uma loja.", "en": "Do your parents have a store? Yes, they have a store." },
+        { "pt": "Você gosta de beber cerveja? Sim, eu gosto.", "en": "Do you like to drink beer? Yes, I like it." }
+      ]
+    },
+    {
+      "bookId": 1,
+      "lessonId": 5,
+      "practiceVerbs": [
+        { "pt": "Eu entendo você./ meu chefe/ o professor/ o gerente", "en": "I understand you./ my boss/ the teacher/ the manager" },
+        { "pt": "Você não entende inglês./ francês/ alemão/ português", "en": "You don't understand English./ French/ German/ Portuguese" },
+        { "pt": "Eu sei falar inglês./ francês/ alemão", "en": "I know how to speak English./ French/ German" },
+        { "pt": "Você não sabe tocar piano./ jogar futebol/ falar inglês", "en": "You don't know how to play the piano./ play soccer/ speak English" },
+        { "pt": "Eu conheço sua irmã./ seu irmão/ seu pai/ sua mãe", "en": "I know your sister./ your brother./ your father./ your mother." },
+        { "pt": "Você precisa comprar um carro pequeno./ grande/ novo", "en": "You need to buy a small car./ a big car/ a new car" },
+        { "pt": "Eu quero comprar uma casa./ um carro/ um copo/ uma xícara", "en": "I want to buy a house./ a car/ a glass/ a cup" },
+        { "pt": "Eu quero vender minha casa./ meu carro/ minha loja", "en": "I want to sell my house./ my car/ my store" },
+        { "pt": "Você não sabe comprar./ vender/ trabalhar/ estudar", "en": "You don't know how to buy./ sell/ work/ study" }
+      ],
+      "practiceVocabulary": [
+        { "pt": "Eu tenho uma casa grande./ pequena/ nova/ velha", "en": "I have a big house./ a small house/ a new house/ an old house" },
+        { "pt": "Você tem um carro novo./ velho/ grande/ pequeno", "en": "You have a new car./ an old car/ a big car/ a small car" },
+        { "pt": "Eu trabalho no banco./ na escola/ na loja/ no centro", "en": "I work at the bank./ at school/ at the store/ downtown" },
+        { "pt": "Meu marido fala espanhol./ grego/ inglês/ francês", "en": "My husband speaks Spanish./ Greek/ English/ French" },
+        { "pt": "Minha esposa estuda grego./ espanhol/ inglês/ francês", "en": "My wife studies Greek./ Spanish/ English/ French" },
+        { "pt": "O que você come no almoço?/ no jantar/ no café da manhã", "en": "What do you eat for lunch?/ for dinner/ for breakfast" },
+        { "pt": "Onde você trabalha? Eu trabalho no banco./ na escola", "en": "Where do you work? I work at the bank./ at school" },
+        { "pt": "Quando você vai ao mercado?/ à loja/ ao banco/ à escola", "en": "When do you go to the market?/ to the store/ to the bank/ to school" },
+        { "pt": "Você tem algum amigo aqui?/ na escola/ no trabalho", "en": "Do you have any friends here?/ at school/ at work" },
+        { "pt": "Eu não tenho nenhum carro velho./ amigo/ chefe", "en": "I don't have any old car./ any friend/ any boss" },
+        { "pt": "Meu professor tem um carro novo./ grande/ pequeno", "en": "My teacher has a new car./ a big car/ a small car" },
+        { "pt": "O gerente quer comprar uma casa grande./ pequena/ nova", "en": "The manager wants to buy a big house./ a small house/ a new one" }
+      ],
+      "practiceExpressions": [
+        { "pt": "O que você come no almoço todos os dias?/ no jantar", "en": "What do you eat for lunch every day?/ for dinner" },
+        { "pt": "Eu gosto muito de inglês./ de café/ de chá/ de futebol", "en": "I like English a lot./ coffee/ tea/ soccer" },
+        { "pt": "Eu tenho muitos amigos no trabalho./ em casa/ na escola", "en": "I have a lot of friends at work./ at home/ at school" },
+        { "pt": "Quantas casas você tem?/ carros/ amigos/ filhos", "en": "How many houses do you have?/ cars/ friends/ children" },
+        { "pt": "Quanto café você toma no trabalho?/ em casa/ no almoço", "en": "How much coffee do you drink at work?/ at home/ for lunch" },
+        { "pt": "Prazer em conhecê-lo! Você fala inglês? Sim, muito bem.", "en": "Nice to meet you! Do you speak English? Yes, very well." }
+      ],
+      "practicingPart2": [
+        { "pt": "Eu não entendo meu chefe, mas eu entendo o gerente.", "en": "I don't understand my boss, but I understand the manager." },
+        { "pt": "Eu não sei falar inglês, mas eu sei falar português.", "en": "I don't know how to speak English, but I know how to speak Portuguese." },
+        { "pt": "Seus pais têm muitos carros? Não, meus pais não têm muitos carros.", "en": "Do your parents have a lot of cars? No, my parents don't have a lot of cars." },
+        { "pt": "Eu preciso comprar um carro pequeno para minha esposa.", "en": "I need to buy a small car for my wife." },
+        { "pt": "Meus filhos não têm tempo de estudar alemão.", "en": "My children don't have time to study German." },
+        { "pt": "O que você come no almoço todos os dias? Eu gosto de comer peixe.", "en": "What do you eat for lunch every day? I like to eat fish." },
+        { "pt": "Quando você fala com o professor? Somente quando tenho tempo.", "en": "When do you speak with the teacher? Only when I have time." },
+        { "pt": "Quantas vezes você vai ao banco todos os dias?", "en": "How many times do you go to the bank every day?" },
+        { "pt": "O que você come e bebe no café da manhã todos os dias?", "en": "What do you eat and drink for breakfast every day?" },
+        { "pt": "Eu não gosto de estudar espanhol com meu marido. Eu gosto de estudar grego.", "en": "I don't like to study Spanish with my husband. I like to study Greek." },
+        { "pt": "Você quer comprar um carro pequeno? Não, obrigado, eu gosto somente de carros grandes.", "en": "Do you want to buy a small car? No, thank you, I only like big cars." },
+        { "pt": "Eu quero um pouco de suco no almoço, mas eu gosto de tomar um pouco de leite no café da manhã.", "en": "I want some juice for lunch, but I like to drink some milk for breakfast." },
+        { "pt": "Quanto chá você toma em casa? Eu não tomo chá. Eu tomo muito café no trabalho.", "en": "How much tea do you drink at home? I don't drink tea. I drink a lot of coffee at work." },
+        { "pt": "Eu quero vender minha casa para seu irmão, mas eu não sei quando.", "en": "I want to sell my house to your brother, but I don't know when." },
+        { "pt": "Você conhece minha esposa? Sim, eu conheço a sua esposa.", "en": "Do you know my wife? Yes, I know your wife." }
+      ]
+    },
+    {
+      "bookId": 1,
+      "lessonId": 6,
+      "practicingPart2": [
+        { "pt": "Você gosta de cinema?/ de ir ao cinema/ de filmes", "en": "Do you like the movies?/ going to the movies/ films" },
+        { "pt": "Você vai à igreja? Sim, eu vou todos os domingos.", "en": "Do you go to church? Yes, I go every Sunday." },
+        { "pt": "Você trabalha em uma loja?/ no banco/ na escola", "en": "Do you work at a store?/ at the bank/ at school" },
+        { "pt": "Você bebe água o dia todo?/ todos os dias/ no trabalho", "en": "Do you drink water all day?/ every day/ at work" },
+        { "pt": "Seus filhos comem carne todos os dias?/ peixe/ pão", "en": "Do your children eat meat every day?/ fish/ bread" },
+        { "pt": "Você entende francês?/ espanhol/ inglês/ alemão/ grego", "en": "Do you understand French?/ Spanish/ English/ German/ Greek" },
+        { "pt": "Você sabe jogar futebol?/ tocar piano/ falar inglês", "en": "Do you know how to play soccer?/ play the piano/ speak English" },
+        { "pt": "Você tem uma casa?/ um carro/ um amigo/ um chefe", "en": "Do you have a house?/ a car/ a friend/ a boss" },
+        { "pt": "O que você compra todos os dias?/ no fim de semana", "en": "What do you buy every day?/ on the weekend" },
+        { "pt": "Quando você vai ao centro?/ ao banco/ ao mercado/ à loja", "en": "When do you go downtown?/ to the bank/ to the market/ to the store" },
+        { "pt": "Você fala espanhol?/ grego/ francês/ alemão/ inglês", "en": "Do you speak Spanish?/ Greek/ French/ German/ English" },
+        { "pt": "Você estuda muito todos os dias?/ no fim de semana", "en": "Do you study a lot every day?/ on the weekend" },
+        { "pt": "Você trabalha no banco?/ na escola/ na loja/ no centro", "en": "Do you work at a bank?/ at school/ at the store/ downtown" },
+        { "pt": "Quando você vai ao banco?/ à escola/ ao mercado", "en": "When do you go to the bank?/ to school/ to the market" },
+        { "pt": "Você tem um gerente?/ um professor/ um chefe/ uma esposa", "en": "Do you have a manager?/ a teacher/ a boss/ a wife" },
+        { "pt": "Você tem um carro grande?/ pequeno/ novo/ velho", "en": "Do you have a big car?/ a small car/ a new car/ an old car" },
+        { "pt": "Você tem uma casa nova?/ velha/ grande/ pequena", "en": "Do you have a new house?/ an old one/ a big one/ a small one" },
+        { "pt": "Você entende grego?/ espanhol/ francês/ inglês", "en": "Do you understand Greek?/ Spanish/ French/ English" },
+        { "pt": "Você tem alguns livros de inglês em casa?/ no trabalho", "en": "Do you have any English books at home?/ at work" },
+        { "pt": "Quanto tempo você dorme todos os dias?/ no fim de semana", "en": "How much time do you sleep every day?/ on the weekend" }
+      ]
+    },
+    {
+      "bookId": 1,
+      "lessonId": 7,
+      "practiceVerbs": [
+        { "pt": "Eu prefiro ler./ escrever/ falar/ trabalhar", "en": "I prefer to read./ to write/ to speak/ to work" },
+        { "pt": "Você não prefere estudar./ jogar/ comer/ beber", "en": "You don't prefer to study./ to play/ to eat/ to drink" },
+        { "pt": "Eu gosto de ajudar meu pai./ minha mãe/ meu amigo", "en": "I like to help my father./ my mother/ my friend" },
+        { "pt": "Você ajuda seu filho./ sua filha/ seu irmão/ sua irmã", "en": "You help your son./ your daughter/ your brother/ your sister" },
+        { "pt": "Eu escrevo para minha mãe./ meu pai/ meu amigo", "en": "I write to my mother./ my father/ my friend" },
+        { "pt": "Você não quer escrever./ ler/ ajudar/ trabalhar", "en": "You don't want to write./ to read/ to help/ to work" },
+        { "pt": "Eu leio para minha irmã./ meu filho/ minha filha", "en": "I read to my sister./ my son/ my daughter" },
+        { "pt": "Você prefere ler ou escrever?/ trabalhar ou estudar", "en": "Do you prefer to read or write?/ to work or study" }
+      ],
+      "practiceVocabulary": [
+        { "pt": "Eu gosto de ler livros./ revistas/ jornais/ cartas", "en": "I like to read books./ magazines/ newspapers/ letters" },
+        { "pt": "Você precisa de uma caneta./ um lápis/ um caderno/ um livro", "en": "You need a pen./ a pencil/ a notebook/ a book" },
+        { "pt": "Eu quero escrever uma carta./ um livro/ uma revista", "en": "I want to write a letter./ a book/ a magazine article" },
+        { "pt": "Este livro é grande./ pequeno/ novo/ velho", "en": "This book is big./ small/ new/ old" },
+        { "pt": "Aquele apartamento é novo./ grande/ pequeno/ velho", "en": "That apartment is new./ big/ small/ old" },
+        { "pt": "Eu vou ao correio hoje./ amanhã/ no fim de semana", "en": "I go to the post office today./ tomorrow/ on the weekend" },
+        { "pt": "O carteiro tem muitas cartas./ livros/ revistas/ jornais", "en": "The mailman has a lot of letters./ books/ magazines/ newspapers" },
+        { "pt": "Eu não tenho dinheiro para comprar uma moto./ bicicleta", "en": "I don't have money to buy a motorcycle./ a bicycle" },
+        { "pt": "Você precisa de ajuda? Sim, eu preciso./ Não, obrigado.", "en": "Do you need help? Yes, I do./ No, thank you." },
+        { "pt": "Este mês eu quero comprar um apartamento./ uma casa/ um carro", "en": "This month I want to buy an apartment./ a house/ a car" }
+      ],
+      "practiceExpressions": [
+        { "pt": "Hoje de manhã eu tenho que ler o jornal./ o livro/ a revista", "en": "This morning I have to read the newspaper./ the book/ the magazine" },
+        { "pt": "Hoje à tarde eu quero escrever uma carta./ um livro", "en": "This afternoon I want to write a letter./ a book" },
+        { "pt": "Hoje à noite eu prefiro ler./ estudar/ ajudar meu filho", "en": "Tonight I prefer to read./ to study/ to help my son" },
+        { "pt": "Amanhã de manhã eu tenho que ir ao correio./ ao banco/ ao mercado", "en": "Tomorrow morning I have to go to the post office./ to the bank/ to the market" },
+        { "pt": "Amanhã à noite eu quero ler um livro./ escrever/ descansar", "en": "Tomorrow night I want to read a book./ to write/ to rest" },
+        { "pt": "Eu tenho aproximadamente dez livros em casa./ cinco/ vinte", "en": "I have about ten books at home./ five/ twenty" }
+      ],
+      "practicingPart2": [
+        { "pt": "Eu prefiro ler um livro. Eu não gosto de escrever cartas.", "en": "I prefer to read a book. I don't like to write letters." },
+        { "pt": "Eu preciso de um lápis e uma caneta para escrever isto. Você tem um caderno?", "en": "I need a pencil and a pen to write this. Do you have a notebook?" },
+        { "pt": "Eu gosto de ajudar o garçom. Você quer ajuda?", "en": "I like to help the waiter. Do you need help?" },
+        { "pt": "Eu leio um jornal e uma revista todos os dias em casa.", "en": "I read a newspaper and a magazine every day at home." },
+        { "pt": "Eu gosto de escrever livros sobre bicicletas e motos.", "en": "I like to write books about bicycles and motorcycles." },
+        { "pt": "Eu vou ao correio com meu chefe. Você quer ir lá comigo?", "en": "I go to the post office with my boss. Do you want to go there with me?" },
+        { "pt": "Quanto dinheiro você tem hoje? Você precisa de algum dinheiro amanhã de manhã?", "en": "How much money do you have today? Do you need any money tomorrow morning?" },
+        { "pt": "Este mês eu tenho que comprar uma motocicleta para meu filho e uma bicicleta para minha filha.", "en": "This month I have to buy a motorcycle for my son and a bicycle for my daughter." },
+        { "pt": "Amanhã de manhã eu tenho que falar com o carteiro. Eu preciso de algumas cartas.", "en": "Tomorrow morning I have to speak with the mailman. I need some letters." },
+        { "pt": "Eu escrevo para meus pais no fim de semana. Quando você escreve para sua mãe?", "en": "I write to my parents on the weekend. When do you write to your mother?" },
+        { "pt": "Eu preciso ler muitas revistas este mês. Hoje de manhã eu tenho que ler o jornal.", "en": "I need to read a lot of magazines this month. This morning I have to read the newspaper." },
+        { "pt": "Eu não tenho revistas sobre carros. Eu preciso de algumas.", "en": "I don't have any magazines about cars. I need some." },
+        { "pt": "Meus filhos têm aproximadamente 10 livros para ler esta semana.", "en": "My children have about 10 books to read this week." },
+        { "pt": "Você precisa de muito dinheiro para ir ao cinema? Eu só tenho um pouco.", "en": "Do you need a lot of money to go to the movies? I only have a little." },
+        { "pt": "Eu não gosto do apartamento velho. Eu gosto de apartamentos novos e grandes.", "en": "I don't like the old apartment. I like new and big apartments." }
+      ]
+    },
+    {
+      "bookId": 1,
+      "lessonId": 8,
+      "practicingPart2": [
+        { "pt": "O que você come e bebe no café da manhã?/ no almoço/ no jantar", "en": "What do you eat and drink for breakfast?/ for lunch/ for dinner" },
+        { "pt": "O que você come no almoço todos os dias?/ no jantar/ no café", "en": "What do you eat for lunch every day?/ for dinner/ for breakfast" },
+        { "pt": "Você come peixe no jantar?/ carne/ pão com manteiga", "en": "Do you eat fish for dinner?/ meat/ bread with butter" },
+        { "pt": "Você trabalha com sua esposa?/ marido/ irmão/ pai/ chefe", "en": "Do you work with your wife?/ husband/ brother/ father/ boss" },
+        { "pt": "Quantos copos de água você bebe todos os dias?", "en": "How many glasses of water do you drink every day?" },
+        { "pt": "Quanto café você bebe?/ chá/ suco/ leite/ vinho", "en": "How much coffee do you drink?/ tea/ juice/ milk/ wine" },
+        { "pt": "Você estuda muito?/ um pouco/ todos os dias/ em casa", "en": "Do you study a lot?/ a little/ every day/ at home" },
+        { "pt": "Você prefere escrever com caneta ou lápis?", "en": "Do you prefer to write with a pen or a pencil?" },
+        { "pt": "Você ajuda seus filhos com o dever de casa?/ com inglês", "en": "Do you help your children with their homework?/ with English" },
+        { "pt": "Quantos cadernos você tem?/ livros/ lápis/ canetas", "en": "How many notebooks do you have?/ books/ pencils/ pens" },
+        { "pt": "Você lê muitos livros?/ revistas/ jornais/ cartas", "en": "Do you read a lot of books?/ magazines/ newspapers/ letters" },
+        { "pt": "Você prefere ler revistas ou jornais?/ livros ou revistas", "en": "Do you prefer to read magazines or newspapers?/ books or magazines" },
+        { "pt": "Quando você vai ao correio?/ ao banco/ à escola/ ao mercado", "en": "When do you go to the post office?/ to the bank/ to school/ to the market" },
+        { "pt": "Você conhece muitos carteiros?/ garçons/ professores/ gerentes", "en": "Do you know a lot of mailmen?/ waiters/ teachers/ managers" },
+        { "pt": "Você prefere casas ou apartamentos?/ motos ou bicicletas", "en": "Do you prefer houses or apartments?/ motorcycles or bicycles" },
+        { "pt": "Você quer trabalhar hoje à noite?/ amanhã de manhã/ no fim de semana", "en": "Do you want to work tonight?/ tomorrow morning/ on the weekend" },
+        { "pt": "Você escreve muitas cartas?/ livros/ e-mails/ revistas", "en": "Do you write a lot of letters?/ books/ emails/ magazines" },
+        { "pt": "Você conhece algum garçom?/ carteiro/ gerente/ professor", "en": "Do you know any waiters?/ mailmen/ managers/ teachers" },
+        { "pt": "Quanto dinheiro você tem agora?/ hoje de manhã/ no trabalho", "en": "How much money do you have now?/ this morning/ at work" },
+        { "pt": "Quantos dias por semana você estuda inglês?/ trabalha/ lê", "en": "How many days a week do you study English?/ work/ read" }
+      ]
+    },
+    {
+      "bookId": 1,
+      "lessonId": 9,
+      "practiceVerbs": [
+        { "pt": "Eu moro com meus pais./ minha esposa/ meu marido/ meu irmão", "en": "I live with my parents./ my wife/ my husband/ my brother" },
+        { "pt": "Você mora no centro./ em casa/ na escola/ na loja", "en": "You live downtown./ at home/ at school/ at the store" },
+        { "pt": "Eu não quero morar sozinho./ com meu chefe/ lá/ aqui", "en": "I don't want to live alone./ with my boss/ there/ here" },
+        { "pt": "Você cozinha carne para o almoço./ peixe/ arroz/ feijão", "en": "You cook meat for lunch./ fish/ rice/ beans" },
+        { "pt": "Eu não quero cozinhar para você./ para meu irmão/ para meus filhos", "en": "I don't want to cook for you./ for my brother/ for my children" },
+        { "pt": "Eu abro a janela todos os dias./ a porta/ o livro/ o caderno", "en": "I open the window every day./ the door/ the book/ the notebook" },
+        { "pt": "Você fecha a loja agora./ a porta/ a janela/ o banco", "en": "You close the store now./ the door/ the window/ the bank" },
+        { "pt": "Eu não quero fechar a porta./ a janela/ a loja/ o livro", "en": "I don't want to close the door./ the window/ the store/ the book" }
+      ],
+      "practiceVocabulary": [
+        { "pt": "Nós moramos no centro./ no interior/ na cidade/ no estado", "en": "We live downtown./ in the country/ in the city/ in the state" },
+        { "pt": "Eles cozinham arroz e feijão para o almoço./ jantar/ café", "en": "They cook rice and beans for lunch./ dinner/ breakfast" },
+        { "pt": "Eu geralmente almoço em casa./ no escritório/ no trabalho", "en": "I usually have lunch at home./ at the office/ at work" },
+        { "pt": "Meu vizinho já tem um carro novo./ uma casa/ um apartamento", "en": "My neighbor already has a new car./ a house/ an apartment" },
+        { "pt": "Por que você não come salada?/ arroz/ feijão/ carne", "en": "Why don't you eat salad?/ rice/ beans/ meat" },
+        { "pt": "Eu já fui ao mercado hoje./ ao banco/ à escola/ ao centro", "en": "I already went to the market today./ to the bank/ to school/ downtown" },
+        { "pt": "Que horas são? Eu preciso ir ao escritório./ para casa", "en": "What time is it? I need to go to the office./ home" },
+        { "pt": "Eu me levanto cedo todos os dias./ tarde/ no fim de semana", "en": "I get up early every day./ late/ on the weekend" },
+        { "pt": "Nós temos que comprar roupas./ ingressos/ passagens/ comida", "en": "We have to buy clothes./ tickets (event)/ tickets (travel)/ food" },
+        { "pt": "Eles têm um teste hoje./ amanhã de manhã/ na escola", "en": "They have a test today./ tomorrow morning/ at school" }
+      ],
+      "practiceExpressions": [
+        { "pt": "Que horas são? Eu preciso me levantar./ ir ao trabalho/ ao mercado", "en": "What time is it? I need to get up./ go to work/ go to the market" },
+        { "pt": "Eu tomo café da manhã com meus pais./ minha esposa/ meu filho", "en": "I have breakfast with my parents./ my wife/ my son" },
+        { "pt": "Nós almoçamos em casa todos os dias./ no trabalho/ no centro", "en": "We have lunch at home every day./ at work/ downtown" },
+        { "pt": "Eles jantam com seus vizinhos./ com a família/ sozinhos", "en": "They have dinner with their neighbors./ with the family/ alone" },
+        { "pt": "Por que você se levanta cedo? Porque eu tenho que trabalhar.", "en": "Why do you get up early? Because I have to work." }
+      ],
+      "practicingPart2": [
+        { "pt": "Eu moro no interior com meus pais. Eles têm uma casa grande lá.", "en": "I live in the country with my parents. They have a big house there." },
+        { "pt": "Nós geralmente tomamos café da manhã juntos./ almoçamos/ jantamos", "en": "We usually have breakfast together./ have lunch/ have dinner" },
+        { "pt": "Por que você mora aqui? Porque eu trabalho no centro.", "en": "Why do you live here? Because I work downtown." },
+        { "pt": "Eles cozinham arroz e feijão todos os dias./ salada/ carne", "en": "They cook rice and beans every day./ salad/ meat" },
+        { "pt": "Eu já comprei os ingressos./ as roupas/ as passagens/ o livro", "en": "I already bought the tickets./ the clothes/ the travel tickets/ the book" },
+        { "pt": "Meus vizinhos abrem as janelas todos os dias./ a porta/ a loja", "en": "My neighbors open the windows every day./ the door/ the store" },
+        { "pt": "Nós temos que fechar o escritório agora./ a loja/ o banco", "en": "We have to close the office now./ the store/ the bank" },
+        { "pt": "Que horas eles se levantam no fim de semana?/ todos os dias", "en": "What time do they get up on the weekend?/ every day" },
+        { "pt": "Como você vai ao trabalho amanhã?/ ao centro/ à escola/ ao banco", "en": "How do you go to work tomorrow?/ downtown/ to school/ to the bank" },
+        { "pt": "Eu almoço com meus filhos todos os dias./ janto/ tomo café", "en": "I have lunch with my children every day./ have dinner/ have breakfast" }
+      ]
+    },
+    {
+      "bookId": 1,
+      "lessonId": 10,
+      "practicingPart2": [
+        { "pt": "Você quer comprar uma bicicleta?/ uma moto/ um carro/ uma casa", "en": "Do you want to buy a bicycle?/ a motorcycle/ a car/ a house" },
+        { "pt": "Você gosta de motos?/ bicicletas/ carros grandes/ carros pequenos", "en": "Do you like motorcycles?/ bicycles/ big cars/ small cars" },
+        { "pt": "Você compra pão todos os dias?/ carne/ arroz/ feijão/ salada", "en": "Do you buy bread every day?/ meat/ rice/ beans/ salad" },
+        { "pt": "Você entende muito sobre carros?/ motos/ inglês/ computadores", "en": "Do you understand a lot about cars?/ motorcycles/ English/ computers" },
+        { "pt": "Onde você quer ir amanhã de manhã?/ à tarde/ à noite", "en": "Where do you want to go tomorrow morning?/ in the afternoon/ at night" },
+        { "pt": "Você quer vender sua casa?/ seu carro/ seu apartamento", "en": "Do you want to sell your house?/ your car/ your apartment" },
+        { "pt": "Você mora sozinho?/ com sua família/ com seus pais/ com amigos", "en": "Do you live alone?/ with your family/ with your parents/ with friends" },
+        { "pt": "Por que você mora aqui?/ no centro/ no interior/ na cidade", "en": "Why do you live here?/ downtown/ in the country/ in the city" },
+        { "pt": "Você cozinha em casa?/ todos os dias/ no fim de semana", "en": "Do you cook at home?/ every day/ on the weekend" },
+        { "pt": "O que você gosta de cozinhar?/ comer/ beber/ comprar", "en": "What do you like to cook?/ eat/ drink/ buy" },
+        { "pt": "Você abre as janelas da sua casa todos os dias?/ a porta", "en": "Do you open the windows of your house every day?/ the door" },
+        { "pt": "Você tem muitos amigos no interior?/ na cidade/ no trabalho/ na escola", "en": "Do you have a lot of friends in the country?/ in the city/ at work/ at school" },
+        { "pt": "Você gosta do interior?/ da cidade/ do centro/ do seu bairro", "en": "Do you like the country?/ the city/ downtown/ your neighborhood" },
+        { "pt": "Você tem bons vizinhos?/ amigos/ professores/ gerentes/ chefes", "en": "Do you have good neighbors?/ friends/ teachers/ managers/ bosses" },
+        { "pt": "Você geralmente come salada no almoço?/ carne/ arroz/ feijão", "en": "Do you usually eat salad for lunch?/ meat/ rice/ beans" },
+        { "pt": "Quando você trabalha no escritório?/ em casa/ no centro/ na loja", "en": "When do you work at the office?/ at home/ downtown/ at the store" },
+        { "pt": "Quando você tem testes na escola?/ provas/ aulas/ inglês", "en": "When do you have tests at school?/ exams/ classes/ English" },
+        { "pt": "Você come arroz e feijão no jantar todos os dias?/ almoço", "en": "Do you eat rice and beans for dinner every day?/ for lunch" },
+        { "pt": "Você toma café da manhã todos os dias?/ com sua família/ sozinho", "en": "Do you have breakfast every day?/ with your family/ alone" },
+        { "pt": "Que horas você dorme todos os dias?/ se levanta/ almoça/ janta", "en": "What time do you sleep every day?/ get up/ have lunch/ have dinner" }
+      ]
+    },
+    {
+      "bookId": 2,
+      "lessonId": 1,
+      "practice": "Go around the class: each student says one thing they CAN do and one they CAN'T do. Others ask follow-up questions: 'How well can you cook? Can you teach me?'",
+      "practicingPart2": [
+        "Eu consigo falar inglês. / um pouco / muito bem",
+        "Eu não sei dirigir. / nadar / cozinhar",
+        "Você sabe dançar? Sim, sei muito bem. / um pouco",
+        "Ele consegue tocar violão. / piano / guitarra",
+        "Ela não sabe cantar. / correr / nadar",
+        "Eu consigo ler inglês. / um pouco / muito bem",
+        "Você sabe andar de bicicleta? Claro que sim!",
+        "Eu não tenho certeza. Deixa eu tentar.",
+        "Que incrível! Você consegue fazer isso!",
+        "Eu consigo cozinhar muito bem. / um pouco"
+      ]
+    },
+    {
+      "bookId": 2,
+      "lessonId": 2,
+      "practice": "Draw a simple city map on the board. Students take turns asking 'Where is the ___?' and giving directions to a partner using target vocabulary.",
+      "practicingPart2": [
+        "Com licença! Onde fica o banco? / o hospital / a farmácia",
+        "Estou perdido(a). Você pode me ajudar?",
+        "Vire à esquerda no semáforo. / à direita / em frente",
+        "Ande dois quarteirões e vire à direita. / à esquerda",
+        "Fica ao lado do supermercado. / da escola / do parque",
+        "Pegue o ônibus até o hospital. / a pé / dois quarteirões",
+        "É longe? Não, é aqui pertinho.",
+        "O banco fica em frente à farmácia. / ao lado / atrás",
+        "Vire à direita e ande reto. / à esquerda / dois quarteirões",
+        "O restaurante fica ao lado do parque. / da escola"
+      ]
+    },
+    {
+      "bookId": 2,
+      "lessonId": 3,
+      "practice": "Students ask each other about their daily schedule: 'What time do you leave home? When does your lunch break start?' Encourage full-sentence answers.",
+      "practicingPart2": [
+        "A que horas começa a aula? / a reunião / o trabalho",
+        "Começa às oito horas. / às nove / ao meio-dia",
+        "A reunião termina às dez. / ao meio-dia / às cinco",
+        "Eu chego ao trabalho às oito e meia. / às nove / cedo",
+        "Ela sai de casa às sete. / às seis e meia / cedo",
+        "Desculpe o atraso! Sem problema!",
+        "Eu sempre chego na hora. / cedo / um pouco tarde",
+        "O ônibus sai às oito e quinze. / e meia / menos quinze",
+        "Vamos! A aula começa em dez minutos.",
+        "O que vem a seguir? A pausa do almoço."
+      ]
+    },
+    {
+      "bookId": 3,
+      "lessonId": 1,
+      "practice": "Students talk about a trip they took (real or imaginary). Use: 'I travelled to ___, I visited ___, I stayed in ___, I enjoyed ___.' Teacher asks follow-up questions.",
+      "practicingPart2": [
+        "Eu viajei para a praia semana passada. / à Europa / ao Rio",
+        "Nós visitamos um museu lindo. / uma praia / uma cidade",
+        "Ela ficou em um hotel por três dias. / uma semana / dois dias",
+        "Você curtiu a viagem? Sim, muito! / Não muito.",
+        "Eu não viajei de avião. / de carro / de ônibus",
+        "Foi incrível! Me diverti muito.",
+        "Eu viajei com minha família. / meu amigo / minha esposa",
+        "Nós visitamos muitos lugares. / um museu / uma praia famosa",
+        "Que pena! Eu não fui junto.",
+        "Na próxima vez, com certeza! Eu quero ir também."
+      ]
+    },
+    {
+      "bookId": 3,
+      "lessonId": 2,
+      "practice": "Memory game: students quiz each other on irregular verb past forms. Then each student tells the class what they did last weekend using as many irregular verbs as possible.",
+      "practicingPart2": [
+        "Eu fui ao mercado ontem. / ao parque / à festa",
+        "Nós vimos um ótimo filme. / um jogo / um show",
+        "Ela conheceu seu melhor amigo na festa. / no trabalho",
+        "Eu comprei um presente para minha mãe. / livro / camisa",
+        "Como foi seu fim de semana? Foi muito divertido!",
+        "Onde você foi ontem à noite? Fui ao cinema. / à festa",
+        "Eu não o vi ontem. / semana passada / no trabalho",
+        "Eu fiquei em casa. / não fui a lugar nenhum",
+        "Não foi nada mal. Me diverti bastante.",
+        "Foi um pouco chato. Eu fiquei em casa o dia todo."
+      ]
+    },
+    {
+      "bookId": 3,
+      "lessonId": 3,
+      "practice": "Students describe the weather in their city today and compare it with yesterday or last week. Ask: 'Do you prefer summer or winter? Why?'",
+      "practicingPart2": [
+        "Como está o tempo hoje? Está ensolarado e quente.",
+        "Está chovendo muito hoje. / pouco / com vento",
+        "Ontem estava frio. / nublado / quente e úmido",
+        "Estou com frio. Podemos fechar a janela?",
+        "Que dia lindo! Adoro esse tempo.",
+        "Está um frio de rachar! / Está muito quente!",
+        "O tempo muda muito na primavera. / no outono",
+        "Não esqueça o guarda-chuva! Vai chover hoje.",
+        "Eu prefiro o verão. / o inverno / o outono",
+        "O clima no Brasil é muito quente e úmido. / bonito"
+      ]
+    },
+    {
+      "bookId": 4,
+      "lessonId": 1,
+      "practice": "Find someone who HAS: visited another country, tried a new food this month, won a prize, read a book in English. Students mingle and ask each other 'Have you ever ___?'",
+      "practicingPart2": [
+        "Eu já visitei Londres duas vezes. / uma vez / nunca",
+        "Você já experimentou comida japonesa? Sim, já! / Nunca.",
+        "Ela nunca perdeu um jogo. / uma aposta / um desafio",
+        "Nós já terminamos o projeto. / a tarefa / o relatório",
+        "Eu ainda não vi esse filme. / esse show / essa série",
+        "Há quanto tempo você mora aqui? Há cinco anos. / dois",
+        "Parabéns! Você ganhou! Muito bem feito!",
+        "Eu acabei de chegar. / terminar / comer",
+        "Nunca desista! Você consegue!",
+        "Mais sorte na próxima vez. Continue tentando!"
+      ]
+    },
+    {
+      "bookId": 4,
+      "lessonId": 2,
+      "practice": "Students share 3 plans for the next month using 'going to' and 3 predictions using 'will'. Discuss: What do you think will happen with technology in 10 years?",
+      "practicingPart2": [
+        "Eu vou estudar no exterior ano que vem. / mês que vem",
+        "Eu te ajudo com isso. / Eu vou te ligar / responder",
+        "Provavelmente vai chover amanhã. / fazer calor / ventar",
+        "Você vai se candidatar ao emprego? Sim, vou!",
+        "Não vou me atrasar, prometo. / Não vou faltar.",
+        "Que ótima ideia! Vou pensar nisso.",
+        "Espero que seja um ano ótimo. / diferente / incrível",
+        "Boa sorte! Estou torcendo por você!",
+        "Vou definitivamente fazer isso. / tentar / ir.",
+        "Me mantenha atualizado(a)! Boa sorte no emprego!"
+      ]
+    },
+    {
+      "bookId": 4,
+      "lessonId": 3,
+      "practice": "Mock job interview: one student is the interviewer, one is the candidate. Use: 'Tell me about yourself. What are your strengths? Where do you see yourself in 5 years?'",
+      "practicingPart2": [
+        "Com o que você trabalha? Sou professor(a). / médico(a)",
+        "Eu me candidatei a três empregos mês passado. / dois / um",
+        "Ela foi promovida duas vezes este ano. / uma vez",
+        "A empresa contratou novos funcionários. / demitiu",
+        "Estou procurando emprego em marketing. / em finanças",
+        "Eu trabalho das nove às cinco. / das oito às seis",
+        "Eu amo o que faço. / O que faço me realiza.",
+        "Estou desempregado(a) no momento. / entre empregos",
+        "Sou autônomo(a). Trabalho por conta própria.",
+        "Você já saiu de um emprego sem ter outro? Sim! / Nunca."
+      ]
+    },
+    {
+      "bookId": 5,
+      "lessonId": 1,
+      "practice": "Chain game: one student starts with 'If it rains tomorrow, I will...'. The next student continues using the consequence as a new condition. Keep going around the class!",
+      "practicingPart2": [
+        "Se chover amanhã, eu vou ficar em casa. / de carro",
+        "Se você estudar bastante, vai passar na prova. / ser aprovado",
+        "Eu te ligo se eu tiver alguma novidade. / tempo / dinheiro",
+        "Se ela perder o ônibus, vai se atrasar. / pegar um táxi",
+        "O que você vai fazer se não conseguir o emprego?",
+        "A menos que você saia agora, vai perder o trem.",
+        "Combinado! Se você vier, eu venho também.",
+        "E se ele não aparecer? Depende. Nesse caso, vamos sem ele.",
+        "Por precaução, leve o guarda-chuva. / o casaco.",
+        "Contanto que você estude, você vai ter sucesso. / passar"
+      ]
+    },
+    {
+      "bookId": 5,
+      "lessonId": 2,
+      "practice": "Lottery discussion: 'What would you do if you won R$10 million?' Students discuss and justify their choices. Then: 'If you could live anywhere in the world, where would you live? Why?'",
+      "practicingPart2": [
+        "Se eu tivesse mais dinheiro, viajaria pelo mundo. / me mudaria",
+        "O que você faria se ganhasse na loteria? Compraria uma casa.",
+        "Se eu fosse você, aceitaria a oferta. / não aceitaria",
+        "Ela se mudaria para o Canadá se pudesse. / para a Europa",
+        "Se ele estudasse mais, falaria inglês melhor. / passaria",
+        "Eu não faria isso se estivesse no seu lugar. / nunca",
+        "Se ao menos eu pudesse falar inglês fluente! Quem dera!",
+        "Em um mundo ideal, eu trabalharia de casa. / viajaria",
+        "Pode sonhar! Nunca se sabe! Talvez um dia!",
+        "Queria poder ir com você. / fazer isso / estudar mais."
+      ]
+    },
+    {
+      "bookId": 5,
+      "lessonId": 3,
+      "practice": "Class debate: choose a topic (social media, remote work, fast food, English as a global language). Split into two teams — agree vs disagree. Each student must use at least 3 opinion phrases.",
+      "practicingPart2": [
+        "Na minha opinião, a tecnologia mudou tudo. / o mundo",
+        "Eu acho que o trabalho remoto é mais produtivo. / difícil",
+        "Eu concordo com você até certo ponto. / completamente",
+        "Entendo seu ponto, mas discordo. / Vejo seu ponto de vista",
+        "Esse é um bom ponto. No entanto, eu acho diferente.",
+        "Você considerou o outro lado? É mais complexo do que parece.",
+        "Concordo completamente. É exatamente isso.",
+        "Permita-me discordar. Acho que é mais complicado.",
+        "É um ponto justo. Você tem razão nisso.",
+        "Vamos concordar em discordar. São opiniões diferentes."
+      ]
+    }
+  ]
+}

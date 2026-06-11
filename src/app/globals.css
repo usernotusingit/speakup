@@ -1,0 +1,33 @@
+@import "tailwindcss";
+
+:root {
+  --navy: #1a2744;
+  --navy-light: #243459;
+  --navy-card: #1e2f55;
+  --accent: #5c6bc0;
+  --accent-hover: #4f5ea8;
+  --accent-light: #7986cb;
+  --white: #ffffff;
+  --text-muted: #94a3b8;
+}
+
+body {
+  background-color: var(--navy);
+  color: var(--white);
+  font-family: 'Inter', system-ui, -apple-system, sans-serif;
+  min-height: 100vh;
+}
+
+@keyframes fadeIn {
+  from { opacity: 0; transform: translateY(8px); }
+  to   { opacity: 1; transform: translateY(0); }
+}
+
+.fade-in { animation: fadeIn 0.3s ease both; }
+
+@keyframes slideIn {
+  from { opacity: 0; transform: translateX(-12px); }
+  to   { opacity: 1; transform: translateX(0); }
+}
+
+.slide-in { animation: slideIn 0.25s ease both; }

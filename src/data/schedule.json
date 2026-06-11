@@ -1,0 +1,12 @@
+{
+  "schedule": [
+    { "turma": "Turma A1-01", "day": "Monday", "start": "09:00", "end": "10:00" },
+    { "turma": "Turma A1-01", "day": "Wednesday", "start": "09:00", "end": "10:00" },
+    { "turma": "Turma A1-02", "day": "Tuesday", "start": "18:00", "end": "19:00" },
+    { "turma": "Turma A1-02", "day": "Thursday", "start": "18:00", "end": "19:00" },
+    { "turma": "Turma A2-01", "day": "Monday", "start": "19:00", "end": "20:00" },
+    { "turma": "Turma A2-01", "day": "Wednesday", "start": "19:00", "end": "20:00" },
+    { "turma": "Turma B1-01", "day": "Tuesday", "start": "07:00", "end": "08:00" },
+    { "turma": "Turma B1-01", "day": "Thursday", "start": "07:00", "end": "08:00" }
+  ]
+}

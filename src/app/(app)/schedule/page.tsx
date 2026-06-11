@@ -1,0 +1,76 @@
+import { auth } from "@/lib/auth";
+import { redirect } from "next/navigation";
+import { getTeacherEvents, formatEventTime } from "@/lib/googleCalendar";
+import { Calendar, Users, Clock } from "lucide-react";
+import ScheduleForm from "@/components/ScheduleForm";
+
+export default async function SchedulePage() {
+  const session = await auth();
+  if (!session) return null;
+
+  const role = (session.user as { role?: string })?.role;
+  if (role !== "teacher") redirect("/dashboard");
+
+  const events = await getTeacherEvents(session.user.id);
+
+  return (
+    <div className="space-y-6 fade-in">
+      <div className="flex items-center gap-3">
+        <div className="w-9 h-9 rounded-xl flex items-center justify-center"
+          style={{ backgroundColor: "var(--accent)" }}>
+          <Calendar size={18} color="white" />
+        </div>
+        <div>
+          <h1 className="text-xl font-bold text-white">Schedule</h1>
+          <p className="text-white/40 text-xs">Manage your Speak-Up classes</p>
+        </div>
+      </div>
+
+      <div className="grid grid-cols-1 lg:grid-cols-2 gap-6">
+        {/* Upcoming classes */}
+        <div className="rounded-2xl p-5 shadow-lg" style={{ backgroundColor: "var(--navy-card)" }}>
+          <h2 className="text-white font-semibold text-sm mb-4 flex items-center gap-2">
+            <Clock size={14} className="text-indigo-400" />
+            Upcoming Classes
+          </h2>
+
+          {events.length === 0 ? (
+            <p className="text-white/30 text-sm italic">No classes scheduled yet.</p>
+          ) : (
+            <div className="space-y-2 max-h-[480px] overflow-y-auto pr-1">
+              {events.map((event) => (
+                <div
+                  key={event.id}
+                  className="rounded-xl p-3 border border-white/5"
+                  style={{ backgroundColor: "rgba(255,255,255,0.04)" }}
+                >
+                  <div className="flex items-start justify-between gap-2">
+                    <span className="text-white font-medium text-sm">{event.summary}</span>
+                  </div>
+                  <p className="text-white/40 text-xs mt-0.5">{formatEventTime(event)}</p>
+                  {event.attendees && event.attendees.length > 0 && (
+                    <div className="flex items-center gap-1.5 mt-2 flex-wrap">
+                      <Users size={11} className="text-indigo-400 shrink-0" />
+                      {event.attendees.map((a) => (
+                        <span
+                          key={a.email}
+                          className="text-xs px-2 py-0.5 rounded-full"
+                          style={{ backgroundColor: "#5c6bc022", color: "#818cf8" }}
+                        >
+                          {a.displayName ?? a.email}
+                        </span>
+                      ))}
+                    </div>
+                  )}
+                </div>
+              ))}
+            </div>
+          )}
+        </div>
+
+        {/* New class form */}
+        <ScheduleForm />
+      </div>
+    </div>
+  );
+}

@@ -1,0 +1,376 @@
+{
+  "listenings": [
+    {
+      "id": 1,
+      "bookId": 1,
+      "lessonId": 1,
+      "title": "Nice to Meet You",
+      "level": "A1",
+      "duration": "2:40",
+      "description": "Ana and Tom meet for the first time. Practice greetings and the verbs like, speak, drink and eat.",
+      "focusVerbs": ["like", "speak", "drink", "eat"],
+      "focusExpressions": ["Good morning!", "Hello!", "Hi!", "Nice to meet you"],
+      "dialogue": [
+        { "speaker": "Tom", "line": "Good morning! I'm Tom." },
+        { "speaker": "Ana", "line": "Hello, Tom! I'm Ana. Nice to meet you!" },
+        { "speaker": "Tom", "line": "Nice to meet you too, Ana. Do you speak English?" },
+        { "speaker": "Ana", "line": "Yes, I speak English. I speak Portuguese too. Do you speak Portuguese?" },
+        { "speaker": "Tom", "line": "No, I speak English. I like your language!" },
+        { "speaker": "Ana", "line": "Thank you! Do you like coffee?" },
+        { "speaker": "Tom", "line": "Yes! I like coffee. I drink coffee every morning." },
+        { "speaker": "Ana", "line": "I like tea. I don't drink coffee." },
+        { "speaker": "Tom", "line": "Do you like to eat in the morning?" },
+        { "speaker": "Ana", "line": "Yes, I eat breakfast with my brother. You?" },
+        { "speaker": "Tom", "line": "I eat with my father. He likes coffee too!" },
+        { "speaker": "Ana", "line": "Ha! Good morning to you and your father, Tom!" }
+      ],
+      "questions": [
+        {
+          "id": 1,
+          "question": "What languages does Ana speak?",
+          "options": ["English only", "Portuguese only", "English and Portuguese", "English and Spanish"],
+          "answer": 2
+        },
+        {
+          "id": 2,
+          "question": "What does Tom drink every morning?",
+          "options": ["Tea", "Coffee", "Water", "Juice"],
+          "answer": 1
+        },
+        {
+          "id": 3,
+          "question": "What does Ana prefer to drink?",
+          "options": ["Coffee", "Juice", "Water", "Tea"],
+          "answer": 3
+        },
+        {
+          "id": 4,
+          "question": "Who does Ana eat breakfast with?",
+          "options": ["Her father", "Her mother", "Her brother", "Tom"],
+          "answer": 2
+        },
+        {
+          "id": 5,
+          "question": "Who also likes coffee?",
+          "options": ["Ana", "Tom's brother", "Tom's father", "Ana's brother"],
+          "answer": 2
+        }
+      ]
+    },
+    {
+      "id": 2,
+      "bookId": 1,
+      "lessonId": 2,
+      "title": "First Day at the Office",
+      "level": "A1",
+      "duration": "2:55",
+      "description": "Tom starts his first day at work. Practice work vocabulary, needs, and polite expressions.",
+      "focusVerbs": ["work", "need", "study", "play"],
+      "focusExpressions": ["Thank you!", "You're welcome.", "Please.", "Sorry.", "Welcome!"],
+      "dialogue": [
+        { "speaker": "Ana", "line": "Good morning, Tom! Welcome to the office." },
+        { "speaker": "Tom", "line": "Thank you, Ana! I'm happy to be here." },
+        { "speaker": "Ana", "line": "Do you work with my father?" },
+        { "speaker": "Tom", "line": "Yes, I work with your father. And I work with you now!" },
+        { "speaker": "Ana", "line": "Great! Please, sit down. Do you need anything?" },
+        { "speaker": "Tom", "line": "No, thank you. I don't need anything right now." },
+        { "speaker": "Ana", "line": "I need to study the new project today. Do you?" },
+        { "speaker": "Tom", "line": "Yes, I need to study too. And I need to work very hard." },
+        { "speaker": "Ana", "line": "Sorry, I need to go now. I work with your brother today." },
+        { "speaker": "Tom", "line": "No problem! Does your brother work here too?" },
+        { "speaker": "Ana", "line": "Yes! He doesn't need to study — he likes to work!" },
+        { "speaker": "Tom", "line": "Ha! Good-bye, Ana. See you later." },
+        { "speaker": "Ana", "line": "Bye-bye, Tom! Good luck on your first day!" }
+      ],
+      "questions": [
+        {
+          "id": 1,
+          "question": "Who does Tom work with at the office?",
+          "options": ["Ana's mother", "Ana's father", "Tom's brother", "Ana's friend"],
+          "answer": 1
+        },
+        {
+          "id": 2,
+          "question": "Does Tom need anything when he arrives?",
+          "options": ["Yes, coffee", "Yes, a chair", "No, nothing", "Yes, water"],
+          "answer": 2
+        },
+        {
+          "id": 3,
+          "question": "What does Ana need to do today?",
+          "options": ["Study the new project", "Play music", "Work with Tom's father", "Go home"],
+          "answer": 0
+        },
+        {
+          "id": 4,
+          "question": "Why does Ana leave?",
+          "options": ["She needs lunch", "She works with Tom's brother", "She doesn't work today", "She needs to study alone"],
+          "answer": 1
+        },
+        {
+          "id": 5,
+          "question": "What does Ana's brother like to do?",
+          "options": ["Study", "Play", "Work", "Drink coffee"],
+          "answer": 2
+        }
+      ]
+    }
+    ,
+    {
+      "id": 3,
+      "bookId": 1,
+      "lessonId": 3,
+      "title": "Do You Want to Go?",
+      "level": "A1",
+      "duration": "2:50",
+      "description": "Ana invites Tom to the movies. Practice want, go, sleep, have and everyday expressions.",
+      "focusVerbs": ["want", "go", "sleep", "have"],
+      "focusExpressions": ["How are you?", "I'm fine!", "Not bad.", "On the weekend.", "All day."],
+      "dialogue": [
+        { "speaker": "Tom", "line": "Hi, Ana! How are you?" },
+        { "speaker": "Ana", "line": "I'm fine, Tom! And you?" },
+        { "speaker": "Tom", "line": "Not bad. I want to go to the movies today. Do you want to go?" },
+        { "speaker": "Ana", "line": "Yes! I want to go. Do you have a boss today?" },
+        { "speaker": "Tom", "line": "No, I don't have to work today. I only work on the weekends." },
+        { "speaker": "Ana", "line": "My brother wants to go too. He doesn't sleep all day today!" },
+        { "speaker": "Tom", "line": "Ha! Does he have to go to school?" },
+        { "speaker": "Ana", "line": "No, he doesn't have to go to school today. He wants to go with us." },
+        { "speaker": "Tom", "line": "Good! Do you want to go downtown or to the store first?" },
+        { "speaker": "Ana", "line": "Let's go to the store. I need to buy something." },
+        { "speaker": "Tom", "line": "OK! I don't want to go alone. I go with you and your brother!" },
+        { "speaker": "Ana", "line": "Great! See you there, Tom. Let's go!" }
+      ],
+      "questions": [
+        { "id": 1, "question": "How is Ana feeling?", "options": ["Not good", "Fine", "Not bad", "Tired"], "answer": 1 },
+        { "id": 2, "question": "Where does Tom want to go?", "options": ["To the market", "To school", "To the movies", "To the store"], "answer": 2 },
+        { "id": 3, "question": "Does Tom have to work today?", "options": ["Yes, all day", "Yes, in the morning", "No, he doesn't", "He doesn't know"], "answer": 2 },
+        { "id": 4, "question": "When does Tom work?", "options": ["Every day", "On the weekdays", "On the weekends", "At school"], "answer": 2 },
+        { "id": 5, "question": "Who else wants to go to the movies?", "options": ["Ana's father", "Ana's sister", "Tom's brother", "Ana's brother"], "answer": 3 }
+      ]
+    },
+    {
+      "id": 4,
+      "bookId": 1,
+      "lessonId": 4,
+      "title": "I Only Like English",
+      "level": "A1",
+      "duration": "2:45",
+      "description": "Tom and Ana talk about studying languages. A review of lessons 1–3 using do/does questions.",
+      "focusVerbs": ["like", "study", "speak", "want"],
+      "focusExpressions": ["Every day.", "All day.", "At home.", "On the weekend."],
+      "dialogue": [
+        { "speaker": "Tom", "line": "Ana, do you like to study English?" },
+        { "speaker": "Ana", "line": "Yes! I like English a lot. I study at home with my parents." },
+        { "speaker": "Tom", "line": "Do your parents speak English and French?" },
+        { "speaker": "Ana", "line": "Yes, they speak English and French. But I don't like French." },
+        { "speaker": "Tom", "line": "Do you only like English?" },
+        { "speaker": "Ana", "line": "Yes! I only like English. I want to speak English very well." },
+        { "speaker": "Tom", "line": "Do you study English every day?" },
+        { "speaker": "Ana", "line": "I only study on the weekends. But I want to study every day." },
+        { "speaker": "Tom", "line": "Does your brother study English too?" },
+        { "speaker": "Ana", "line": "No, he doesn't. He doesn't like to study. He only likes to work!" },
+        { "speaker": "Tom", "line": "Ha! And your parents — do they work downtown?" },
+        { "speaker": "Ana", "line": "Yes, they work downtown every day. They don't work at home." }
+      ],
+      "questions": [
+        { "id": 1, "question": "Where does Ana study English?", "options": ["At school", "At work", "At home", "Downtown"], "answer": 2 },
+        { "id": 2, "question": "What languages do Ana's parents speak?", "options": ["English only", "French only", "English and German", "English and French"], "answer": 3 },
+        { "id": 3, "question": "Does Ana like French?", "options": ["Yes, a lot", "Yes, a little", "No, she doesn't", "She doesn't know"], "answer": 2 },
+        { "id": 4, "question": "When does Ana study English?", "options": ["Every day", "On the weekends", "All day", "At school"], "answer": 1 },
+        { "id": 5, "question": "What does Ana's brother like to do?", "options": ["Study", "Sleep", "Work", "Play soccer"], "answer": 2 }
+      ]
+    },
+    {
+      "id": 5,
+      "bookId": 1,
+      "lessonId": 5,
+      "title": "Do You Know How to Sell?",
+      "level": "A1",
+      "duration": "3:00",
+      "description": "Tom wants to buy a car. Ana's father sells cars. Practice understand, buy, sell and know how to.",
+      "focusVerbs": ["understand", "buy", "sell", "know"],
+      "focusExpressions": ["A lot.", "How many?", "How much?", "Nice to meet you!", "At work."],
+      "dialogue": [
+        { "speaker": "Tom", "line": "Ana, I want to buy a car. Do you know a good place?" },
+        { "speaker": "Ana", "line": "Yes! My father sells cars. He has a big store downtown." },
+        { "speaker": "Tom", "line": "Nice! Does he sell small cars too?" },
+        { "speaker": "Ana", "line": "Yes, he sells big cars and small cars. New and old." },
+        { "speaker": "Tom", "line": "I need to buy a small car for my wife. She doesn't know how to drive a big car." },
+        { "speaker": "Ana", "line": "My father understands. He can help you. Do you understand Portuguese well?" },
+        { "speaker": "Tom", "line": "I understand a little Portuguese. But I don't know how to speak very well." },
+        { "speaker": "Ana", "line": "That's OK! My father speaks English. He knows how to speak a lot." },
+        { "speaker": "Tom", "line": "How much money do I need to buy a small car?" },
+        { "speaker": "Ana", "line": "I don't know exactly. You need to speak with my father at work." },
+        { "speaker": "Tom", "line": "How many cars does he have at the store?" },
+        { "speaker": "Ana", "line": "He has a lot of cars! Go to the store today. He wants to sell!" }
+      ],
+      "questions": [
+        { "id": 1, "question": "What does Tom want to buy?", "options": ["A house", "A bicycle", "A car", "A motorcycle"], "answer": 2 },
+        { "id": 2, "question": "Where is Ana's father's store?", "options": ["At school", "At home", "At the market", "Downtown"], "answer": 3 },
+        { "id": 3, "question": "Why does Tom need a small car?", "options": ["He likes small cars", "His wife can't drive big cars", "It's cheaper", "He doesn't know"], "answer": 1 },
+        { "id": 4, "question": "Does Ana's father speak English?", "options": ["No, only Portuguese", "Yes, he knows how to speak", "A little", "Tom doesn't know"], "answer": 1 },
+        { "id": 5, "question": "When should Tom go to the store?", "options": ["Tomorrow morning", "On the weekend", "Today", "Next week"], "answer": 2 }
+      ]
+    },
+    {
+      "id": 6,
+      "bookId": 1,
+      "lessonId": 6,
+      "title": "Let's Study Together",
+      "level": "A1",
+      "duration": "2:55",
+      "description": "Mike wants to learn English. Joanne invites him to study at home. Review of lessons 1–5.",
+      "focusVerbs": ["know", "want", "study", "speak"],
+      "focusExpressions": ["How are you?", "Fine!", "Not bad.", "See you there.", "Bye!"],
+      "dialogue": [
+        { "speaker": "Mike", "line": "Hi, Joanne! Good morning! How are you?" },
+        { "speaker": "Joanne", "line": "Fine, Mike! And you?" },
+        { "speaker": "Mike", "line": "Not bad. I need to speak English, but I don't know how." },
+        { "speaker": "Joanne", "line": "Do you want to learn English? I study at home with my parents." },
+        { "speaker": "Mike", "line": "Yes! I need to speak English a lot. Do you know how to speak very well?" },
+        { "speaker": "Joanne", "line": "Yes, I know how to speak. My parents help me every day." },
+        { "speaker": "Mike", "line": "I don't understand English very well. And I don't have a teacher." },
+        { "speaker": "Joanne", "line": "That's OK! Tomorrow come to my house and we can study together." },
+        { "speaker": "Mike", "line": "Do your parents work at home?" },
+        { "speaker": "Joanne", "line": "My father works downtown and my mother works at a school. But they study with me at night." },
+        { "speaker": "Mike", "line": "Very good! See you there tomorrow. Bye!" },
+        { "speaker": "Joanne", "line": "Bye, Mike! See you tomorrow morning!" }
+      ],
+      "questions": [
+        { "id": 1, "question": "What does Mike need?", "options": ["A car", "To speak English", "A teacher at school", "Money"], "answer": 1 },
+        { "id": 2, "question": "Where does Joanne study English?", "options": ["Downtown", "At school", "At home", "At work"], "answer": 2 },
+        { "id": 3, "question": "When does Joanne invite Mike to come?", "options": ["Today", "On the weekend", "Tomorrow", "At night"], "answer": 2 },
+        { "id": 4, "question": "Where does Joanne's father work?", "options": ["At home", "At a school", "At a bank", "Downtown"], "answer": 3 },
+        { "id": 5, "question": "When do Joanne's parents study with her?", "options": ["In the morning", "At work", "At night", "On the weekend"], "answer": 2 }
+      ]
+    },
+    {
+      "id": 7,
+      "bookId": 1,
+      "lessonId": 7,
+      "title": "I Prefer to Read",
+      "level": "A1",
+      "duration": "3:05",
+      "description": "Tom and Ana talk about books, letters and writing. Practice prefer, help, write and read.",
+      "focusVerbs": ["prefer", "help", "write", "read"],
+      "focusExpressions": ["This morning.", "Tonight.", "Tomorrow morning.", "About.", "A lot."],
+      "dialogue": [
+        { "speaker": "Tom", "line": "Ana, do you like to read?" },
+        { "speaker": "Ana", "line": "Yes! I prefer to read books. I read every day." },
+        { "speaker": "Tom", "line": "Do you read magazines too?" },
+        { "speaker": "Ana", "line": "Yes, I read magazines and newspapers. My father reads a lot." },
+        { "speaker": "Tom", "line": "Do you write letters?" },
+        { "speaker": "Ana", "line": "Yes, I write to my mother every week. This week I want to write about my new apartment." },
+        { "speaker": "Tom", "line": "Do you have a new apartment downtown?" },
+        { "speaker": "Ana", "line": "Yes! My new apartment is big. I have a lot of books there." },
+        { "speaker": "Tom", "line": "How many books do you have?" },
+        { "speaker": "Ana", "line": "About twenty books. I need to buy more! Do you want to go to the store with me tomorrow morning?" },
+        { "speaker": "Tom", "line": "Yes! I want to help you buy books. Tonight I need to write to my mother too." },
+        { "speaker": "Ana", "line": "Good! Bye Tom. See you tomorrow morning!" }
+      ],
+      "questions": [
+        { "id": 1, "question": "What does Ana prefer to do?", "options": ["Write letters", "Read books", "Buy magazines", "Help Tom"], "answer": 1 },
+        { "id": 2, "question": "Who reads a lot in Ana's family?", "options": ["Her mother", "Her brother", "Her father", "Her sister"], "answer": 2 },
+        { "id": 3, "question": "What does Ana write about this week?", "options": ["Her new car", "Her new apartment", "Her new book", "Her father"], "answer": 1 },
+        { "id": 4, "question": "About how many books does Ana have?", "options": ["Ten", "Fifteen", "Twenty", "Thirty"], "answer": 2 },
+        { "id": 5, "question": "What does Tom need to do tonight?", "options": ["Buy books", "Read a magazine", "Write to his mother", "Go to the store"], "answer": 2 }
+      ]
+    },
+    {
+      "id": 8,
+      "bookId": 1,
+      "lessonId": 8,
+      "title": "On the Farm",
+      "level": "A1",
+      "duration": "3:10",
+      "description": "Tom and Ana talk about Ana's family farm. Review of lessons 1–7 with new words: always, because.",
+      "focusVerbs": ["prefer", "write", "read", "help"],
+      "focusExpressions": ["Because.", "Always.", "Very well.", "A lot.", "This weekend."],
+      "dialogue": [
+        { "speaker": "Tom", "line": "Ana, do you have a farm?" },
+        { "speaker": "Ana", "line": "Yes! My parents have a big farm. I always go there on the weekends." },
+        { "speaker": "Tom", "line": "Do you like the farm?" },
+        { "speaker": "Ana", "line": "Yes! I prefer to go to the farm because I don't have to study there." },
+        { "speaker": "Tom", "line": "Ha! What do you do there?" },
+        { "speaker": "Ana", "line": "I always help my father. And I play with my brother and my sister a lot." },
+        { "speaker": "Tom", "line": "Do you write to your mother when you are at the farm?" },
+        { "speaker": "Ana", "line": "Yes, I want to write a letter to my mother because I don't want to go home tomorrow." },
+        { "speaker": "Tom", "line": "Can you write very well?" },
+        { "speaker": "Ana", "line": "I write with my sister because I don't know how to write very well alone." },
+        { "speaker": "Tom", "line": "Do you read at the farm?" },
+        { "speaker": "Ana", "line": "Yes, I only know how to read. I prefer to read, not write! Bye Tom!" }
+      ],
+      "questions": [
+        { "id": 1, "question": "When does Ana always go to the farm?", "options": ["Every day", "On the weekends", "Tomorrow", "Tonight"], "answer": 1 },
+        { "id": 2, "question": "Why does Ana prefer the farm?", "options": ["She likes to work", "She doesn't have to study", "She reads a lot", "Her friends are there"], "answer": 1 },
+        { "id": 3, "question": "Who does Ana play with at the farm?", "options": ["Her parents", "Her neighbors", "Her brother and sister", "Her friends"], "answer": 2 },
+        { "id": 4, "question": "Who helps Ana write letters?", "options": ["Her father", "Tom", "Her mother", "Her sister"], "answer": 3 },
+        { "id": 5, "question": "What does Ana prefer to do — read or write?", "options": ["Write", "Read", "Play", "Study"], "answer": 1 }
+      ]
+    },
+    {
+      "id": 9,
+      "bookId": 1,
+      "lessonId": 9,
+      "title": "Where Do You Live?",
+      "level": "A1",
+      "duration": "3:10",
+      "description": "Tom asks Ana about her home and daily routine. Practice live, cook, open, close and daily meal expressions.",
+      "focusVerbs": ["live", "cook", "open", "close"],
+      "focusExpressions": ["What time is it?", "To get up.", "To have breakfast.", "Usually.", "Because."],
+      "dialogue": [
+        { "speaker": "Tom", "line": "Ana, where do you live?" },
+        { "speaker": "Ana", "line": "I live downtown with my parents. We have a big apartment here." },
+        { "speaker": "Tom", "line": "Do you cook at home?" },
+        { "speaker": "Ana", "line": "Yes! My mother usually cooks for us. She cooks rice and beans every day." },
+        { "speaker": "Tom", "line": "Do you have lunch at home?" },
+        { "speaker": "Ana", "line": "Yes, we usually have lunch together. I like to eat salad too." },
+        { "speaker": "Tom", "line": "What time do you get up every day?" },
+        { "speaker": "Ana", "line": "I usually get up early because I have to go to work." },
+        { "speaker": "Tom", "line": "Do you open the store every day?" },
+        { "speaker": "Ana", "line": "Yes, I open the store in the morning and I close it at night." },
+        { "speaker": "Tom", "line": "Do your neighbors live downtown too?" },
+        { "speaker": "Ana", "line": "Some neighbors live here. But my friend lives in the country. She prefers the country!" }
+      ],
+      "questions": [
+        { "id": 1, "question": "Where does Ana live?", "options": ["In the country", "At school", "Downtown", "At the farm"], "answer": 2 },
+        { "id": 2, "question": "Who usually cooks at Ana's home?", "options": ["Ana", "Ana's father", "Ana's mother", "Tom"], "answer": 2 },
+        { "id": 3, "question": "What does Ana's mother cook every day?", "options": ["Fish and salad", "Bread and butter", "Rice and beans", "Meat and cheese"], "answer": 2 },
+        { "id": 4, "question": "Why does Ana get up early?", "options": ["She likes to read", "She has to go to work", "She cooks breakfast", "She studies"], "answer": 1 },
+        { "id": 5, "question": "Where does Ana's friend prefer to live?", "options": ["Downtown", "At school", "In the country", "At the store"], "answer": 2 }
+      ]
+    },
+    {
+      "id": 10,
+      "bookId": 1,
+      "lessonId": 10,
+      "title": "Life in the Country",
+      "level": "A1",
+      "duration": "3:15",
+      "description": "Ana's friend Rosa talks about living in the country. Final review of all Book One vocabulary and structures.",
+      "focusVerbs": ["live", "cook", "help", "prefer"],
+      "focusExpressions": ["Usually.", "Because.", "Every day.", "A lot.", "They are."],
+      "dialogue": [
+        { "speaker": "Tom", "line": "Ana, who is that girl?" },
+        { "speaker": "Ana", "line": "That is my friend Rosa. She lives in the country with her parents." },
+        { "speaker": "Tom", "line": "Does she like to live there?" },
+        { "speaker": "Ana", "line": "Yes! She prefers to live in the country because she has many friends there. They are her neighbors." },
+        { "speaker": "Tom", "line": "Does she work?" },
+        { "speaker": "Ana", "line": "She studies at school. Her friends help her with her homework every day." },
+        { "speaker": "Tom", "line": "What does she usually eat?" },
+        { "speaker": "Ana", "line": "She usually has lunch at home. She likes to eat rice, beans, and salad." },
+        { "speaker": "Tom", "line": "Does she cook?" },
+        { "speaker": "Ana", "line": "Yes! She cooks for her parents. She knows how to cook very well." },
+        { "speaker": "Tom", "line": "Does she want to go to the city?" },
+        { "speaker": "Ana", "line": "Yes, she has to buy a ticket to go to the city today. She needs to buy clothes for school." }
+      ],
+      "questions": [
+        { "id": 1, "question": "Who is Rosa?", "options": ["Tom's sister", "Ana's neighbor", "Ana's friend", "Tom's wife"], "answer": 2 },
+        { "id": 2, "question": "Why does Rosa prefer the country?", "options": ["She works there", "She has many friends there", "She cooks there", "She reads there"], "answer": 1 },
+        { "id": 3, "question": "Who helps Rosa with her homework?", "options": ["Her parents", "Her neighbors", "Her friends", "Her teacher"], "answer": 2 },
+        { "id": 4, "question": "What does Rosa usually eat for lunch?", "options": ["Fish and salad", "Bread and butter", "Rice, beans, and salad", "Meat and cheese"], "answer": 2 },
+        { "id": 5, "question": "Why does Rosa need to go to the city today?", "options": ["To study", "To work", "To buy food", "To buy clothes for school"], "answer": 3 }
+      ]
+    }
+  ]
+}
