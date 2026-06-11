@@ -4,10 +4,10 @@ module.exports = {
       name: "speakup",
       script: "node_modules/.bin/next",
       args: "start",
-      cwd: "/media/soares/Soares/luiz/interface",
+      cwd: "/root/.prod/speakup",
       env: {
         NODE_ENV: "production",
-        PORT: 3000,
+        PORT: 3001,
       },
     },
   ],
