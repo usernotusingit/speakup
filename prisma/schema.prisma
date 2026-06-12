@@ -22,6 +22,7 @@ model Account {
   user              User    @relation(fields: [userId], references: [id], onDelete: Cascade)
 
   @@unique([provider, providerAccountId])
+  @@index([userId])
 }
 
 model Session {
@@ -30,6 +31,8 @@ model Session {
   userId       String
   expires      DateTime
   user         User     @relation(fields: [userId], references: [id], onDelete: Cascade)
+
+  @@index([userId])
 }
 
 model User {
@@ -60,6 +63,8 @@ model Turma {
   teacher   User       @relation(fields: [teacherId], references: [id])
   teacherId String
   schedules Schedule[]
+
+  @@index([teacherId])
 }
 
 model Schedule {
@@ -69,4 +74,6 @@ model Schedule {
   start   String
   end     String
   turma   Turma  @relation(fields: [turmaId], references: [id])
+
+  @@index([turmaId])
 }
