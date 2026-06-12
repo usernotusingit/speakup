@@ -42,7 +42,8 @@ NEXTAUTH_URL="https://your-vm-domain-or-ip:3000"   # must match how the VM is re
 NEXTAUTH_SECRET="<run: openssl rand -base64 32>"
 GOOGLE_CLIENT_ID="<your Google OAuth client id>"
 GOOGLE_CLIENT_SECRET="<your Google OAuth client secret>"
-ADMIN_EMAILS="you@example.com"                     # comma-separated admin emails
+TEACHER_EMAILS="lgnaves@gmail.com,joperudi@gmail.com"  # comma-separated teacher emails
+ADMIN_EMAILS="joperudi@gmail.com"                     # comma-separated admin emails
 ```
 
 ### 3. Update the PM2 config

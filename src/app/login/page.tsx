@@ -20,7 +20,7 @@ export default function LoginPage() {
 
   async function handleGoogleLogin() {
     setLoading(true);
-    await signIn("google", { callbackUrl: `/api/set-role?role=${role}&next=/dashboard` });
+    await signIn("google", { callbackUrl: `/api/set-role?next=/dashboard` });
   }
 
   return (
