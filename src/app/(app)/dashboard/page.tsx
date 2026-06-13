@@ -1,4 +1,5 @@
 import { auth } from "@/lib/auth";
+import { redirect } from "next/navigation";
 import { BookOpen, Headphones, ClipboardList, MapPin, User, Calendar } from "lucide-react";
 import Link from "next/link";
 import LessonsChart from "@/components/LessonsChart";
@@ -12,7 +13,7 @@ import {
 
 export default async function DashboardPage() {
   const session = await auth();
-  if (!session) return null;
+  if (!session) redirect("/login");
   const user = session.user;
   const role = (user as { role?: string })?.role ?? "student";
 

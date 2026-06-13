@@ -6,7 +6,7 @@ import ScheduleForm from "@/components/ScheduleForm";
 
 export default async function SchedulePage() {
   const session = await auth();
-  if (!session) return null;
+  if (!session) redirect("/login");
 
   const role = (session.user as { role?: string })?.role;
   if (role !== "teacher") redirect("/dashboard");
