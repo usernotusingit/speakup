@@ -84,6 +84,46 @@ In the Google Cloud Console, add the VM callback URL to the OAuth client's autho
 - `ecosystem.config.js` → `cwd` — the clone path on the VM
 - Google OAuth redirect URI in the Cloud Console
 
+## Authentication
+
+Auth uses NextAuth v5 (Google OAuth) with **database sessions** via the Prisma
+adapter. Access control is enforced in two layers:
+
+### Layer 1 — `src/proxy.ts` (route gate)
+
+`src/proxy.ts` uses the Next.js 16 [`proxy`](https://nextjs.org/docs/app/api-reference/file-conventions/proxy)
+convention (the renamed, no-longer-deprecated `middleware`). It runs before any
+route is rendered and **redirects unauthenticated page requests to `/login`**.
+
+It performs an *optimistic* check only — it verifies the presence of the session
+cookie, with **no database lookup** — so it stays cheap and runtime-safe. The
+cookie name differs by transport:
+
+- `authjs.session-token` — local dev over HTTP
+- `__Secure-authjs.session-token` — production over HTTPS
+
+The `matcher` excludes `/api/*`, Next internals/static assets, metadata files,
+and `/login` (to avoid a redirect loop). **API routes are intentionally not
+gated by the proxy** so they enforce their own auth and return JSON `401`/`403`
+instead of an HTML redirect (e.g. `src/app/api/calendar/events/route.ts`).
+
+> The proxy is a gate, not the source of truth. With database sessions it cannot
+> validate the session itself (that needs a DB query) — it only checks the
+> cookie exists. Do not rely on it for authorization decisions.
+
+### Layer 2 — `(app)/layout.tsx` (authoritative check)
+
+`src/app/(app)/layout.tsx` calls `await auth()`, which validates the session
+against the database and redirects to `/login` if it's missing or invalid. This
+is the real check; page-level guards (e.g. the teacher-only check in
+`schedule/page.tsx`) build on top of it.
+
+### Roles
+
+Roles are derived from `TEACHER_EMAILS` (see [VM Deployment](#vm-deployment)) at
+sign-in by `src/app/api/set-role/route.ts`, stored on the `User` record, and
+surfaced on the session via the `session` callback in `src/lib/auth.ts`.
+
 ## Learn More
 
 To learn more about Next.js, take a look at the following resources:
