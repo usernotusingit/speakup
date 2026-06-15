@@ -42,10 +42,23 @@ model User {
   emailVerified DateTime?
   image         String?
   role                String    @default("student")
-  speakupCalendarId   String?
+  speakupCalendarId   String?   @unique
   accounts            Account[]
   sessions      Session[]
   turmas        Turma[]
+  enrollments         Enrollment[]
+}
+
+model Enrollment {
+  id           String   @id @default(cuid())
+  studentEmail String
+  teacherId    String
+  teacher      User     @relation(fields: [teacherId], references: [id], onDelete: Cascade)
+  createdAt    DateTime @default(now())
+
+  @@unique([studentEmail, teacherId])
+  @@index([studentEmail])
+  @@index([teacherId])
 }
 
 model VerificationToken {

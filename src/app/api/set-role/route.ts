@@ -22,6 +22,13 @@ export async function GET(req: NextRequest) {
 
     if (role === "teacher") {
       await initSpeakupCalendar(session.user.id);
+    } else {
+      // Self-heal: a former teacher demoted to student should not keep a stale
+      // calendar id pointing at a calendar they no longer manage.
+      await prisma.user.update({
+        where: { id: session.user.id },
+        data: { speakupCalendarId: null },
+      });
     }
   }
 

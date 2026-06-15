@@ -3,6 +3,7 @@ import { redirect } from "next/navigation";
 import { getTeacherEvents, formatEventTime } from "@/lib/googleCalendar";
 import { Calendar, Users, Clock } from "lucide-react";
 import ScheduleForm from "@/components/ScheduleForm";
+import ReconnectCalendarBanner from "@/components/ReconnectCalendarBanner";
 
 export default async function SchedulePage() {
   const session = await auth();
@@ -11,7 +12,11 @@ export default async function SchedulePage() {
   const role = (session.user as { role?: string })?.role;
   if (role !== "teacher") redirect("/dashboard");
 
-  const events = await getTeacherEvents(session.user.id);
+  const result = await getTeacherEvents(session.user.id);
+  const events = result.status === "ok" ? result.events : [];
+  const showReconnect =
+    result.status === "scope_missing" || result.status === "no_calendar";
+  const loadError = result.status === "error";
 
   return (
     <div className="space-y-6 fade-in">
@@ -26,6 +31,8 @@ export default async function SchedulePage() {
         </div>
       </div>
 
+      {showReconnect && <ReconnectCalendarBanner next="/schedule" />}
+
       <div className="grid grid-cols-1 lg:grid-cols-2 gap-6">
         {/* Upcoming classes */}
         <div className="rounded-2xl p-5 shadow-lg" style={{ backgroundColor: "var(--navy-card)" }}>
@@ -34,7 +41,11 @@ export default async function SchedulePage() {
             Upcoming Classes
           </h2>
 
-          {events.length === 0 ? (
+          {loadError ? (
+            <p className="text-red-400/80 text-sm italic">
+              Couldn&apos;t load your calendar. Please try again later.
+            </p>
+          ) : events.length === 0 ? (
             <p className="text-white/30 text-sm italic">No classes scheduled yet.</p>
           ) : (
             <div className="space-y-2 max-h-[480px] overflow-y-auto pr-1">

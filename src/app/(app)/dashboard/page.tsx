@@ -8,8 +8,9 @@ import {
   getTeacherEvents,
   getStudentClassEvents,
   formatEventTime,
-  CalendarEvent,
+  CalendarResult,
 } from "@/lib/googleCalendar";
+import ReconnectCalendarBanner from "@/components/ReconnectCalendarBanner";
 
 export default async function DashboardPage() {
   const session = await auth();
@@ -21,15 +22,25 @@ export default async function DashboardPage() {
   const totalListenings = books.books.reduce((acc, b) => acc + (b.listenings ?? 0), 0);
   const totalQuizes = books.books.length;
 
-  let calendarEvents: CalendarEvent[] = [];
+  let calendarResult: CalendarResult = { status: "ok", events: [] };
   if (role === "teacher") {
-    calendarEvents = await getTeacherEvents(user.id);
+    calendarResult = await getTeacherEvents(user.id);
   } else if (user.email) {
-    calendarEvents = await getStudentClassEvents(user.email);
+    calendarResult = await getStudentClassEvents(user.email);
   }
+  const calendarEvents =
+    calendarResult.status === "ok" ? calendarResult.events : [];
+  // Only teachers can act on a missing calendar (reconnect / create it).
+  const showReconnect =
+    role === "teacher" &&
+    (calendarResult.status === "scope_missing" ||
+      calendarResult.status === "no_calendar");
+  const loadError = calendarResult.status === "error";
 
   return (
     <div className="space-y-5 fade-in">
+      {showReconnect && <ReconnectCalendarBanner next="/dashboard" />}
+
       {/* Welcome card */}
       <div className="rounded-2xl p-6 shadow-lg" style={{ backgroundColor: "var(--navy-card)" }}>
         <div className="flex flex-col md:flex-row md:items-start gap-4">
@@ -73,7 +84,11 @@ export default async function DashboardPage() {
               </span>
             </div>
             <div className="space-y-1 max-h-36 overflow-y-auto pr-1">
-              {calendarEvents.length === 0 ? (
+              {loadError ? (
+                <p className="text-xs text-red-400/80 italic">
+                  Couldn&apos;t load classes. Try again later.
+                </p>
+              ) : calendarEvents.length === 0 ? (
                 <p className="text-xs text-white/30 italic">
                   {role === "teacher" ? "No classes scheduled" : "No classes booked yet"}
                 </p>
