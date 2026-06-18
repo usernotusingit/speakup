@@ -91,12 +91,12 @@ function AudioPlayer({ listeningId }: { listeningId: number }) {
           onChange={seek}
           className="w-full h-1 accent-indigo-500 cursor-pointer"
         />
-        <div className="flex justify-between mt-1 text-white/25 text-xs font-mono">
+        <div className="flex justify-between mt-1 text-[var(--text-faint)] text-xs font-mono">
           <span>{fmt(progress)}</span>
           <span>{fmt(duration)}</span>
         </div>
       </div>
-      <button onClick={restart} className="text-white/30 hover:text-white/70 transition-colors">
+      <button onClick={restart} className="text-[var(--text-faint)] hover:text-[var(--text-muted)] transition-colors">
         <RotateCcw size={15} />
       </button>
     </div>
@@ -119,7 +119,7 @@ function ReadPhase({
 
       {/* Focus chips */}
       <div className="rounded-2xl p-4" style={{ backgroundColor: "var(--navy-card)" }}>
-        <p className="text-white/30 text-xs font-semibold uppercase tracking-widest mb-3">Focus</p>
+        <p className="text-[var(--text-faint)] text-xs font-semibold uppercase tracking-widest mb-3">Focus</p>
         <div className="flex flex-wrap gap-2">
           {listening.focusVerbs.map((v) => (
             <span key={v} className="text-xs px-2.5 py-1 rounded-full bg-indigo-500/20 text-indigo-300 border border-indigo-500/30 font-medium">
@@ -136,7 +136,7 @@ function ReadPhase({
 
       {/* Dialogue */}
       <div className="rounded-2xl p-5 space-y-3" style={{ backgroundColor: "var(--navy-card)" }}>
-        <p className="text-white/30 text-xs font-semibold uppercase tracking-widest mb-4">Dialogue</p>
+        <p className="text-[var(--text-faint)] text-xs font-semibold uppercase tracking-widest mb-4">Dialogue</p>
         {listening.dialogue.map((line, i) => {
           const slot = slots[i];
           const isRight = slot === "B";
@@ -149,7 +149,7 @@ function ReadPhase({
                 <span className={`text-xs font-semibold mb-1 ${SPEAKER_NAME_COLORS[slot]}`}>
                   {line.speaker}
                 </span>
-                <div className={`rounded-2xl px-4 py-2.5 border text-sm text-white/85 leading-relaxed ${SPEAKER_COLORS[slot]}`}>
+                <div className={`rounded-2xl px-4 py-2.5 border text-sm text-[var(--text-muted)] leading-relaxed ${SPEAKER_COLORS[slot]}`}>
                   {line.line}
                 </div>
               </div>
@@ -205,26 +205,26 @@ function QuizPhase({
   return (
     <div className="rounded-2xl p-6" style={{ backgroundColor: "var(--navy-card)" }}>
       {/* Progress */}
-      <div className="flex items-center justify-between mb-1 text-xs text-white/35">
+      <div className="flex items-center justify-between mb-1 text-xs text-[var(--text-faint)]">
         <span className="font-medium">Comprehension Check</span>
         <span className="font-mono">{current + 1} / {questions.length}</span>
       </div>
-      <div className="w-full h-1 bg-white/8 rounded-full overflow-hidden mb-6">
+      <div className="w-full h-1 bg-[var(--elev-1)] rounded-full overflow-hidden mb-6">
         <div
           className="h-full bg-indigo-500 rounded-full transition-all duration-300"
           style={{ width: `${(current / questions.length) * 100}%` }}
         />
       </div>
 
-      <p className="text-white font-semibold text-base mb-5 leading-snug">{q.question}</p>
+      <p className="text-[var(--text)] font-semibold text-base mb-5 leading-snug">{q.question}</p>
 
       <div className="space-y-2.5 mb-6">
         {q.options.map((opt, i) => {
-          let cls = "border border-white/10 bg-white/4 text-white/70";
+          let cls = "border border-[var(--border)] bg-[var(--elev-1)] text-[var(--text-muted)]";
           if (revealed) {
             if (i === q.answer) cls = "border border-emerald-500/60 bg-emerald-500/15 text-emerald-300";
             else if (i === selected) cls = "border border-rose-500/60 bg-rose-500/15 text-rose-300";
-            else cls = "border border-white/5 bg-white/2 text-white/30";
+            else cls = "border border-[var(--border)] bg-[var(--elev-1)] text-[var(--text-faint)]";
           } else if (selected === i) {
             cls = "border border-indigo-400/60 bg-indigo-500/20 text-white";
           }
@@ -232,9 +232,9 @@ function QuizPhase({
             <button
               key={i}
               onClick={() => pick(i)}
-              className={`w-full text-left px-4 py-3 rounded-xl text-sm font-medium transition-all ${cls} ${!revealed ? "hover:border-white/25 hover:bg-white/8" : ""}`}
+              className={`w-full text-left px-4 py-3 rounded-xl text-sm font-medium transition-all ${cls} ${!revealed ? "hover:border-[var(--border)] hover:bg-[var(--elev-1)]" : ""}`}
             >
-              <span className="text-white/30 font-mono mr-3">{String.fromCharCode(65 + i)}</span>
+              <span className="text-[var(--text-faint)] font-mono mr-3">{String.fromCharCode(65 + i)}</span>
               {opt}
             </button>
           );
@@ -277,9 +277,9 @@ function DonePhase({
     <div className="rounded-2xl p-6 flex flex-col items-center gap-6" style={{ backgroundColor: "var(--navy-card)" }}>
       <Trophy size={40} className="text-amber-400 mt-2" />
       <div className="text-center">
-        <h2 className="text-white font-bold text-xl mb-1">Listening Complete!</h2>
-        <div className="text-4xl font-bold text-white mt-4 mb-1">
-          {correct}<span className="text-white/30 text-xl"> / {total}</span>
+        <h2 className="text-[var(--text)] font-bold text-xl mb-1">Listening Complete!</h2>
+        <div className="text-4xl font-bold text-[var(--text)] mt-4 mb-1">
+          {correct}<span className="text-[var(--text-faint)] text-xl"> / {total}</span>
         </div>
         <p className="text-indigo-300 text-sm font-medium mt-1">{msg}</p>
       </div>
@@ -288,12 +288,12 @@ function DonePhase({
         {questions.map((q, i) => {
           const ok = answers[i] === q.answer;
           return (
-            <div key={q.id} className="flex items-start gap-3 px-3 py-2.5 rounded-xl border border-white/5 bg-white/3 text-xs">
+            <div key={q.id} className="flex items-start gap-3 px-3 py-2.5 rounded-xl border border-[var(--border)] bg-[var(--elev-1)] text-xs">
               {ok
                 ? <CheckCircle size={13} className="text-emerald-400 shrink-0 mt-0.5" />
                 : <XCircle    size={13} className="text-rose-400 shrink-0 mt-0.5" />}
               <div className="flex-1 min-w-0">
-                <p className="text-white/60 truncate">{q.question}</p>
+                <p className="text-[var(--text-muted)] truncate">{q.question}</p>
                 {!ok && (
                   <p className="text-emerald-400/70 text-xs mt-0.5">
                     ✓ {q.options[q.answer]}
@@ -307,7 +307,7 @@ function DonePhase({
 
       <button
         onClick={onReset}
-        className="flex items-center gap-2 px-8 py-3 bg-white/8 hover:bg-white/12 text-white/70 hover:text-white font-semibold rounded-xl transition-colors text-sm"
+        className="flex items-center gap-2 px-8 py-3 bg-[var(--elev-1)] hover:bg-[var(--elev-2)] text-[var(--text-muted)] hover:text-[var(--text)] font-semibold rounded-xl transition-colors text-sm"
       >
         <RotateCcw size={14} />
         Try again
@@ -336,14 +336,14 @@ export default function ListeningPlayer({ listening }: { listening: Listening })
           <Headphones size={22} className="text-indigo-300" />
         </div>
         <div className="flex-1 min-w-0">
-          <h1 className="text-white font-bold text-lg leading-tight">{listening.title}</h1>
-          <p className="text-white/45 text-sm mt-1 leading-relaxed">{listening.description}</p>
+          <h1 className="text-[var(--text)] font-bold text-lg leading-tight">{listening.title}</h1>
+          <p className="text-[var(--text-faint)] text-sm mt-1 leading-relaxed">{listening.description}</p>
           <div className="flex items-center gap-3 mt-2">
-            <span className="text-xs text-white/30">{listening.duration}</span>
-            <span className="text-white/15">·</span>
-            <span className="text-xs text-white/30">{listening.dialogue.length} lines</span>
-            <span className="text-white/15">·</span>
-            <span className="text-xs text-white/30">{listening.questions.length} questions</span>
+            <span className="text-xs text-[var(--text-faint)]">{listening.duration}</span>
+            <span className="text-[var(--text-faint)]">·</span>
+            <span className="text-xs text-[var(--text-faint)]">{listening.dialogue.length} lines</span>
+            <span className="text-[var(--text-faint)]">·</span>
+            <span className="text-xs text-[var(--text-faint)]">{listening.questions.length} questions</span>
           </div>
         </div>
         <span className="text-xs font-bold px-2.5 py-1 rounded-full bg-rose-600/20 text-rose-400 border border-rose-500/30 shrink-0">
@@ -359,7 +359,7 @@ export default function ListeningPlayer({ listening }: { listening: Listening })
             onClick={() => p !== "done" && setPhase(p)}
             disabled={p === "done"}
             className={`flex-1 py-2 rounded-lg text-xs font-semibold transition-colors capitalize
-              ${phase === p ? "bg-indigo-600 text-white" : "text-white/35 hover:text-white/60 disabled:cursor-default disabled:hover:text-white/20"}`}
+              ${phase === p ? "bg-indigo-600 text-white" : "text-[var(--text-faint)] hover:text-[var(--text-muted)] disabled:cursor-default disabled:hover:text-[var(--text-faint)]"}`}
           >
             {p === "read" ? "Dialogue" : p === "quiz" ? "Questions" : "Results"}
           </button>

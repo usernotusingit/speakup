@@ -104,7 +104,7 @@ export default function Matching({ challenge, onComplete }: Props) {
     if (selectedLeft === i) {
       return `${base} border-indigo-400 bg-indigo-400/10 text-indigo-200`;
     }
-    return `${base} border-white/10 text-white/70 hover:border-white/30 hover:text-white cursor-pointer`;
+    return `${base} border-[var(--border)] text-[var(--text-muted)] hover:border-[var(--border)] hover:text-[var(--text)] cursor-pointer`;
   }
 
   function rightBtnClass(j: number): string {
@@ -119,19 +119,19 @@ export default function Matching({ challenge, onComplete }: Props) {
     if (wrongAttempt?.right === j) {
       return `${base} border-rose-500 bg-rose-500/20 text-rose-300`;
     }
-    return `${base} border-white/10 text-white/70 hover:border-white/30 hover:text-white cursor-pointer`;
+    return `${base} border-[var(--border)] text-[var(--text-muted)] hover:border-[var(--border)] hover:text-[var(--text)] cursor-pointer`;
   }
 
   return (
     <div className="flex flex-col gap-5 fade-in">
-      <p className="text-white/50 text-sm text-center">
+      <p className="text-[var(--text-faint)] text-sm text-center">
         Select a Portuguese word, then its English match.
       </p>
 
       <div className="grid grid-cols-2 gap-3">
         {/* Left column: PT */}
         <div className="flex flex-col gap-2">
-          <p className="text-white/30 text-xs uppercase tracking-wider text-center mb-1">Português</p>
+          <p className="text-[var(--text-faint)] text-xs uppercase tracking-wider text-center mb-1">Português</p>
           {pairs.map((pair, i) => (
             <button key={i} className={leftBtnClass(i)} onClick={() => handleLeftClick(i)}>
               {pair.pt}
@@ -141,7 +141,7 @@ export default function Matching({ challenge, onComplete }: Props) {
 
         {/* Right column: EN (shuffled) */}
         <div className="flex flex-col gap-2">
-          <p className="text-white/30 text-xs uppercase tracking-wider text-center mb-1">English</p>
+          <p className="text-[var(--text-faint)] text-xs uppercase tracking-wider text-center mb-1">English</p>
           {rightItems.map((en, j) => (
             <button key={j} className={rightBtnClass(j)} onClick={() => handleRightClick(j)}>
               {en}

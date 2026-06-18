@@ -61,11 +61,11 @@ export default function QuizRunner({ quiz }: { quiz: Quiz }) {
         <div className="p-8 flex flex-col items-center text-center gap-6">
           <Trophy size={52} className="opacity-80" style={{ color }} />
           <div>
-            <p className="text-white/40 text-sm mb-1">{quiz.title}</p>
-            <p className="text-white font-bold text-4xl mb-1">
+            <p className="text-[var(--text-faint)] text-sm mb-1">{quiz.title}</p>
+            <p className="text-[var(--text)] font-bold text-4xl mb-1">
               {correct} / {quiz.questions.length}
             </p>
-            <p className="text-white/60 text-sm">{scoreMessage(correct, quiz.questions.length)}</p>
+            <p className="text-[var(--text-muted)] text-sm">{scoreMessage(correct, quiz.questions.length)}</p>
           </div>
 
           {/* Per-question review */}
@@ -79,7 +79,7 @@ export default function QuizRunner({ quiz }: { quiz: Quiz }) {
                     ? <CheckCircle size={16} className="text-green-400 shrink-0 mt-0.5" />
                     : <XCircle size={16} className="text-red-400 shrink-0 mt-0.5" />}
                   <div className="flex-1 min-w-0">
-                    <p className="text-white/70 leading-snug mb-1">{q.q}</p>
+                    <p className="text-[var(--text-muted)] leading-snug mb-1">{q.q}</p>
                     {!ok && (
                       <p className="text-green-300 text-xs">
                         Correct: {q.options[q.answer]}
@@ -106,7 +106,7 @@ export default function QuizRunner({ quiz }: { quiz: Quiz }) {
   return (
     <div className="rounded-2xl overflow-hidden shadow-xl" style={{ backgroundColor: "var(--navy-card)" }}>
       {/* Progress bar */}
-      <div className="h-1.5 w-full bg-white/8">
+      <div className="h-1.5 w-full bg-[var(--elev-1)]">
         <div
           className="h-full transition-all duration-300"
           style={{ width: `${((idx) / quiz.questions.length) * 100}%`, backgroundColor: color }}
@@ -116,22 +116,22 @@ export default function QuizRunner({ quiz }: { quiz: Quiz }) {
       <div className="p-6 sm:p-8">
         {/* Counter */}
         <div className="flex items-center justify-between mb-6">
-          <span className="text-xs font-mono text-white/30">{idx + 1} / {quiz.questions.length}</span>
+          <span className="text-xs font-mono text-[var(--text-faint)]">{idx + 1} / {quiz.questions.length}</span>
           <span className="text-xs px-2 py-0.5 rounded-full text-white font-bold"
             style={{ backgroundColor: color }}>{quiz.level}</span>
         </div>
 
         {/* Question */}
-        <p className="text-white font-semibold text-lg leading-snug mb-8">{question.q}</p>
+        <p className="text-[var(--text)] font-semibold text-lg leading-snug mb-8">{question.q}</p>
 
         {/* Options */}
         <div className="space-y-3 mb-8">
           {question.options.map((opt, i) => {
-            let style = "border-white/10 bg-white/4 text-white/70 hover:border-white/25 hover:text-white";
+            let style = "border-[var(--border)] bg-[var(--elev-1)] text-[var(--text-muted)] hover:border-[var(--border)] hover:text-[var(--text)]";
             if (isAnswered) {
               if (i === question.answer) style = "border-green-400/60 bg-green-500/15 text-green-200";
               else if (i === selected) style = "border-red-400/60 bg-red-500/15 text-red-200";
-              else style = "border-white/5 bg-white/2 text-white/30";
+              else style = "border-[var(--border)] bg-[var(--elev-1)] text-[var(--text-faint)]";
             }
             return (
               <button

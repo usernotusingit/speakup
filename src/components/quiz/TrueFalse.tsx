@@ -23,11 +23,11 @@ export default function TrueFalse({ challenge, onComplete }: Props) {
     <div className="flex flex-col gap-5 fade-in">
       {/* Sentence card */}
       <div
-        className="rounded-2xl px-6 py-8 border border-white/10 flex flex-col items-center gap-2"
+        className="rounded-2xl px-6 py-8 border border-[var(--border)] flex flex-col items-center gap-2"
         style={{ backgroundColor: "var(--navy-card)" }}
       >
-        <p className="text-white/40 text-xs uppercase tracking-widest mb-1">Is this correct English?</p>
-        <p className="text-white font-bold text-xl text-center leading-snug">{challenge.sentence}</p>
+        <p className="text-[var(--text-faint)] text-xs uppercase tracking-widest mb-1">Is this correct English?</p>
+        <p className="text-[var(--text)] font-bold text-xl text-center leading-snug">{challenge.sentence}</p>
       </div>
 
       {/* True / False buttons */}
@@ -44,7 +44,7 @@ export default function TrueFalse({ challenge, onComplete }: Props) {
                 : "border-rose-500 bg-rose-500/20 text-rose-300"
               : challenge.correct === true
               ? "border-emerald-500 bg-emerald-500/10 text-emerald-400"
-              : "border-white/10 text-white/20"
+              : "border-[var(--border)] text-[var(--text-faint)]"
           }`}
         >
           TRUE ✓
@@ -61,7 +61,7 @@ export default function TrueFalse({ challenge, onComplete }: Props) {
                 : "border-rose-500 bg-rose-500/20 text-rose-300"
               : challenge.correct === false
               ? "border-emerald-500 bg-emerald-500/10 text-emerald-400"
-              : "border-white/10 text-white/20"
+              : "border-[var(--border)] text-[var(--text-faint)]"
           }`}
         >
           FALSE ✗

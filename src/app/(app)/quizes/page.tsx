@@ -38,7 +38,7 @@ function challengeCount(lesson: Lesson): number {
 export default function QuizesPage() {
   return (
     <div className="fade-in space-y-10">
-      <h2 className="text-white font-bold text-xl">Quizzes</h2>
+      <h2 className="text-[var(--text)] font-bold text-xl">Quizzes</h2>
 
       {booksData.books.map((book) => {
         const color = levelColor[book.level] ?? "#5c6bc0";
@@ -52,9 +52,9 @@ export default function QuizesPage() {
               >
                 {book.level}
               </span>
-              <h3 className="text-white font-semibold">{book.title}</h3>
-              <div className="flex-1 h-px bg-white/8" />
-              <span className="text-white/25 text-xs">{book.lessons.length} lessons</span>
+              <h3 className="text-[var(--text)] font-semibold">{book.title}</h3>
+              <div className="flex-1 h-px bg-[var(--elev-1)]" />
+              <span className="text-[var(--text-faint)] text-xs">{book.lessons.length} lessons</span>
             </div>
 
             {/* Lesson cards */}
@@ -67,12 +67,12 @@ export default function QuizesPage() {
                   <Link
                     key={lesson.id}
                     href={`/books/${book.id}/lessons/${lesson.id}/quiz`}
-                    className="group rounded-2xl border border-white/8 hover:border-white/20 transition-all hover:scale-[1.02]"
+                    className="group rounded-2xl border border-[var(--border)] hover:border-[var(--border)] transition-all hover:scale-[1.02]"
                     style={{ backgroundColor: "var(--navy-card)" }}
                   >
                     <div className="p-4">
                       <div className="flex items-start justify-between gap-2 mb-3">
-                        <span className="text-xs font-mono text-white/25">
+                        <span className="text-xs font-mono text-[var(--text-faint)]">
                           {String(idx + 1).padStart(2, "0")}
                         </span>
                         <span
@@ -82,7 +82,7 @@ export default function QuizesPage() {
                           {count} challenges
                         </span>
                       </div>
-                      <p className="text-white/85 font-semibold text-sm leading-snug mb-4">
+                      <p className="text-[var(--text-muted)] font-semibold text-sm leading-snug mb-4">
                         {lesson.title}
                       </p>
                       <div className="flex items-center justify-between">
@@ -91,7 +91,7 @@ export default function QuizesPage() {
                             <div key={c} className={`w-1.5 h-1.5 rounded-full bg-${c}-400`} />
                           ))}
                         </div>
-                        <span className="flex items-center gap-1 text-xs font-semibold text-white/40 group-hover:text-white transition-colors">
+                        <span className="flex items-center gap-1 text-xs font-semibold text-[var(--text-faint)] group-hover:text-[var(--text)] transition-colors">
                           Take Quiz <ChevronRight size={13} />
                         </span>
                       </div>
@@ -100,20 +100,20 @@ export default function QuizesPage() {
                 ) : (
                   <div
                     key={lesson.id}
-                    className="rounded-2xl border border-white/5 opacity-45"
+                    className="rounded-2xl border border-[var(--border)] opacity-45"
                     style={{ backgroundColor: "var(--navy-card)" }}
                   >
                     <div className="p-4">
                       <div className="flex items-start justify-between gap-2 mb-3">
-                        <span className="text-xs font-mono text-white/20">
+                        <span className="text-xs font-mono text-[var(--text-faint)]">
                           {String(idx + 1).padStart(2, "0")}
                         </span>
-                        <Lock size={13} className="text-white/20 mt-0.5" />
+                        <Lock size={13} className="text-[var(--text-faint)] mt-0.5" />
                       </div>
-                      <p className="text-white/40 font-semibold text-sm leading-snug mb-4">
+                      <p className="text-[var(--text-faint)] font-semibold text-sm leading-snug mb-4">
                         {lesson.title}
                       </p>
-                      <p className="text-white/25 text-xs">Coming soon</p>
+                      <p className="text-[var(--text-faint)] text-xs">Coming soon</p>
                     </div>
                   </div>
                 );

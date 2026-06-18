@@ -26,8 +26,8 @@ export default async function SchedulePage() {
           <Calendar size={18} color="white" />
         </div>
         <div>
-          <h1 className="text-xl font-bold text-white">Schedule</h1>
-          <p className="text-white/40 text-xs">Manage your Speak-Up classes</p>
+          <h1 className="text-xl font-bold text-[var(--text)]">Schedule</h1>
+          <p className="text-[var(--text-faint)] text-xs">Manage your Speak-Up classes</p>
         </div>
       </div>
 
@@ -36,7 +36,7 @@ export default async function SchedulePage() {
       <div className="grid grid-cols-1 lg:grid-cols-2 gap-6">
         {/* Upcoming classes */}
         <div className="rounded-2xl p-5 shadow-lg" style={{ backgroundColor: "var(--navy-card)" }}>
-          <h2 className="text-white font-semibold text-sm mb-4 flex items-center gap-2">
+          <h2 className="text-[var(--text)] font-semibold text-sm mb-4 flex items-center gap-2">
             <Clock size={14} className="text-indigo-400" />
             Upcoming Classes
           </h2>
@@ -46,19 +46,19 @@ export default async function SchedulePage() {
               Couldn&apos;t load your calendar. Please try again later.
             </p>
           ) : events.length === 0 ? (
-            <p className="text-white/30 text-sm italic">No classes scheduled yet.</p>
+            <p className="text-[var(--text-faint)] text-sm italic">No classes scheduled yet.</p>
           ) : (
             <div className="space-y-2 max-h-[480px] overflow-y-auto pr-1">
               {events.map((event) => (
                 <div
                   key={event.id}
-                  className="rounded-xl p-3 border border-white/5"
-                  style={{ backgroundColor: "rgba(255,255,255,0.04)" }}
+                  className="rounded-xl p-3 border border-[var(--border)]"
+                  style={{ backgroundColor: "var(--elev-1)" }}
                 >
                   <div className="flex items-start justify-between gap-2">
-                    <span className="text-white font-medium text-sm">{event.summary}</span>
+                    <span className="text-[var(--text)] font-medium text-sm">{event.summary}</span>
                   </div>
-                  <p className="text-white/40 text-xs mt-0.5">{formatEventTime(event)}</p>
+                  <p className="text-[var(--text-faint)] text-xs mt-0.5">{formatEventTime(event)}</p>
                   {event.attendees && event.attendees.length > 0 && (
                     <div className="flex items-center gap-1.5 mt-2 flex-wrap">
                       <Users size={11} className="text-indigo-400 shrink-0" />

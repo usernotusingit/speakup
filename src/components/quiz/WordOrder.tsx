@@ -43,22 +43,22 @@ export default function WordOrder({ challenge, onComplete }: Props) {
   return (
     <div className="flex flex-col gap-5 fade-in">
       {/* PT hint */}
-      <p className="text-white/40 text-sm italic text-center">{challenge.hint}</p>
+      <p className="text-[var(--text-faint)] text-sm italic text-center">{challenge.hint}</p>
 
       {/* Answer area */}
       <div>
-        <p className="text-white/30 text-xs uppercase tracking-wider mb-2">Your answer</p>
+        <p className="text-[var(--text-faint)] text-xs uppercase tracking-wider mb-2">Your answer</p>
         <div
           className={`min-h-[60px] rounded-xl border-2 border-dashed p-3 flex flex-wrap gap-2 transition-colors ${
             !isChecked
-              ? "border-white/15"
+              ? "border-[var(--border)]"
               : result
               ? "border-emerald-500/60"
               : "border-rose-500/60"
           }`}
         >
           {placed.length === 0 ? (
-            <span className="text-white/20 text-sm self-center">Tap words below to build the sentence…</span>
+            <span className="text-[var(--text-faint)] text-sm self-center">Tap words below to build the sentence…</span>
           ) : (
             placed.map((tile) => (
               <button
@@ -83,13 +83,13 @@ export default function WordOrder({ challenge, onComplete }: Props) {
       {/* Word pool */}
       {pool.length > 0 && (
         <div>
-          <p className="text-white/30 text-xs uppercase tracking-wider mb-2">Words</p>
+          <p className="text-[var(--text-faint)] text-xs uppercase tracking-wider mb-2">Words</p>
           <div className="flex flex-wrap gap-2">
             {pool.map((tile) => (
               <button
                 key={tile.id}
                 onClick={() => addToAnswer(tile)}
-                className="px-3 py-1.5 rounded-lg border border-white/15 text-white/70 hover:border-indigo-400/60 hover:text-white hover:bg-indigo-500/10 text-sm font-medium transition-colors"
+                className="px-3 py-1.5 rounded-lg border border-[var(--border)] text-[var(--text-muted)] hover:border-indigo-400/60 hover:text-[var(--text)] hover:bg-indigo-500/10 text-sm font-medium transition-colors"
               >
                 {tile.word}
               </button>
@@ -106,7 +106,7 @@ export default function WordOrder({ challenge, onComplete }: Props) {
           ) : (
             <p className="text-rose-400 text-sm">
               <span className="font-semibold">Oops!</span> The correct answer is:{" "}
-              <span className="font-bold text-white/80">{challenge.answer}</span>
+              <span className="font-bold text-[var(--text-muted)]">{challenge.answer}</span>
             </p>
           )}
           <button

@@ -12,7 +12,7 @@ const levelBadgeColors: Record<string, string> = {
 export default function BooksPage() {
   return (
     <div className="fade-in">
-      <h2 className="text-white font-bold text-xl mb-6">Books</h2>
+      <h2 className="text-[var(--text)] font-bold text-xl mb-6">Books</h2>
       <div className="grid grid-cols-2 sm:grid-cols-3 md:grid-cols-4 lg:grid-cols-5 gap-4">
         {booksData.books.map((book) => (
           <Link key={book.id} href={`/books/${book.id}`}>

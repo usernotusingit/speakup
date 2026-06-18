@@ -42,15 +42,15 @@ export default function FlipCards({ challenge, onComplete }: Props) {
     return (
       <div className="flex flex-col items-center gap-6 py-8 fade-in">
         <div className="text-5xl">🎴</div>
-        <h3 className="text-white font-bold text-xl">Cards Complete!</h3>
+        <h3 className="text-[var(--text)] font-bold text-xl">Cards Complete!</h3>
         <div className="flex gap-6 text-sm">
           <div className="text-center">
             <div className="text-emerald-400 font-bold text-2xl">{gotIt}</div>
-            <div className="text-white/50">Got it</div>
+            <div className="text-[var(--text-faint)]">Got it</div>
           </div>
           <div className="text-center">
             <div className="text-rose-400 font-bold text-2xl">{notYet}</div>
-            <div className="text-white/50">Not yet</div>
+            <div className="text-[var(--text-faint)]">Not yet</div>
           </div>
         </div>
         <button
@@ -70,7 +70,7 @@ export default function FlipCards({ challenge, onComplete }: Props) {
         <span className="text-xs font-bold uppercase tracking-wider text-indigo-400 bg-indigo-900/40 px-3 py-1 rounded-full">
           {challenge.label}
         </span>
-        <span className="text-white/40 text-sm font-mono">
+        <span className="text-[var(--text-faint)] text-sm font-mono">
           {idx + 1} / {total}
         </span>
       </div>
@@ -90,16 +90,16 @@ export default function FlipCards({ challenge, onComplete }: Props) {
         >
           {/* Front */}
           <div
-            className="absolute inset-0 flex flex-col items-center justify-center rounded-2xl border border-white/10 gap-3"
+            className="absolute inset-0 flex flex-col items-center justify-center rounded-2xl border border-[var(--border)] gap-3"
             style={{
               backgroundColor: "var(--navy-card)",
               backfaceVisibility: "hidden",
             }}
           >
-            <span className="text-white/30 text-xs uppercase tracking-widest">English</span>
-            <span className="text-white font-bold text-2xl text-center px-6">{card.en}</span>
+            <span className="text-[var(--text-faint)] text-xs uppercase tracking-widest">English</span>
+            <span className="text-[var(--text)] font-bold text-2xl text-center px-6">{card.en}</span>
             {!flipped && (
-              <span className="text-white/30 text-xs mt-2">Tap to reveal</span>
+              <span className="text-[var(--text-faint)] text-xs mt-2">Tap to reveal</span>
             )}
           </div>
 

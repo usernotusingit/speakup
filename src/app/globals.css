@@ -1,21 +1,52 @@
 @import "tailwindcss";
 
+/* ─── Theme tokens ────────────────────────────────────────────────────────────
+   Default (:root) is the original DARK theme, so server-rendered HTML matches
+   the historic look. [data-theme="light"] overrides for light mode. The --navy*
+   names are kept so every existing `var(--navy*)` surface flips for free. */
 :root {
-  --navy: #1a2744;
-  --navy-light: #243459;
-  --navy-card: #1e2f55;
+  --navy: #1a2744;        /* page background */
+  --navy-light: #243459;  /* raised surface / inputs */
+  --navy-card: #1e2f55;   /* cards / navbar */
   --accent: #5c6bc0;
   --accent-hover: #4f5ea8;
   --accent-light: #7986cb;
   --white: #ffffff;
-  --text-muted: #94a3b8;
+
+  --text: #ffffff;                       /* primary text on the shell */
+  --text-muted: rgba(255, 255, 255, 0.62);
+  --text-faint: rgba(255, 255, 255, 0.45);
+  --border: rgba(255, 255, 255, 0.08);
+  --elev-1: rgba(255, 255, 255, 0.05);   /* subtle raised fill */
+  --elev-2: rgba(255, 255, 255, 0.10);   /* hover / stronger fill */
+
+  color-scheme: dark;
+}
+
+:root[data-theme="light"] {
+  --navy: #eef2f7;
+  --navy-light: #ffffff;
+  --navy-card: #ffffff;
+  --accent: #5c6bc0;
+  --accent-hover: #4f5ea8;
+  --accent-light: #5c6bc0;
+
+  --text: #1e293b;
+  --text-muted: #64748b;
+  --text-faint: #94a3b8;
+  --border: rgba(15, 23, 42, 0.10);
+  --elev-1: rgba(15, 23, 42, 0.04);
+  --elev-2: rgba(15, 23, 42, 0.08);
+
+  color-scheme: light;
 }
 
 body {
   background-color: var(--navy);
-  color: var(--white);
+  color: var(--text);
   font-family: 'Inter', system-ui, -apple-system, sans-serif;
   min-height: 100vh;
+  transition: background-color 0.2s ease, color 0.2s ease;
 }
 
 @keyframes fadeIn {

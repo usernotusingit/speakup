@@ -12,11 +12,11 @@ export default async function QuizPage({ params }: { params: Promise<{ id: strin
   return (
     <div className="fade-in max-w-2xl mx-auto">
       <div className="flex items-center gap-3 mb-6">
-        <Link href="/quizes" className="flex items-center gap-1 text-white/60 hover:text-white transition-colors text-sm">
+        <Link href="/quizes" className="flex items-center gap-1 text-[var(--text-muted)] hover:text-[var(--text)] transition-colors text-sm">
           <ChevronLeft size={16} /> Quizzes
         </Link>
-        <span className="text-white/30">/</span>
-        <span className="text-white font-semibold">{quiz.title}</span>
+        <span className="text-[var(--text-faint)]">/</span>
+        <span className="text-[var(--text)] font-semibold">{quiz.title}</span>
       </div>
 
       <QuizRunner quiz={quiz as { id: number; title: string; level: string; questions: { q: string; options: string[]; answer: number }[] }} />

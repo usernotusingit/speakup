@@ -45,14 +45,14 @@ export default async function DashboardPage() {
       <div className="rounded-2xl p-6 shadow-lg" style={{ backgroundColor: "var(--navy-card)" }}>
         <div className="flex flex-col md:flex-row md:items-start gap-4">
           <div className="flex-1">
-            <p className="text-white/40 text-sm mb-1">Welcome Back,</p>
-            <h1 className="text-2xl font-bold text-white">{user?.name}</h1>
+            <p className="text-[var(--text-faint)] text-sm mb-1">Welcome Back,</p>
+            <h1 className="text-2xl font-bold text-[var(--text)]">{user?.name}</h1>
             <div className="flex flex-wrap gap-4 mt-3">
-              <span className="flex items-center gap-1.5 text-sm text-white/50">
+              <span className="flex items-center gap-1.5 text-sm text-[var(--text-faint)]">
                 <MapPin size={14} className="text-indigo-400" />
                 Speak-Up English School
               </span>
-              <span className="flex items-center gap-1.5 text-sm text-white/50">
+              <span className="flex items-center gap-1.5 text-sm text-[var(--text-faint)]">
                 <User size={14} className="text-indigo-400" />
                 {role === "teacher" ? "Teacher" : "Student"}
               </span>
@@ -79,7 +79,7 @@ export default async function DashboardPage() {
           <div className="md:w-72">
             <div className="flex items-center gap-2 mb-3">
               <Calendar size={16} className="text-indigo-400" />
-              <span className="font-semibold text-white/70 text-sm">
+              <span className="font-semibold text-[var(--text-muted)] text-sm">
                 {role === "teacher" ? "Your Schedule" : "Your Classes"}
               </span>
             </div>
@@ -89,19 +89,19 @@ export default async function DashboardPage() {
                   Couldn&apos;t load classes. Try again later.
                 </p>
               ) : calendarEvents.length === 0 ? (
-                <p className="text-xs text-white/30 italic">
+                <p className="text-xs text-[var(--text-faint)] italic">
                   {role === "teacher" ? "No classes scheduled" : "No classes booked yet"}
                 </p>
               ) : (
                 calendarEvents.map((event) => (
                   <div
                     key={event.id}
-                    className="text-xs text-white/60 py-1 border-l-2 pl-2"
+                    className="text-xs text-[var(--text-muted)] py-1 border-l-2 pl-2"
                     style={{ borderColor: "#5c6bc0" }}
                   >
-                    <span className="font-medium text-white/80">{event.summary}</span>
+                    <span className="font-medium text-[var(--text-muted)]">{event.summary}</span>
                     <br />
-                    <span className="text-white/40">{formatEventTime(event)}</span>
+                    <span className="text-[var(--text-faint)]">{formatEventTime(event)}</span>
                     {role === "teacher" && event.attendees && event.attendees.length > 0 && (
                       <>
                         <br />
@@ -123,7 +123,7 @@ export default async function DashboardPage() {
         {/* Quick access */}
         <div className="rounded-2xl p-5 shadow-lg"
           style={{ backgroundColor: "var(--navy-card)" }}>
-          <h3 className="text-white font-semibold mb-4 text-sm">Quick Access</h3>
+          <h3 className="text-[var(--text)] font-semibold mb-4 text-sm">Quick Access</h3>
           <div className="space-y-2">
             {[
               { label: "Books", href: "/books", icon: BookOpen, color: "#dc2626" },
@@ -137,8 +137,8 @@ export default async function DashboardPage() {
                   style={{ backgroundColor: color }}>
                   <Icon size={14} color="white" />
                 </div>
-                <span className="text-white text-sm font-medium">{label}</span>
-                <span className="ml-auto text-white/40 text-xs">Access →</span>
+                <span className="text-[var(--text)] text-sm font-medium">{label}</span>
+                <span className="ml-auto text-[var(--text-faint)] text-xs">Access →</span>
               </Link>
             ))}
           </div>
@@ -146,7 +146,7 @@ export default async function DashboardPage() {
 
         {/* Lessons per week chart */}
         <div className="md:col-span-2 rounded-2xl p-5 shadow-lg" style={{ backgroundColor: "var(--navy-card)" }}>
-          <h3 className="text-white/70 font-semibold mb-4 text-sm">Lessons per week</h3>
+          <h3 className="text-[var(--text-muted)] font-semibold mb-4 text-sm">Lessons per week</h3>
           <LessonsChart />
         </div>
       </div>

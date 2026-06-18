@@ -72,22 +72,22 @@ export default function ScheduleForm() {
   }
 
   const inputClass =
-    "w-full rounded-xl px-3 py-2 text-sm text-white outline-none focus:ring-1 focus:ring-indigo-500 transition";
+    "w-full rounded-xl px-3 py-2 text-sm text-[var(--text)] outline-none focus:ring-1 focus:ring-indigo-500 transition";
   const inputStyle = {
-    backgroundColor: "rgba(255,255,255,0.06)",
-    border: "1px solid rgba(255,255,255,0.08)",
+    backgroundColor: "var(--elev-1)",
+    border: "1px solid var(--border)",
   };
 
   return (
     <div className="rounded-2xl p-5 shadow-lg" style={{ backgroundColor: "var(--navy-card)" }}>
-      <h2 className="text-white font-semibold text-sm mb-4 flex items-center gap-2">
+      <h2 className="text-[var(--text)] font-semibold text-sm mb-4 flex items-center gap-2">
         <CalendarPlus size={14} className="text-indigo-400" />
         New Class
       </h2>
 
       <form onSubmit={handleSubmit} className="space-y-3">
         <div>
-          <label className="text-white/50 text-xs mb-1 block">Title</label>
+          <label className="text-[var(--text-faint)] text-xs mb-1 block">Title</label>
           <input
             className={inputClass}
             style={inputStyle}
@@ -99,7 +99,7 @@ export default function ScheduleForm() {
         </div>
 
         <div>
-          <label className="text-white/50 text-xs mb-1 block">Date</label>
+          <label className="text-[var(--text-faint)] text-xs mb-1 block">Date</label>
           <input
             type="date"
             className={inputClass}
@@ -112,7 +112,7 @@ export default function ScheduleForm() {
 
         <div className="grid grid-cols-2 gap-3">
           <div>
-            <label className="text-white/50 text-xs mb-1 block">Start</label>
+            <label className="text-[var(--text-faint)] text-xs mb-1 block">Start</label>
             <input
               type="time"
               className={inputClass}
@@ -123,7 +123,7 @@ export default function ScheduleForm() {
             />
           </div>
           <div>
-            <label className="text-white/50 text-xs mb-1 block">End</label>
+            <label className="text-[var(--text-faint)] text-xs mb-1 block">End</label>
             <input
               type="time"
               className={inputClass}
@@ -136,7 +136,7 @@ export default function ScheduleForm() {
         </div>
 
         <div>
-          <label className="text-white/50 text-xs mb-1 block">Students</label>
+          <label className="text-[var(--text-faint)] text-xs mb-1 block">Students</label>
           <div className="flex gap-2">
             <input
               className={inputClass}
@@ -169,7 +169,7 @@ export default function ScheduleForm() {
                   <button
                     type="button"
                     onClick={() => removeAttendee(email)}
-                    className="hover:text-white transition"
+                    className="hover:text-[var(--text)] transition"
                   >
                     <X size={10} />
                   </button>

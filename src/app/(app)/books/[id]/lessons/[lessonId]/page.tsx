@@ -35,15 +35,15 @@ export default async function LessonPage({
     <div className="fade-in max-w-3xl mx-auto">
       {/* Breadcrumb */}
       <div className="flex items-center gap-2 mb-6 text-sm">
-        <Link href="/books" className="text-white/40 hover:text-white transition-colors">
+        <Link href="/books" className="text-[var(--text-faint)] hover:text-[var(--text)] transition-colors">
           Books
         </Link>
-        <span className="text-white/20">/</span>
-        <Link href={`/books/${book.id}`} className="text-white/40 hover:text-white transition-colors">
+        <span className="text-[var(--text-faint)]">/</span>
+        <Link href={`/books/${book.id}`} className="text-[var(--text-faint)] hover:text-[var(--text)] transition-colors">
           {book.title}
         </Link>
-        <span className="text-white/20">/</span>
-        <span className="text-white/80 font-medium">{rawLesson.title}</span>
+        <span className="text-[var(--text-faint)]">/</span>
+        <span className="text-[var(--text-muted)] font-medium">{rawLesson.title}</span>
       </div>
 
       {/* Lesson */}
@@ -65,7 +65,7 @@ export default async function LessonPage({
         {prev ? (
           <Link
             href={`/books/${book.id}/lessons/${prev.id}`}
-            className="flex items-center gap-2 px-4 py-2.5 rounded-xl bg-white/5 hover:bg-white/10 text-white/60 hover:text-white transition-all text-sm"
+            className="flex items-center gap-2 px-4 py-2.5 rounded-xl bg-[var(--elev-1)] hover:bg-[var(--elev-2)] text-[var(--text-muted)] hover:text-[var(--text)] transition-all text-sm"
           >
             <ChevronLeft size={15} />
             <span>{prev.title}</span>
@@ -76,7 +76,7 @@ export default async function LessonPage({
         {next ? (
           <Link
             href={`/books/${book.id}/lessons/${next.id}`}
-            className="flex items-center gap-2 px-4 py-2.5 rounded-xl bg-white/5 hover:bg-white/10 text-white/60 hover:text-white transition-all text-sm"
+            className="flex items-center gap-2 px-4 py-2.5 rounded-xl bg-[var(--elev-1)] hover:bg-[var(--elev-2)] text-[var(--text-muted)] hover:text-[var(--text)] transition-all text-sm"
           >
             <span>{next.title}</span>
             <ChevronRight size={15} />

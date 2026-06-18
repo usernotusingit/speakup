@@ -20,19 +20,19 @@ export default async function QuizPage({
     return (
       <div className="fade-in max-w-lg mx-auto mt-8">
         <div className="flex items-center gap-2 mb-6 text-sm flex-wrap">
-          <Link href="/books" className="text-white/40 hover:text-white transition-colors">Books</Link>
-          <span className="text-white/20">/</span>
-          <Link href={`/books/${book.id}`} className="text-white/40 hover:text-white transition-colors">{book.title}</Link>
-          <span className="text-white/20">/</span>
-          <Link href={`/books/${book.id}/lessons/${lesson.id}`} className="text-white/40 hover:text-white transition-colors">{lesson.title}</Link>
-          <span className="text-white/20">/</span>
-          <span className="text-white/80 font-medium">Quiz</span>
+          <Link href="/books" className="text-[var(--text-faint)] hover:text-[var(--text)] transition-colors">Books</Link>
+          <span className="text-[var(--text-faint)]">/</span>
+          <Link href={`/books/${book.id}`} className="text-[var(--text-faint)] hover:text-[var(--text)] transition-colors">{book.title}</Link>
+          <span className="text-[var(--text-faint)]">/</span>
+          <Link href={`/books/${book.id}/lessons/${lesson.id}`} className="text-[var(--text-faint)] hover:text-[var(--text)] transition-colors">{lesson.title}</Link>
+          <span className="text-[var(--text-faint)]">/</span>
+          <span className="text-[var(--text-muted)] font-medium">Quiz</span>
         </div>
-        <div className="rounded-2xl p-10 flex flex-col items-center gap-4 border border-white/10"
+        <div className="rounded-2xl p-10 flex flex-col items-center gap-4 border border-[var(--border)]"
           style={{ backgroundColor: "var(--navy-card)" }}>
           <div className="text-5xl">📚</div>
-          <h2 className="text-white font-bold text-xl">Quiz Not Ready Yet</h2>
-          <p className="text-white/50 text-sm text-center max-w-sm">
+          <h2 className="text-[var(--text)] font-bold text-xl">Quiz Not Ready Yet</h2>
+          <p className="text-[var(--text-faint)] text-sm text-center max-w-sm">
             This lesson doesn&apos;t have enough content for a full quiz yet.
           </p>
           <Link href={`/books/${book.id}/lessons/${lesson.id}`}
@@ -50,13 +50,13 @@ export default async function QuizPage({
     <div className="fade-in">
       {/* Breadcrumb */}
       <div className="flex items-center gap-2 mb-6 text-sm flex-wrap">
-        <Link href="/books" className="text-white/40 hover:text-white transition-colors">Books</Link>
-        <span className="text-white/20">/</span>
-        <Link href={`/books/${book.id}`} className="text-white/40 hover:text-white transition-colors">{book.title}</Link>
-        <span className="text-white/20">/</span>
-        <Link href={`/books/${book.id}/lessons/${lesson.id}`} className="text-white/40 hover:text-white transition-colors">{lesson.title}</Link>
-        <span className="text-white/20">/</span>
-        <span className="text-white/80 font-medium">Quiz</span>
+        <Link href="/books" className="text-[var(--text-faint)] hover:text-[var(--text)] transition-colors">Books</Link>
+        <span className="text-[var(--text-faint)]">/</span>
+        <Link href={`/books/${book.id}`} className="text-[var(--text-faint)] hover:text-[var(--text)] transition-colors">{book.title}</Link>
+        <span className="text-[var(--text-faint)]">/</span>
+        <Link href={`/books/${book.id}/lessons/${lesson.id}`} className="text-[var(--text-faint)] hover:text-[var(--text)] transition-colors">{lesson.title}</Link>
+        <span className="text-[var(--text-faint)]">/</span>
+        <span className="text-[var(--text-muted)] font-medium">Quiz</span>
       </div>
 
       <QuizEngine challenges={challenges} lessonTitle={lesson.title} />

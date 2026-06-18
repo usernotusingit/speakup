@@ -11,11 +11,11 @@ export default async function BookPage({ params }: { params: Promise<{ id: strin
   return (
     <div className="fade-in">
       <div className="flex items-center gap-3 mb-6">
-        <Link href="/books" className="flex items-center gap-1 text-white/60 hover:text-white transition-colors text-sm">
+        <Link href="/books" className="flex items-center gap-1 text-[var(--text-muted)] hover:text-[var(--text)] transition-colors text-sm">
           <ChevronLeft size={16} /> Books
         </Link>
-        <span className="text-white/30">/</span>
-        <span className="text-white font-semibold">{book.title}</span>
+        <span className="text-[var(--text-faint)]">/</span>
+        <span className="text-[var(--text)] font-semibold">{book.title}</span>
         <span className="text-xs px-2 py-0.5 rounded-full text-white font-bold"
           style={{ backgroundColor: "#5c6bc0" }}>{book.level}</span>
       </div>

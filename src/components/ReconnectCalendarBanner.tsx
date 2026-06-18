@@ -31,8 +31,8 @@ export default function ReconnectCalendarBanner({
     >
       <AlertTriangle size={18} className="text-yellow-400 shrink-0 mt-0.5" />
       <div className="flex-1">
-        <p className="text-white text-sm font-semibold">Google Calendar not connected</p>
-        <p className="text-white/50 text-xs mt-0.5">
+        <p className="text-[var(--text)] text-sm font-semibold">Google Calendar not connected</p>
+        <p className="text-[var(--text-faint)] text-xs mt-0.5">
           Reconnect your Google account to grant calendar access so your Speak-Up
           classes can be created and shown here.
         </p>

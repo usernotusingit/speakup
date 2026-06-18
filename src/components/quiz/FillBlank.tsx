@@ -26,7 +26,7 @@ export default function FillBlank({ challenge, onComplete }: Props) {
     const base =
       "w-full flex items-center gap-3 px-4 py-3 rounded-xl border text-left transition-all text-sm font-medium";
     if (!isAnswered) {
-      return `${base} border-white/10 text-white/80 hover:border-indigo-400/60 hover:text-white hover:bg-white/5 cursor-pointer`;
+      return `${base} border-[var(--border)] text-[var(--text-muted)] hover:border-indigo-400/60 hover:text-[var(--text)] hover:bg-[var(--elev-1)] cursor-pointer`;
     }
     if (i === challenge.answer) {
       return `${base} border-emerald-500 bg-emerald-500/20 text-emerald-300 cursor-default`;
@@ -34,17 +34,17 @@ export default function FillBlank({ challenge, onComplete }: Props) {
     if (i === selected) {
       return `${base} border-rose-500 bg-rose-500/20 text-rose-300 cursor-default`;
     }
-    return `${base} border-white/5 text-white/30 cursor-default`;
+    return `${base} border-[var(--border)] text-[var(--text-faint)] cursor-default`;
   }
 
   return (
     <div className="flex flex-col gap-5 fade-in">
       {/* Sentence with blank */}
       <div
-        className="rounded-2xl px-6 py-5 border border-white/10"
+        className="rounded-2xl px-6 py-5 border border-[var(--border)]"
         style={{ backgroundColor: "var(--navy-card)" }}
       >
-        <p className="text-white text-lg font-semibold leading-relaxed">
+        <p className="text-[var(--text)] text-lg font-semibold leading-relaxed">
           {challenge.before && <span>{challenge.before} </span>}
           {filledWord ? (
             <span
@@ -61,7 +61,7 @@ export default function FillBlank({ challenge, onComplete }: Props) {
           )}
           {challenge.after && <span> {challenge.after}</span>}
         </p>
-        <p className="text-white/40 text-sm italic mt-2">{challenge.hint}</p>
+        <p className="text-[var(--text-faint)] text-sm italic mt-2">{challenge.hint}</p>
       </div>
 
       {/* Options */}

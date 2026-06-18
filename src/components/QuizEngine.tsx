@@ -76,7 +76,7 @@ function Sidebar({
 
       {/* Dot grid */}
       <div className="rounded-2xl p-4" style={{ backgroundColor: "var(--navy-card)" }}>
-        <p className="text-white/30 text-xs font-semibold uppercase tracking-widest mb-3">
+        <p className="text-[var(--text-faint)] text-xs font-semibold uppercase tracking-widest mb-3">
           {challenges.length} challenges
         </p>
 
@@ -95,7 +95,7 @@ function Sidebar({
               else if (res.correct)     cls = "bg-emerald-400";
               else                      cls = "bg-rose-400";
             } else {
-              cls = "bg-white/12";
+              cls = "bg-[var(--elev-2)]";
             }
 
             return (
@@ -118,8 +118,8 @@ function Sidebar({
             return (
               <div key={type} className="flex items-center gap-2">
                 <div className={`w-2 h-2 rounded-full shrink-0 ${m.dot}`} />
-                <span className="text-white/35 text-xs truncate flex-1">{m.label}</span>
-                <span className="text-white/20 text-xs font-mono">{n}</span>
+                <span className="text-[var(--text-faint)] text-xs truncate flex-1">{m.label}</span>
+                <span className="text-[var(--text-faint)] text-xs font-mono">{n}</span>
               </div>
             );
           })}
@@ -128,28 +128,28 @@ function Sidebar({
 
       {/* Current challenge card */}
       <div className="rounded-2xl p-3.5" style={{ backgroundColor: "var(--navy-card)" }}>
-        <p className="text-white/25 text-xs mb-1.5 uppercase tracking-wide font-semibold">Now</p>
+        <p className="text-[var(--text-faint)] text-xs mb-1.5 uppercase tracking-wide font-semibold">Now</p>
         <div className={`flex items-center gap-1.5 text-xs font-bold mb-1 ${meta.color}`}>
           <meta.Icon size={12} />
           {meta.label}
         </div>
-        <p className="text-white/45 text-xs leading-snug">{briefLabel(current)}</p>
+        <p className="text-[var(--text-faint)] text-xs leading-snug">{briefLabel(current)}</p>
       </div>
 
       {/* Dot legend */}
       <div className="rounded-2xl px-4 py-3" style={{ backgroundColor: "var(--navy-card)" }}>
-        <p className="text-white/25 text-xs font-semibold uppercase tracking-wide mb-2">Key</p>
+        <p className="text-[var(--text-faint)] text-xs font-semibold uppercase tracking-wide mb-2">Key</p>
         <div className="space-y-1.5">
           {[
             { cls: "bg-sky-400 ring-2 ring-white/50 ring-offset-1 ring-offset-[#141e30]", label: "Current" },
             { cls: "bg-emerald-400", label: "Correct" },
             { cls: "bg-rose-400",    label: "Wrong"   },
             { cls: "bg-indigo-400 opacity-50",  label: "Cards (self)" },
-            { cls: "bg-white/12",   label: "Upcoming" },
+            { cls: "bg-[var(--elev-2)]",   label: "Upcoming" },
           ].map(({ cls, label }) => (
             <div key={label} className="flex items-center gap-2">
               <div className={`w-2.5 h-2.5 rounded-full shrink-0 ${cls}`} />
-              <span className="text-white/30 text-xs">{label}</span>
+              <span className="text-[var(--text-faint)] text-xs">{label}</span>
             </div>
           ))}
         </div>
@@ -193,14 +193,14 @@ export default function QuizEngine({ challenges, lessonTitle }: { challenges: Ch
           <Trophy size={44} className="text-amber-400 mt-2" />
 
           <div className="text-center">
-            <h2 className="text-white font-bold text-2xl mb-1">Quiz Complete!</h2>
-            <p className="text-white/40 text-sm">{lessonTitle}</p>
+            <h2 className="text-[var(--text)] font-bold text-2xl mb-1">Quiz Complete!</h2>
+            <p className="text-[var(--text-faint)] text-sm">{lessonTitle}</p>
           </div>
 
           {scored.length > 0 && (
             <div className="text-center">
-              <div className="text-5xl font-bold text-white mb-1">
-                {correct}<span className="text-white/30 text-2xl"> / {scored.length}</span>
+              <div className="text-5xl font-bold text-[var(--text)] mb-1">
+                {correct}<span className="text-[var(--text-faint)] text-2xl"> / {scored.length}</span>
               </div>
               <p className="text-indigo-300 text-sm font-medium">{perfMsg(correct, scored.length)}</p>
             </div>
@@ -212,11 +212,11 @@ export default function QuizEngine({ challenges, lessonTitle }: { challenges: Ch
               if (!res) return null;
               const m = TYPE_META[c.type];
               return (
-                <div key={i} className="flex items-center gap-3 px-3 py-2 rounded-xl border border-white/5 bg-white/3 text-xs">
+                <div key={i} className="flex items-center gap-3 px-3 py-2 rounded-xl border border-[var(--border)] bg-[var(--elev-1)] text-xs">
                   <m.Icon size={12} className={`${m.color} shrink-0`} />
-                  <span className="flex-1 text-white/45 truncate">{reviewLabel(c)}</span>
+                  <span className="flex-1 text-[var(--text-faint)] truncate">{reviewLabel(c)}</span>
                   {res.correct === null
-                    ? <span className="text-white/25 shrink-0">cards</span>
+                    ? <span className="text-[var(--text-faint)] shrink-0">cards</span>
                     : res.correct
                     ? <CheckCircle size={13} className="text-emerald-400 shrink-0" />
                     : <XCircle    size={13} className="text-rose-400 shrink-0" />}
@@ -244,13 +244,13 @@ export default function QuizEngine({ challenges, lessonTitle }: { challenges: Ch
 
       <div className="flex-1 rounded-2xl p-6" style={{ backgroundColor: "var(--navy-card)" }}>
         {/* Header */}
-        <div className="flex items-center justify-between mb-1 text-xs text-white/35">
+        <div className="flex items-center justify-between mb-1 text-xs text-[var(--text-faint)]">
           <span className="font-medium truncate pr-4">{lessonTitle}</span>
           <span className="font-mono shrink-0">{idx + 1} / {challenges.length}</span>
         </div>
 
         {/* Progress bar */}
-        <div className="w-full h-1 bg-white/8 rounded-full overflow-hidden mb-4">
+        <div className="w-full h-1 bg-[var(--elev-1)] rounded-full overflow-hidden mb-4">
           <div className="h-full bg-indigo-500 rounded-full transition-all duration-300"
             style={{ width: `${(idx / challenges.length) * 100}%` }} />
         </div>
