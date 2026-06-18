@@ -3937,6 +3937,213 @@
             "Alguém precisa comprar uma cadeira marrom e alguns móveis novos.",
             "Eu não conheço ninguém que vende móveis. Você conhece alguém?"
           ]
+        },
+        {
+          "id": 35,
+          "title": "Lesson 35 — Past Tense: Much, Many & People",
+          "verbs": [
+            {
+              "en": "to speak, spoke",
+              "pt": "falar (falei)"
+            },
+            {
+              "en": "to drink, drank",
+              "pt": "beber (bebi)"
+            },
+            {
+              "en": "to eat, ate",
+              "pt": "comer (comi)"
+            },
+            {
+              "en": "to say, said",
+              "pt": "dizer (disse)"
+            }
+          ],
+          "grammarPoints": [
+            {
+              "en": "They spoke a lot of English.",
+              "pt": "Eles falaram muito inglês."
+            },
+            {
+              "en": "My wife only drank water.",
+              "pt": "Minha esposa bebeu somente água."
+            },
+            {
+              "en": "They ate this dessert.",
+              "pt": "Eles comeram esta sobremesa."
+            },
+            {
+              "en": "I didn't talk to him during the class.",
+              "pt": "Eu não falei com ele durante a aula."
+            },
+            {
+              "en": "Paul didn't eat anything for lunch.",
+              "pt": "O Paul não comeu nada no almoço."
+            }
+          ],
+          "vocabulary": [
+            {
+              "en": "easy",
+              "pt": "fácil"
+            },
+            {
+              "en": "difficult",
+              "pt": "difícil"
+            },
+            {
+              "en": "long",
+              "pt": "comprido(a)"
+            },
+            {
+              "en": "short",
+              "pt": "curto(a)"
+            },
+            {
+              "en": "nice",
+              "pt": "legal"
+            },
+            {
+              "en": "handsome",
+              "pt": "bonito"
+            },
+            {
+              "en": "healthy",
+              "pt": "saudável"
+            },
+            {
+              "en": "pretty",
+              "pt": "bonita"
+            },
+            {
+              "en": "single",
+              "pt": "solteiro(a)"
+            },
+            {
+              "en": "married",
+              "pt": "casado(a)"
+            },
+            {
+              "en": "sandwich",
+              "pt": "sanduíche"
+            },
+            {
+              "en": "ham",
+              "pt": "presunto"
+            },
+            {
+              "en": "policeman",
+              "pt": "policial"
+            },
+            {
+              "en": "accident",
+              "pt": "acidente"
+            },
+            {
+              "en": "boyfriend",
+              "pt": "namorado"
+            },
+            {
+              "en": "girlfriend",
+              "pt": "namorada"
+            }
+          ],
+          "expressions": [
+            {
+              "en": "very much",
+              "pt": "muito"
+            },
+            {
+              "en": "so much / so many",
+              "pt": "tanto / tantos"
+            },
+            {
+              "en": "a little",
+              "pt": "um pouco"
+            },
+            {
+              "en": "nobody / nothing",
+              "pt": "ninguém / nada"
+            },
+            {
+              "en": "a lot of",
+              "pt": "muito(s) / muita(s)"
+            }
+          ],
+          "curiosity": "The word \"sandwich\" comes from John Montagu, the 4th Earl of Sandwich. He liked to eat meat between two slices of bread so he could keep playing cards without stopping for a meal — and the name stuck!",
+          "teachingGuide": "Passado dos verbos irregulares: speak→spoke, drink→drank, eat→ate, say→said. Não se acrescenta '-ed'.\n\nMuch x Many: 'much' para incontáveis (much money, much time); 'many' para contáveis (many friends, many glasses).\n\nDupla negativa NÃO existe em inglês: 'Eu não comi nada' = 'I didn't eat anything' (e não 'I didn't eat nothing').\n\n'Whole' = inteiro: the whole sandwich, the whole book.\n\nVocabulário novo de pessoas e lugares: policeman, accident, boyfriend/girlfriend, single/married, handsome.",
+          "homework": [
+            "Ele falava somente português até o ano passado. Agora ele fala inglês também.",
+            "Você estudou muitas lições difíceis este ano? Sim, mas estudei algumas fáceis também.",
+            "Eu fui a um churrasco no fim de semana e levei algumas cervejas.",
+            "Minha namorada bebeu muito vinho na festa. Agora ela está em apuros.",
+            "O policial e eu fomos para a rodovia e então ele me contou sobre o acidente.",
+            "Muitas pessoas também foram lá.",
+            "Ela comeu um sanduíche de queijo e presunto e bebeu um copo de suco de pêssego.",
+            "A professora leu o livro inteiro e nos falou sobre ele.",
+            "O namorado dela mora dois quarteirões daqui. Ele mora perto da ponte.",
+            "Alguns policiais comeram tanto durante o churrasco."
+          ]
+        },
+        {
+          "id": 36,
+          "title": "Lesson 36 — Review: Book One",
+          "verbs": [],
+          "grammarPoints": [
+            {
+              "en": "She washed the kitchen yesterday.",
+              "pt": "Ela lavou a cozinha ontem."
+            },
+            {
+              "en": "We watched a game yesterday morning.",
+              "pt": "Nós assistimos um jogo ontem de manhã."
+            },
+            {
+              "en": "I talked to the manager about the holiday.",
+              "pt": "Eu conversei com o gerente sobre o feriado."
+            },
+            {
+              "en": "What did you say?",
+              "pt": "O que você disse?"
+            },
+            {
+              "en": "I understood what you said.",
+              "pt": "Eu entendi o que você disse."
+            }
+          ],
+          "readingText": {
+            "title": "Looking Back at Book One",
+            "body": "We started Book One with simple verbs like 'to like' and 'to speak.' Now you can talk about your day, your family, and your food — in the present and in the past. You can ask questions with 'do,' 'does,' and 'did,' and you can use 'much' and 'many' correctly. You learned to talk about meals, colors, furniture, time, and even accidents and the police. This is the end of Book One, but it is only the beginning of your English. Take it easy, review a little every day, and keep practicing!",
+            "glossary": [
+              {
+                "en": "to look back",
+                "pt": "olhar para trás / relembrar"
+              },
+              {
+                "en": "the beginning",
+                "pt": "o começo"
+              },
+              {
+                "en": "to keep practicing",
+                "pt": "continuar praticando"
+              }
+            ]
+          },
+          "vocabulary": [],
+          "expressions": [],
+          "curiosity": "In Brazil, a \"churrasco\" (barbecue) is a whole social event that can last all afternoon. In the USA and UK a \"barbecue\" or \"cookout\" is similar, but hamburgers and hot dogs are more common than the big cuts of beef Brazilians love.",
+          "teachingGuide": "Lição de revisão de todo o Book One — sem novos verbos ou vocabulário. O foco é consolidar: presente e passado, do/does/did, much/many, 'whole', advérbios de frequência, cores, móveis, comida e família.\n\nUse a seção Practicing Part II para revisão oral intensiva (52 frases). As perguntas de warm-up servem para conversação livre.\n\nReforce os erros mais comuns: terceira pessoa do singular (-s), do x does, uso do 'did' no passado, e a ausência de dupla negativa em inglês.",
+          "homework": [
+            "Ela lavou a cozinha ontem e o carro há muito tempo atrás.",
+            "Eu conversei com o gerente sobre o feriado e a sobremesa.",
+            "Nós tínhamos bolo de sobremesa.",
+            "O que você disse para mim?",
+            "Ele fez o trabalho de casa, mas não terminou.",
+            "Aquela mulher bonita está na esquina.",
+            "Eu já levei a carne para a cozinha.",
+            "Você precisa ter uma boa saúde.",
+            "O policial disse que você está encrencado.",
+            "A namorada dele mora duas quadras daqui."
+          ]
         }
       ]
     },
