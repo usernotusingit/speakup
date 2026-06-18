@@ -40,6 +40,11 @@ yarn-error.log*
 # local claude code settings
 .claude/
 
+# python (audio generation scripts)
+.venv/
+__pycache__/
+*.pyc
+
 # vercel
 .vercel
 
