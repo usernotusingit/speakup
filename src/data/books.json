@@ -1354,6 +1354,2589 @@
             "Como você quer ir ao trabalho amanhã de manhã? Eu não sei como.",
             "Eu almoço com meus filhos todos os dias. Mas, eles não jantam comigo."
           ]
+        },
+        {
+          "id": 11,
+          "title": "Lesson 11 — To Be & Present Continuous",
+          "verbs": [
+            {
+              "en": "to be (am / is / are)",
+              "pt": "ser, estar"
+            }
+          ],
+          "grammarPoints": [
+            {
+              "en": "I am at home with my father.",
+              "pt": "Eu estou em casa com meu pai."
+            },
+            {
+              "en": "He is at the office.",
+              "pt": "Ele está no escritório."
+            },
+            {
+              "en": "They are not here.",
+              "pt": "Eles não estão aqui."
+            },
+            {
+              "en": "Are you in the city?",
+              "pt": "Vocês estão na cidade?"
+            },
+            {
+              "en": "I am studying English now.",
+              "pt": "Eu estou estudando inglês agora."
+            },
+            {
+              "en": "She is not going by car tonight.",
+              "pt": "Ela não está indo de carro hoje à noite."
+            }
+          ],
+          "vocabulary": [
+            {
+              "en": "boss",
+              "pt": "chefe"
+            },
+            {
+              "en": "manager",
+              "pt": "gerente"
+            },
+            {
+              "en": "waiter",
+              "pt": "garçom"
+            },
+            {
+              "en": "mailman",
+              "pt": "carteiro"
+            },
+            {
+              "en": "neighbor",
+              "pt": "vizinho"
+            },
+            {
+              "en": "husband",
+              "pt": "marido"
+            },
+            {
+              "en": "wife",
+              "pt": "esposa"
+            },
+            {
+              "en": "chicken",
+              "pt": "frango, galinha"
+            },
+            {
+              "en": "cow",
+              "pt": "vaca"
+            },
+            {
+              "en": "horse",
+              "pt": "cavalo"
+            },
+            {
+              "en": "pig",
+              "pt": "porco"
+            },
+            {
+              "en": "beef",
+              "pt": "carne bovina"
+            },
+            {
+              "en": "pork",
+              "pt": "carne de porco"
+            },
+            {
+              "en": "downtown",
+              "pt": "centro (da cidade)"
+            },
+            {
+              "en": "store",
+              "pt": "loja"
+            },
+            {
+              "en": "bank",
+              "pt": "banco"
+            },
+            {
+              "en": "post office",
+              "pt": "correios"
+            },
+            {
+              "en": "church",
+              "pt": "igreja"
+            },
+            {
+              "en": "old",
+              "pt": "velho"
+            },
+            {
+              "en": "new",
+              "pt": "novo"
+            },
+            {
+              "en": "big",
+              "pt": "grande"
+            },
+            {
+              "en": "small",
+              "pt": "pequeno"
+            }
+          ],
+          "expressions": [
+            {
+              "en": "by car",
+              "pt": "de carro"
+            },
+            {
+              "en": "by bus",
+              "pt": "de ônibus"
+            },
+            {
+              "en": "by train",
+              "pt": "de trem"
+            },
+            {
+              "en": "on foot",
+              "pt": "a pé"
+            },
+            {
+              "en": "in the morning",
+              "pt": "de manhã"
+            },
+            {
+              "en": "in the afternoon",
+              "pt": "de tarde"
+            },
+            {
+              "en": "in the evening",
+              "pt": "de noitinha"
+            },
+            {
+              "en": "at night",
+              "pt": "à noite"
+            },
+            {
+              "en": "on Monday",
+              "pt": "na segunda-feira"
+            },
+            {
+              "en": "every day",
+              "pt": "todos os dias"
+            },
+            {
+              "en": "every week",
+              "pt": "toda semana"
+            }
+          ],
+          "curiosity": "The verb \"to be\" is the most common verb in English — and the only one that fully changes with the subject (I am, you/we/they are, he/she/it is). It also powers the present continuous (I am working), which English speakers use constantly to talk about what's happening right now.",
+          "teachingGuide": "Verbs: o verbo 'to be' é especial — funciona como auxiliar, então as frases negativas e interrogativas são feitas com o próprio verbo (sem 'do/does'). Ex.: She is not here. / Are you at home? É o único verbo em inglês que muda conforme o sujeito: I am / you-we-they are / he-she-it is. Significados: to be = ser E estar.\n\nPresent Continuous: to be + verbo-ing descreve a ação acontecendo agora. Ex.: I am studying. / They are not working. / Are you reading?\n\nVocabulário: 'chicken' serve para o animal e a carne. 'every' é sempre seguido de palavra no singular (every day, every week). Dias da semana sempre com letra maiúscula e preposição 'on': on Monday.\n\nReview: não inicie a próxima lição sem fazer o Quiz e o Listening.",
+          "homework": [
+            "Eu estou com meu irmão em casa.",
+            "Minha irmã está com meu pai no escritório.",
+            "Você está cozinhando carne para o almoço?",
+            "Ela não está trabalhando neste domingo, mas eu trabalho todos os sábados.",
+            "Quantos cavalos você tem? Eu não tenho animais.",
+            "Você vai para o trabalho de carro? Não, eu vou a pé.",
+            "Quando você vai à escola? Eu vou lá de manhã.",
+            "Meus pais estão em casa somente à noite. Eles trabalham o dia todo.",
+            "Eles trabalham todos os dias? Não, eles trabalham somente às quartas.",
+            "Ela não está lendo um livro. Ela está lendo uma revista."
+          ]
+        },
+        {
+          "id": 12,
+          "title": "Lesson 12 — Conversation: Daily Routines",
+          "verbs": [],
+          "grammarPoints": [
+            {
+              "en": "What time do you get up every day?",
+              "pt": "Que horas você levanta todos os dias?"
+            },
+            {
+              "en": "Do you have lunch at home every day?",
+              "pt": "Você almoça em casa todos os dias?"
+            },
+            {
+              "en": "Where do you have dinner during the week?",
+              "pt": "Onde você janta durante a semana?"
+            },
+            {
+              "en": "What do you like to cook for dinner?",
+              "pt": "O que você gosta de cozinhar para o jantar?"
+            }
+          ],
+          "readingText": {
+            "title": "My Day",
+            "body": "I get up early every day. When I get up, I like to drink coffee and eat bread with butter. I have lunch at home, but on Fridays I have lunch downtown with my friends. I work in the morning and I study English in the afternoon. I go to work by bus, but I go home on foot. At night, I have dinner with my family. I usually cook chicken with rice, because my children like it a lot. On the weekends, I don't work — I stay at home and play with my children.",
+            "glossary": [
+              {
+                "en": "to get up",
+                "pt": "levantar (da cama)"
+              },
+              {
+                "en": "early",
+                "pt": "cedo"
+              },
+              {
+                "en": "during",
+                "pt": "durante"
+              },
+              {
+                "en": "because",
+                "pt": "porque"
+              }
+            ]
+          },
+          "vocabulary": [],
+          "expressions": [],
+          "curiosity": "In English, we say \"have breakfast / have lunch / have dinner\" — not \"eat breakfast.\" The verb \"have\" is used for meals, just like it's used for \"have a party\" or \"have a meeting.\"",
+          "teachingGuide": "Lição de conversação — revisão das aulas 1 a 11. Não há novos verbos.\n\nUse o texto para revisar rotina diária, present continuous, dias da semana e meios de transporte. Conduza as perguntas como uma conversa real: não deixe o aluno responder só 'sim/não' — incentive frases completas.\n\nPratique 'have' com refeições (have breakfast/lunch/dinner) e a diferença entre 'every day' (advérbio) e ações em andamento (present continuous). Reforce a pronúncia de get up.\n\nReview: faça o Quiz e o Listening antes de seguir.",
+          "homework": [
+            "Eu levanto cedo e tomo café da manhã.",
+            "Você almoça no escritório ou em casa?",
+            "Que horas você janta durante a semana?",
+            "Eu vou ao trabalho de ônibus e volto para casa a pé.",
+            "Nos fins de semana, eu fico em casa e brinco com meus filhos.",
+            "Ela cozinha frango com arroz porque seus filhos gostam.",
+            "Você prefere trabalhar de manhã ou de tarde?",
+            "Eu estudo inglês de tarde e durmo cedo à noite."
+          ]
+        },
+        {
+          "id": 13,
+          "title": "Lesson 13 — Start, Finish, Come & Stay",
+          "verbs": [
+            {
+              "en": "to start, started",
+              "pt": "começar"
+            },
+            {
+              "en": "to finish, finished",
+              "pt": "terminar, acabar"
+            },
+            {
+              "en": "to come, came",
+              "pt": "vir"
+            },
+            {
+              "en": "to stay, stayed",
+              "pt": "ficar, permanecer"
+            }
+          ],
+          "grammarPoints": [
+            {
+              "en": "I start studying today.",
+              "pt": "Eu começo a estudar hoje."
+            },
+            {
+              "en": "We need to finish writing the letter.",
+              "pt": "Nós precisamos terminar de escrever a carta."
+            },
+            {
+              "en": "Do you want to come to my house?",
+              "pt": "Você quer vir para minha casa?"
+            },
+            {
+              "en": "I stay at home with my brother.",
+              "pt": "Eu fico em casa com meu irmão."
+            },
+            {
+              "en": "I have something to eat, but I don't have anything to drink.",
+              "pt": "Eu tenho algo para comer, mas não tenho nada para beber."
+            }
+          ],
+          "vocabulary": [
+            {
+              "en": "beach",
+              "pt": "praia"
+            },
+            {
+              "en": "swimming pool",
+              "pt": "piscina"
+            },
+            {
+              "en": "club",
+              "pt": "clube"
+            },
+            {
+              "en": "park",
+              "pt": "parque"
+            },
+            {
+              "en": "sea",
+              "pt": "mar"
+            },
+            {
+              "en": "river",
+              "pt": "rio"
+            },
+            {
+              "en": "trip",
+              "pt": "viagem"
+            },
+            {
+              "en": "vacation",
+              "pt": "férias"
+            },
+            {
+              "en": "relatives",
+              "pt": "parentes"
+            },
+            {
+              "en": "class",
+              "pt": "aula"
+            },
+            {
+              "en": "nice",
+              "pt": "legal, bacana"
+            },
+            {
+              "en": "beautiful",
+              "pt": "bonito"
+            },
+            {
+              "en": "ugly",
+              "pt": "feio"
+            },
+            {
+              "en": "next week",
+              "pt": "semana que vem"
+            },
+            {
+              "en": "next month",
+              "pt": "mês que vem"
+            },
+            {
+              "en": "a lot of",
+              "pt": "muitos, muitas"
+            }
+          ],
+          "expressions": [
+            {
+              "en": "something",
+              "pt": "algo, alguma coisa (afirmativa)"
+            },
+            {
+              "en": "anything",
+              "pt": "algo, alguma coisa (perguntas)"
+            },
+            {
+              "en": "not ... anything",
+              "pt": "nada (com verbo negativo)"
+            },
+            {
+              "en": "nothing",
+              "pt": "nada (em frase afirmativa)"
+            },
+            {
+              "en": "to be on vacation",
+              "pt": "estar de férias"
+            },
+            {
+              "en": "to take a trip",
+              "pt": "fazer uma viagem"
+            }
+          ],
+          "curiosity": "English uses \"some\" words in positive sentences (something, someone) and \"any\" words in questions and negatives (anything, anyone). And remember the golden rule: English never uses a double negative — \"I don't have nothing\" is wrong; say \"I don't have anything\" or \"I have nothing.\"",
+          "teachingGuide": "Verbs: 'to start' aceita '-ing' ou 'to' depois (I start studying / I start to study). 'to finish' exige '-ing' depois (We finish writing today). 'to stay' = ficar/permanecer.\n\nExpressions — some/any:\n• something = algo (afirmativa)\n• anything = algo (perguntas)\n• not...anything = nada (negativa)\n• nothing = nada (em frase afirmativa — lembre que não se nega duas vezes em inglês)\n• many / a lot of = muitos (plural)\nRelembre a regra de some e any vista na Lição 5.\n\nVocabulário: lugares de lazer (beach, pool, club, park, sea, river) e adjetivos (nice, beautiful, ugly).",
+          "homework": [
+            "Eu não quero começar a estudar alemão. Eu já estudo espanhol e francês.",
+            "As pessoas não gostam de ficar em casa nos fins de semana. Elas geralmente vão à praia ou à piscina.",
+            "Seus parentes querem vir aqui semana que vem.",
+            "Muitas pessoas estão indo ao rio de férias. Eu gosto de ir ao mar.",
+            "Eu preciso começar a estudar alguma coisa semana que vem. Você tem que terminar algo agora?",
+            "Nós não temos nada para estudar hoje de manhã, mas eu tenho algo para ler hoje à noite.",
+            "Minha irmã é bonita, mas meu irmão é feio.",
+            "Você conhece muitas garotas bonitas? Eu conheço algumas bonitas e algumas feias.",
+            "Você tem muitas aulas de inglês na escola? Sim, eu estudo de manhã e à noite.",
+            "Eu não tenho nada para comer amanhã à noite. Você tem alguma coisa?"
+          ]
+        },
+        {
+          "id": 14,
+          "title": "Lesson 14 — Conversation: Vacations & Free Time",
+          "verbs": [],
+          "grammarPoints": [
+            {
+              "en": "Where do you usually go on vacation?",
+              "pt": "Onde você geralmente vai nas férias?"
+            },
+            {
+              "en": "What time do you start working?",
+              "pt": "Que horas você começa a trabalhar?"
+            },
+            {
+              "en": "Do you prefer to stay at the beach or at the river?",
+              "pt": "Você prefere ficar na praia ou no rio?"
+            },
+            {
+              "en": "When do your classes finish?",
+              "pt": "Quando suas aulas terminam?"
+            }
+          ],
+          "readingText": {
+            "title": "On Vacation",
+            "body": "I love my vacation. Every year, I take a trip with my relatives. We usually go to the beach, because I like the sea a lot. We stay there all day: in the morning we swim, and in the afternoon we eat something nice at a beach store. I prefer the beach to the swimming pool, but my sister prefers the club. This year, my relatives are coming to my city, so we are going to a beautiful river near here. I don't like to stay at home on my vacation — I always want to start a new trip!",
+            "glossary": [
+              {
+                "en": "to take a trip",
+                "pt": "fazer uma viagem"
+              },
+              {
+                "en": "all day",
+                "pt": "o dia todo"
+              },
+              {
+                "en": "near",
+                "pt": "perto (de)"
+              },
+              {
+                "en": "so",
+                "pt": "então, por isso"
+              }
+            ]
+          },
+          "vocabulary": [],
+          "expressions": [],
+          "curiosity": "\"Swimming pool\" is often shortened to just \"pool\" in everyday English. And while Brazilians say \"piscina\" for any pool, English speakers distinguish a \"swimming pool\" from a \"pool table\" (the game) — same word, very different things!",
+          "teachingGuide": "Lição de conversação — revisão das aulas 1 a 13. Não há novos verbos.\n\nUse o texto para revisar start/finish/come/stay, lugares de lazer, some/any e adjetivos (nice/beautiful/ugly). Conduza as 20 perguntas como uma conversa real, incentivando frases completas e usando o tema 'férias' para o aluno falar de si.\n\nFoco: fluência e uso natural de 'a lot of', 'all day', 'near'. Reforce a pronúncia de beach (não 'bitch') e os pares de mínimos.\n\nReview: faça o Quiz e o Listening antes de seguir.",
+          "homework": [
+            "Meu filho está brincando com os animais.",
+            "Seus filhos estão estudando de manhã?",
+            "Eu geralmente como carne bovina no domingo e porco no sábado.",
+            "Que horas você começa a trabalhar todos os dias?",
+            "Meus parentes não ficam em casa nos fins de semana.",
+            "Nós gostamos de ir à piscina e ficar lá o dia todo.",
+            "Eu preciso terminar de cozinhar agora.",
+            "Eles têm alguma coisa para beber em casa?",
+            "Eu só gosto de pessoas bonitas e legais.",
+            "Seus filhos estudam muito em casa?"
+          ]
+        },
+        {
+          "id": 15,
+          "title": "Lesson 15 — Third Person & Possessives",
+          "verbs": [
+            {
+              "en": "to say, said",
+              "pt": "dizer (algo a alguém)"
+            },
+            {
+              "en": "to tell, told",
+              "pt": "dizer, contar (a alguém)"
+            },
+            {
+              "en": "to visit, visited",
+              "pt": "visitar"
+            }
+          ],
+          "grammarPoints": [
+            {
+              "en": "He says this every day.",
+              "pt": "Ele diz isso todos os dias."
+            },
+            {
+              "en": "She tells me this every day.",
+              "pt": "Ela me diz isso todos os dias."
+            },
+            {
+              "en": "My father works early and sleeps late.",
+              "pt": "Meu pai trabalha cedo e dorme tarde."
+            },
+            {
+              "en": "He studies with his children.",
+              "pt": "Ele estuda com os filhos dele."
+            },
+            {
+              "en": "That store opens after lunch.",
+              "pt": "Aquela loja abre depois do almoço."
+            }
+          ],
+          "vocabulary": [
+            {
+              "en": "early",
+              "pt": "cedo"
+            },
+            {
+              "en": "late",
+              "pt": "tarde (advérbio)"
+            },
+            {
+              "en": "always",
+              "pt": "sempre"
+            },
+            {
+              "en": "never",
+              "pt": "nunca"
+            },
+            {
+              "en": "before",
+              "pt": "antes (de)"
+            },
+            {
+              "en": "after",
+              "pt": "depois (de)"
+            },
+            {
+              "en": "bridge",
+              "pt": "ponte, viaduto"
+            },
+            {
+              "en": "company",
+              "pt": "empresa"
+            },
+            {
+              "en": "party",
+              "pt": "festa"
+            },
+            {
+              "en": "meeting",
+              "pt": "reunião"
+            },
+            {
+              "en": "tape",
+              "pt": "fita adesiva"
+            },
+            {
+              "en": "bicycle",
+              "pt": "bicicleta"
+            },
+            {
+              "en": "his",
+              "pt": "dele"
+            },
+            {
+              "en": "her",
+              "pt": "dela"
+            },
+            {
+              "en": "our",
+              "pt": "nosso(s)"
+            },
+            {
+              "en": "their",
+              "pt": "deles, delas"
+            }
+          ],
+          "expressions": [
+            {
+              "en": "Nice to meet you!",
+              "pt": "Prazer em conhecê-lo!"
+            },
+            {
+              "en": "Nice to see you!",
+              "pt": "Prazer em vê-lo!"
+            },
+            {
+              "en": "See you later!",
+              "pt": "Até mais!"
+            },
+            {
+              "en": "See you tomorrow!",
+              "pt": "Até amanhã!"
+            },
+            {
+              "en": "Have a nice day!",
+              "pt": "Tenha um bom dia!"
+            }
+          ],
+          "curiosity": "The third-person \"-s\" (he works, she likes) is famous for tripping up learners — even fluent speakers slip when speaking fast. And \"say\" vs \"tell\": you SAY something (to someone), but you TELL someone (something). \"He says this to me\" = \"He tells me this.\"",
+          "teachingGuide": "Grammar — Terceira pessoa (he/she/it): pratique muito o '-s' no verbo (he works, she likes, it opens).\n\nTo say / To tell:\n• say = dizer algo A alguém → He says this to me.\n• tell = dizer A alguém algo → He tells me this.\nMostre por que 'My brother only says this' não aceita 'tell' (não há a quem).\n\nPossessive adjectives: his/her/our/their vêm antes do substantivo e concordam com o SUJEITO (não com o objeto). He helps his father. / She likes her mother. / They are with their parents. Por influência do português, o aluno tende a usar 'your' sempre — corrija.\n\nVocabulário: before/after já incluem o 'de'. 'bridge' = ponte (viaduto específico = overpass).",
+          "homework": [
+            "Ele diz que trabalha todos os dias, mas trabalha somente às segundas e quintas.",
+            "Ela sempre me conta sobre suas aulas e seus problemas.",
+            "Meu filho está sempre atrasado para a escola. Ele nunca vai cedo.",
+            "Antes da aula, minha filha gosta de comer alguma coisa.",
+            "Esta empresa vende fitas adesivas para muitas cidades.",
+            "A bicicleta dele está no viaduto, mas a moto dele está na empresa.",
+            "Até logo! Preciso ajudar meus filhos com as tarefas. Tenha um bom dia!",
+            "Minha filha sempre diz que gosta muito de estudar.",
+            "Esta loja geralmente abre de manhã. Não sei por que está fechada hoje.",
+            "Coloque na terceira pessoa: The banks open in the morning. → The bank opens in the morning."
+          ]
+        },
+        {
+          "id": 16,
+          "title": "Lesson 16 — Does / Doesn't",
+          "verbs": [
+            {
+              "en": "to do, did",
+              "pt": "fazer (realizar)"
+            },
+            {
+              "en": "to visit, visited",
+              "pt": "visitar"
+            }
+          ],
+          "grammarPoints": [
+            {
+              "en": "He does his homework.",
+              "pt": "Ele faz a lição dele."
+            },
+            {
+              "en": "She doesn't do the homework.",
+              "pt": "Ela não faz a tarefa de casa."
+            },
+            {
+              "en": "Does he do his work?",
+              "pt": "Ele faz o trabalho dele?"
+            },
+            {
+              "en": "He lives near my house.",
+              "pt": "Ele mora perto da minha casa."
+            },
+            {
+              "en": "She doesn't know how to cook beans yet.",
+              "pt": "Ela ainda não sabe cozinhar feijão."
+            }
+          ],
+          "vocabulary": [
+            {
+              "en": "near",
+              "pt": "perto (de)"
+            },
+            {
+              "en": "far (from)",
+              "pt": "longe (de)"
+            },
+            {
+              "en": "still",
+              "pt": "ainda (meio da frase)"
+            },
+            {
+              "en": "yet",
+              "pt": "ainda (fim de frase neg.)"
+            },
+            {
+              "en": "very",
+              "pt": "muito (antes de adj./adv.)"
+            },
+            {
+              "en": "so",
+              "pt": "tão (antes de adj./adv.)"
+            },
+            {
+              "en": "garage",
+              "pt": "garagem"
+            },
+            {
+              "en": "meeting",
+              "pt": "reunião"
+            },
+            {
+              "en": "during",
+              "pt": "durante"
+            },
+            {
+              "en": "sometimes",
+              "pt": "às vezes"
+            },
+            {
+              "en": "a little",
+              "pt": "um pouco de (singular)"
+            },
+            {
+              "en": "a few",
+              "pt": "alguns, poucos (plural)"
+            },
+            {
+              "en": "from",
+              "pt": "de (origem)"
+            }
+          ],
+          "expressions": [
+            {
+              "en": "He speaks English very well.",
+              "pt": "Ele fala inglês muito bem."
+            },
+            {
+              "en": "Does she drink a lot of coffee?",
+              "pt": "Ela bebe muito café?"
+            },
+            {
+              "en": "My son eats a little bread.",
+              "pt": "Meu filho come um pouco de pão."
+            },
+            {
+              "en": "He always has many meetings.",
+              "pt": "Ele sempre tem muitas reuniões."
+            },
+            {
+              "en": "My sister has a few classes.",
+              "pt": "Minha irmã tem poucas aulas."
+            }
+          ],
+          "curiosity": "In the third person, English questions and negatives borrow the \"-s\" from the main verb and put it on \"does\": \"He works\" becomes \"Does he work?\" and \"He doesn't work\" — never \"Does he works?\" The helper takes the -s so the main verb doesn't.",
+          "teachingGuide": "Grammar — apresente 'does' e 'doesn't' (formas negativa e interrogativa da terceira pessoa). Regra de ouro: o '-s' vai para o auxiliar, então o verbo principal fica no infinitivo: Does he work? / He doesn't work. (Nunca 'Does he works?')\n\nVocabulário:\n• near = perto (de) / far (from) = longe (de)\n• still = ainda (meio da frase) / yet = ainda (fim de frase negativa)\n• very = muito (antes de adjetivo/advérbio) / so = tão\n\nExpressions — quantidade:\n• a little = um pouco (sempre singular/incontável)\n• a few = alguns (sempre plural; são poucos, mas suficientes)\n\nReview: faça o Quiz e o Listening antes de seguir.",
+          "homework": [
+            "Ele faz a lição todos os dias. Meu filho faz a lição aos sábados.",
+            "Meu amigo não gosta do pai dele. Ele só gosta da mãe dele.",
+            "Esta empresa não vende roupas. Ela só vende livros.",
+            "O banco não fecha de manhã porque tem que ficar aberto o dia todo.",
+            "Você ainda não precisa começar a trabalhar, mas seu irmão precisa começar a estudar.",
+            "Às vezes, meu chefe fala durante a reunião. Ele sempre diz tudo que quer.",
+            "Meu carro é tão pequeno. Eu preciso comprar um carro muito grande.",
+            "De vez em quando, ele vem cedo.",
+            "Coloque na terceira pessoa: My parents don't work today. → My father doesn't work today.",
+            "Coloque na terceira pessoa: My children drink a lot of water. → My son drinks a lot of water."
+          ]
+        },
+        {
+          "id": 17,
+          "title": "Lesson 17 — Conversation: Routines & Errands",
+          "verbs": [],
+          "grammarPoints": [
+            {
+              "en": "Where does Michelle work?",
+              "pt": "Onde a Michelle trabalha?"
+            },
+            {
+              "en": "Does she study Spanish?",
+              "pt": "Ela estuda espanhol?"
+            },
+            {
+              "en": "Do you always do your homework?",
+              "pt": "Você sempre faz a sua tarefa de casa?"
+            },
+            {
+              "en": "Do you live far from work?",
+              "pt": "Você mora longe do trabalho?"
+            }
+          ],
+          "readingText": {
+            "title": "Michelle's Week",
+            "body": "Michelle works in a company downtown. She doesn't study Spanish, but she studies a little German before work. She always does her homework at night, and sometimes she visits her relatives near her house. She lives far from the office, so she goes to work by bus. She has a lot of meetings on the week, but she doesn't have meetings on Saturdays. After work, she likes to go to parties with her friends — she says she doesn't like to stay home every night!",
+            "glossary": [
+              {
+                "en": "business",
+                "pt": "negócio, empresa"
+              },
+              {
+                "en": "near",
+                "pt": "perto (de)"
+              },
+              {
+                "en": "far (from)",
+                "pt": "longe (de)"
+              },
+              {
+                "en": "meeting",
+                "pt": "reunião"
+              }
+            ]
+          },
+          "vocabulary": [],
+          "expressions": [],
+          "curiosity": "Notice how English keeps the question helper \"does\" but strips the -s from the main verb: \"Where does Michelle work?\" — never \"works.\" The helper carries the third-person -s so the main verb stays in its base form.",
+          "teachingGuide": "Lição de conversação — revisão das aulas 11 a 16. Sem novos verbos.\n\nFoco principal: consolidar does/doesn't na terceira pessoa (o '-s' vai para o auxiliar, o verbo principal fica no infinitivo: Does she work? / She doesn't work). Revisar também near/far, still/yet, sometimes e o vocabulário de trabalho (boss, manager, meeting, company, business).\n\nConduza as perguntas como conversa real, incentivando frases completas. Erro comum a corrigir: 'Does she works?' → 'Does she work?'.",
+          "homework": [
+            "Eles fazem a lição de manhã. → Coloque na 3ª pessoa: He does the lesson in the morning.",
+            "Meus filhos geralmente visitam meus amigos. → My daughter usually visits my friends.",
+            "Nós moramos perto da loja. → She lives near the store.",
+            "Meus pais não gostam de dizer isso. → My mother doesn't like to say this.",
+            "Você almoça com seus filhos. → She has lunch with her children.",
+            "Os bancos só abrem de tarde. → The bank only opens in the afternoon.",
+            "Meus filhos me contam sobre as aulas. → My son tells me about the classes.",
+            "Onde a Michelle trabalha? Ela trabalha numa empresa no centro."
+          ]
+        },
+        {
+          "id": 18,
+          "title": "Lesson 18 — Talk, Take, Wash & Watch",
+          "verbs": [
+            {
+              "en": "to talk (to / with)",
+              "pt": "conversar, falar (com)"
+            },
+            {
+              "en": "to take, took",
+              "pt": "levar, pegar"
+            },
+            {
+              "en": "to wash, washed",
+              "pt": "lavar"
+            },
+            {
+              "en": "to watch, watched",
+              "pt": "assistir, observar"
+            }
+          ],
+          "grammarPoints": [
+            {
+              "en": "He talks with his father.",
+              "pt": "Ele conversa com o pai dele."
+            },
+            {
+              "en": "She takes her daughter to school.",
+              "pt": "Ela leva a filha dela para a escola."
+            },
+            {
+              "en": "My father washes his car every day.",
+              "pt": "Meu pai lava o carro dele todo dia."
+            },
+            {
+              "en": "Who lives with your uncle?",
+              "pt": "Quem mora com o seu tio?"
+            },
+            {
+              "en": "How about washing the dishes?",
+              "pt": "Que tal lavarmos a louça?"
+            }
+          ],
+          "vocabulary": [
+            {
+              "en": "uncle",
+              "pt": "tio"
+            },
+            {
+              "en": "aunt",
+              "pt": "tia"
+            },
+            {
+              "en": "cousin",
+              "pt": "primo, prima"
+            },
+            {
+              "en": "maid",
+              "pt": "empregada (doméstica)"
+            },
+            {
+              "en": "dish",
+              "pt": "louça, prato"
+            },
+            {
+              "en": "fork",
+              "pt": "garfo"
+            },
+            {
+              "en": "knife",
+              "pt": "faca"
+            },
+            {
+              "en": "spoon",
+              "pt": "colher"
+            },
+            {
+              "en": "clothes",
+              "pt": "roupas"
+            },
+            {
+              "en": "game",
+              "pt": "jogo, partida"
+            },
+            {
+              "en": "fruit",
+              "pt": "fruta"
+            },
+            {
+              "en": "sugar",
+              "pt": "açúcar"
+            },
+            {
+              "en": "Christmas",
+              "pt": "Natal"
+            },
+            {
+              "en": "Easter",
+              "pt": "Páscoa"
+            },
+            {
+              "en": "ticket",
+              "pt": "ingresso, passagem"
+            },
+            {
+              "en": "better",
+              "pt": "melhor"
+            }
+          ],
+          "expressions": [
+            {
+              "en": "What about your father?",
+              "pt": "E o seu pai? (Como está...?)"
+            },
+            {
+              "en": "How about washing the dishes?",
+              "pt": "Que tal lavar a louça?"
+            },
+            {
+              "en": "to talk to",
+              "pt": "conversar com (unilateral)"
+            },
+            {
+              "en": "to talk with",
+              "pt": "conversar com (recíproco)"
+            },
+            {
+              "en": "all day long",
+              "pt": "o dia todo"
+            },
+            {
+              "en": "again",
+              "pt": "de novo"
+            }
+          ],
+          "curiosity": "After any preposition, English verbs must take the -ing form: \"How about WASHING the dishes?\" \"Thanks for COMING.\" Also, \"talk to\" suggests one person speaking to another, while \"talk with\" suggests a two-way conversation between equals.",
+          "teachingGuide": "Verbs — talk to / talk with:\n• talk to = conversa mais unilateral. Ex.: I need to talk to the manager.\n• talk with = conversa recíproca, de igual para igual. Ex.: I like to talk with my friends.\n\nVocabulário: 'who' como sujeito usa o verbo na 3ª pessoa (Who washes your car?). Feriados sempre com maiúscula e preposição 'on': on Christmas, on Easter.\n\nExpressions — REGRA: depois de qualquer preposição, o verbo vai para o '-ing'. Ex.: How about washing...? / What about going...? Pratique 'What about + substantivo' e 'How about + verbo-ing'.",
+          "homework": [
+            "Ela lava as roupas dela só às sextas-feiras?",
+            "Minha irmã não gosta de lavar a louça, mas a empregada lava à noite.",
+            "Quantas colheres, garfos e facas você tem em casa? Eu tenho muitas.",
+            "Meu tio assiste jogos na TV todas as noites. Minha tia sempre assiste filmes.",
+            "Que tal conversarmos sobre o Natal? Meu primo quer conversar sobre a Páscoa.",
+            "Quem leva seus filhos ao médico? Minha empregada leva meu filho e minha filha lá.",
+            "Quais frutas seus filhos comem no café da manhã?",
+            "Quem conversa mais na sua empresa? Eu não sei, mas o gerente fala bastante.",
+            "Minha prima assiste TV o dia todo porque ela não estuda.",
+            "Sua tia vem aqui todos os anos? Não, geralmente só meu tio vem."
+          ]
+        },
+        {
+          "id": 19,
+          "title": "Lesson 19 — Review: Everything So Far",
+          "verbs": [],
+          "grammarPoints": [
+            {
+              "en": "Do you work all day?",
+              "pt": "Você trabalha o dia todo?"
+            },
+            {
+              "en": "I understand a little German, but I don't understand any Greek.",
+              "pt": "Eu entendo um pouco de alemão, mas não entendo nada de grego."
+            },
+            {
+              "en": "They say that you wash the dishes.",
+              "pt": "Eles dizem que você lava a louça."
+            },
+            {
+              "en": "On my vacation, I always buy something.",
+              "pt": "Nas minhas férias, eu sempre compro alguma coisa."
+            }
+          ],
+          "readingText": {
+            "title": "A Normal Week",
+            "body": "I go to work on foot in the morning and I come home by car in the evening. I have a small house, but it has a nice kitchen. I usually cook chicken on Wednesday and fish on Friday. My wife reads the newspaper and my daughter reads her books. We don't have lunch downtown — we eat at home because we like it. Sometimes I have a meeting, or I visit my cousins. On my vacation, I always go to the beach with my relatives, and I buy something nice there. Life is busy, but I like it!",
+            "glossary": [
+              {
+                "en": "all day",
+                "pt": "o dia todo"
+              },
+              {
+                "en": "because",
+                "pt": "porque"
+              },
+              {
+                "en": "something",
+                "pt": "alguma coisa"
+              },
+              {
+                "en": "busy",
+                "pt": "ocupado"
+              }
+            ]
+          },
+          "vocabulary": [],
+          "expressions": [],
+          "curiosity": "This review touches almost every structure from Lessons 1–18: present simple, present continuous, the verb \"to be,\" third-person -s, possessives, some/any, and the question words. If a student can move through these freely, they've truly absorbed the foundation of English.",
+          "teachingGuide": "Lição de revisão geral — aulas 1 a 18. Sem novos verbos.\n\nUse o texto e os drills para revisar TODOS os blocos: present simple, present continuous, verbo 'to be', terceira pessoa (-s), possessivos (his/her/their), some/any, do/does e palavras interrogativas (what/where/when/how/who/why).\n\nAvaliação informal: o aluno deve transitar entre essas estruturas sem hesitar. Anote os pontos fracos para reforço antes de entrar no passado (próxima aula). Faça o Quiz e o Listening.",
+          "homework": [
+            "Eu gosto de comer pão, carne e peixe.",
+            "Meus pais não falam inglês nem português.",
+            "Por favor, eu quero uma fatia de queijo e uma xícara de café.",
+            "Eu vou ao centro de manhã e fico em casa de tarde.",
+            "Meu amigo mora sozinho, mas o chefe dele mora com a família.",
+            "O que você compra no mercado e vende no centro?",
+            "Onde você tem uma casa pequena e uma moto grande?",
+            "Eu tenho que cozinhar carne de manhã, arroz de tarde e feijão à noite.",
+            "Nós ainda temos um pouco de queijo, poucos copos e muito presunto.",
+            "Até amanhã na escola! Tenha um bom trabalho!"
+          ]
+        },
+        {
+          "id": 20,
+          "title": "Lesson 20 — Past Tense: Regular Verbs",
+          "verbs": [
+            {
+              "en": "to wash, washed",
+              "pt": "lavar (lavei)"
+            },
+            {
+              "en": "to talk, talked",
+              "pt": "conversar (conversei)"
+            },
+            {
+              "en": "to watch, watched",
+              "pt": "assistir (assisti)"
+            },
+            {
+              "en": "to take, took",
+              "pt": "levar, pegar (levei) — irregular"
+            }
+          ],
+          "grammarPoints": [
+            {
+              "en": "I washed my car on the weekend.",
+              "pt": "Eu lavei meu carro no fim de semana."
+            },
+            {
+              "en": "The mailman talked to my brother.",
+              "pt": "O carteiro falou com meu irmão."
+            },
+            {
+              "en": "They watched that movie a week ago.",
+              "pt": "Eles assistiram àquele filme uma semana atrás."
+            },
+            {
+              "en": "I talked to my aunt yesterday.",
+              "pt": "Eu falei com minha tia ontem."
+            },
+            {
+              "en": "She took my book to school.",
+              "pt": "Ela levou meu livro para a escola."
+            }
+          ],
+          "vocabulary": [
+            {
+              "en": "yesterday",
+              "pt": "ontem"
+            },
+            {
+              "en": "last week",
+              "pt": "semana passada"
+            },
+            {
+              "en": "ago",
+              "pt": "atrás (tempo)"
+            },
+            {
+              "en": "stove",
+              "pt": "fogão"
+            },
+            {
+              "en": "microwave",
+              "pt": "micro-ondas"
+            },
+            {
+              "en": "sink",
+              "pt": "pia"
+            },
+            {
+              "en": "kitchen",
+              "pt": "cozinha"
+            },
+            {
+              "en": "bathroom",
+              "pt": "banheiro"
+            },
+            {
+              "en": "bedroom",
+              "pt": "quarto"
+            },
+            {
+              "en": "moon",
+              "pt": "lua"
+            },
+            {
+              "en": "star",
+              "pt": "estrela"
+            },
+            {
+              "en": "cake",
+              "pt": "bolo"
+            },
+            {
+              "en": "pie",
+              "pt": "torta"
+            },
+            {
+              "en": "orange",
+              "pt": "laranja"
+            },
+            {
+              "en": "strawberry",
+              "pt": "morango"
+            },
+            {
+              "en": "dessert",
+              "pt": "sobremesa"
+            },
+            {
+              "en": "tall",
+              "pt": "alto"
+            },
+            {
+              "en": "short",
+              "pt": "baixo"
+            },
+            {
+              "en": "busy",
+              "pt": "ocupado"
+            },
+            {
+              "en": "long",
+              "pt": "comprido, longo"
+            }
+          ],
+          "expressions": [
+            {
+              "en": "last night",
+              "pt": "ontem à noite"
+            },
+            {
+              "en": "yesterday evening",
+              "pt": "ontem à noite"
+            },
+            {
+              "en": "yesterday morning",
+              "pt": "ontem de manhã"
+            },
+            {
+              "en": "yesterday afternoon",
+              "pt": "ontem à tarde"
+            },
+            {
+              "en": "a long time ago",
+              "pt": "muito tempo atrás"
+            }
+          ],
+          "curiosity": "English regular verbs form the past simply by adding -ed: wash → washed, talk → talked, watch → watched. The best part? Unlike the present, the past tense never changes for he/she/it — \"I washed\" and \"she washed\" look exactly the same.",
+          "teachingGuide": "Past Tense (passado): no passado, os verbos NÃO mudam na terceira pessoa (I washed / she washed). Verbos regulares adicionam '-ed'. Apresente os marcadores de tempo: yesterday, last week/month/year, ... ago, this morning.\n\nCuidado: 'to take' é irregular → took.\n\nVocabulário: 'tall' descreve pessoas, prédios e árvores (não use 'high' para pessoas). 'sink' usa preposição 'in' quando algo está dentro da pia (in the sink).\n\nReview: faça o Quiz e o Listening antes de seguir.",
+          "homework": [
+            "Ela lavou a louça ontem, mas ele não quer lavar hoje.",
+            "Quem assistiu àquele filme na TV ontem à noite? Eu assisti sozinho.",
+            "Eu comi bolo de laranja ontem e minha irmã comeu torta de morango.",
+            "A empregada levou o micro-ondas para a cozinha. Ela lavou a louça e a pia.",
+            "Eu conversei com meu tio e minha tia no último feriado.",
+            "Eu sempre observei a lua durante a noite. As estrelas são muito bonitas.",
+            "Sua prima gosta de bolo de frutas? Sim, mas meu primo prefere tortas.",
+            "Eu lavei a roupa porque eu tinha tempo.",
+            "Seu tio é alto? Sim, ele é alto e minha tia é muito baixa.",
+            "Eu levei meus filhos ao cinema. Quantas vezes você vai ao cinema com seu filho?"
+          ]
+        },
+        {
+          "id": 21,
+          "title": "Lesson 21 — Conversation: Home & Free Time",
+          "verbs": [],
+          "grammarPoints": [
+            {
+              "en": "Did you watch TV last night?",
+              "pt": "Você assistiu TV ontem à noite?"
+            },
+            {
+              "en": "Where did you go last weekend?",
+              "pt": "Onde você foi no fim de semana passado?"
+            },
+            {
+              "en": "What did you do last night?",
+              "pt": "O que você fez ontem à noite?"
+            },
+            {
+              "en": "Did you study English a long time ago?",
+              "pt": "Você estudou inglês muito tempo atrás?"
+            }
+          ],
+          "readingText": {
+            "title": "My Home",
+            "body": "I have a small house, but I like it a lot. My kitchen has a big sink, a stove, and a new microwave. We have two bedrooms and one bathroom. Last night, I didn't watch TV — I cooked dinner and washed the dishes. On holidays, I usually stay home with my family and we eat a nice dessert: orange cake or strawberry pie. Yesterday, my husband was very busy at work, so I took the children to the park. We watched the moon and the stars at night. It was a beautiful day!",
+            "glossary": [
+              {
+                "en": "fridge",
+                "pt": "geladeira"
+              },
+              {
+                "en": "together",
+                "pt": "juntos"
+              },
+              {
+                "en": "thing",
+                "pt": "coisa"
+              },
+              {
+                "en": "holiday",
+                "pt": "feriado"
+              }
+            ]
+          },
+          "vocabulary": [],
+          "expressions": [],
+          "curiosity": "To ask about the past, English uses \"did\" + the base verb: \"Did you watch TV?\" — not \"Did you watched.\" Just like \"does\" in the present, \"did\" carries the tense so the main verb stays in its simplest form.",
+          "teachingGuide": "Lição de conversação — revisão das aulas 17 a 20. Sem novos verbos.\n\nFoco: perguntas no passado com 'did' + verbo no infinitivo (Did you watch...? / Where did you go...?). Revisar vocabulário de casa (kitchen, bathroom, bedroom, sink, stove, microwave) e sobremesas (cake, pie, dessert).\n\nConduza como conversa real. Erro comum a corrigir: 'Did you watched?' → 'Did you watch?'. Reforce que o passado não muda na 3ª pessoa.",
+          "homework": [
+            "Eu tenho um gato bonito e uma casa pequena.",
+            "Ela mora perto da loja com os pais dela.",
+            "Você trabalhou aqui na semana passada?",
+            "O correio só abre amanhã.",
+            "Você cozinha o almoço todos os dias em casa?",
+            "O pai dele é alto, mas a mãe dele é baixa.",
+            "Complete com a preposição: Did you speak English ___ your father? (with)",
+            "Complete com a preposição: We go ___ the beach ___ the weekend. (to / on)"
+          ]
+        },
+        {
+          "id": 22,
+          "title": "Lesson 22 — Didn't: Past Negative",
+          "verbs": [
+            {
+              "en": "to do, did",
+              "pt": "fazer (fiz) — irregular"
+            },
+            {
+              "en": "to say, said",
+              "pt": "dizer (disse) — irregular"
+            },
+            {
+              "en": "to tell, told",
+              "pt": "contar, dizer (contei)"
+            },
+            {
+              "en": "to visit, visited",
+              "pt": "visitar (visitei)"
+            }
+          ],
+          "grammarPoints": [
+            {
+              "en": "I didn't say this.",
+              "pt": "Eu não disse isso."
+            },
+            {
+              "en": "She didn't visit her uncle.",
+              "pt": "Ela não visitou o tio dela."
+            },
+            {
+              "en": "He didn't read his books.",
+              "pt": "Ele não leu os livros dele."
+            },
+            {
+              "en": "My nephew did all the job.",
+              "pt": "Meu sobrinho fez todo o serviço."
+            },
+            {
+              "en": "Who said this yesterday morning?",
+              "pt": "Quem disse isso ontem de manhã?"
+            }
+          ],
+          "vocabulary": [
+            {
+              "en": "nephew",
+              "pt": "sobrinho"
+            },
+            {
+              "en": "niece",
+              "pt": "sobrinha"
+            },
+            {
+              "en": "birthday",
+              "pt": "aniversário"
+            },
+            {
+              "en": "oven",
+              "pt": "forno"
+            },
+            {
+              "en": "cookie",
+              "pt": "biscoito, bolacha"
+            },
+            {
+              "en": "grape",
+              "pt": "uva"
+            },
+            {
+              "en": "pineapple",
+              "pt": "abacaxi"
+            },
+            {
+              "en": "dog",
+              "pt": "cachorro"
+            },
+            {
+              "en": "cat",
+              "pt": "gato"
+            },
+            {
+              "en": "corner",
+              "pt": "esquina, canto"
+            },
+            {
+              "en": "hometown",
+              "pt": "cidade natal"
+            },
+            {
+              "en": "handsome",
+              "pt": "bonito (homem)"
+            },
+            {
+              "en": "woman",
+              "pt": "mulher"
+            },
+            {
+              "en": "man",
+              "pt": "homem"
+            },
+            {
+              "en": "slice",
+              "pt": "pedaço, fatia"
+            },
+            {
+              "en": "job",
+              "pt": "serviço, trabalho"
+            }
+          ],
+          "expressions": [
+            {
+              "en": "twice a month",
+              "pt": "duas vezes por mês"
+            },
+            {
+              "en": "once a day",
+              "pt": "uma vez por dia"
+            },
+            {
+              "en": "three times a week",
+              "pt": "três vezes por semana"
+            },
+            {
+              "en": "once a year",
+              "pt": "uma vez por ano"
+            },
+            {
+              "en": "many times",
+              "pt": "muitas vezes"
+            }
+          ],
+          "curiosity": "In the past negative, English uses \"didn't\" + the base verb — and the main verb drops back to its simplest form: \"I didn't say,\" not \"I didn't said.\" \"Did\" already carries the past, so the verb relaxes. The same logic as \"doesn't\" in the present.",
+          "teachingGuide": "Grammar — passado negativo: introduza o auxiliar 'didn't' para negar no passado. O verbo principal VOLTA ao infinitivo: I didn't say (não 'I didn't said'). 'did' já carrega o passado.\n\nRecapitule say/tell:\n• say = dizer algo A alguém → He says this to me.\n• tell = dizer A alguém algo → He tells me this.\n\nExpressions — frequência: once (uma vez), twice (duas vezes), three/four times a week/month/year. Pratique oralmente.\n\nReview: faça o Quiz e o Listening antes de seguir.",
+          "homework": [
+            "O que você disse sobre meu sobrinho? Eu não disse nada sobre aquele garoto.",
+            "Ela não teve nenhum problema com a tarefa porque ela sabia tudo.",
+            "Quem é aquele homem bonito? Eu não conheço ainda.",
+            "Você gosta de doce de abacaxi? Não, eu só gosto de doce de uva.",
+            "Quando é o aniversário dele? Ele me disse que é no mês que vem.",
+            "Minha sobrinha me visita uma vez por mês e eu visito minha tia duas vezes por ano.",
+            "Aquele homem mora nesta esquina? Onde esta mulher mora?",
+            "Eu fiz toda a tarefa sozinho porque você não quis me ajudar.",
+            "Ela tinha cachorros e gatos na fazenda. Agora ela tem somente alguns cavalos.",
+            "Coloque na forma negativa: John told me about his birthday. → John didn't tell me about his birthday."
+          ]
+        },
+        {
+          "id": 23,
+          "title": "Lesson 23 — Conversation: Birthdays & Pets",
+          "verbs": [],
+          "grammarPoints": [
+            {
+              "en": "How many nephews do you have?",
+              "pt": "Quantos sobrinhos você tem?"
+            },
+            {
+              "en": "When is your birthday?",
+              "pt": "Quando é o seu aniversário?"
+            },
+            {
+              "en": "Do you know how to cook cookies?",
+              "pt": "Você sabe fazer biscoitos?"
+            },
+            {
+              "en": "How many times do you eat candy in a week?",
+              "pt": "Com que frequência você come doces na semana?"
+            }
+          ],
+          "readingText": {
+            "title": "My Birthday",
+            "body": "My birthday is in March. Every year, my mother makes a big pineapple cake in her oven, and all my relatives come to my house. I have two nephews and one niece, and they always play with my dog and my cat together. We eat cookies and candy, and my uncle eats too much cake! I am very happy on my birthday, because I see all my family. My hometown is far from here, so my cousins only visit me twice a year — but they always come for my birthday party.",
+            "glossary": [
+              {
+                "en": "pet",
+                "pt": "animal de estimação"
+              },
+              {
+                "en": "together",
+                "pt": "juntos"
+              },
+              {
+                "en": "happy",
+                "pt": "feliz"
+              },
+              {
+                "en": "to make",
+                "pt": "fazer (preparar)"
+              }
+            ]
+          },
+          "vocabulary": [],
+          "expressions": [],
+          "curiosity": "English counts events with \"times\": once (1x), twice (2x), and from three onward, \"three times,\" \"four times.\" There's no single word for \"three times\" — and \"twice\" is one of the few survivors of an old way English used to count.",
+          "teachingGuide": "Lição de conversação — revisão das aulas 18 a 22. Sem novos verbos.\n\nFoco: consolidar o passado (did/didn't), frequência (once/twice/three times a week) e o vocabulário recente (nephew, niece, birthday, oven, cookie, dog, cat, grape, pineapple). Revisar também do/does na 3ª pessoa.\n\nHomework clássico do método: mude o sujeito para a 3ª pessoa do singular e ajuste o verbo (They don't need → He/She doesn't need). Conduza como conversa real.",
+          "homework": [
+            "Coloque na 3ª pessoa: My children want to do the homework. → My son doesn't do his homework.",
+            "Coloque na 3ª pessoa: Do they do the lesson at school? → Does she do the lesson at school?",
+            "Coloque na 3ª pessoa: My dogs don't like to eat rice. → My dog doesn't like to eat rice.",
+            "Coloque na 3ª pessoa: Your parents don't go to church. → Your mother doesn't go to church.",
+            "Coloque na 3ª pessoa: The stores don't open on the weekends. → The store doesn't open on the weekends.",
+            "Coloque na 3ª pessoa: How many children do they have? → How many children does she have?",
+            "Coloque na 3ª pessoa: They don't like to eat pineapple. → He doesn't like to eat pineapple.",
+            "Quando é o seu aniversário? O que sua mãe faz no seu aniversário?"
+          ]
+        },
+        {
+          "id": 24,
+          "title": "Lesson 24 — Past Questions & How Often",
+          "verbs": [
+            {
+              "en": "to start, started",
+              "pt": "começar (comecei)"
+            },
+            {
+              "en": "to finish, finished",
+              "pt": "terminar (terminei)"
+            },
+            {
+              "en": "to come, came",
+              "pt": "vir (vim) — irregular"
+            },
+            {
+              "en": "to stay, stayed",
+              "pt": "ficar (fiquei)"
+            }
+          ],
+          "grammarPoints": [
+            {
+              "en": "When did you do this lesson?",
+              "pt": "Quando você fez esta lição?"
+            },
+            {
+              "en": "Where did you study yesterday morning?",
+              "pt": "Onde você estudou ontem de manhã?"
+            },
+            {
+              "en": "He works in the morning too.",
+              "pt": "Ele trabalha de manhã também."
+            },
+            {
+              "en": "How often do you go to the club?",
+              "pt": "Com que frequência você vai ao clube?"
+            },
+            {
+              "en": "She is too happy.",
+              "pt": "Ela está feliz demais."
+            }
+          ],
+          "vocabulary": [
+            {
+              "en": "too",
+              "pt": "também (fim de frase)"
+            },
+            {
+              "en": "also",
+              "pt": "também (antes do verbo)"
+            },
+            {
+              "en": "too (much)",
+              "pt": "demais (exagero)"
+            },
+            {
+              "en": "happy",
+              "pt": "feliz"
+            },
+            {
+              "en": "sad",
+              "pt": "triste"
+            },
+            {
+              "en": "town",
+              "pt": "cidadezinha"
+            },
+            {
+              "en": "factory",
+              "pt": "fábrica"
+            },
+            {
+              "en": "field",
+              "pt": "campo"
+            },
+            {
+              "en": "guitar",
+              "pt": "violão"
+            },
+            {
+              "en": "especially",
+              "pt": "principalmente, especialmente"
+            },
+            {
+              "en": "full time",
+              "pt": "período integral"
+            },
+            {
+              "en": "part time",
+              "pt": "meio período"
+            },
+            {
+              "en": "money",
+              "pt": "dinheiro"
+            },
+            {
+              "en": "problem",
+              "pt": "problema"
+            },
+            {
+              "en": "everything",
+              "pt": "tudo"
+            }
+          ],
+          "expressions": [
+            {
+              "en": "How often...?",
+              "pt": "Com que frequência...?"
+            },
+            {
+              "en": "full time",
+              "pt": "período integral"
+            },
+            {
+              "en": "part time",
+              "pt": "meio período"
+            },
+            {
+              "en": "especially",
+              "pt": "principalmente"
+            },
+            {
+              "en": "he works too much",
+              "pt": "ele trabalha demais"
+            }
+          ],
+          "curiosity": "\"Too\" has two faces in English: at the end of a sentence it means \"also\" (\"I work here too\"), but before an adjective it means \"excessively\" (\"too expensive\" = more than I can afford). Same little word, opposite feelings — context tells you which.",
+          "teachingGuide": "Grammar — perguntas no passado com 'did' + verbo no infinitivo (When did you do...? / Where did you study...?). 'did' carrega o passado, o verbo principal volta ao infinitivo.\n\nVocabulário:\n• too (fim de frase) = também / also (antes do verbo) = também\n• too + adjetivo = demais, em excesso (The car is too expensive = não tenho dinheiro)\n• town = cidade pequena (tamanho)\n\nExpressions — 'How often...?' (com que frequência). Pratique full time / part time e 'especially'. 'to start' aceita -ing ou 'to'; 'to finish' exige -ing.",
+          "homework": [
+            "Quando você começou a trabalhar naquela fábrica?",
+            "Minha sobrinha vem a este parque três vezes por mês, porque ela gosta daqui.",
+            "Com que frequência ele vai ao campo de futebol? Ele sempre vai lá.",
+            "Você trabalhou meio período ou período integral ano passado?",
+            "Meu sobrinho brincava comigo também, principalmente nos fins de semana.",
+            "Este violão é tão bonito. Onde você o comprou?",
+            "Eu também comecei a trabalhar meio período pela manhã. Agora eu estou tão feliz.",
+            "Minha tia toca violão também. Agora meu tio também quer tocar.",
+            "Coloque na forma negativa: That dog stayed near my house all day. → That dog didn't stay near my house all day.",
+            "Coloque na forma negativa: These cookies are so good. → These cookies are not so good."
+          ]
+        },
+        {
+          "id": 25,
+          "title": "Lesson 25 — Conversation: Hobbies & How Often",
+          "verbs": [],
+          "grammarPoints": [
+            {
+              "en": "How often do you go downtown?",
+              "pt": "Com que frequência você vai ao centro?"
+            },
+            {
+              "en": "Do you also want to study Spanish?",
+              "pt": "Você também quer estudar espanhol?"
+            },
+            {
+              "en": "Do you know how to play the guitar?",
+              "pt": "Você sabe tocar violão?"
+            },
+            {
+              "en": "Do you work part time?",
+              "pt": "Você trabalha meio período?"
+            }
+          ],
+          "readingText": {
+            "title": "What Joe Does",
+            "body": "Joe works in a factory that makes clothes. He doesn't work on the weekends, so he has time for his hobbies. He knows how to play the guitar, and he plays for his friends every Friday. He also likes to run in the field near his house. How often does he run? Three times a week! Joe lives in a small town, but he wants a new job in a big city. His wife speaks English too, and his children study full time at school. On holidays, they all go to the country together.",
+            "glossary": [
+              {
+                "en": "to look like",
+                "pt": "parecer-se com"
+              },
+              {
+                "en": "to run",
+                "pt": "correr"
+              },
+              {
+                "en": "factory",
+                "pt": "fábrica"
+              },
+              {
+                "en": "hobby",
+                "pt": "passatempo"
+              }
+            ]
+          },
+          "vocabulary": [],
+          "expressions": [],
+          "curiosity": "\"How often\" asks about frequency, and English answers it with adverbs (always, usually, sometimes, never) or with \"times\" expressions (once a week). It's one of the most useful questions for real conversation — it gets people talking about their routines and hobbies.",
+          "teachingGuide": "Lição de conversação — revisão das aulas 23 a 24. Sem novos verbos.\n\nFoco: 'How often...?' e respostas com advérbios de frequência (always/usually/sometimes/never) e expressões com 'times'. Revisar too/also, part time/full time, factory, field, guitar e profissões.\n\nConduza as perguntas como conversa real sobre passatempos e rotina. Incentive frases completas e o uso natural de 'especially'.",
+          "homework": [
+            "Você veio trabalhar ontem? Você chegou em casa cedo ontem?",
+            "Seus filhos estudam inglês também? Você toca violão também?",
+            "Sua esposa (seu marido) fala inglês também?",
+            "Você também quer estudar espanhol? Você também trabalha período integral?",
+            "Você morava numa cidadezinha muito tempo atrás?",
+            "Com que frequência você joga futebol num campo?",
+            "Com que frequência você janta num restaurante?",
+            "Com que frequência você escreve e-mails? Com que frequência você lê livros?",
+            "Você trabalha meio período? Seus filhos estudam meio período?",
+            "Com que frequência você vai à praia?"
+          ]
+        },
+        {
+          "id": 26,
+          "title": "Lesson 26 — Object Pronouns & Place",
+          "verbs": [
+            {
+              "en": "to know, knew",
+              "pt": "saber, conhecer (sabia) — irregular"
+            },
+            {
+              "en": "to open, opened",
+              "pt": "abrir (para)"
+            }
+          ],
+          "grammarPoints": [
+            {
+              "en": "She lived with us many years ago.",
+              "pt": "Ela morou conosco muitos anos atrás."
+            },
+            {
+              "en": "My niece opened the door for him.",
+              "pt": "Minha sobrinha abriu a porta para ele."
+            },
+            {
+              "en": "Who lives behind your house?",
+              "pt": "Quem mora atrás da sua casa?"
+            },
+            {
+              "en": "It's too cold today.",
+              "pt": "Está frio demais hoje."
+            },
+            {
+              "en": "They are not coming with me.",
+              "pt": "Eles não estão vindo comigo."
+            }
+          ],
+          "vocabulary": [
+            {
+              "en": "behind",
+              "pt": "atrás (de)"
+            },
+            {
+              "en": "beside",
+              "pt": "ao lado (de)"
+            },
+            {
+              "en": "next to",
+              "pt": "próximo de, ao lado de"
+            },
+            {
+              "en": "in front of",
+              "pt": "em frente (de)"
+            },
+            {
+              "en": "it's hot",
+              "pt": "está quente"
+            },
+            {
+              "en": "it's cold",
+              "pt": "está frio"
+            },
+            {
+              "en": "young",
+              "pt": "jovem"
+            },
+            {
+              "en": "flower",
+              "pt": "flor"
+            },
+            {
+              "en": "watch",
+              "pt": "relógio (de pulso)"
+            },
+            {
+              "en": "mechanic",
+              "pt": "mecânico"
+            },
+            {
+              "en": "highway",
+              "pt": "rodovia"
+            },
+            {
+              "en": "street",
+              "pt": "rua"
+            },
+            {
+              "en": "money",
+              "pt": "dinheiro"
+            },
+            {
+              "en": "me",
+              "pt": "me, mim"
+            },
+            {
+              "en": "him",
+              "pt": "ele (objeto)"
+            },
+            {
+              "en": "her",
+              "pt": "ela (objeto)"
+            },
+            {
+              "en": "us",
+              "pt": "nos, nós (objeto)"
+            },
+            {
+              "en": "them",
+              "pt": "eles (objeto)"
+            }
+          ],
+          "expressions": [
+            {
+              "en": "Take it easy!",
+              "pt": "Fica frio! / Relaxa!"
+            },
+            {
+              "en": "Watch out!",
+              "pt": "Cuidado!"
+            },
+            {
+              "en": "Never mind!",
+              "pt": "Nem esquente! / Deixa pra lá!"
+            },
+            {
+              "en": "It's too cold!",
+              "pt": "Está frio demais!"
+            },
+            {
+              "en": "It's too hot!",
+              "pt": "Está quente demais!"
+            }
+          ],
+          "curiosity": "English object pronouns (me, you, him, her, it, us, them) come AFTER the verb or preposition: \"She helped me,\" \"Come with us.\" Brazilians often want to put the subject form there (\"Come with we\") — but only the object form works after a preposition.",
+          "teachingGuide": "Grammar — OBJECT PRONOUNS: me / you / him / her / it / us / you / them. São usados após verbos, após preposições ou no fim das frases. Ex.: He helped us. / Come with them. Corrija a tendência de usar a forma sujeito (with we → with us).\n\nVerbos: 'to know' = saber E conhecer (use 'how to' para 'saber fazer'). 'to open' usa preposição 'for' (open the door for him).\n\nVocabulário: behind/beside já incluem o 'de', mas use 'the' quando necessário (behind the house). it's hot/cold para clima.",
+          "homework": [
+            "Eu tocava violão na escola. Agora eu toco piano.",
+            "Fica frio. Esta lição não é muito importante para nós.",
+            "Eles moravam atrás dos correios, mas em frente do parque.",
+            "Meu relógio está velho. Eu tenho que comprar um relógio novo para mim.",
+            "Meu tio mora próximo da rodovia, mas ele não gosta de morar lá.",
+            "Ela precisa comprar livros para o filho dela, mas ela não tem dinheiro.",
+            "Cuidado! Está frio demais hoje. Venha para casa cedo.",
+            "Eu fechei a loja para eles, mas eles não me ajudaram.",
+            "Nem ligue. O mecânico não está trabalhando hoje de manhã. Ele só trabalha meio período.",
+            "Quem mora ao lado da sua casa? E em frente?"
+          ]
+        },
+        {
+          "id": 27,
+          "title": "Lesson 27 — Conversation: Weather & Around Town",
+          "verbs": [],
+          "grammarPoints": [
+            {
+              "en": "Is it hot today?",
+              "pt": "Está quente hoje?"
+            },
+            {
+              "en": "Do you live near downtown?",
+              "pt": "Você mora perto do centro?"
+            },
+            {
+              "en": "Do you know how to ride a bicycle?",
+              "pt": "Você sabe andar de bicicleta?"
+            },
+            {
+              "en": "Are there many highways in your city?",
+              "pt": "Há muitas rodovias na sua cidade?"
+            }
+          ],
+          "readingText": {
+            "title": "Going to the Gas Station",
+            "body": "George needs gas, so he is going to the gas station alone. It's not far — it's next to the highway, in front of a big market. The weather is cold today, and George doesn't have enough money, so he can't buy a lot of gas. His friend Charlie lives beside the gas station, near a street with a lot of flowers. George likes that street because it's clean and quiet. After the gas station, he wants to go home and drink some hot chocolate, because it's so cold outside!",
+            "glossary": [
+              {
+                "en": "gas station",
+                "pt": "posto de gasolina"
+              },
+              {
+                "en": "gas",
+                "pt": "gasolina"
+              },
+              {
+                "en": "enough",
+                "pt": "suficiente, o bastante"
+              },
+              {
+                "en": "public transportation",
+                "pt": "transporte público"
+              }
+            ]
+          },
+          "vocabulary": [],
+          "expressions": [],
+          "curiosity": "In American English, \"gas\" is short for \"gasoline\" and you fill up at a \"gas station.\" But in British English the same fuel is \"petrol\" and you go to a \"petrol station\" — and \"gas\" means the stuff you cook with. Same language, two worlds!",
+          "teachingGuide": "Lição de conversação — revisão das aulas 25 a 26. Sem novos verbos.\n\nFoco: it's hot / it's cold (clima), preposições de lugar (behind, beside, next to, in front of, near, far), pronomes objeto e o vocabulário recente (highway, gas station, flower, mechanic, watch, young).\n\nConduza como conversa real sobre clima e a cidade do aluno. Reforce 'enough' (suficiente) e as expressões Take it easy / Watch out / Never mind.",
+          "homework": [
+            "Eu não sei quanto café eles bebem.",
+            "Você levou alguma coisa para a praia ontem de manhã?",
+            "Quem visitou você na fazenda no último Natal?",
+            "Ele gosta de toda comida, principalmente carne e salada.",
+            "Meu chefe não trabalha muito; ele trabalha pouco.",
+            "Nossos vizinhos vinham à nossa casa no passado.",
+            "Nem esquente! Eles vêm aqui de vez em quando.",
+            "Quem trabalha com você no escritório meio período?",
+            "Fica frio, ele sempre levanta cedo.",
+            "Que tal lavar a louça depois do jantar?"
+          ]
+        },
+        {
+          "id": 28,
+          "title": "Lesson 28 — Furniture, Feelings & Some/Any",
+          "verbs": [
+            {
+              "en": "to prefer, preferred",
+              "pt": "preferir (preferi)"
+            },
+            {
+              "en": "to help, helped",
+              "pt": "ajudar (ajudei)"
+            },
+            {
+              "en": "to write, wrote",
+              "pt": "escrever (escrevi) — irregular"
+            },
+            {
+              "en": "to read, read",
+              "pt": "ler (li) — irregular"
+            }
+          ],
+          "grammarPoints": [
+            {
+              "en": "She preferred to help me.",
+              "pt": "Ela preferiu me ajudar."
+            },
+            {
+              "en": "My sister wrote to her friend.",
+              "pt": "Minha irmã escreveu para a amiga dela."
+            },
+            {
+              "en": "He has to take some books to read at home.",
+              "pt": "Ele tem que levar alguns livros para ler em casa."
+            },
+            {
+              "en": "She doesn't have any book to read.",
+              "pt": "Ela não tem nenhum livro para ler."
+            },
+            {
+              "en": "I eat any kind of food.",
+              "pt": "Eu como qualquer tipo de comida."
+            }
+          ],
+          "vocabulary": [
+            {
+              "en": "report",
+              "pt": "relatório"
+            },
+            {
+              "en": "name",
+              "pt": "nome"
+            },
+            {
+              "en": "present",
+              "pt": "presente"
+            },
+            {
+              "en": "kind (of)",
+              "pt": "tipo (de)"
+            },
+            {
+              "en": "bed",
+              "pt": "cama"
+            },
+            {
+              "en": "fridge",
+              "pt": "geladeira"
+            },
+            {
+              "en": "sofa",
+              "pt": "sofá"
+            },
+            {
+              "en": "closet",
+              "pt": "armário"
+            },
+            {
+              "en": "sick",
+              "pt": "doente"
+            },
+            {
+              "en": "tired",
+              "pt": "cansado"
+            },
+            {
+              "en": "single",
+              "pt": "solteiro"
+            },
+            {
+              "en": "married",
+              "pt": "casado"
+            },
+            {
+              "en": "kind",
+              "pt": "bondoso, gentil"
+            },
+            {
+              "en": "together",
+              "pt": "junto(s)"
+            },
+            {
+              "en": "food",
+              "pt": "comida"
+            }
+          ],
+          "expressions": [
+            {
+              "en": "some (offering)",
+              "pt": "some — oferecendo algo"
+            },
+            {
+              "en": "any (questions)",
+              "pt": "any — em perguntas"
+            },
+            {
+              "en": "any (= any kind)",
+              "pt": "any — qualquer (afirmativa)"
+            },
+            {
+              "en": "any (negatives)",
+              "pt": "any — em negativas"
+            },
+            {
+              "en": "What kind of...?",
+              "pt": "Que tipo de...?"
+            }
+          ],
+          "curiosity": "\"Some\" and \"any\" return here with a twist: in a positive sentence, \"any\" means \"any kind at all\" — \"I eat any food\" means you're not picky! So \"some\" offers (\"Do you want some coffee?\") while \"any\" in a statement opens the door to everything.",
+          "teachingGuide": "Expressions — recapitule some/any (visto na Lição 5):\n• some = frases afirmativas e ao oferecer algo (Do you want some beer?)\n• any = perguntas (Does she have any friends?)\n• any = 'qualquer' em frases afirmativas (I eat any food)\n• any = frases negativas (She doesn't have any friends)\n\nVerbos no passado: prefer→preferred, help→helped, write→wrote, read→read (pronúncia muda para /rɛd/). 'to write/read' usam preposição 'to' (para) ou 'for' (por).\n\nVocabulário: móveis (bed, fridge, sofa, closet) e estados (sick, tired, single, married). 'kind' = tipo E bondoso.",
+          "homework": [
+            "Eles preferiram ler todos os livros conosco. Nós não tínhamos muito tempo.",
+            "Quem escreveu todas as cartas para ele? Ele não gosta de ler cartas.",
+            "Aquele homem é solteiro ou casado? Eu não sei, mas ele mora com uma mulher linda.",
+            "Quando eles compraram esta cama e este armário para a casa deles?",
+            "Esta geladeira não é nova. Meu pai tem que comprar uma geladeira nova.",
+            "Quais tipos de frutas você prefere? Eu como qualquer tipo de fruta.",
+            "Ela precisa comprar um presente para ele no aniversário dele.",
+            "Eu não sei que tipo de relatório ele quer. Eu tenho que escrever qualquer coisa.",
+            "Coloque no presente: He didn't like to work on Mondays. → He doesn't like to work on Mondays.",
+            "Coloque no presente: Did your father write reports to his boss? → Does your father write reports to his boss?"
+          ]
+        },
+        {
+          "id": 29,
+          "title": "Lesson 29 — Conversation: Food & Feelings",
+          "verbs": [],
+          "grammarPoints": [
+            {
+              "en": "What kind of food do you prefer?",
+              "pt": "Que tipo de comida você prefere?"
+            },
+            {
+              "en": "Are you married?",
+              "pt": "Você está casado?"
+            },
+            {
+              "en": "Are you tired after work?",
+              "pt": "Você fica cansado depois do trabalho?"
+            },
+            {
+              "en": "Who makes the food at your house?",
+              "pt": "Quem faz a comida na sua casa?"
+            }
+          ],
+          "readingText": {
+            "title": "After a Long Day",
+            "body": "My brother likes to stay at home. He usually doesn't work on Saturdays and Sundays, because he is always tired after the week. Today my son is at home too, because he is tired and sick. I am married, and my wife makes good food for all of us — she is a very kind person. We have some couches in the living room and a big fridge in the kitchen, full of pies and cakes. When I am sick, I prefer to eat healthy food and sleep in my bed. After a long day, a good meal and a soft sofa are all I need!",
+            "glossary": [
+              {
+                "en": "to make",
+                "pt": "fazer (preparar)"
+              },
+              {
+                "en": "stranger",
+                "pt": "estranho, desconhecido"
+              },
+              {
+                "en": "healthy",
+                "pt": "saudável"
+              },
+              {
+                "en": "refrigerator",
+                "pt": "geladeira"
+              }
+            ]
+          },
+          "vocabulary": [],
+          "expressions": [],
+          "curiosity": "English has two words where Portuguese has one: \"single\" can mean unmarried (a single person) or just one (a single bed). Context decides — \"a single man in a single bed\" is perfectly clear to a native ear, even if it makes learners smile.",
+          "teachingGuide": "Lição de conversação — revisão das aulas 24 a 28. Sem novos verbos.\n\nFoco: vocabulário de comida e móveis (food, meal, bed, couch/sofa, closet, fridge), estados (sick, tired, married, single, kind) e some/any. Revisar o passado e o presente das aulas anteriores.\n\nConduza como conversa real sobre rotina, casa e sentimentos. Reforce 'married/single' e 'kind' (bondoso e tipo).",
+          "homework": [
+            "Meu irmão gosta de ficar em casa. Ele geralmente não trabalha aos sábados e domingos.",
+            "Meu filho está em casa porque ele está cansado e doente também.",
+            "Quanto ele come no almoço? Eu sei que ele come muito arroz.",
+            "O banco abre de manhã? Sim, mas às vezes ele abre à tarde também.",
+            "Eu tenho alguns sofás na casa de praia, um no escritório e alguns no apartamento.",
+            "Meu primo não mora longe do posto. Ele mora atrás do posto.",
+            "Fica calmo. Eles estão todos ocupados, mas já estão vindo.",
+            "Você tem alguma torta na geladeira? Sim, tenho algumas tortas e bolos."
+          ]
+        },
+        {
+          "id": 30,
+          "title": "Lesson 30 — Telling Time & Past Irregulars",
+          "verbs": [
+            {
+              "en": "to have, had",
+              "pt": "ter, ter que (tive) — irregular"
+            },
+            {
+              "en": "to buy, bought",
+              "pt": "comprar (comprei) — irregular"
+            },
+            {
+              "en": "to sell, sold",
+              "pt": "vender (vendi) — irregular"
+            },
+            {
+              "en": "to understand, understood",
+              "pt": "entender (entendi) — irregular"
+            }
+          ],
+          "grammarPoints": [
+            {
+              "en": "I had to buy a sofa.",
+              "pt": "Eu tive que comprar um sofá."
+            },
+            {
+              "en": "My sister understood her book.",
+              "pt": "Minha irmã entendeu o livro dela."
+            },
+            {
+              "en": "My father works at seven o'clock.",
+              "pt": "Meu pai trabalha às sete horas."
+            },
+            {
+              "en": "They work until two twenty-five.",
+              "pt": "Eles trabalham até as duas e vinte e cinco."
+            },
+            {
+              "en": "Did you understand what I said?",
+              "pt": "Você entendeu o que eu disse?"
+            }
+          ],
+          "vocabulary": [
+            {
+              "en": "o'clock",
+              "pt": "hora (em ponto)"
+            },
+            {
+              "en": "noon",
+              "pt": "meio-dia"
+            },
+            {
+              "en": "midnight",
+              "pt": "meia-noite"
+            },
+            {
+              "en": "until",
+              "pt": "até"
+            },
+            {
+              "en": "dress",
+              "pt": "vestido"
+            },
+            {
+              "en": "shirt",
+              "pt": "camisa"
+            },
+            {
+              "en": "shoes",
+              "pt": "sapatos"
+            },
+            {
+              "en": "truck",
+              "pt": "caminhão"
+            },
+            {
+              "en": "fast",
+              "pt": "rápido"
+            },
+            {
+              "en": "slow",
+              "pt": "lento"
+            },
+            {
+              "en": "bottle",
+              "pt": "garrafa"
+            },
+            {
+              "en": "can",
+              "pt": "lata"
+            },
+            {
+              "en": "glass",
+              "pt": "copo"
+            },
+            {
+              "en": "meal",
+              "pt": "refeição"
+            },
+            {
+              "en": "supper",
+              "pt": "ceia, jantar"
+            },
+            {
+              "en": "foreigner",
+              "pt": "estrangeiro"
+            }
+          ],
+          "expressions": [
+            {
+              "en": "at five past eight",
+              "pt": "às oito e cinco"
+            },
+            {
+              "en": "at eight fifteen",
+              "pt": "às oito e quinze / e quinze"
+            },
+            {
+              "en": "half past ten",
+              "pt": "dez e meia"
+            },
+            {
+              "en": "twenty to two",
+              "pt": "vinte para as duas"
+            },
+            {
+              "en": "a.m. / p.m.",
+              "pt": "da manhã / da noite"
+            }
+          ],
+          "curiosity": "English tells time two ways. The simple way just reads the numbers: \"eight fifteen.\" The traditional way uses \"past\" and \"to\": \"quarter past eight,\" \"twenty to nine.\" British speakers love the second; Americans often use the first. Both are correct!",
+          "teachingGuide": "Grammar — que horas são (telling time):\n• 1:00 → it's one o'clock\n• 1:15 → it's one fifteen / it's fifteen past one\n• 1:30 → it's one thirty / it's half past one\n• 1:40 → it's one forty / it's twenty to two\n• 1:55 → it's one fifty-five / it's five to two\nUse 'at' para horas (at seven o'clock). Pratique nas duas formas (americana e britânica). noon = meio-dia, midnight = meia-noite.\n\nVerbos irregulares no passado: have→had, buy→bought, sell→sold, understand→understood. No passado, o verbo não muda na 3ª pessoa.",
+          "homework": [
+            "Ele trabalha na fábrica até a uma e quarenta e cinco. Ele não tem tempo de nos ajudar.",
+            "Quando você vendeu seu carro velho? Eu o vendi ontem e comprei um carro novo hoje.",
+            "Aquele caminhão não é lento. Ele é tão rápido.",
+            "Minha tia cozinhou uma boa refeição para o almoço, mas hoje queremos jantar no clube.",
+            "Que horas você observou a lua ontem à noite? Mais ou menos às nove e quinze.",
+            "Nosso gerente precisa comprar algumas latas de cerveja e muitas garrafas de vinho.",
+            "Alguns estrangeiros estão vindo para cá. Eles querem comprar alguns caminhões.",
+            "Meus sapatos estão no quarto. Meu vestido e minha camisa estão no armário.",
+            "Coloque na interrogativa e negativa: He understands everything his teacher says.",
+            "Coloque na interrogativa e negativa: That foreigner sold his car to my boss."
+          ]
+        },
+        {
+          "id": 31,
+          "title": "Lesson 31 — Conversation: Shopping & Colors",
+          "verbs": [],
+          "grammarPoints": [
+            {
+              "en": "Do you have a big fridge at home?",
+              "pt": "Você tem uma geladeira grande em casa?"
+            },
+            {
+              "en": "What color is your car?",
+              "pt": "De que cor é o seu carro?"
+            },
+            {
+              "en": "Do you prefer long or short dresses?",
+              "pt": "Você prefere vestidos longos ou curtos?"
+            },
+            {
+              "en": "Did you work until eight o'clock yesterday?",
+              "pt": "Você trabalhou até as oito horas ontem?"
+            }
+          ],
+          "readingText": {
+            "title": "Stephany Goes Shopping",
+            "body": "Stephany wants to buy a new dress. She is going downtown in the evening, and she is going by car. Her car is red and very fast. She prefers short dresses in the summer, but today she needs a long white dress for a party. After the store, she wants to go to the drugstore near her house to buy some things. Stephany has a lot of shoes — many pairs in different colors: black, white, yellow, and brown. She likes to buy clothes, but she doesn't like fast food, so she always has her meals at home.",
+            "glossary": [
+              {
+                "en": "to drive",
+                "pt": "dirigir"
+              },
+              {
+                "en": "color",
+                "pt": "cor"
+              },
+              {
+                "en": "drugstore",
+                "pt": "farmácia"
+              },
+              {
+                "en": "pair",
+                "pt": "par (de sapatos)"
+              }
+            ]
+          },
+          "vocabulary": [],
+          "expressions": [],
+          "curiosity": "Americans say \"color\" and Brits say \"colour\" — one of dozens of words where British English keeps a \"u\" that American English dropped (favourite/favorite, neighbour/neighbor). Same pronunciation, different spelling, lots of confused spell-checkers.",
+          "teachingGuide": "Lição de conversação — revisão das aulas 29 a 30. Sem novos verbos.\n\nFoco: cores (red, white, yellow, black, brown), horas (at... o'clock, until noon/midnight), vocabulário de compras (dress, shirt, shoes, fridge, truck) e fast/slow.\n\nConduza como conversa real sobre compras, cores favoritas e horários. Reforce 'What color is...?' e 'a pair of shoes'.",
+          "homework": [
+            "Você tem uma geladeira grande em casa? De que cor é a sua geladeira?",
+            "Você às vezes dorme até o meio-dia?",
+            "Seus filhos gostam de fast food? Com que frequência eles comem fast food?",
+            "Você fala inglês rápido? Você geralmente dirige rápido?",
+            "Você quer comprar um caminhão? De que cor você gosta para caminhões?",
+            "Você tem sapatos brancos? Você tem tênis brancos?",
+            "Você prefere uma garrafa ou uma lata de cerveja?",
+            "Você fica no trabalho até a meia-noite às vezes?",
+            "Quantos pares de sapatos você tem? Qual é o seu sapato favorito?",
+            "Onde você gosta de comprar camisas? De que cor é a sua camisa favorita?"
+          ]
+        },
+        {
+          "id": 32,
+          "title": "Lesson 32 — Going Out: Colors & Places",
+          "verbs": [
+            {
+              "en": "to want, wanted",
+              "pt": "querer (quis) — irregular"
+            },
+            {
+              "en": "to sleep, slept",
+              "pt": "dormir (dormi) — irregular"
+            },
+            {
+              "en": "to go, went",
+              "pt": "ir (fui) — irregular"
+            },
+            {
+              "en": "to like, liked",
+              "pt": "gostar (gostei)"
+            }
+          ],
+          "grammarPoints": [
+            {
+              "en": "He wanted to stay here.",
+              "pt": "Ele queria ficar aqui."
+            },
+            {
+              "en": "My nephews slept at my house.",
+              "pt": "Meus sobrinhos dormiram na minha casa."
+            },
+            {
+              "en": "He went to the movies with his father.",
+              "pt": "Ele foi ao cinema com o pai dele."
+            },
+            {
+              "en": "They liked the movie.",
+              "pt": "Eles gostaram do filme."
+            },
+            {
+              "en": "I didn't want to buy a new car.",
+              "pt": "Eu não quis comprar um carro novo."
+            }
+          ],
+          "vocabulary": [
+            {
+              "en": "green",
+              "pt": "verde"
+            },
+            {
+              "en": "red",
+              "pt": "vermelho"
+            },
+            {
+              "en": "yellow",
+              "pt": "amarelo"
+            },
+            {
+              "en": "black",
+              "pt": "preto"
+            },
+            {
+              "en": "white",
+              "pt": "branco"
+            },
+            {
+              "en": "cafeteria",
+              "pt": "refeitório"
+            },
+            {
+              "en": "snack bar",
+              "pt": "lanchonete"
+            },
+            {
+              "en": "pub",
+              "pt": "bar (bebidas e comidas)"
+            },
+            {
+              "en": "restaurant",
+              "pt": "restaurante"
+            },
+            {
+              "en": "cards",
+              "pt": "baralho, cartas"
+            },
+            {
+              "en": "building",
+              "pt": "prédio"
+            },
+            {
+              "en": "bank card",
+              "pt": "cartão (do banco)"
+            },
+            {
+              "en": "red wine",
+              "pt": "vinho tinto"
+            },
+            {
+              "en": "white wine",
+              "pt": "vinho branco"
+            }
+          ],
+          "expressions": [
+            {
+              "en": "at 10 a.m.",
+              "pt": "às 10:00 da manhã"
+            },
+            {
+              "en": "at 9 p.m.",
+              "pt": "às 9:00 da noite"
+            },
+            {
+              "en": "at 8 a.m.",
+              "pt": "às 8:00 da manhã"
+            },
+            {
+              "en": "red or white wine",
+              "pt": "vinho tinto ou branco"
+            },
+            {
+              "en": "to play cards",
+              "pt": "jogar baralho"
+            }
+          ],
+          "curiosity": "Three places to grab food and drinks, three different words: a \"cafeteria\" is self-service (no waiters), a \"pub\" serves food AND drinks, and a \"bar\" usually serves just drinks. And for a deck of playing cards, English uses \"cards\" in the plural — \"let's play cards.\"",
+          "teachingGuide": "Verbos irregulares no passado: want→wanted (regular), sleep→slept, go→went, like→liked. Reforce que no passado o verbo não muda na 3ª pessoa.\n\nVocabulário — lugares para comer/beber:\n• cafeteria = refeitório, sem garçons (self-service)\n• pub = serve comidas e bebidas\n• bar = normalmente só bebidas\n• cards = baralho (sempre no plural)\n\nCores: green, red, yellow, black, white. Horas com a.m. (manhã) e p.m. (tarde/noite).",
+          "homework": [
+            "Ele apenas dormiu duas horas. Quantas horas você dorme por dia?",
+            "Você prefere almoçar num restaurante ou numa lanchonete?",
+            "Eu gosto de almoçar naquela lanchonete com eles. Você gosta de ir lá?",
+            "Meu pai toma vinho branco, mas meu tio prefere vinho tinto.",
+            "Eles jogavam baralho juntos no clube, mas agora não jogam porque o clube fechou.",
+            "O prédio onde ela mora é vermelho e verde. Não é um prédio vermelho e amarelo.",
+            "Nós só fomos àquele restaurante uma vez, porque eles não tinham o tipo de comida que gostamos.",
+            "A lanchonete está fechada, mas o restaurante ainda está aberto.",
+            "Meus filhos dormiram até o meio-dia porque vieram para casa tarde.",
+            "Coloque na afirmativa e interrogativa: They don't want to work at this factory."
+          ]
+        },
+        {
+          "id": 33,
+          "title": "Lesson 33 — Conversation: Meals & Going Out",
+          "verbs": [],
+          "grammarPoints": [
+            {
+              "en": "What time do you have breakfast?",
+              "pt": "Que horas você toma café da manhã?"
+            },
+            {
+              "en": "What meal do you prefer?",
+              "pt": "Qual refeição você prefere?"
+            },
+            {
+              "en": "What color cars do you prefer?",
+              "pt": "De que cor são os carros que você prefere?"
+            },
+            {
+              "en": "Did you go to a pub last night?",
+              "pt": "Você foi a um bar ontem à noite?"
+            }
+          ],
+          "readingText": {
+            "title": "Eating Out",
+            "body": "I don't always have my meals at home. I have breakfast at home, but I usually have lunch in a cafeteria near my work, because there are no waiters and it's fast. Sometimes, after midnight, my friends and I go to a pub downtown. We don't eat much there — we just talk and play cards. My favorite meal is dinner, and my favorite color for clothes is white. I live in a yellow building, near a snack bar and a drugstore. On the weekends, I prefer to cook at home and eat a good dessert!",
+            "glossary": [
+              {
+                "en": "to get angry",
+                "pt": "ficar com raiva"
+              },
+              {
+                "en": "hungry",
+                "pt": "com fome"
+              },
+              {
+                "en": "to eat out",
+                "pt": "comer fora"
+              },
+              {
+                "en": "company",
+                "pt": "companhia"
+              }
+            ]
+          },
+          "vocabulary": [],
+          "expressions": [],
+          "curiosity": "A \"cafeteria\" in English is a self-service restaurant — but in Portuguese, \"cafeteria\" means a coffee shop! These are \"false friends,\" words that look the same but mean different things. Always worth a double-check when a word seems too easy.",
+          "teachingGuide": "Lição de conversação — revisão das aulas 31 a 32. Sem novos verbos.\n\nFoco: vocabulário de refeições e lugares (breakfast/lunch/dinner, cafeteria, snack bar, pub, restaurant), cores, horas e o passado (went/slept/wanted/liked).\n\nConduza como conversa real sobre hábitos alimentares e lazer. Cuidado com o falso cognato: 'cafeteria' em inglês = refeitório self-service (não cafeteria/coffee shop).",
+          "homework": [
+            "Que horas você toma café da manhã? O que você gosta de beber no café?",
+            "Você faz todas as refeições em casa? Você gosta de fazer as refeições sozinho?",
+            "Você às vezes vai dormir depois da meia-noite?",
+            "Você mora perto de uma farmácia? Com que frequência você vai à farmácia?",
+            "Você faz refeições em refeitórios? Você prefere comer num refeitório ou num restaurante?",
+            "Com que frequência seus filhos vão a lanchonetes?",
+            "Você foi a um bar ontem à noite? Você gosta de ir a bares?",
+            "Você mora num prédio? De que cor é o seu prédio?",
+            "Você gosta de jogar baralho? Quando foi a última vez que você jogou?",
+            "Você tem um cartão do banco? Você usa o cartão todos os dias?"
+          ]
+        },
+        {
+          "id": 34,
+          "title": "Lesson 34 — Furniture & Someone/Anyone",
+          "verbs": [
+            {
+              "en": "to need, needed",
+              "pt": "precisar (de) (precisei)"
+            },
+            {
+              "en": "to work, worked",
+              "pt": "trabalhar (trabalhei)"
+            },
+            {
+              "en": "to study, studied",
+              "pt": "estudar (estudei)"
+            },
+            {
+              "en": "to play, played",
+              "pt": "jogar, brincar (joguei)"
+            }
+          ],
+          "grammarPoints": [
+            {
+              "en": "They needed to come here.",
+              "pt": "Eles precisavam vir aqui."
+            },
+            {
+              "en": "My friend worked all day.",
+              "pt": "Meu amigo trabalhou o dia todo."
+            },
+            {
+              "en": "She knows someone here.",
+              "pt": "Ela conhece alguém aqui."
+            },
+            {
+              "en": "He doesn't help anyone at the office.",
+              "pt": "Ele não ajuda ninguém no escritório."
+            },
+            {
+              "en": "I don't need to say anything.",
+              "pt": "Eu não preciso dizer nada."
+            }
+          ],
+          "vocabulary": [
+            {
+              "en": "furniture",
+              "pt": "móveis (sempre singular)"
+            },
+            {
+              "en": "table",
+              "pt": "mesa"
+            },
+            {
+              "en": "chair",
+              "pt": "cadeira"
+            },
+            {
+              "en": "desk",
+              "pt": "escrivaninha"
+            },
+            {
+              "en": "sport",
+              "pt": "esporte"
+            },
+            {
+              "en": "healthy",
+              "pt": "saudável"
+            },
+            {
+              "en": "health",
+              "pt": "saúde"
+            },
+            {
+              "en": "avocado",
+              "pt": "abacate"
+            },
+            {
+              "en": "peach",
+              "pt": "pêssego"
+            },
+            {
+              "en": "seafood",
+              "pt": "frutos do mar"
+            },
+            {
+              "en": "brown",
+              "pt": "marrom"
+            },
+            {
+              "en": "blue",
+              "pt": "azul"
+            },
+            {
+              "en": "gray",
+              "pt": "cinza"
+            },
+            {
+              "en": "expensive",
+              "pt": "caro"
+            },
+            {
+              "en": "cheap",
+              "pt": "barato"
+            },
+            {
+              "en": "wallet",
+              "pt": "carteira"
+            }
+          ],
+          "expressions": [
+            {
+              "en": "someone / somebody",
+              "pt": "alguém"
+            },
+            {
+              "en": "anyone / anybody",
+              "pt": "alguém / ninguém (perguntas/neg.)"
+            },
+            {
+              "en": "no one / nobody",
+              "pt": "ninguém (afirmativa)"
+            },
+            {
+              "en": "something / anything",
+              "pt": "algo / nada"
+            },
+            {
+              "en": "everyone",
+              "pt": "todos, todo mundo"
+            }
+          ],
+          "curiosity": "\"Furniture\" is always singular in English — you never say \"furnitures.\" You have \"a lot of furniture\" or \"a piece of furniture,\" but never two furnitures. The same goes for \"information\" and \"advice\" — uncountable nouns that resist the plural -s.",
+          "teachingGuide": "Verbos no passado (regulares): need→needed, work→worked, study→studied, play→played. 'to need' não precisa de preposição depois (I need to go).\n\nVocabulário: 'furniture' é SEMPRE singular (nunca 'furnitures'). Use 'a piece of furniture' ou 'a lot of furniture'.\n\nExpressions — someone/anyone/no one:\n• someone, somebody = alguém (afirmativas)\n• anyone, anybody = alguém (perguntas) / ninguém (negativas)\n• no one, nobody = ninguém (apenas em frases afirmativas — não negue duas vezes)\n• everyone = todos",
+          "homework": [
+            "Nós precisamos de uma escrivaninha nova para o escritório. Meu chefe precisa comprá-la.",
+            "Ele é uma pessoa saudável porque esse esporte é muito bom para a saúde.",
+            "Eu comi abacate ontem. Hoje eu quero comer pêssego.",
+            "Ninguém gosta desse esporte. Todas as pessoas preferem futebol.",
+            "Ela comprou estes móveis no centro, mas ainda precisa de uma mesa nova.",
+            "Alguém está jogando esportes no campo. Você conhece alguém aqui?",
+            "Ele não estuda inglês com ninguém. Ele prefere estudar sozinho.",
+            "Eles vendiam somente carros caros. Meu pai quer comprar um carro barato.",
+            "Alguém precisa comprar uma cadeira marrom e alguns móveis novos.",
+            "Eu não conheço ninguém que vende móveis. Você conhece alguém?"
+          ]
         }
       ]
     },
