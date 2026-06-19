@@ -59,7 +59,7 @@ export default async function DashboardPage() {
             </div>
 
             {/* Stats row */}
-            <div className="flex gap-4 mt-5">
+            <div className="flex flex-wrap gap-3 mt-5">
               {[
                 { icon: BookOpen, count: totalBooks, label: "Books", color: "#5c6bc0" },
                 { icon: Headphones, count: totalListenings || 9, label: "Listenings", color: "#7986cb" },
