@@ -444,52 +444,1615 @@
     {
       "bookId": 2,
       "lessonId": 1,
-      "practice": "Go around the class: each student says one thing they CAN do and one they CAN'T do. Others ask follow-up questions: 'How well can you cook? Can you teach me?'",
+      "practiceVerbs": [
+        { "pt": "Eu consigo cozinhar./ nadar/ dançar", "en": "I can cook./ swim/ dance" },
+        { "pt": "Você sabe dirigir./ tocar violão/ andar de bicicleta", "en": "You can drive./ play the guitar/ ride a bike" },
+        { "pt": "Ele sabe tocar piano./ cantar/ correr", "en": "He can play the piano./ sing/ run" },
+        { "pt": "Eu não sei dirigir./ nadar/ cantar", "en": "I can't drive./ swim/ sing" },
+        { "pt": "Você sabe cozinhar?/ dançar/ dirigir", "en": "Can you cook?/ dance/ drive" }
+      ],
+      "practiceVocabulary": [
+        { "pt": "Eu consigo nadar muito bem./ um pouco/ mal", "en": "I can swim very well./ a little/ badly" },
+        { "pt": "Ela sabe cantar bem./ dançar/ ler", "en": "She can sing well./ dance/ read" },
+        { "pt": "Ele sabe tocar violão./ piano", "en": "He can play the guitar./ the piano" },
+        { "pt": "Eu consigo correr um pouco./ andar de bicicleta/ escrever", "en": "I can run a little./ ride a bike/ write" },
+        { "pt": "Você sabe ler inglês bem./ português", "en": "You can read English well./ Portuguese" },
+        { "pt": "Nós sabemos dançar muito bem./ cozinhar/ cantar", "en": "We can dance very well./ cook/ sing" },
+        { "pt": "Ele não sabe nadar./ dirigir/ cozinhar", "en": "He can't swim./ drive/ cook" },
+        { "pt": "Ela sabe tocar piano?/ cantar/ dançar", "en": "Can she play the piano?/ sing/ dance" },
+        { "pt": "Eu consigo escrever um pouco./ ler/ correr", "en": "I can write a little./ read/ run" },
+        { "pt": "Você anda de bicicleta bem./ mal/ um pouco", "en": "You can ride a bike well./ badly/ a little" },
+        { "pt": "Eles sabem cozinhar muito bem./ jogar/ dançar", "en": "They can cook very well./ play/ dance" }
+      ],
+      "practiceExpressions": [
+        { "pt": "Você pode me ajudar? Claro que sim!", "en": "Can you help me? Of course!" },
+        { "pt": "Você sabe dirigir? De jeito nenhum!", "en": "Can you drive? No way!" },
+        { "pt": "Não tenho certeza. Deixa eu tentar.", "en": "I'm not sure. Let me try." },
+        { "pt": "Você sabe cantar! Que incrível!", "en": "You can sing! That's amazing!" },
+        { "pt": "Claro que sim!/ De jeito nenhum!/ Deixa eu tentar!", "en": "Of course I can!/ No way!/ Let me try!" }
+      ],
       "practicingPart2": [
-        "Eu consigo falar inglês. / um pouco / muito bem",
-        "Eu não sei dirigir. / nadar / cozinhar",
-        "Você sabe dançar? Sim, sei muito bem. / um pouco",
-        "Ele consegue tocar violão. / piano / guitarra",
-        "Ela não sabe cantar. / correr / nadar",
-        "Eu consigo ler inglês. / um pouco / muito bem",
-        "Você sabe andar de bicicleta? Claro que sim!",
-        "Eu não tenho certeza. Deixa eu tentar.",
-        "Que incrível! Você consegue fazer isso!",
-        "Eu consigo cozinhar muito bem. / um pouco"
+        { "pt": "Eu consigo falar inglês./ um pouco/ muito bem", "en": "I can speak English./ a little/ very well" },
+        { "pt": "Eu não sei dirigir./ nadar/ cozinhar", "en": "I can't drive./ swim/ cook" },
+        { "pt": "Você sabe dançar? Sim, sei, muito bem./ um pouco", "en": "Can you dance? Yes, I can, very well./ a little" },
+        { "pt": "Ele sabe tocar violão./ piano", "en": "He can play the guitar./ piano" },
+        { "pt": "Ela não sabe cantar./ correr/ nadar", "en": "She can't sing./ run/ swim" },
+        { "pt": "Eu consigo ler inglês./ um pouco/ muito bem", "en": "I can read English./ a little/ very well" },
+        { "pt": "Você sabe andar de bicicleta? Claro que sim!", "en": "Can you ride a bike? Of course!" },
+        { "pt": "Não tenho certeza. Deixa eu tentar.", "en": "I'm not sure. Let me try." },
+        { "pt": "Que incrível! Você consegue fazer isso!", "en": "That's amazing! You can do it!" },
+        { "pt": "Eu consigo cozinhar muito bem./ um pouco", "en": "I can cook very well./ a little" },
+        { "pt": "Nós sabemos nadar, mas não sabemos mergulhar.", "en": "We can swim, but we can't dive." },
+        { "pt": "Ele sabe dirigir? Não, ainda não.", "en": "Can he drive? No, he can't yet." }
       ]
     },
     {
       "bookId": 2,
       "lessonId": 2,
-      "practice": "Draw a simple city map on the board. Students take turns asking 'Where is the ___?' and giving directions to a partner using target vocabulary.",
+      "practiceVerbs": [
+        { "pt": "Pegue o ônibus./ o trem/ um táxi", "en": "Take the bus./ the train/ a taxi" },
+        { "pt": "Vire à esquerda./ à direita/ na esquina", "en": "Turn left./ right/ at the corner" },
+        { "pt": "Ande dois quarteirões./ em frente/ até o parque", "en": "Walk two blocks./ straight ahead/ to the park" },
+        { "pt": "Eu não encontro o banco./ a escola/ a farmácia", "en": "I can't find the bank./ the school/ the pharmacy" },
+        { "pt": "Pegue a primeira rua./ a segunda/ esta avenida", "en": "Take the first street./ the second/ this avenue" }
+      ],
+      "practiceVocabulary": [
+        { "pt": "O banco fica na Rua Principal./ o hospital/ a escola", "en": "The bank is on Main Street./ the hospital/ the school" },
+        { "pt": "Fica ao lado do supermercado./ do parque/ do restaurante", "en": "It's next to the supermarket./ the park/ the restaurant" },
+        { "pt": "Fica em frente à farmácia./ ao banco/ à escola", "en": "It's across from the pharmacy./ the bank/ the school" },
+        { "pt": "Vire à direita no semáforo./ na esquina", "en": "Turn right at the traffic light./ the corner" },
+        { "pt": "Ande em frente./ dois quarteirões/ até o ponto de ônibus", "en": "Walk straight ahead./ two blocks/ to the bus stop" },
+        { "pt": "O parque fica à esquerda./ à direita", "en": "The park is on the left./ on the right" },
+        { "pt": "Onde fica o hospital?/ o banco/ a farmácia", "en": "Where is the hospital?/ the bank/ the pharmacy" },
+        { "pt": "Fica perto do ponto de ônibus./ do parque/ da escola", "en": "It's near the bus stop./ the park/ the school" },
+        { "pt": "Ande dois quarteirões e vire à esquerda./ à direita", "en": "Go two blocks and turn left./ right" },
+        { "pt": "O restaurante fica em frente ao banco.", "en": "The restaurant is across from the bank." },
+        { "pt": "Pegue o ônibus até o hospital./ a escola", "en": "Take the bus to the hospital./ the school" }
+      ],
+      "practiceExpressions": [
+        { "pt": "Com licença! Você pode me ajudar?", "en": "Excuse me! Can you help me?" },
+        { "pt": "Estou perdido. Onde fica o banco?", "en": "I'm lost. Where is the bank?" },
+        { "pt": "É longe? Não, é aqui pertinho.", "en": "Is it far? No, it's close by." },
+        { "pt": "Com licença, o parque é perto daqui?", "en": "Excuse me, is the park near here?" },
+        { "pt": "Você pode me ajudar? Claro!", "en": "Can you help me? Of course!" }
+      ],
       "practicingPart2": [
-        "Com licença! Onde fica o banco? / o hospital / a farmácia",
-        "Estou perdido(a). Você pode me ajudar?",
-        "Vire à esquerda no semáforo. / à direita / em frente",
-        "Ande dois quarteirões e vire à direita. / à esquerda",
-        "Fica ao lado do supermercado. / da escola / do parque",
-        "Pegue o ônibus até o hospital. / a pé / dois quarteirões",
-        "É longe? Não, é aqui pertinho.",
-        "O banco fica em frente à farmácia. / ao lado / atrás",
-        "Vire à direita e ande reto. / à esquerda / dois quarteirões",
-        "O restaurante fica ao lado do parque. / da escola"
+        { "pt": "Com licença! Onde fica o banco?/ o hospital/ a farmácia", "en": "Excuse me! Where is the bank?/ the hospital/ the pharmacy" },
+        { "pt": "Estou perdido(a). Você pode me ajudar?", "en": "I'm lost. Can you help me?" },
+        { "pt": "Vire à esquerda no semáforo./ à direita/ em frente", "en": "Turn left at the traffic light./ right/ straight ahead" },
+        { "pt": "Ande dois quarteirões e vire à direita./ à esquerda", "en": "Walk two blocks and turn right./ left" },
+        { "pt": "Fica ao lado do supermercado./ da escola/ do parque", "en": "It's next to the supermarket./ the school/ the park" },
+        { "pt": "Pegue o ônibus até o hospital./ vá a pé/ dois quarteirões", "en": "Take the bus to the hospital./ walk/ two blocks" },
+        { "pt": "É longe? Não, é aqui pertinho.", "en": "Is it far? No, it's close by." },
+        { "pt": "O banco fica em frente à farmácia./ ao lado/ atrás", "en": "The bank is across from the pharmacy./ next to/ behind" },
+        { "pt": "Vire à direita e ande reto./ à esquerda/ dois quarteirões", "en": "Turn right and walk straight ahead./ left/ two blocks" },
+        { "pt": "O restaurante fica ao lado do parque./ da escola", "en": "The restaurant is next to the park./ the school" },
+        { "pt": "Pegue a primeira rua à esquerda./ à direita", "en": "Take the first street on the left./ the right" },
+        { "pt": "O ponto de ônibus fica em frente ao banco.", "en": "The bus stop is across from the bank." }
       ]
     },
     {
       "bookId": 2,
       "lessonId": 3,
-      "practice": "Students ask each other about their daily schedule: 'What time do you leave home? When does your lunch break start?' Encourage full-sentence answers.",
+      "practiceVerbs": [
+        { "pt": "A aula começa às oito./ às nove/ às dez", "en": "The class starts at eight./ nine/ ten" },
+        { "pt": "A reunião termina ao meio-dia./ às cinco/ cedo", "en": "The meeting finishes at noon./ at five/ early" },
+        { "pt": "Eu chego ao trabalho às nove./ na hora/ cedo", "en": "I arrive at work at nine./ on time/ early" },
+        { "pt": "Ela sai de casa às sete./ às seis e meia/ tarde", "en": "She leaves home at seven./ at half past six/ late" },
+        { "pt": "O ônibus sai a cada vinte minutos./ dez/ trinta", "en": "The bus leaves every twenty minutes./ ten/ thirty" }
+      ],
+      "practiceVocabulary": [
+        { "pt": "São sete e meia./ e quinze/ menos quinze", "en": "It's half past seven./ quarter past/ quarter to" },
+        { "pt": "A reunião é ao meio-dia./ à meia-noite/ ao meio-dia", "en": "The meeting is at noon./ at midnight/ at midday" },
+        { "pt": "Eu estou cedo hoje./ atrasado/ na hora", "en": "I'm early today./ late/ on time" },
+        { "pt": "Nós temos um intervalo às dez./ uma reunião/ um compromisso", "en": "We have a break at ten./ a meeting/ an appointment" },
+        { "pt": "Qual é o seu horário hoje?/ amanhã", "en": "What's your schedule today?/ tomorrow" },
+        { "pt": "A aula começa na hora./ cedo/ tarde", "en": "The class starts on time./ early/ late" },
+        { "pt": "Eu tenho um compromisso às três./ uma reunião/ um intervalo", "en": "I have an appointment at three./ a meeting/ a break" },
+        { "pt": "A loja abre às nove./ fecha às seis", "en": "The store opens at nine./ closes at six" },
+        { "pt": "É menos quinze para as oito./ e quinze/ e meia", "en": "It's a quarter to eight./ quarter past/ half past" },
+        { "pt": "Ela chega tarde./ cedo/ na hora", "en": "She arrives late./ early/ on time" },
+        { "pt": "O intervalo termina ao meio-dia./ à uma", "en": "The break finishes at noon./ at one" }
+      ],
+      "practiceExpressions": [
+        { "pt": "Desculpe o atraso. Sem problema!", "en": "Sorry I'm late. No problem!" },
+        { "pt": "Na hora certa! Vamos!", "en": "Right on time! Let's go!" },
+        { "pt": "O que vem a seguir? O intervalo.", "en": "What's next? The break." },
+        { "pt": "Vamos! A aula começa agora.", "en": "Let's go! The class starts now." },
+        { "pt": "Desculpe o atraso./ Sem problema!/ Na hora certa!", "en": "Sorry I'm late./ No problem!/ Right on time!" }
+      ],
       "practicingPart2": [
-        "A que horas começa a aula? / a reunião / o trabalho",
-        "Começa às oito horas. / às nove / ao meio-dia",
-        "A reunião termina às dez. / ao meio-dia / às cinco",
-        "Eu chego ao trabalho às oito e meia. / às nove / cedo",
-        "Ela sai de casa às sete. / às seis e meia / cedo",
-        "Desculpe o atraso! Sem problema!",
-        "Eu sempre chego na hora. / cedo / um pouco tarde",
-        "O ônibus sai às oito e quinze. / e meia / menos quinze",
-        "Vamos! A aula começa em dez minutos.",
-        "O que vem a seguir? A pausa do almoço."
+        { "pt": "A que horas começa a aula?/ a reunião/ o filme", "en": "What time does the class start?/ the meeting/ the movie" },
+        { "pt": "Começa às oito horas./ às nove/ ao meio-dia", "en": "It starts at eight o'clock./ at nine/ at noon" },
+        { "pt": "A reunião termina às dez./ ao meio-dia/ às cinco", "en": "The meeting finishes at ten./ at noon/ at five" },
+        { "pt": "Eu chego ao trabalho às oito e meia./ às nove/ cedo", "en": "I arrive at work at half past eight./ at nine/ early" },
+        { "pt": "Ela sai de casa às sete./ às seis e meia/ cedo", "en": "She leaves home at seven./ at half past six/ early" },
+        { "pt": "Desculpe o atraso! Sem problema!", "en": "Sorry I'm late! No problem!" },
+        { "pt": "Eu sempre chego na hora./ cedo/ um pouco tarde", "en": "I'm always on time./ early/ a little late" },
+        { "pt": "O ônibus sai às oito e quinze./ e meia/ menos quinze", "en": "The bus leaves at a quarter past eight./ half past/ quarter to" },
+        { "pt": "Vamos! A aula começa em dez minutos.", "en": "Let's go! The class starts in ten minutes." },
+        { "pt": "O que vem a seguir? A pausa do almoço.", "en": "What's next? The lunch break." },
+        { "pt": "Eu tenho um compromisso às três horas.", "en": "I have an appointment at three o'clock." },
+        { "pt": "A loja abre às nove e fecha às seis.", "en": "The store opens at nine and closes at six." }
+      ]
+    },
+    {
+      "bookId": 2,
+      "lessonId": 4,
+      "practiceVerbs": [
+        { "pt": "Eu trabalhei ontem./ semana passada/ o dia todo", "en": "I worked yesterday./ last week/ all day" },
+        { "pt": "Ela estudou inglês./ estudou muito/ estudou ontem à noite", "en": "She studied English./ studied a lot/ studied last night" },
+        { "pt": "Nós assistimos a um filme./ assistimos TV/ assistimos ao jogo", "en": "We watched a movie./ watched TV/ watched the game" },
+        { "pt": "Eles moraram no Brasil./ na cidade/ perto do parque", "en": "They lived in Brazil./ in the city/ near the park" },
+        { "pt": "Ele limpou a casa./ me ajudou/ ligou ontem", "en": "He cleaned the house./ helped me/ called yesterday" }
+      ],
+      "practiceVocabulary": [
+        { "pt": "Eu trabalhei ontem./ ontem à noite/ hoje de manhã", "en": "I worked yesterday./ last night/ this morning" },
+        { "pt": "Ela estudou semana passada./ mês passado/ ano passado", "en": "She studied last week./ last month/ last year" },
+        { "pt": "Nós moramos lá dois anos atrás./ muito tempo atrás", "en": "We lived there two years ago./ a long time ago" },
+        { "pt": "Choveu o dia todo./ ontem à noite/ ontem", "en": "It rained all day./ last night/ yesterday" },
+        { "pt": "Eu limpei a casa./ a cozinha/ meu quarto", "en": "I cleaned the house./ the kitchen/ my room" },
+        { "pt": "Ele me ligou./ me ajudou/ me visitou depois", "en": "He called me./ helped me/ visited me then" },
+        { "pt": "A loja abriu cedo./ fechou tarde", "en": "The store opened early./ closed late" },
+        { "pt": "Eu trabalhei e depois descansei./ estudei/ cozinhei", "en": "I worked and then I rested./ studied/ cooked" },
+        { "pt": "Ela assistiu a um filme no fim de semana passado./ ontem à noite", "en": "She watched a movie last weekend./ last night" },
+        { "pt": "Nós ajudamos nossos amigos./ nossa família/ o professor", "en": "We helped our friends./ our family/ the teacher" },
+        { "pt": "Eles jogaram futebol dois dias atrás./ ontem", "en": "They played soccer two days ago./ yesterday" }
+      ],
+      "practiceExpressions": [
+        { "pt": "Como foi seu dia? Foi ótimo!", "en": "How was your day? It was great!" },
+        { "pt": "Eu trabalhei o dia todo. Sério?", "en": "I worked all day. Really?" },
+        { "pt": "Me conta mais. O que aconteceu?", "en": "Tell me more. What happened?" },
+        { "pt": "Foi ótimo! Me conta mais.", "en": "It was great! Tell me more." },
+        { "pt": "Sério? O que aconteceu depois?", "en": "Really? What happened next?" }
+      ],
+      "practicingPart2": [
+        { "pt": "Eu trabalhei ontem./ semana passada/ o dia todo", "en": "I worked yesterday./ last week/ all day" },
+        { "pt": "Ela estudou inglês ontem à noite./ hoje de manhã", "en": "She studied English last night./ this morning" },
+        { "pt": "Nós assistimos a um filme no fim de semana passado./ ontem à noite", "en": "We watched a movie last weekend./ last night" },
+        { "pt": "Eles moraram no Brasil dois anos atrás./ muito tempo atrás", "en": "They lived in Brazil two years ago./ a long time ago" },
+        { "pt": "Eu limpei a casa e depois descansei.", "en": "I cleaned the house and then I rested." },
+        { "pt": "Você me ajudou muito ontem./ semana passada", "en": "You helped me a lot yesterday./ last week" },
+        { "pt": "Choveu o dia todo./ ontem à noite/ ontem", "en": "It rained all day./ last night/ yesterday" },
+        { "pt": "Ele jogou futebol e depois assistiu TV.", "en": "He played soccer and then he watched TV." },
+        { "pt": "Como foi seu dia? Foi ótimo!", "en": "How was your day? It was great!" },
+        { "pt": "Eu cozinhei o jantar para minha família ontem à noite.", "en": "I cooked dinner for my family last night." },
+        { "pt": "A loja abriu cedo e fechou tarde.", "en": "The store opened early and closed late." },
+        { "pt": "Ela me ligou hoje de manhã./ ontem à noite", "en": "She called me this morning./ last night" }
+      ]
+    },
+    {
+      "bookId": 2,
+      "lessonId": 5,
+      "practiceVerbs": [
+        { "pt": "Eu fui ao parque./ à escola/ para casa", "en": "I went to the park./ to school/ home" },
+        { "pt": "Ela tomou café da manhã./ se divertiu muito/ teve uma reunião", "en": "She had breakfast./ a great time/ a meeting" },
+        { "pt": "Nós fizemos a lição de casa./ a louça/ muita coisa", "en": "We did our homework./ the dishes/ a lot" },
+        { "pt": "Ele fez um bolo./ o jantar/ café", "en": "He made a cake./ dinner/ coffee" },
+        { "pt": "Eu comi pizza./ bebi suco/ vi meus amigos", "en": "I ate pizza./ drank juice/ saw my friends" }
+      ],
+      "practiceVocabulary": [
+        { "pt": "Eu cheguei em casa tarde./ cedo/ na hora", "en": "I got home late./ early/ on time" },
+        { "pt": "Ela veio à festa./ à reunião/ para casa", "en": "She came to the party./ to the meeting/ home" },
+        { "pt": "Nós vimos um filme./ nossos amigos/ o jogo", "en": "We saw a movie./ our friends/ the game" },
+        { "pt": "Ele comeu o café da manhã./ o almoço/ o jantar", "en": "He ate breakfast./ lunch/ dinner" },
+        { "pt": "Eu bebi café./ água/ suco", "en": "I drank coffee./ water/ juice" },
+        { "pt": "Você me deu um presente./ um livro/ uma ajuda", "en": "You gave me a gift./ a book/ some help" },
+        { "pt": "Ela disse oi./ tchau/ obrigada", "en": "She said hello./ goodbye/ thank you" },
+        { "pt": "Eu sabia a resposta./ o caminho/ a música", "en": "I knew the answer./ the way/ the song" },
+        { "pt": "Nós nos divertimos muito na festa./ na viagem", "en": "We had a great time at the party./ on the trip" },
+        { "pt": "Eles foram para casa juntos./ cedo/ de ônibus", "en": "They went home together./ early/ by bus" },
+        { "pt": "Eu fiz o jantar e depois nós comemos.", "en": "I made dinner and then we ate." }
+      ],
+      "practiceExpressions": [
+        { "pt": "Eu fiz uma viagem. Que legal!", "en": "I went on a trip. How nice!" },
+        { "pt": "Que dia! Estou tão cansado.", "en": "What a day! I'm so tired." },
+        { "pt": "Você ganhou? Que sorte a sua!", "en": "You won? Lucky you!" },
+        { "pt": "Uma festa hoje à noite? Isso parece divertido!", "en": "A party tonight? That sounds fun!" },
+        { "pt": "Entendi. E aí o que aconteceu?", "en": "I see. And then what happened?" }
+      ],
+      "practicingPart2": [
+        { "pt": "Eu fui ao parque ontem./ à escola/ para casa cedo", "en": "I went to the park yesterday./ to school/ home early" },
+        { "pt": "Ela se divertiu muito na festa./ na viagem", "en": "She had a great time at the party./ on the trip" },
+        { "pt": "Nós fizemos a lição de casa juntos./ a louça", "en": "We did our homework together./ the dishes" },
+        { "pt": "Ele fez um bolo para a festa./ o jantar para nós", "en": "He made a cake for the party./ dinner for us" },
+        { "pt": "Eu comi pizza e bebi suco ontem à noite.", "en": "I ate pizza and drank juice last night." },
+        { "pt": "Eles foram para casa cedo./ juntos/ de ônibus", "en": "They went home early./ together/ by bus" },
+        { "pt": "Eu vi meus amigos no fim de semana./ ontem à noite", "en": "I saw my friends on the weekend./ last night" },
+        { "pt": "Você deu um presente para sua mãe./ seu pai", "en": "You gave a gift to your mother./ your father" },
+        { "pt": "Nós viemos para a aula de ônibus./ de carro/ a pé", "en": "We came to class by bus./ by car/ on foot" },
+        { "pt": "Eu tomei café da manhã às oito e depois fui trabalhar.", "en": "I had breakfast at eight and then I went to work." },
+        { "pt": "Que legal! Que dia ótimo!", "en": "How nice! What a great day!" },
+        { "pt": "Ela chegou em casa tarde e fez o jantar.", "en": "She got home late and made dinner." }
+      ]
+    },
+    {
+      "bookId": 2,
+      "lessonId": 6,
+      "practiceVerbs": [
+        { "pt": "Você perguntou ao professor?/ a pergunta/ por ajuda", "en": "Did you ask the teacher?/ the question/ for help" },
+        { "pt": "Eu não atendi o telefone./ respondi a pergunta/ respondi o e-mail", "en": "I didn't answer the phone./ the question/ the email" },
+        { "pt": "Eles visitaram você?/ sua família/ o museu", "en": "Did they visit you?/ your family/ the museum" },
+        { "pt": "O que aconteceu ontem?/ ontem à noite/ no trabalho", "en": "What happened yesterday?/ last night/ at work" },
+        { "pt": "Ela não me ligou./ me visitou/ me respondeu", "en": "She didn't call me./ visit me/ answer me" }
+      ],
+      "practiceVocabulary": [
+        { "pt": "Eu não vi ninguém./ nada/ em lugar nenhum", "en": "I didn't see anybody./ anything/ anywhere" },
+        { "pt": "Ninguém veio./ nada aconteceu/ ninguém ligou", "en": "Nobody came./ nothing happened/ no one called" },
+        { "pt": "Você fez alguma coisa ontem?/ foi a algum lugar", "en": "Did you do anything yesterday?/ go anywhere" },
+        { "pt": "Por que você não veio?/ não ligou/ não respondeu", "en": "Why didn't you come?/ call/ answer" },
+        { "pt": "Quem você viu?/ encontrou/ ligou", "en": "Who did you see?/ meet/ call" },
+        { "pt": "Quanto tempo você ficou?/ esperou/ estudou", "en": "How long did you stay?/ wait/ study" },
+        { "pt": "Eu os visitei anteontem./ ontem", "en": "I visited them the day before yesterday./ yesterday" },
+        { "pt": "Aconteceu de novo?/ hoje/ semana passada", "en": "Did it happen again?/ today/ last week" },
+        { "pt": "Eu não gostei nem um pouco./ não entendi/ não dormi", "en": "I didn't like it at all./ understand/ sleep" },
+        { "pt": "O que você fez?/ disse/ respondeu", "en": "What did you do?/ say/ answer" },
+        { "pt": "Para onde eles foram?/ ficaram/ comeram", "en": "Where did they go?/ stay/ eat" }
+      ],
+      "practiceExpressions": [
+        { "pt": "Sério? O que aconteceu?", "en": "Really? What happened?" },
+        { "pt": "Você está falando sério? Me conta tudo!", "en": "Are you serious? Tell me everything!" },
+        { "pt": "Eu não sabia disso. Sério?", "en": "I didn't know that. Really?" },
+        { "pt": "De jeito nenhum! Você está falando sério?", "en": "No way! Are you serious?" },
+        { "pt": "Me conta tudo! O que aconteceu depois?", "en": "Tell me everything! What happened next?" }
+      ],
+      "practicingPart2": [
+        { "pt": "Você foi à festa? Sim, fui./ Não, não fui.", "en": "Did you go to the party? Yes, I did./ No, I didn't." },
+        { "pt": "Eu não a vi ontem./ ontem à noite/ de jeito nenhum", "en": "I didn't see her yesterday./ last night/ at all" },
+        { "pt": "O que você fez ontem à noite?/ no fim de semana passado", "en": "What did you do last night?/ last weekend" },
+        { "pt": "Para onde eles foram nas férias?/ no verão passado", "en": "Where did they go on vacation?/ last summer" },
+        { "pt": "Ela não me ligou./ não me respondeu/ não me visitou", "en": "She didn't call me./ answer me/ visit me" },
+        { "pt": "Você visitou seus avós anteontem?", "en": "Did you visit your grandparents the day before yesterday?" },
+        { "pt": "Por que você não veio para a aula?/ para a reunião", "en": "Why didn't you come to class?/ to the meeting" },
+        { "pt": "Nós não fizemos nada no domingo./ não fomos a lugar nenhum", "en": "We didn't do anything on Sunday./ go anywhere" },
+        { "pt": "Quem você encontrou na reunião?/ na festa", "en": "Who did you meet at the meeting?/ at the party" },
+        { "pt": "O que aconteceu? Me conta tudo!", "en": "What happened? Tell me everything!" },
+        { "pt": "Alguém ligou? Não, ninguém ligou.", "en": "Did anybody call? No, nobody did." },
+        { "pt": "Quanto tempo você esperou? Não esperei nem um pouco.", "en": "How long did you wait? I didn't wait at all." }
+      ]
+    },
+    {
+      "bookId": 2,
+      "lessonId": 7,
+      "practiceVerbs": [
+        { "pt": "Eu comprei um celular./ um carro/ um presente", "en": "I bought a phone./ a car/ a gift" },
+        { "pt": "Ela trouxe um bolo./ um amigo/ comida", "en": "She brought a cake./ a friend/ some food" },
+        { "pt": "Nós pensamos sobre isso./ em você/ muito", "en": "We thought about it./ about you/ a lot" },
+        { "pt": "Eles encontraram um restaurante./ as chaves/ uma solução", "en": "They found a restaurant./ the keys/ a solution" },
+        { "pt": "Eu perdi minhas chaves./ ganhei o jogo/ paguei a conta", "en": "I lost my keys./ won the game/ paid the bill" }
+      ],
+      "practiceVocabulary": [
+        { "pt": "Eu perdi minha carteira./ minhas chaves/ meu ingresso", "en": "I lost my wallet./ my keys/ my ticket" },
+        { "pt": "Nós ganhamos o jogo./ o prêmio/ a partida", "en": "We won the game./ the prize/ the match" },
+        { "pt": "Ele pagou a conta./ o jantar/ em dinheiro", "en": "He paid the bill./ for dinner/ in cash" },
+        { "pt": "Eu a conheci no trabalho./ na festa/ ano passado", "en": "I met her at work./ at the party/ last year" },
+        { "pt": "Ela escreveu uma carta./ um e-mail/ uma história", "en": "She wrote a letter./ an email/ a story" },
+        { "pt": "Eu li um livro./ as notícias/ uma revista", "en": "I read a book./ the news/ a magazine" },
+        { "pt": "Eles venderam o carro./ a casa/ os ingressos", "en": "They sold their car./ the house/ the tickets" },
+        { "pt": "Ela me contou uma história./ a verdade/ um segredo", "en": "She told me a story./ the truth/ a secret" },
+        { "pt": "Eu comprei um presente para minha mãe./ meu amigo", "en": "I bought a gift for my mother./ my friend" },
+        { "pt": "Ele trouxe a carteira./ os ingressos/ as chaves", "en": "He brought his wallet./ the tickets/ the keys" },
+        { "pt": "Nós achamos ótimo./ uma boa ideia/ engraçado", "en": "We thought it was great./ a good idea/ funny" }
+      ],
+      "practiceExpressions": [
+        { "pt": "Eu ganhei o prêmio! Que bom para você!", "en": "I won the prize! Good for you!" },
+        { "pt": "Eu perdi minha carteira. Que pena.", "en": "I lost my wallet. That's too bad." },
+        { "pt": "Ela comprou uma casa! Você está brincando!", "en": "She bought a house! You're kidding!" },
+        { "pt": "Que surpresa! Eu não sabia disso!", "en": "What a surprise! I didn't know that!" },
+        { "pt": "Ah não! Você perdeu as chaves de novo?", "en": "Oh no! You lost your keys again?" }
+      ],
+      "practicingPart2": [
+        { "pt": "Eu comprei um celular novo ontem./ um carro/ um presente", "en": "I bought a new phone yesterday./ a car/ a gift" },
+        { "pt": "Ela trouxe um presente para a festa./ um bolo/ um amigo", "en": "She brought a gift to the party./ a cake/ a friend" },
+        { "pt": "Nós pensamos em você o dia todo./ na viagem", "en": "We thought about you all day./ about the trip" },
+        { "pt": "Eles encontraram um ótimo restaurante./ as chaves/ um hotel", "en": "They found a great restaurant./ the keys/ a hotel" },
+        { "pt": "Eu perdi minhas chaves e minha carteira ontem.", "en": "I lost my keys and my wallet yesterday." },
+        { "pt": "Você ganhou o jogo? Sim, ganhamos!", "en": "Did you win the game? Yes, we won!" },
+        { "pt": "Eu paguei a conta e depois saí./ fui para casa", "en": "I paid the bill and then I left./ went home" },
+        { "pt": "Ela me contou uma história engraçada./ a verdade/ um segredo", "en": "She told me a funny story./ the truth/ a secret" },
+        { "pt": "Eu li um livro e escrevi uma carta ontem à noite.", "en": "I read a book and wrote a letter last night." },
+        { "pt": "Ele vendeu o carro velho e comprou um novo.", "en": "He sold his old car and bought a new one." },
+        { "pt": "Eu a conheci na festa. Que surpresa!", "en": "I met her at the party. What a surprise!" },
+        { "pt": "Nós pegamos o ônibus e encontramos o museu facilmente.", "en": "We took the bus and found the museum easily." }
+      ]
+    },
+    {
+      "bookId": 2,
+      "lessonId": 8,
+      "practiceVerbs": [
+        { "pt": "O filme começou às oito./ a aula/ o jogo", "en": "The movie began at eight./ the class/ the game" },
+        { "pt": "Eu acordei cedo./ tarde/ às sete", "en": "I woke up early./ late/ at seven" },
+        { "pt": "Ele caiu na rua./ da bicicleta/ da escada", "en": "He fell on the street./ off the bike/ down the stairs" },
+        { "pt": "Eu me senti feliz./ cansado/ doente", "en": "I felt happy./ tired/ sick" },
+        { "pt": "Primeiro eu acordei, depois tomei café da manhã.", "en": "First I woke up, then I had breakfast." }
+      ],
+      "practiceVocabulary": [
+        { "pt": "Primeiro, eu acordei./ tomei café/ me vesti", "en": "First, I woke up./ I had breakfast/ I got dressed" },
+        { "pt": "Depois eu fui trabalhar./ para a escola/ para a academia", "en": "Then I went to work./ to school/ to the gym" },
+        { "pt": "Depois disso, nós almoçamos./ tivemos uma reunião/ tomamos um café", "en": "After that, we had lunch./ a meeting/ a coffee" },
+        { "pt": "Mais tarde, eu encontrei meus amigos./ liguei para casa/ estudei", "en": "Later, I met my friends./ called home/ studied" },
+        { "pt": "De repente, começou a chover./ o telefone tocou", "en": "Suddenly, it started to rain./ the phone rang" },
+        { "pt": "Finalmente, eu fui para casa./ dormi/ terminamos", "en": "Finally, I went home./ I slept/ we finished" },
+        { "pt": "De manhã eu trabalhei./ à tarde/ à noite", "en": "In the morning I worked./ in the afternoon/ at night" },
+        { "pt": "Enquanto eu cozinhava, ele chegou./ ligou/ saiu", "en": "While I was cooking, he arrived./ called/ left" },
+        { "pt": "Um dia, eu encontrei um velho amigo./ achei uma carteira", "en": "One day, I met an old friend./ found a wallet" },
+        { "pt": "Em seguida, nós pegamos o ônibus./ um táxi/ o trem", "en": "Next, we took the bus./ a taxi/ the train" },
+        { "pt": "No final, foi um ótimo dia./ uma boa viagem", "en": "In the end, it was a great day./ a good trip" }
+      ],
+      "practiceExpressions": [
+        { "pt": "Deixa eu te contar uma história. E aí?", "en": "Let me tell you a story. And then?" },
+        { "pt": "Adivinha só! Você não vai acreditar nisso!", "en": "Guess what! You won't believe this!" },
+        { "pt": "E depois? No final, nós ganhamos!", "en": "And then? In the end, we won!" },
+        { "pt": "Você não vai acreditar nisso! Adivinha o que aconteceu!", "en": "You won't believe this! Guess what happened!" },
+        { "pt": "Deixa eu te contar uma história sobre ontem à noite.", "en": "Let me tell you a story about last night." }
+      ],
+      "practicingPart2": [
+        { "pt": "Primeiro, eu acordei às sete./ às seis/ cedo", "en": "First, I woke up at seven./ at six/ early" },
+        { "pt": "Depois eu tomei café da manhã e fui trabalhar.", "en": "Then I had breakfast and went to work." },
+        { "pt": "Depois disso, eu tive uma reunião importante./ uma aula", "en": "After that, I had an important meeting./ a class" },
+        { "pt": "Mais tarde, nós nos encontramos para almoçar./ para um café/ no parque", "en": "Later, we met for lunch./ for coffee/ at the park" },
+        { "pt": "De repente, começou a chover./ o telefone tocou", "en": "Suddenly, it started to rain./ the phone rang" },
+        { "pt": "Enquanto eu trabalhava, meu amigo me ligou.", "en": "While I was working, my friend called me." },
+        { "pt": "À tarde, eu visitei meus pais./ descansei", "en": "In the afternoon, I visited my parents./ I rested" },
+        { "pt": "À noite, nós assistimos a um filme./ jantamos", "en": "In the evening, we watched a movie./ had dinner" },
+        { "pt": "Finalmente, eu voltei para casa e dormi./ e descansei", "en": "Finally, I came home and slept./ and rested" },
+        { "pt": "No final, foi um ótimo dia./ uma viagem perfeita", "en": "In the end, it was a great day./ a perfect trip" },
+        { "pt": "Adivinha só! Eu ganhei o jogo ontem!", "en": "Guess what! I won the game yesterday!" },
+        { "pt": "Um dia, eu acordei tarde e perdi o ônibus.", "en": "One day, I woke up late and missed the bus." }
+      ]
+    },
+    {
+      "bookId": 2,
+      "lessonId": 9,
+      "practiceVerbs": [
+        { "pt": "Eles construíram uma casa nova./ uma escola/ uma ponte", "en": "They built a new house./ a school/ a bridge" },
+        { "pt": "Nós ficamos na fila./ na porta/ por uma hora", "en": "We stood in line./ at the door/ for an hour" },
+        { "pt": "Eu sentei perto da janela./ à mesa/ na frente", "en": "I sat near the window./ at the table/ in the front" },
+        { "pt": "Ela colocou as chaves na mesa./ na bolsa", "en": "She put the keys on the table./ in her bag" },
+        { "pt": "Havia uma cadeira./ uma mesa/ um problema", "en": "There was a chair./ a table/ a problem" }
+      ],
+      "practiceVocabulary": [
+        { "pt": "Havia muitas pessoas./ algumas/ várias", "en": "There were many people./ a few/ several" },
+        { "pt": "Havia muito barulho./ uma grande multidão/ uma festa", "en": "There was a lot of noise./ a big crowd/ a party" },
+        { "pt": "Havia algumas cadeiras./ várias mesas", "en": "There were a few chairs./ several tables" },
+        { "pt": "Havia um prédio novo./ um lugar legal", "en": "There was a new building./ a nice place" },
+        { "pt": "Não havia comida./ água/ café", "en": "There wasn't any food./ any water/ any coffee" },
+        { "pt": "Não havia cadeiras./ mesas/ pessoas", "en": "There weren't any chairs./ any tables/ any people" },
+        { "pt": "Houve um problema?/ uma reunião/ uma festa", "en": "Was there a problem?/ a meeting/ a party" },
+        { "pt": "Havia muitas pessoas?/ algumas/ várias", "en": "Were there many people?/ a few/ several" },
+        { "pt": "Havia muita comida./ muito barulho", "en": "There was a lot of food./ a lot of noise" },
+        { "pt": "Quantas pessoas havia?/ cadeiras/ mesas", "en": "How many people were there?/ chairs/ tables" },
+        { "pt": "Havia uma mesa perto da janela./ uma cadeira", "en": "There was a table near the window./ a chair" }
+      ],
+      "practiceExpressions": [
+        { "pt": "Estava lotado. Que lugar!", "en": "It was crowded. What a place!" },
+        { "pt": "Estava silencioso e vazio.", "en": "It was quiet and empty." },
+        { "pt": "Que lugar! Eu adorei.", "en": "What a place! I loved it." },
+        { "pt": "Estava vazio. Não havia ninguém lá.", "en": "It was empty. There was nobody there." },
+        { "pt": "Eu adorei. Não estava lotado nem um pouco.", "en": "I loved it. It wasn't crowded at all." }
+      ],
+      "practicingPart2": [
+        { "pt": "Houve uma festa ontem à noite./ uma reunião/ um jogo", "en": "There was a party last night./ a meeting/ a game" },
+        { "pt": "Havia muitas pessoas lá./ algumas/ muitas", "en": "There were many people there./ a few/ a lot of" },
+        { "pt": "Não havia comida./ água/ música", "en": "There wasn't any food./ any water/ any music" },
+        { "pt": "Não havia cadeiras./ mesas/ assentos", "en": "There weren't any chairs./ any tables/ any seats" },
+        { "pt": "Houve um problema? Não, não houve.", "en": "Was there a problem? No, there wasn't." },
+        { "pt": "Quantas pessoas havia na festa?", "en": "How many people were there at the party?" },
+        { "pt": "Havia muito barulho./ uma grande multidão", "en": "There was a lot of noise./ a big crowd" },
+        { "pt": "Havia um prédio novo na esquina./ uma loja", "en": "There was a new building on the corner./ a store" },
+        { "pt": "Estava lotado, mas eu adorei.", "en": "It was crowded, but I loved it." },
+        { "pt": "Havia várias mesas e muitas cadeiras.", "en": "There were several tables and many chairs." },
+        { "pt": "Havia muitas pessoas? Sim, havia.", "en": "Were there a lot of people? Yes, there were." },
+        { "pt": "Houve um problema com o ônibus hoje de manhã.", "en": "There was a problem with the bus this morning." }
+      ]
+    },
+    {
+      "bookId": 2,
+      "lessonId": 10,
+      "practiceVerbs": [
+        { "pt": "Nós fomos à praia./ ao parque/ à cidade", "en": "We went to the beach./ to the park/ to the city" },
+        { "pt": "Eu nadei no mar./ na piscina/ por uma hora", "en": "I swam in the sea./ in the pool/ for an hour" },
+        { "pt": "Ela andou na areia./ pela praia/ para casa", "en": "She walked on the sand./ along the beach/ home" },
+        { "pt": "Nós almoçamos juntos./ nos divertimos muito/ foi divertido", "en": "We had lunch together./ a great time/ fun" },
+        { "pt": "Não choveu./ não estava frio/ não estava lotado", "en": "It didn't rain./ wasn't cold/ wasn't crowded" }
+      ],
+      "practiceVocabulary": [
+        { "pt": "Havia muitas pessoas./ algumas/ muitas", "en": "There were a lot of people./ a few/ many" },
+        { "pt": "A água estava fria./ morna/ perfeita", "en": "The water was cold./ warm/ perfect" },
+        { "pt": "Nós sentamos sob o guarda-sol./ na toalha/ na areia", "en": "We sat under the umbrella./ on the towel/ on the sand" },
+        { "pt": "O sol estava forte./ o vento estava frio/ o céu estava cinza", "en": "The sun was strong./ the wind was cold/ the sky was grey" },
+        { "pt": "Primeiro nós nadamos, depois almoçamos./ descansamos", "en": "First we swam, then we had lunch./ rested" },
+        { "pt": "De repente, o vento começou a soprar./ começou a chover", "en": "Suddenly, the wind began to blow./ it started to rain" },
+        { "pt": "Nós pegamos o ônibus para o litoral./ um táxi/ o trem", "en": "We took the bus to the coast./ a taxi/ the train" },
+        { "pt": "Ela procurou conchas./ a toalha dela/ as crianças", "en": "She looked for shells./ for her towel/ for the kids" },
+        { "pt": "Foi um dia cansativo./ um dia lindo/ um dia longo", "en": "It was a tiring day./ a beautiful day/ a long day" },
+        { "pt": "No final, não choveu./ fomos para casa/ ficamos felizes", "en": "In the end, it didn't rain./ we went home/ we were happy" }
+      ],
+      "practiceExpressions": [
+        { "pt": "Que dia lindo! Eu me diverti muito.", "en": "What a beautiful day! I had a great time." },
+        { "pt": "Estou exausto. Vamos fazer de novo!", "en": "I'm exhausted. Let's do it again!" },
+        { "pt": "Até a próxima! Que dia!", "en": "See you next time! What a day!" },
+        { "pt": "Eu me diverti muito na praia.", "en": "I had a great time at the beach." },
+        { "pt": "Vamos fazer de novo mês que vem!", "en": "Let's do it again next month!" }
+      ],
+      "practicingPart2": [
+        { "pt": "No sábado passado nós fomos à praia./ ao parque", "en": "Last Saturday we went to the beach./ to the park" },
+        { "pt": "Nós acordamos cedo e pegamos o ônibus./ fizemos sanduíches", "en": "We woke up early and took the bus./ made sandwiches" },
+        { "pt": "Havia muitas pessoas na areia./ na água", "en": "There were a lot of people on the sand./ in the water" },
+        { "pt": "Primeiro nós nadamos, depois almoçamos./ descansamos/ brincamos", "en": "First we swam, then we had lunch./ rested/ played" },
+        { "pt": "Minha irmã não sabia nadar, então andou na praia.", "en": "My sister couldn't swim, so she walked on the beach." },
+        { "pt": "De repente, o vento começou a soprar./ o céu ficou cinza", "en": "Suddenly, the wind began to blow./ the sky turned grey" },
+        { "pt": "Nós achamos que ia chover, mas não choveu.", "en": "We thought it was going to rain, but it didn't." },
+        { "pt": "No final, nós nos divertimos muito./ foi um ótimo dia", "en": "In the end, we had a wonderful time./ a great day" },
+        { "pt": "Vocês se divertiram? Sim, nos divertimos!", "en": "Did you have a good time? Yes, we did!" },
+        { "pt": "Foi um dia longo e cansativo, mas foi ótimo.", "en": "It was a long, tiring day, but it was great." },
+        { "pt": "Que dia lindo! Vamos fazer de novo!", "en": "What a beautiful day! Let's do it again!" },
+        { "pt": "No ônibus de volta, todos estavam quietos e felizes.", "en": "On the bus home, everybody was quiet and happy." }
+      ]
+    },
+    {
+      "bookId": 2,
+      "lessonId": 11,
+      "practiceVerbs": [
+        { "pt": "Eu prefiro chá./ café/ este", "en": "I prefer tea./ coffee/ this one" },
+        { "pt": "A cidade cresceu rápido./ muito/ todo ano", "en": "The city grew fast./ a lot/ every year" },
+        { "pt": "Ele se tornou médico./ famoso/ rico", "en": "He became a doctor./ famous/ rich" },
+        { "pt": "Vamos comparar os preços./ os carros/ os dois", "en": "Let's compare the prices./ the cars/ the two" },
+        { "pt": "Este é mais rápido que aquele./ mais barato/ melhor", "en": "This is faster than that./ cheaper/ better" }
+      ],
+      "practiceVocabulary": [
+        { "pt": "Minha casa é maior que a sua./ menor/ mais velha", "en": "My house is bigger than yours./ smaller/ older" },
+        { "pt": "Este carro é mais rápido que aquele./ mais lento", "en": "This car is faster than that one./ slower" },
+        { "pt": "O chá é mais barato que o café./ mais caro", "en": "Tea is cheaper than coffee./ more expensive" },
+        { "pt": "Este celular é melhor que o meu antigo./ pior", "en": "This phone is better than my old one./ worse" },
+        { "pt": "A saúde é mais importante que o dinheiro./ que o trabalho", "en": "Health is more important than money./ than work" },
+        { "pt": "Este exercício é mais fácil que aquele./ mais difícil", "en": "This exercise is easier than that one./ harder" },
+        { "pt": "Ela é mais alta que eu./ mais nova/ mais forte", "en": "She is taller than me./ younger/ stronger" },
+        { "pt": "Hoje está mais quente que ontem./ mais frio/ melhor", "en": "Today is hotter than yesterday./ colder/ nicer" },
+        { "pt": "Este livro é mais interessante que aquele.", "en": "This book is more interesting than that one." },
+        { "pt": "O trânsito está pior que o normal./ melhor hoje", "en": "The traffic is worse than usual./ better today" },
+        { "pt": "Meu emprego novo é melhor que o antigo.", "en": "My new job is better than the old one." }
+      ],
+      "practiceExpressions": [
+        { "pt": "Qual é melhor? Depende.", "en": "Which is better? It depends." },
+        { "pt": "Eu prefiro este. Eu também.", "en": "I prefer this one. Me too." },
+        { "pt": "Concordo. Este é melhor.", "en": "I agree. This is better." },
+        { "pt": "Depende do preço./ de você/ do dia", "en": "It depends on the price./ on you/ on the day" },
+        { "pt": "Qual é mais barato? Eu prefiro este.", "en": "Which is cheaper? I prefer this one." }
+      ],
+      "practicingPart2": [
+        { "pt": "Meu carro é mais rápido que o seu./ mais novo/ mais barato", "en": "My car is faster than yours./ newer/ cheaper" },
+        { "pt": "Ela é mais alta que o irmão./ mais nova/ mais forte", "en": "She is taller than her brother./ younger/ stronger" },
+        { "pt": "Este livro é mais interessante que aquele.", "en": "This book is more interesting than that one." },
+        { "pt": "Inglês é mais fácil que chinês./ mais difícil que francês", "en": "English is easier than Chinese./ harder than French" },
+        { "pt": "Hoje está mais quente que ontem./ mais frio/ melhor", "en": "Today is hotter than yesterday./ colder/ nicer" },
+        { "pt": "Ele cozinha melhor que eu./ dirige pior", "en": "He is a better cook than me./ a worse driver" },
+        { "pt": "Este restaurante é mais barato que o outro.", "en": "This restaurant is cheaper than the other one." },
+        { "pt": "A saúde é mais importante que o dinheiro./ que o trabalho", "en": "Health is more important than money./ than work" },
+        { "pt": "O trânsito hoje está pior que ontem.", "en": "The traffic today is worse than yesterday." },
+        { "pt": "Qual é melhor? Depende.", "en": "Which is better? It depends." },
+        { "pt": "Eu prefiro o azul; é mais bonito que o vermelho.", "en": "I prefer the blue one; it's nicer than the red one." },
+        { "pt": "Minha casa nova é maior e mais silenciosa que a antiga.", "en": "My new house is bigger and quieter than the old one." }
+      ]
+    },
+    {
+      "bookId": 2,
+      "lessonId": 12,
+      "practiceVerbs": [
+        { "pt": "Eu escolhi o melhor./ o mais barato/ o vermelho", "en": "I chose the best one./ the cheapest/ the red one" },
+        { "pt": "Nós ganhamos o maior prêmio./ o jogo/ a partida", "en": "We won the biggest prize./ the game/ the match" },
+        { "pt": "Ele quebrou o recorde./ o copo/ o celular dele", "en": "He broke the record./ the glass/ his phone" },
+        { "pt": "Eu gastei mais dinheiro./ muito/ demais", "en": "I spent the most money./ a lot/ too much" },
+        { "pt": "Este é o melhor./ o pior/ o maior", "en": "This is the best./ the worst/ the biggest" }
+      ],
+      "practiceVocabulary": [
+        { "pt": "É a maior cidade do Brasil./ do mundo", "en": "It's the biggest city in Brazil./ in the world" },
+        { "pt": "Ela é a mais alta da turma./ a mais inteligente", "en": "She is the tallest in the class./ the smartest" },
+        { "pt": "Este é o restaurante mais caro./ o mais popular", "en": "This is the most expensive restaurant./ the most popular" },
+        { "pt": "Ele é o melhor jogador do time./ o mais rápido", "en": "He is the best player on the team./ the fastest" },
+        { "pt": "Foi o pior dia da minha vida./ o melhor dia", "en": "It was the worst day of my life./ the best day" },
+        { "pt": "Qual é o mais barato?/ o mais fácil/ o mais difícil", "en": "Which is the cheapest?/ the easiest/ the hardest" },
+        { "pt": "Este é o melhor filme de todos./ o mais engraçado", "en": "This is the best movie ever./ the funniest" },
+        { "pt": "É a praia mais bonita do país.", "en": "It's the most beautiful beach in the country." },
+        { "pt": "A saúde é a coisa mais importante de todas./ a família", "en": "Health is the most important thing of all./ family" },
+        { "pt": "Foi a prova mais fácil de todas./ a mais difícil", "en": "It was the easiest exam of all./ the hardest" },
+        { "pt": "Ela é a mais nova da família./ a mais velha", "en": "She is the youngest in her family./ the oldest" }
+      ],
+      "practiceExpressions": [
+        { "pt": "Esse é o melhor! De longe.", "en": "That's the best! By far." },
+        { "pt": "Na minha opinião, é o pior.", "en": "In my opinion, it's the worst." },
+        { "pt": "É o melhor? Com certeza!", "en": "Is it the best? Absolutely!" },
+        { "pt": "É caro? Na verdade não.", "en": "Is it expensive? Not really." },
+        { "pt": "De longe o melhor restaurante da cidade.", "en": "By far the best restaurant in town." }
+      ],
+      "practicingPart2": [
+        { "pt": "É a maior cidade do Brasil./ do mundo", "en": "It's the biggest city in Brazil./ in the world" },
+        { "pt": "Ela é a aluna mais alta da turma./ a mais inteligente", "en": "She is the tallest student in the class./ the smartest" },
+        { "pt": "Este é o restaurante mais caro da cidade.", "en": "This is the most expensive restaurant in town." },
+        { "pt": "Ele é o melhor jogador do time./ o corredor mais rápido", "en": "He is the best player on the team./ the fastest runner" },
+        { "pt": "Foi o pior dia da minha vida./ o melhor dia", "en": "It was the worst day of my life./ the best day" },
+        { "pt": "Qual é o mais barato? Este aqui.", "en": "Which one is the cheapest? This one is." },
+        { "pt": "Esse é o melhor filme que eu já vi./ o mais engraçado", "en": "That's the best movie I ever saw./ the funniest" },
+        { "pt": "É o lugar mais bonito do país.", "en": "It's the most beautiful place in the country." },
+        { "pt": "A saúde é a coisa mais importante de todas.", "en": "Health is the most important thing of all." },
+        { "pt": "Na minha opinião, este é o melhor de longe.", "en": "In my opinion, this is the best one by far." },
+        { "pt": "Foi a melhor viagem da minha vida./ a mais longa", "en": "It was the best trip of my life./ the longest" },
+        { "pt": "Este é o exercício mais fácil de todos./ o mais difícil", "en": "This is the easiest exercise of all./ the hardest" }
+      ]
+    },
+    {
+      "bookId": 2,
+      "lessonId": 13,
+      "practiceVerbs": [
+        { "pt": "Ele dirige com cuidado./ rápido/ devagar", "en": "He drives carefully./ fast/ slowly" },
+        { "pt": "Ela fala inglês bem./ fluentemente/ rápido", "en": "She speaks English well./ fluently/ quickly" },
+        { "pt": "Eu aprendo rápido./ facilmente/ devagar", "en": "I learn quickly./ easily/ slowly" },
+        { "pt": "Meu inglês está melhorando rápido./ devagar/ muito", "en": "My English is improving fast./ slowly/ a lot" },
+        { "pt": "Eles trabalham duro./ em silêncio/ bem", "en": "They work hard./ quietly/ well" }
+      ],
+      "practiceVocabulary": [
+        { "pt": "Ela canta lindamente./ alto/ baixinho", "en": "She sings beautifully./ loudly/ quietly" },
+        { "pt": "Por favor, fale devagar./ baixinho/ com clareza", "en": "Please speak slowly./ quietly/ clearly" },
+        { "pt": "Ele respondeu facilmente./ rapidamente/ com cuidado", "en": "He answered easily./ quickly/ carefully" },
+        { "pt": "Eu sou tão alto quanto meu irmão./ tão velho/ tão rápido", "en": "I'm as tall as my brother./ as old as/ as fast as" },
+        { "pt": "Este não é tão rápido quanto aquele./ tão bom/ tão grande", "en": "This isn't as fast as that./ as good as/ as big as" },
+        { "pt": "Ela aprende tão rápido quanto você./ tão fácil quanto eu", "en": "She learns as quickly as you./ as easily as me" },
+        { "pt": "Ele dirige mal./ com cuidado/ rápido demais", "en": "He drives badly./ carefully/ too fast" },
+        { "pt": "Eles trabalharam duro e terminaram cedo./ tarde", "en": "They worked hard and finished early./ late" },
+        { "pt": "Eu não falo tão fluentemente quanto ela./ tão bem quanto", "en": "I don't speak as fluently as her./ as well as" },
+        { "pt": "Por favor, leia em voz alta./ baixinho/ devagar", "en": "Please read it loudly./ quietly/ slowly" },
+        { "pt": "Ele corre tão rápido quanto um profissional./ tão bem quanto", "en": "He runs as fast as a professional./ as well as" }
+      ],
+      "practiceExpressions": [
+        { "pt": "Muito bem! Continue assim!", "en": "Well done! Keep it up!" },
+        { "pt": "Vá com calma. Vai mais devagar!", "en": "Take it easy. Slow down!" },
+        { "pt": "Anda logo! Estamos atrasados!", "en": "Hurry up! We're late!" },
+        { "pt": "Continue assim! Você está melhorando rápido.", "en": "Keep it up! You're improving fast." },
+        { "pt": "Vai mais devagar e relaxa.", "en": "Slow down and take it easy." }
+      ],
+      "practicingPart2": [
+        { "pt": "Ela fala inglês bem./ fluentemente/ rápido", "en": "She speaks English well./ fluently/ quickly" },
+        { "pt": "Ele dirige com cuidado./ rápido demais/ devagar", "en": "He drives carefully./ too fast/ slowly" },
+        { "pt": "Eles trabalham duro todos os dias./ em silêncio/ bem", "en": "They work hard every day./ quietly/ well" },
+        { "pt": "Por favor, fale devagar e com clareza.", "en": "Please speak slowly and clearly." },
+        { "pt": "Eu sou tão alto quanto meu irmão./ tão velho quanto meu amigo", "en": "I'm as tall as my brother./ as old as my friend" },
+        { "pt": "Este carro não é tão rápido quanto aquele./ tão bom quanto", "en": "This car isn't as fast as that one./ as good as" },
+        { "pt": "Ela aprende tão rápido quanto você./ tão fácil quanto eu", "en": "She learns as quickly as you./ as easily as me" },
+        { "pt": "Meu inglês está melhorando rápido./ devagar/ muito", "en": "My English is improving quickly./ slowly/ a lot" },
+        { "pt": "Ele respondeu a pergunta facilmente./ com cuidado", "en": "He answered the question easily./ carefully" },
+        { "pt": "Muito bem! Você fez isso muito bem.", "en": "Well done! You did it very well." },
+        { "pt": "Vai mais devagar! Você dirige rápido demais.", "en": "Slow down! You drive too fast." },
+        { "pt": "Ela canta tão lindamente quanto uma profissional.", "en": "She sings as beautifully as a professional." }
+      ]
+    },
+    {
+      "bookId": 2,
+      "lessonId": 14,
+      "practiceVerbs": [
+        { "pt": "Eu preciso de leite./ um pouco de água/ alguns ovos", "en": "I need some milk./ a little water/ a few eggs" },
+        { "pt": "Adicione um pouco de açúcar./ sal/ leite", "en": "Add some sugar./ a little salt/ some milk" },
+        { "pt": "Quanto custa?/ custa o ingresso", "en": "How much does it cost?/ does the ticket cost" },
+        { "pt": "Nós pedimos comida./ algumas bebidas/ duas pizzas", "en": "We ordered some food./ a few drinks/ two pizzas" },
+        { "pt": "Eu preciso de um pouco de tempo./ ajuda/ alguns minutos", "en": "I need a little time./ some help/ a few minutes" }
+      ],
+      "practiceVocabulary": [
+        { "pt": "Quanto dinheiro você tem?/ tempo/ água", "en": "How much money do you have?/ time/ water" },
+        { "pt": "Quantas pessoas há?/ livros/ cadeiras", "en": "How many people are there?/ books/ chairs" },
+        { "pt": "Há um pouco de leite./ pão/ café", "en": "There is some milk./ some bread/ some coffee" },
+        { "pt": "Não há ovos./ maçãs/ cadeiras", "en": "There aren't any eggs./ any apples/ any chairs" },
+        { "pt": "Eu tenho um pouco de tempo./ dinheiro/ água", "en": "I have a little time./ a little money/ a little water" },
+        { "pt": "Ela tem alguns amigos./ alguns livros/ algumas ideias", "en": "She has a few friends./ a few books/ a few ideas" },
+        { "pt": "Há muitos carros./ muitas pessoas/ muitas lojas", "en": "There are a lot of cars./ a lot of people/ a lot of shops" },
+        { "pt": "Não coma açúcar demais./ sal demais/ doces demais", "en": "Don't eat too much sugar./ too much salt/ too many sweets" },
+        { "pt": "Nós temos comida suficiente./ cadeiras suficientes/ tempo suficiente", "en": "We have enough food./ enough chairs/ enough time" },
+        { "pt": "Há café? Não, não há nenhum./ há um pouco", "en": "Is there any coffee? No, there's none./ a little" },
+        { "pt": "Há carros demais na cidade./ pessoas demais", "en": "There are too many cars in the city./ too many people" }
+      ],
+      "practiceExpressions": [
+        { "pt": "Já chega. Não, obrigado.", "en": "That's enough. No, thanks." },
+        { "pt": "Quanto custa? Vou levar.", "en": "How much is it? I'll take it." },
+        { "pt": "Um pouco mais, por favor. Já chega!", "en": "A little more, please. That's enough!" },
+        { "pt": "Quanto custa? Dez dólares.", "en": "How much is it? It's ten dollars." },
+        { "pt": "Um pouco mais de café? Não, obrigado.", "en": "A little more coffee? No, thanks." }
+      ],
+      "practicingPart2": [
+        { "pt": "Quanto dinheiro você tem?/ tempo/ café", "en": "How much money do you have?/ time/ coffee" },
+        { "pt": "Quantas pessoas há?/ cadeiras/ livros", "en": "How many people are there?/ chairs/ books" },
+        { "pt": "Há um pouco de leite na geladeira./ suco", "en": "There is some milk in the fridge./ some juice" },
+        { "pt": "Não há ovos./ maçãs/ cadeiras", "en": "There aren't any eggs./ any apples/ any chairs" },
+        { "pt": "Eu tenho um pouco de tempo agora./ um pouco de dinheiro", "en": "I have a little time now./ a little money" },
+        { "pt": "Ela tem alguns amigos na cidade./ alguns livros", "en": "She has a few friends in the city./ a few books" },
+        { "pt": "Há muitos carros na rua hoje.", "en": "There are a lot of cars on the street today." },
+        { "pt": "Não coma açúcar demais./ doces demais", "en": "Don't eat too much sugar./ too many sweets" },
+        { "pt": "Nós temos comida suficiente para todos./ cadeiras suficientes", "en": "We have enough food for everyone./ enough chairs" },
+        { "pt": "Quanto custa? Vou levar.", "en": "How much is it? I'll take it." },
+        { "pt": "Há pão? Sim, há um pouco.", "en": "Is there any bread? Yes, there's a little." },
+        { "pt": "Há pessoas demais aqui./ barulho demais", "en": "There are too many people here./ too much noise" }
+      ]
+    },
+    {
+      "bookId": 2,
+      "lessonId": 15,
+      "practiceVerbs": [
+        { "pt": "Ele cresceu na cidade./ numa fazenda/ no centro", "en": "He grew up in the city./ on a farm/ downtown" },
+        { "pt": "Lucas visitou minha fazenda./ a cidade/ minha casa", "en": "Lucas visited my farm./ the town/ my house" },
+        { "pt": "Eu prefiro o campo./ a cidade/ uma vida tranquila", "en": "I prefer the country./ the city/ a quiet life" },
+        { "pt": "A vida passa devagar lá./ rápido aqui/ mais rápido na cidade", "en": "Life moves slowly there./ quickly here/ faster in the city" },
+        { "pt": "Ele admitiu que era relaxante./ silencioso demais/ legal", "en": "He admitted it was relaxing./ too quiet/ nice" }
+      ],
+      "practiceVocabulary": [
+        { "pt": "A cidade é mais agitada que o campo./ mais barulhenta/ maior", "en": "The city is busier than the country./ noisier/ bigger" },
+        { "pt": "O campo é o lugar mais tranquilo./ o mais relaxante", "en": "The country is the quietest place./ the most relaxing" },
+        { "pt": "Há trânsito demais no centro./ barulho demais", "en": "There is too much traffic downtown./ too much noise" },
+        { "pt": "O aluguel é mais caro na cidade./ mais barato", "en": "The rent is more expensive in the city./ cheaper" },
+        { "pt": "O ar é mais puro no campo./ mais limpo", "en": "The air is fresher in the country./ cleaner" },
+        { "pt": "As pessoas são mais amigáveis aqui./ mais legais/ mais gentis", "en": "The people are friendlier here./ nicer/ kinder" },
+        { "pt": "Não há tantas lojas./ tantos carros/ tantas pessoas", "en": "There aren't as many shops./ as many cars/ as many people" },
+        { "pt": "Eu conheço todos os meus vizinhos./ alguns vizinhos", "en": "I know all my neighbors./ a few neighbors" },
+        { "pt": "A vida passa mais devagar lá./ mais rápido aqui", "en": "Life moves more slowly there./ more quickly here" },
+        { "pt": "O campo é mais relaxante que a cidade.", "en": "The country is more relaxing than the city." }
+      ],
+      "practiceExpressions": [
+        { "pt": "Por um lado é empolgante, por outro lado é barulhento.", "en": "On the one hand it's exciting, on the other hand it's noisy." },
+        { "pt": "Faz sentido. Entendo seu ponto de vista.", "en": "That makes sense. I see your point." },
+        { "pt": "Onde é melhor? Depende de você.", "en": "Where is better? It depends on you." },
+        { "pt": "Entendo seu ponto. Faz sentido.", "en": "I see your point. That makes sense." },
+        { "pt": "Por outro lado, o campo é mais tranquilo.", "en": "On the other hand, the country is quieter." }
+      ],
+      "practicingPart2": [
+        { "pt": "A cidade é mais agitada que o campo./ mais barulhenta/ mais empolgante", "en": "The city is busier than the country./ noisier/ more exciting" },
+        { "pt": "O campo é o lugar mais tranquilo de todos./ o mais relaxante", "en": "The country is the quietest place of all./ the most relaxing" },
+        { "pt": "Há trânsito demais na cidade./ barulho demais", "en": "There is too much traffic in the city./ too much noise" },
+        { "pt": "O aluguel é mais caro no centro./ mais barato no campo", "en": "The rent is more expensive downtown./ cheaper in the country" },
+        { "pt": "No campo o ar é mais puro e as pessoas são mais amigáveis.", "en": "In the country the air is fresher and the people are friendlier." },
+        { "pt": "Não há tantas coisas para fazer no campo.", "en": "There aren't as many things to do in the country." },
+        { "pt": "A vida passa mais devagar no campo./ mais rápido na cidade", "en": "Life moves more slowly in the country./ faster in the city" },
+        { "pt": "Eu durmo melhor e conheço todos os meus vizinhos.", "en": "I sleep better and I know all my neighbors." },
+        { "pt": "Por um lado a cidade é empolgante; por outro lado é cansativa.", "en": "On the one hand the city is exciting; on the other hand it's tiring." },
+        { "pt": "Ele admitiu que o campo era mais relaxante do que ele esperava.", "en": "He admitted the country was more relaxing than he expected." },
+        { "pt": "Talvez a melhor vida seja um pouco dos dois.", "en": "Maybe the best life is a little bit of both." },
+        { "pt": "Qual você prefere? Depende de você.", "en": "Which do you prefer? It depends on you." }
+      ]
+    },
+    {
+      "bookId": 2,
+      "lessonId": 16,
+      "practiceVerbs": [
+        { "pt": "Eu vou viajar./ estudar/ trabalhar", "en": "I'm going to travel./ to study/ to work" },
+        { "pt": "Nós vamos nos mudar./ economizar dinheiro/ planejar uma viagem", "en": "We're going to move./ to save money/ to plan a trip" },
+        { "pt": "Ela vai nos visitar./ te ligar/ me ajudar", "en": "She's going to visit us./ to call you/ to help me" },
+        { "pt": "Você vai vir?/ estudar/ viajar", "en": "Are you going to come?/ to study/ to travel" },
+        { "pt": "Eles não vão trabalhar./ viajar/ se mudar", "en": "They aren't going to work./ to travel/ to move" }
+      ],
+      "practiceVocabulary": [
+        { "pt": "Eu vou viajar mês que vem./ semana que vem/ ano que vem", "en": "I'm going to travel next month./ next week/ next year" },
+        { "pt": "Nós vamos nos mudar em breve./ neste fim de semana/ amanhã", "en": "We're going to move soon./ this weekend/ tomorrow" },
+        { "pt": "Ela vai estudar hoje à noite./ amanhã/ mais tarde", "en": "She's going to study tonight./ tomorrow/ later" },
+        { "pt": "Eles vão nos visitar depois de amanhã.", "en": "They're going to visit us the day after tomorrow." },
+        { "pt": "Quais são seus planos para o futuro?/ para o ano que vem", "en": "What are your plans for the future?/ for next year" },
+        { "pt": "Eu vou economizar dinheiro para uma viagem./ para um carro", "en": "I'm going to save money for a trip./ for a car" },
+        { "pt": "Nós vamos dar uma festa hoje à noite./ neste fim de semana", "en": "We're going to have a party tonight./ this weekend" },
+        { "pt": "Ele vai começar um emprego novo em breve./ em dois dias", "en": "He's going to start a new job soon./ in two days" },
+        { "pt": "Eles vão vir amanhã?/ hoje à noite/ mais tarde", "en": "Are they going to come tomorrow?/ tonight/ later" },
+        { "pt": "Eu não vou trabalhar neste fim de semana./ semana que vem", "en": "I'm not going to work this weekend./ next week" },
+        { "pt": "O que você vai fazer hoje à noite?/ amanhã", "en": "What are you going to do tonight?/ tomorrow" }
+      ],
+      "practiceExpressions": [
+        { "pt": "Vamos viajar juntos! Parece um bom plano!", "en": "Let's travel together! Sounds like a plan!" },
+        { "pt": "Eu vou fazer a prova. Boa sorte!", "en": "I'm going to take the exam. Good luck!" },
+        { "pt": "Nós vamos viajar! Mal posso esperar!", "en": "We're going on a trip! Can't wait!" },
+        { "pt": "Quais são seus planos? Pode contar comigo!", "en": "What are your plans? Count me in!" },
+        { "pt": "Nós vamos à festa. Pode contar comigo!", "en": "We're going to the party. Count me in!" }
+      ],
+      "practicingPart2": [
+        { "pt": "Eu vou viajar mês que vem./ ano que vem/ neste fim de semana", "en": "I'm going to travel next month./ next year/ this weekend" },
+        { "pt": "Ela vai estudar medicina./ inglês/ na universidade", "en": "She's going to study medicine./ English/ at university" },
+        { "pt": "Nós vamos nos mudar para uma casa nova./ para outra cidade", "en": "We're going to move to a new house./ to another city" },
+        { "pt": "Você vai vir à festa? Sim, vou.", "en": "Are you going to come to the party? Yes, I am." },
+        { "pt": "Eles não vão trabalhar amanhã./ neste fim de semana", "en": "They aren't going to work tomorrow./ this weekend" },
+        { "pt": "O que você vai fazer neste fim de semana?/ hoje à noite", "en": "What are you going to do this weekend?/ tonight" },
+        { "pt": "Eu vou economizar dinheiro para uma viagem./ para um carro novo", "en": "I'm going to save money for a trip./ for a new car" },
+        { "pt": "Nós vamos visitar meus avós em breve./ amanhã", "en": "We're going to visit my grandparents soon./ tomorrow" },
+        { "pt": "Ele vai começar um curso de inglês./ um emprego novo", "en": "He's going to start an English course./ a new job" },
+        { "pt": "Quais são seus planos para o ano que vem? Parece um bom plano!", "en": "What are your plans for next year? Sounds like a plan!" },
+        { "pt": "Eu não vou ficar em casa hoje à noite./ neste fim de semana", "en": "I'm not going to stay home tonight./ this weekend" },
+        { "pt": "Eles vão viajar depois de amanhã?", "en": "Are they going to travel the day after tomorrow?" }
+      ]
+    },
+    {
+      "bookId": 2,
+      "lessonId": 17,
+      "practiceVerbs": [
+        { "pt": "Eu te ajudo./ te ligo/ te espero", "en": "I'll help you./ call you/ wait for you" },
+        { "pt": "Ela vai ligar mais tarde./ vir logo/ estar aqui às seis", "en": "She'll call later./ come soon/ be here at six" },
+        { "pt": "Eu prometo que vou mudar./ que vou ajudar/ que não vou contar", "en": "I promise I'll change./ I'll help/ I won't tell" },
+        { "pt": "As coisas vão mudar./ melhorar/ dar certo", "en": "Things will change./ get better/ work out" },
+        { "pt": "Eu não vou contar para ninguém./ esquecer/ me atrasar", "en": "I won't tell anyone./ forget/ be late" }
+      ],
+      "practiceVocabulary": [
+        { "pt": "Provavelmente vai chover./ nevar/ fazer frio", "en": "It will probably rain./ snow/ be cold" },
+        { "pt": "Talvez ela venha./ talvez eles ganhem", "en": "Maybe she'll come./ perhaps they'll win" },
+        { "pt": "Eu acho que eles vão ganhar./ tenho certeza que vão perder", "en": "I think they will win./ I'm sure they will lose" },
+        { "pt": "Um dia eu vou viajar pelo mundo./ no futuro", "en": "One day I'll travel the world./ in the future" },
+        { "pt": "Tudo vai ficar bem./ vai mudar/ vai dar certo", "en": "Everything will be fine./ will change/ will work out" },
+        { "pt": "Ninguém vai saber./ ninguém vai contar/ todos vão ajudar", "en": "Nobody will know./ no one will tell/ everyone will help" },
+        { "pt": "Ela certamente vai passar na prova./ provavelmente/ talvez", "en": "She'll certainly pass the exam./ probably/ maybe" },
+        { "pt": "Tenho certeza que você vai gostar./ certamente/ com certeza", "en": "I'm sure you'll like it./ certainly/ for sure" },
+        { "pt": "Eu vou estar aqui logo./ em cinco minutos/ hoje à noite", "en": "I'll be here soon./ in five minutes/ tonight" },
+        { "pt": "Não vai ser fácil./ não vai demorar/ não vai chover", "en": "It won't be easy./ won't take long/ won't rain" },
+        { "pt": "Talvez nós nos mudemos ano que vem./ talvez mês que vem", "en": "Perhaps we'll move next year./ maybe next month" }
+      ],
+      "practiceExpressions": [
+        { "pt": "Já volto. Não se preocupe.", "en": "I'll be right back. Don't worry." },
+        { "pt": "Eu não vou contar para ninguém. Eu prometo.", "en": "I won't tell anyone. I promise." },
+        { "pt": "Eles vão ganhar? Vamos ver.", "en": "Will they win? We'll see." },
+        { "pt": "Não se preocupe, eu vou te ajudar.", "en": "Don't worry, I'll help you." },
+        { "pt": "Eles vão se atrasar, eu aposto.", "en": "They'll be late, I bet." }
+      ],
+      "practicingPart2": [
+        { "pt": "Eu te ajudo com isso./ com a lição/ mais tarde", "en": "I'll help you with that./ with the homework/ later" },
+        { "pt": "Vai chover amanhã./ provavelmente/ hoje à noite", "en": "It will rain tomorrow./ probably/ tonight" },
+        { "pt": "Ela vai chegar logo./ em dez minutos/ às seis", "en": "She'll be here soon./ in ten minutes/ at six" },
+        { "pt": "Eu acho que eles vão ganhar o jogo./ perder/ jogar bem", "en": "I think they will win the game./ lose/ play well" },
+        { "pt": "Eu não vou contar para ninguém. Eu prometo.", "en": "I won't tell anyone. I promise." },
+        { "pt": "Você pode me ajudar, por favor? Claro que sim.", "en": "Will you help me, please? Of course I will." },
+        { "pt": "Um dia eu vou morar no exterior./ vou viajar pelo mundo", "en": "One day I'll live abroad./ I'll travel the world" },
+        { "pt": "Talvez nós viajemos ano que vem./ talvez mês que vem", "en": "Maybe we'll travel next year./ perhaps next month" },
+        { "pt": "Tenho certeza de que tudo vai ficar bem./ vai dar certo", "en": "I'm sure everything will be fine./ will work out" },
+        { "pt": "Já volto. Não se preocupe.", "en": "I'll be right back. Don't worry." },
+        { "pt": "O telefone está tocando. Eu atendo!", "en": "The phone is ringing. I'll get it!" },
+        { "pt": "Não vai ser fácil, mas a gente consegue.", "en": "It won't be easy, but we'll do it." }
+      ]
+    },
+    {
+      "bookId": 2,
+      "lessonId": 18,
+      "practiceVerbs": [
+        { "pt": "Eu decidi viajar./ estudar/ me mudar", "en": "I've decided to travel./ to study/ to move" },
+        { "pt": "Eu acho que vai chover./ que eles vêm/ que ela ganha", "en": "I expect it will rain./ they will come/ she will win" },
+        { "pt": "Acho que sim./ acho que não/ acho que você tem razão", "en": "I guess so./ I guess not/ I guess you're right" },
+        { "pt": "Eu me pergunto o que vai acontecer./ quem vem/ se vai chover", "en": "I wonder what will happen./ who will come/ if it'll rain" },
+        { "pt": "Olha! Vai chover./ vai cair/ vai começar", "en": "Look! It's going to rain./ to fall/ to start" }
+      ],
+      "practiceVocabulary": [
+        { "pt": "Olha aquelas nuvens! Vai chover.", "en": "Look at those clouds! It's going to rain." },
+        { "pt": "Eu acho que vai ser um bom ano./ um ótimo dia", "en": "I think it will be a good year./ a great day" },
+        { "pt": "Eu vou visitar a Itália./ estudar fora/ comprar um carro", "en": "I'm going to visit Italy./ study abroad/ buy a car" },
+        { "pt": "O telefone está tocando. Eu atendo!/ eu respondo", "en": "The phone is ringing. I'll get it!/ I'll answer it" },
+        { "pt": "Isso é um ótimo plano./ uma boa decisão/ uma promessa", "en": "That's a great plan./ a good decision/ a promise" },
+        { "pt": "Pensando bem, vou aceitar o emprego./ vou ficar", "en": "On second thought, I'll take the job./ I'll stay" },
+        { "pt": "Não se preocupe, eu te ajudo./ eu carrego/ eu dirijo", "en": "Don't worry, I'll help you./ I'll carry it/ I'll drive" },
+        { "pt": "Eu acho que eles chegam logo./ acho que sim", "en": "I expect they'll arrive soon./ I guess so" },
+        { "pt": "Nós vamos nos casar em junho./ ano que vem", "en": "We're going to get married in June./ next year" },
+        { "pt": "Eu decidi que vou aprender inglês./ economizar dinheiro", "en": "I've decided I'm going to learn English./ to save money" },
+        { "pt": "Eu me pergunto se vai chover amanhã./ quem vai ganhar", "en": "I wonder if it will rain tomorrow./ who will win" }
+      ],
+      "practiceExpressions": [
+        { "pt": "Deixa eu pensar. Pensando bem, sim.", "en": "Let me think. On second thought, yes." },
+        { "pt": "Vai funcionar? Acho que sim.", "en": "Will it work? I guess so." },
+        { "pt": "Vamos! Parece bom.", "en": "Let's go! Sounds good." },
+        { "pt": "Uma viagem neste fim de semana? Por que não?", "en": "A trip this weekend? Why not?" },
+        { "pt": "Pensando bem, parece bom para mim.", "en": "On second thought, sounds good to me." }
+      ],
+      "practicingPart2": [
+        { "pt": "Olha aquelas nuvens! Vai chover.", "en": "Look at those clouds! It's going to rain." },
+        { "pt": "Eu acho que vai ser um bom ano./ uma ótima viagem", "en": "I think it will be a good year./ a great trip" },
+        { "pt": "Eu vou visitar a Itália no próximo verão./ no ano que vem", "en": "I'm going to visit Italy next summer./ next year" },
+        { "pt": "O telefone está tocando. Eu atendo!", "en": "The phone is ringing. I'll get it!" },
+        { "pt": "Nós vamos nos casar em junho./ comprar uma casa nova", "en": "We're going to get married in June./ get a new house" },
+        { "pt": "Não se preocupe, eu te ajudo com as malas.", "en": "Don't worry, I'll help you with the bags." },
+        { "pt": "Pensando bem, eu vou aceitar o emprego.", "en": "On second thought, I'm going to take the job." },
+        { "pt": "Eu acho que ela vai gostar do presente./ acho que sim", "en": "I think she'll like the gift./ I guess so" },
+        { "pt": "Estou cansado. Acho que vou dormir cedo./ vou descansar", "en": "I'm tired. I think I'll go to bed early./ I'll rest" },
+        { "pt": "Eu decidi: vou estudar todo dia./ vou economizar dinheiro", "en": "I've decided: I'm going to study every day./ to save money" },
+        { "pt": "Está esfriando. Eu fecho a janela./ pego um casaco", "en": "It's getting cold. I'll close the window./ I'll get a jacket" },
+        { "pt": "Eu me pergunto se vai chover amanhã. Acho que vai.", "en": "I wonder if it will rain tomorrow. I guess it will." }
+      ]
+    },
+    {
+      "bookId": 2,
+      "lessonId": 19,
+      "practiceVerbs": [
+        { "pt": "Eu vou encontrar o João às cinco./ amanhã/ na sexta", "en": "I'm meeting John at five./ tomorrow/ on Friday" },
+        { "pt": "Nós vamos viajar na sexta./ amanhã de manhã/ hoje à noite", "en": "We're leaving on Friday./ tomorrow morning/ tonight" },
+        { "pt": "Ela vai voar para Lisboa./ para Londres/ semana que vem", "en": "She's flying to Lisbon./ to London/ next week" },
+        { "pt": "Eles vão ficar num hotel./ com amigos/ por uma semana", "en": "They're staying at a hotel./ with friends/ for a week" },
+        { "pt": "Eu vou buscar minha irmã./ as passagens/ a bagagem", "en": "I'm picking up my sister./ the tickets/ the luggage" }
+      ],
+      "practiceVocabulary": [
+        { "pt": "Eu vou encontrá-la hoje à noite./ amanhã de manhã", "en": "I'm meeting her this evening./ tomorrow morning" },
+        { "pt": "Nós vamos partir na sexta./ no fim de semana/ na próxima terça", "en": "We're leaving on Friday./ at the weekend/ next Tuesday" },
+        { "pt": "Ela tem um voo amanhã./ uma consulta/ uma reserva", "en": "She has a flight tomorrow./ an appointment/ a reservation" },
+        { "pt": "O que você vai fazer hoje à noite?/ neste fim de semana/ na sexta", "en": "What are you doing tonight?/ this weekend/ on Friday" },
+        { "pt": "Eles vão ficar num hotel./ por três noites", "en": "They're staying at a hotel./ for three nights" },
+        { "pt": "Eu não vou trabalhar amanhã./ neste fim de semana/ na segunda", "en": "I'm not working tomorrow./ this weekend/ on Monday" },
+        { "pt": "Eu vou buscar as passagens./ minha bagagem/ um amigo", "en": "I'm picking up the tickets./ my luggage/ a friend" },
+        { "pt": "Nós temos uma reserva às oito./ para duas pessoas", "en": "We have a reservation at eight./ for two people" },
+        { "pt": "Eu tenho um compromisso na próxima terça./ amanhã de manhã", "en": "I have an appointment next Tuesday./ tomorrow morning" },
+        { "pt": "Ele vai voar para casa no domingo./ semana que vem", "en": "He's flying home on Sunday./ next week" },
+        { "pt": "Nós vamos jantar com amigos no sábado.", "en": "We're having dinner with friends on Saturday." }
+      ],
+      "practiceExpressions": [
+        { "pt": "Você está livre hoje à noite? Parece ótimo.", "en": "Are you free tonight? Sounds great." },
+        { "pt": "Vamos nos encontrar. A que horas?", "en": "Let's meet up. What time?" },
+        { "pt": "Você pode vir? Desculpe, estou ocupado.", "en": "Can you come? Sorry, I'm busy." },
+        { "pt": "Vamos nos encontrar na sexta. Parece ótimo.", "en": "Let's meet up on Friday. Sounds great." },
+        { "pt": "Você está livre no fim de semana? A que horas?", "en": "Are you free at the weekend? What time?" }
+      ],
+      "practicingPart2": [
+        { "pt": "Eu vou encontrar o João às cinco amanhã./ às seis/ na sexta", "en": "I'm meeting John at five tomorrow./ at six/ on Friday" },
+        { "pt": "Nós vamos viajar na sexta de manhã./ hoje à noite/ no fim de semana", "en": "We're leaving on Friday morning./ tonight/ at the weekend" },
+        { "pt": "Ela vai voar para Lisboa semana que vem./ para Londres amanhã", "en": "She's flying to Lisbon next week./ to London tomorrow" },
+        { "pt": "O que você vai fazer hoje à noite? Vou ficar em casa.", "en": "What are you doing tonight? I'm staying home." },
+        { "pt": "Eles vão ficar num hotel no centro./ por uma semana", "en": "They're staying at a hotel downtown./ for a week" },
+        { "pt": "Eu não vou trabalhar amanhã; vou descansar./ vou viajar", "en": "I'm not working tomorrow; I'm resting./ I'm traveling" },
+        { "pt": "Nós vamos jantar fora no fim de semana./ no sábado", "en": "We're having dinner out at the weekend./ on Saturday" },
+        { "pt": "Eu vou buscar minha irmã no aeroporto às oito.", "en": "I'm picking up my sister at the airport at eight." },
+        { "pt": "Você está livre na próxima terça? Vamos nos encontrar.", "en": "Are you free next Tuesday? Let's meet up." },
+        { "pt": "Eu tenho uma consulta médica amanhã de manhã.", "en": "I have a doctor's appointment tomorrow morning." },
+        { "pt": "Nós temos uma reserva para dois às oito horas.", "en": "We have a reservation for two at eight o'clock." },
+        { "pt": "Ele não vai vir à festa; ele vai trabalhar.", "en": "He's not coming to the party; he's working." }
+      ]
+    },
+    {
+      "bookId": 2,
+      "lessonId": 20,
+      "practiceVerbs": [
+        { "pt": "Eles vão voar para Portugal./ para Lisboa/ no sábado", "en": "They're flying to Portugal./ to Lisbon/ on Saturday" },
+        { "pt": "Ele vai ficar em casa./ economizar dinheiro/ comprar um carro", "en": "He's going to stay home./ save money/ buy a car" },
+        { "pt": "Nós vamos acampar./ passear/ para as montanhas", "en": "We're going camping./ sightseeing/ to the mountains" },
+        { "pt": "Eu vou relaxar./ assistir filmes/ dormir muito", "en": "I'll relax./ watch movies/ sleep a lot" },
+        { "pt": "Eu vou encontrar meus amigos./ no primeiro dia/ amanhã", "en": "I'm meeting my friends./ on the first day/ tomorrow" }
+      ],
+      "practiceVocabulary": [
+        { "pt": "Meus pais vão viajar para o exterior./ para Portugal", "en": "My parents are going to travel abroad./ to Portugal" },
+        { "pt": "Ela fez a mala./ a bolsa/ arrumou tudo", "en": "She packed her suitcase./ her bag/ everything" },
+        { "pt": "Eles vão ficar por duas semanas./ por alguns dias", "en": "They're staying for two weeks./ for a few days" },
+        { "pt": "Ele está planejando comprar um carro./ economizar dinheiro", "en": "He's planning to buy a car./ to save money" },
+        { "pt": "Nós vamos acampar nas montanhas./ perto do lago", "en": "We're going camping in the mountains./ by the lake" },
+        { "pt": "A previsão diz que vai fazer sol./ chover/ fazer frio", "en": "The forecast says it will be sunny./ rainy/ cold" },
+        { "pt": "Eu vou fazer muito passeio turístico./ muitas compras", "en": "I'm going to do a lot of sightseeing./ shopping" },
+        { "pt": "Eles vão voar do aeroporto às seis./ amanhã", "en": "They're flying from the airport at six./ tomorrow" },
+        { "pt": "Eu vou te mandar um cartão-postal./ uma mensagem/ uma foto", "en": "I'll send you a postcard./ a message/ a photo" },
+        { "pt": "Vão ser as melhores férias de todas./ uma ótima viagem", "en": "It's going to be the best holiday ever./ a great trip" }
+      ],
+      "practiceExpressions": [
+        { "pt": "Boa viagem! Mal posso esperar!", "en": "Have a great trip! I can't wait!" },
+        { "pt": "Boa viagem! Me manda um cartão-postal!", "en": "Safe travels! Send me a postcard!" },
+        { "pt": "Vai ser incrível! Mal posso esperar!", "en": "It's going to be amazing! I can't wait!" },
+        { "pt": "Boa viagem! Vá com segurança!", "en": "Have a great trip! Safe travels!" },
+        { "pt": "Me manda um cartão-postal! Vai ser incrível!", "en": "Send me a postcard! It's going to be amazing!" }
+      ],
+      "practicingPart2": [
+        { "pt": "Nós vamos viajar durante as férias./ neste verão", "en": "We're going to travel during the holidays./ this summer" },
+        { "pt": "Meus pais vão voar para Portugal no próximo sábado.", "en": "My parents are flying to Portugal next Saturday." },
+        { "pt": "Eles vão ficar com minha tia por duas semanas.", "en": "They're staying with my aunt for two weeks." },
+        { "pt": "Meu irmão não vai viajar este ano; ele está economizando.", "en": "My brother isn't traveling this year; he's saving money." },
+        { "pt": "Ele diz que vai relaxar, assistir filmes e dormir muito.", "en": "He says he'll relax, watch movies, and sleep a lot." },
+        { "pt": "Eu vou encontrar meus amigos no primeiro dia de férias.", "en": "I'm meeting my friends on the first day of vacation." },
+        { "pt": "Nós vamos acampar nas montanhas./ perto do lago", "en": "We're going camping in the mountains./ by the lake" },
+        { "pt": "A previsão diz que vai fazer sol a semana toda.", "en": "The forecast says it will be sunny all week." },
+        { "pt": "Eu acho que vai ser perfeito. Mal posso esperar!", "en": "I think it's going to be perfect. I can't wait!" },
+        { "pt": "O que você vai fazer nas férias?/ neste fim de semana", "en": "What are you doing for the holidays?/ this weekend" },
+        { "pt": "Eu vou te mandar um cartão-postal, eu prometo.", "en": "I'll send you a postcard, I promise." },
+        { "pt": "Boa viagem e não esqueça de ligar!", "en": "Have a great trip and don't forget to call!" }
+      ]
+    },
+    {
+      "bookId": 2,
+      "lessonId": 21,
+      "practiceVerbs": [
+        { "pt": "Eu já estive em Paris./ em Londres/ no exterior", "en": "I have been to Paris./ to London/ abroad" },
+        { "pt": "Você já viu este filme?/ este show/ aquela peça", "en": "Have you seen this movie?/ this show/ that play" },
+        { "pt": "Eu nunca comi sushi./ comida indiana/ caracóis", "en": "I have never eaten sushi./ Indian food/ snails" },
+        { "pt": "Ela já experimentou isso antes./ fez isso/ esteve lá", "en": "She has tried it before./ done it/ been there" },
+        { "pt": "Nós já fizemos isso duas vezes./ uma vez/ várias vezes", "en": "We have done it twice./ once/ several times" }
+      ],
+      "practiceVocabulary": [
+        { "pt": "Você já viajou para o exterior?/ comeu sushi/ esteve na Ásia", "en": "Have you ever traveled abroad?/ eaten sushi/ been to Asia" },
+        { "pt": "Ela nunca foi ao Japão./ à Europa/ de avião", "en": "She has never been to Japan./ to Europe/ on a plane" },
+        { "pt": "Nós já vimos esse filme antes./ lemos esse livro", "en": "We've seen that movie before./ read that book" },
+        { "pt": "Eles já fizeram isso duas vezes./ uma vez/ várias vezes", "en": "They have done it twice./ once/ several times" },
+        { "pt": "Eu nunca experimentei comida indiana./ comida tailandesa/ caracóis", "en": "I've never tried Indian food./ Thai food/ snails" },
+        { "pt": "Ele foi ao Japão e ainda está lá./ a Londres", "en": "He has gone to Japan and he's still there./ to London" },
+        { "pt": "Você já conheceu uma pessoa famosa?/ viu uma baleia", "en": "Have you ever met a famous person?/ seen a whale" },
+        { "pt": "É a melhor experiência da minha vida./ a pior", "en": "It's the best experience of my life./ the worst" },
+        { "pt": "Eu já estive lá várias vezes./ uma vez/ duas vezes", "en": "I've been there several times./ once/ twice" },
+        { "pt": "Ela já escreveu três livros./ muitas cartas", "en": "She has written three books./ many letters" },
+        { "pt": "Nós nunca fizemos nada parecido antes.", "en": "We've never done anything like this before." }
+      ],
+      "practiceExpressions": [
+        { "pt": "Eu nunca estive lá. Sério? Eu também não.", "en": "I've never been there. Really? Me neither." },
+        { "pt": "Eu já fui à Itália. Eu também!", "en": "I've been to Italy. Me too!" },
+        { "pt": "Eu fui ao Japão. Como foi?", "en": "I went to Japan. What was it like?" },
+        { "pt": "Você quer experimentar? Eu adoraria.", "en": "Do you want to try? I'd love to." },
+        { "pt": "Você já comeu sushi? Ainda não, mas eu quero.", "en": "Have you eaten sushi? Not yet, but I want to." }
+      ],
+      "practicingPart2": [
+        { "pt": "Eu já visitei Paris./ Londres/ muitos países", "en": "I have visited Paris./ London/ many countries" },
+        { "pt": "Você já comeu sushi alguma vez? Sim, várias vezes.", "en": "Have you ever eaten sushi? Yes, several times." },
+        { "pt": "Ela nunca foi ao Japão./ à Europa/ ao exterior", "en": "She has never been to Japan./ to Europe/ abroad" },
+        { "pt": "Nós já vimos esse filme antes./ esse show", "en": "We have seen that movie before./ that show" },
+        { "pt": "Eles já fizeram isso duas vezes./ uma vez/ várias vezes", "en": "They have done it twice./ once/ several times" },
+        { "pt": "Eu nunca experimentei comida indiana. Eu adoraria.", "en": "I've never tried Indian food. I'd love to." },
+        { "pt": "Você já viajou para o exterior? Ainda não.", "en": "Have you ever traveled abroad? Not yet." },
+        { "pt": "Eu já estive nessa cidade duas vezes./ uma vez/ várias vezes", "en": "I've been to that city twice./ once/ several times" },
+        { "pt": "Ele nunca conheceu meus pais./ minha família", "en": "He has never met my parents./ my family" },
+        { "pt": "É a melhor experiência da minha vida. Para mim também!", "en": "It's the best experience of my life. Me too!" },
+        { "pt": "Ela foi para Londres, então não está aqui agora.", "en": "She's gone to London, so she isn't here now." },
+        { "pt": "Você já viu o oceano? Como foi?", "en": "Have you ever seen the ocean? What was it like?" }
+      ]
+    },
+    {
+      "bookId": 2,
+      "lessonId": 22,
+      "practiceVerbs": [
+        { "pt": "Eu já terminei./ comecei/ enviei", "en": "I've already finished./ started/ sent it" },
+        { "pt": "Ela já chegou?/ ligou/ terminou", "en": "Has she arrived yet?/ called/ finished" },
+        { "pt": "Nós acabamos de almoçar./ chegar/ terminar", "en": "We've just had lunch./ arrived/ finished" },
+        { "pt": "O trem acabou de sair./ chegar/ parar", "en": "The train has just left./ arrived/ stopped" },
+        { "pt": "Eu ainda não enviei./ fiz/ comecei", "en": "I haven't sent it yet./ done it/ started yet" }
+      ],
+      "practiceVocabulary": [
+        { "pt": "Eu já terminei a lição./ o trabalho", "en": "I've already finished my homework./ my work" },
+        { "pt": "Você já comeu?/ ligou?/ saiu?", "en": "Have you eaten yet?/ called yet/ left yet" },
+        { "pt": "Ela ainda não chegou./ respondeu./ retornou.", "en": "She hasn't arrived yet./ answered yet/ replied yet" },
+        { "pt": "Nós acabamos de almoçar./ de chegar/ de começar", "en": "We've just had lunch./ just arrived/ just started" },
+        { "pt": "Eu ainda estou esperando./ trabalhando/ aqui", "en": "I'm still waiting./ still working/ still here" },
+        { "pt": "Eu tenho estado muito ocupado ultimamente./ recentemente/ esta semana", "en": "I've been very busy lately./ recently/ this week" },
+        { "pt": "Até agora, tudo bem./ até o momento/ hoje", "en": "So far, everything is fine./ up to now/ today" },
+        { "pt": "Ele acabou de enviar o e-mail./ a mensagem/ o arquivo", "en": "He has just sent the email./ the message/ the file" },
+        { "pt": "Eu ainda não fiz isso./ terminei isso/ li isso", "en": "I haven't done it yet./ finished it yet/ read it yet" },
+        { "pt": "Eles já começaram a reunião./ a aula", "en": "They've already started the meeting./ the class" },
+        { "pt": "Eu trabalhei o dia todo e ainda não terminei.", "en": "I've worked all day and I'm still not finished." }
+      ],
+      "practiceExpressions": [
+        { "pt": "Você terminou? Ainda não.", "en": "Have you finished? Not yet." },
+        { "pt": "Eu já fiz isso. Já?", "en": "I've already done it. Already?" },
+        { "pt": "Só um momento, por favor.", "en": "Just a moment, please." },
+        { "pt": "Ela chegou! Finalmente!", "en": "She's here! Finally!" },
+        { "pt": "O ônibus chegou. Até que enfim!", "en": "The bus has arrived. At last!" }
+      ],
+      "practicingPart2": [
+        { "pt": "Eu já terminei a lição./ o trabalho/ o livro", "en": "I've already finished my homework./ my work/ the book" },
+        { "pt": "Você já comeu? Ainda não.", "en": "Have you eaten yet? Not yet." },
+        { "pt": "Ela ainda não chegou./ ligou./ respondeu.", "en": "She hasn't arrived yet./ called yet/ answered yet" },
+        { "pt": "Nós acabamos de almoçar./ de chegar/ de terminar", "en": "We've just had lunch./ just arrived/ just finished" },
+        { "pt": "O trem acabou de sair./ o ônibus acabou de chegar", "en": "The train has just left./ the bus has just arrived" },
+        { "pt": "Eu ainda não fiz isso./ enviei isso/ li isso", "en": "I haven't done it yet./ sent it yet/ read it yet" },
+        { "pt": "Eu já mandei o e-mail para o chefe.", "en": "I've already sent the email to the boss." },
+        { "pt": "Eles acabaram de começar a reunião./ a aula", "en": "They've just started the meeting./ the class" },
+        { "pt": "Eu já vi esse filme três vezes.", "en": "I've seen that movie three times already." },
+        { "pt": "Você já fez o exercício? Finalmente, sim!", "en": "Have you done the exercise yet? Finally, yes!" },
+        { "pt": "Eu ainda estou esperando; o ônibus ainda não chegou.", "en": "I'm still waiting; the bus hasn't come yet." },
+        { "pt": "Ela acabou de sair, então você já a perdeu.", "en": "She has just left, so you've already missed her." }
+      ]
+    },
+    {
+      "bookId": 2,
+      "lessonId": 23,
+      "practiceVerbs": [
+        { "pt": "Eu moro aqui há dez anos./ por um tempo/ a vida toda", "en": "I've lived here for ten years./ for a while/ all my life" },
+        { "pt": "Ela o conhece desde 2010./ desde a escola/ há anos", "en": "She has known him since 2010./ since school/ for years" },
+        { "pt": "Nós trabalhamos aqui há muito tempo./ desde março", "en": "We've worked here for a long time./ since March" },
+        { "pt": "Eu espero há uma hora./ há um tempão/ desde o meio-dia", "en": "I've waited for an hour./ for ages/ since noon" },
+        { "pt": "Eles se conhecem há anos./ desde 2015", "en": "They have known each other for years./ since 2015" }
+      ],
+      "practiceVocabulary": [
+        { "pt": "Eu estudo inglês há dois anos./ desde janeiro", "en": "I've studied English for two years./ since January" },
+        { "pt": "Ela está aqui desde segunda./ há uma semana", "en": "She has been here since Monday./ for a week" },
+        { "pt": "Há quanto tempo você mora aqui?/ trabalha aqui/ estuda", "en": "How long have you lived here?/ worked here/ studied" },
+        { "pt": "Nós somos amigos desde a infância./ há um tempão", "en": "We've been friends since childhood./ for ages" },
+        { "pt": "Eu não o vejo há semanas./ há meses./ desde junho", "en": "I haven't seen him for weeks./ for months/ since June" },
+        { "pt": "Eles estão casados há cinco anos./ desde 2019", "en": "They've been married for five years./ since 2019" },
+        { "pt": "Eu a conheço a vida toda./ desde criança", "en": "I've known her all my life./ since I was a child" },
+        { "pt": "Ele tem estado ocupado ultimamente./ há alguns dias", "en": "He's been busy lately./ for a couple of days" },
+        { "pt": "Nós esperamos há muito tempo./ há um tempão/ desde as duas", "en": "We've waited for a long time./ for ages/ since two" },
+        { "pt": "Eu tenho este carro desde 2018./ há três anos", "en": "I've had this car since 2018./ for three years" },
+        { "pt": "Ela trabalha lá desde que terminou a escola.", "en": "She has worked there since she finished school." }
+      ],
+      "practiceExpressions": [
+        { "pt": "Há quanto tempo? Há um tempão!", "en": "How long? For ages!" },
+        { "pt": "Quanto tempo! Faz um tempo.", "en": "Long time no see! It's been a while." },
+        { "pt": "Já dez anos? Como o tempo voa!", "en": "Ten years already? Time flies!" },
+        { "pt": "Faz um tempo desde a última vez que conversamos.", "en": "It's been a while since we talked." },
+        { "pt": "Quanto tempo! Há quanto tempo foi?", "en": "Long time no see! How long has it been?" }
+      ],
+      "practicingPart2": [
+        { "pt": "Eu moro aqui há dez anos./ por um tempo/ a vida toda", "en": "I have lived here for ten years./ for a while/ all my life" },
+        { "pt": "Ela o conhece desde 2010./ desde a escola/ há anos", "en": "She has known him since 2010./ since school/ for years" },
+        { "pt": "Nós trabalhamos juntos há muito tempo./ desde março", "en": "We have worked together for a long time./ since March" },
+        { "pt": "Há quanto tempo você estuda inglês? Há dois anos.", "en": "How long have you studied English? For two years." },
+        { "pt": "Eles estão casados desde junho./ há cinco anos", "en": "They have been married since June./ for five years" },
+        { "pt": "Eu não a vejo há semanas./ há meses./ desde junho", "en": "I haven't seen her for weeks./ for months/ since June" },
+        { "pt": "Eu conheço meu melhor amigo desde criança.", "en": "I've known my best friend since I was a child." },
+        { "pt": "Ele está esperando há mais de uma hora./ desde o meio-dia", "en": "He has been waiting for more than an hour./ since noon" },
+        { "pt": "Nós moramos nesta cidade a vida toda./ há anos", "en": "We have lived in this city all our lives./ for years" },
+        { "pt": "Faz um tempo que eu não viajo./ que a gente não se vê", "en": "It's been a while since I traveled./ since we met" },
+        { "pt": "Há quanto tempo você tem seu carro? Desde 2018.", "en": "How long have you had your car? Since 2018." },
+        { "pt": "Quanto tempo! Como o tempo voa!", "en": "Long time no see! Time flies!" }
+      ]
+    },
+    {
+      "bookId": 2,
+      "lessonId": 24,
+      "practiceVerbs": [
+        { "pt": "Eu perdi minhas chaves./ minha carteira/ meu celular", "en": "I have lost my keys./ my wallet/ my phone" },
+        { "pt": "Eu perdi ontem./ semana passada/ dois dias atrás", "en": "I lost it yesterday./ last week/ two days ago" },
+        { "pt": "Ela já escreveu três livros./ muitas cartas", "en": "She has written three books./ many letters" },
+        { "pt": "Ela escreveu em 2015./ ano passado/ há muito tempo", "en": "She wrote it in 2015./ last year/ a long time ago" },
+        { "pt": "Ele quebrou o celular./ o braço/ o copo", "en": "He has broken his phone./ his arm/ the glass" }
+      ],
+      "practiceVocabulary": [
+        { "pt": "Eu já vi./ Eu vi ontem", "en": "I've already seen it./ I saw it yesterday" },
+        { "pt": "Você já esteve lá?/ Você foi ano passado?", "en": "Have you ever been there?/ Did you go last year?" },
+        { "pt": "Ela acabou de chegar./ Ela chegou há uma hora", "en": "She has just arrived./ She arrived an hour ago" },
+        { "pt": "Eu nunca experimentei./ Eu não experimentei da última vez", "en": "I've never tried it./ I didn't try it last time" },
+        { "pt": "Eles me deram um presente./ Eles deram ontem", "en": "They have given me a gift./ They gave it yesterday" },
+        { "pt": "Nós terminamos./ Nós terminamos hoje de manhã", "en": "We've finished./ We finished this morning" },
+        { "pt": "Eu moro aqui há anos./ Eu morei lá em 2010", "en": "I've lived here for years./ I lived there in 2010" },
+        { "pt": "Ele já ligou?/ Ele ligou ontem à noite?", "en": "Has he called yet?/ Did he call last night?" },
+        { "pt": "Eu escrevi o relatório./ Eu o escrevi semana passada", "en": "I've written the report./ I wrote it last week" },
+        { "pt": "Ela quebrou a xícara./ Ela quebrou hoje de manhã", "en": "She has broken the cup./ She broke it this morning" },
+        { "pt": "Quando exatamente aconteceu?/ Aconteceu recentemente", "en": "When exactly did it happen?/ It happened recently" }
+      ],
+      "practiceExpressions": [
+        { "pt": "Eu já vi. Quando exatamente? Recentemente.", "en": "I've seen it. When exactly? Recently." },
+        { "pt": "Você fez agora mesmo? Sim, agora mesmo.", "en": "Did you do it just now? Yes, just now." },
+        { "pt": "Quando vocês se conheceram? Há muito tempo.", "en": "When did you meet? A long time ago." },
+        { "pt": "Passado ou present perfect? Depende.", "en": "Past or present perfect? It depends." },
+        { "pt": "Quando exatamente? Há muito tempo.", "en": "When exactly? A long time ago." }
+      ],
+      "practicingPart2": [
+        { "pt": "Eu perdi minhas chaves e não consigo encontrá-las.", "en": "I have lost my keys, and I can't find them." },
+        { "pt": "Eu perdi minhas chaves ontem./ semana passada/ hoje de manhã", "en": "I lost my keys yesterday./ last week/ this morning" },
+        { "pt": "Você já viu este filme? Sim, já vi.", "en": "Have you seen this film? Yes, I have." },
+        { "pt": "Você viu o filme ontem à noite? Sim, vi.", "en": "Did you see the film last night? Yes, I did." },
+        { "pt": "Ela já escreveu três livros./ muitos artigos", "en": "She has written three books./ many articles" },
+        { "pt": "Ela escreveu esse livro em 2015./ há muito tempo", "en": "She wrote that book in 2015./ a long time ago" },
+        { "pt": "Eu já estive em Paris. Eu fui lá em 2019.", "en": "I've been to Paris. I went there in 2019." },
+        { "pt": "Nós acabamos de chegar. Saímos de casa há uma hora.", "en": "We've just arrived. We left home an hour ago." },
+        { "pt": "Eles nunca viajaram de avião./ foram para o exterior", "en": "They have never traveled by plane./ been abroad" },
+        { "pt": "Quando você comprou este carro? Dois anos atrás.", "en": "When did you buy this car? Two years ago." },
+        { "pt": "Você já terminou? Sim, terminei hoje de manhã.", "en": "Have you finished yet? Yes, I finished this morning." },
+        { "pt": "Ele quebrou o celular de novo; quebrou ontem.", "en": "He has broken his phone again; he broke it yesterday." }
+      ]
+    },
+    {
+      "bookId": 2,
+      "lessonId": 25,
+      "practiceVerbs": [
+        { "pt": "Eu estava dormindo./ cozinhando/ estudando", "en": "I was sleeping./ cooking/ studying" },
+        { "pt": "Eles estavam assistindo TV./ trabalhando/ conversando", "en": "They were watching TV./ working/ talking" },
+        { "pt": "Ela estava dirigindo para casa./ para o trabalho/ devagar", "en": "She was driving home./ to work/ slowly" },
+        { "pt": "Eu não estava escutando./ trabalhando/ prestando atenção", "en": "I wasn't listening./ working/ paying attention" },
+        { "pt": "O que você estava fazendo às oito?/ ao meio-dia/ naquele momento", "en": "What were you doing at eight?/ at noon/ then" }
+      ],
+      "practiceVocabulary": [
+        { "pt": "Eu estava dormindo quando o telefone tocou./ quando você ligou", "en": "I was sleeping when the phone rang./ when you called" },
+        { "pt": "Eles estavam assistindo TV quando eu cheguei./ quando ela saiu", "en": "They were watching TV when I arrived./ when she left" },
+        { "pt": "Ela estava cozinhando enquanto ele limpava./ enquanto eu estudava", "en": "She was cooking while he was cleaning./ while I studied" },
+        { "pt": "Estava chovendo quando saímos./ quando chegamos", "en": "It was raining when we left./ when we arrived" },
+        { "pt": "De repente, alguém bateu na porta./ as luzes apagaram", "en": "Suddenly, someone knocked on the door./ the lights went out" },
+        { "pt": "Eu estava trabalhando a manhã toda./ o dia todo/ o dia inteiro", "en": "I was working all morning./ all day/ the whole day" },
+        { "pt": "Enquanto isso, ela estava esperando lá fora./ estudando/ cozinhando", "en": "Meanwhile, she was waiting outside./ studying/ cooking" },
+        { "pt": "Naquele momento, eu estava dirigindo./ falando/ saindo", "en": "At that moment, I was driving./ talking/ leaving" },
+        { "pt": "Nós estávamos jantando quando a luz acabou.", "en": "We were having dinner when the power went out." },
+        { "pt": "Enquanto eu estudava, meu telefone tocou./ ele chegou", "en": "While I was studying, my phone rang./ he arrived" },
+        { "pt": "O que eles estavam fazendo durante a reunião?/ naquele momento", "en": "What were they doing during the meeting?/ at the time" }
+      ],
+      "practiceExpressions": [
+        { "pt": "O que você estava fazendo? Nada de mais.", "en": "What were you up to? Nothing much." },
+        { "pt": "Adivinha o que eu estava fazendo! Do nada...", "en": "Guess what I was doing! Out of nowhere..." },
+        { "pt": "Eu estava justo saindo quando você ligou.", "en": "I was just about to leave when you called." },
+        { "pt": "O que você estava fazendo ontem à noite? Nada de mais.", "en": "What were you up to last night? Nothing much." },
+        { "pt": "Do nada, começou a chover.", "en": "Out of nowhere, it started to rain." }
+      ],
+      "practicingPart2": [
+        { "pt": "Eu estava dormindo à meia-noite./ naquele momento/ a noite toda", "en": "I was sleeping at midnight./ at that moment/ all night" },
+        { "pt": "Eles estavam assistindo TV quando eu cheguei./ quando você ligou", "en": "They were watching TV when I arrived./ when you called" },
+        { "pt": "O que você estava fazendo às oito? Eu estava estudando.", "en": "What were you doing at eight? I was studying." },
+        { "pt": "Ela estava cozinhando enquanto ele limpava a casa.", "en": "She was cooking while he was cleaning the house." },
+        { "pt": "Estava chovendo quando saímos./ quando o jogo começou", "en": "It was raining when we left./ when the game started" },
+        { "pt": "Eu não estava escutando; estava pensando em outra coisa.", "en": "I wasn't listening; I was thinking about something else." },
+        { "pt": "Enquanto eu estudava, meu telefone tocou./ alguém bateu", "en": "While I was studying, my phone rang./ someone knocked" },
+        { "pt": "De repente, alguém bateu na porta./ as luzes apagaram", "en": "Suddenly, someone knocked on the door./ the lights went out" },
+        { "pt": "Nós estávamos jantando quando a luz acabou.", "en": "We were having dinner when the power went out." },
+        { "pt": "Eu estava justo saindo quando você ligou.", "en": "I was just about to leave when you called." },
+        { "pt": "Enquanto isso, as crianças estavam brincando no jardim.", "en": "Meanwhile, the children were playing in the garden." },
+        { "pt": "O que você estava fazendo ontem? Nada de mais.", "en": "What were you up to yesterday? Nothing much." }
+      ]
+    },
+    {
+      "bookId": 2,
+      "lessonId": 26,
+      "practiceVerbs": [
+        { "pt": "Eu já viajei para muitos países./ para o Peru/ para o exterior", "en": "I have traveled to many countries./ to Peru/ abroad" },
+        { "pt": "Nós estávamos escalando a montanha./ subindo/ fazendo trilha", "en": "We were climbing the mountain./ walking up/ hiking" },
+        { "pt": "Ano passado eu fui ao Peru./ às montanhas/ numa viagem", "en": "Last year I went to Peru./ to the mountains/ on a trip" },
+        { "pt": "Nós economizamos dinheiro por meses./ para a viagem/ por um ano", "en": "We saved money for months./ for the trip/ for a year" },
+        { "pt": "Começou a chover./ a esfriar/ de repente", "en": "It started to rain./ to get cold/ suddenly" }
+      ],
+      "practiceVocabulary": [
+        { "pt": "Nós escalamos a montanha./ a trilha íngreme/ até o topo", "en": "We climbed the mountain./ the steep path/ to the top" },
+        { "pt": "A vista era de tirar o fôlego./ incrível/ inesquecível", "en": "The view was breathtaking./ amazing/ unforgettable" },
+        { "pt": "Nosso guia sorriu e disse que valeria a pena.", "en": "Our guide smiled and said it would be worth it." },
+        { "pt": "Machu Picchu é uma cidade antiga./ ruínas antigas", "en": "Machu Picchu is an ancient city./ ancient ruins" },
+        { "pt": "Nós acordamos às quatro./ começamos no escuro/ estávamos cansados", "en": "We woke up at four./ started in the dark/ were tired" },
+        { "pt": "Eu já vi muitos lugares lindos./ vistas incríveis", "en": "I have seen many beautiful places./ amazing views" },
+        { "pt": "Eu nunca senti nada parecido./ vi nada igual", "en": "I have never felt anything like that./ seen anything like it" },
+        { "pt": "Quando chegamos ao topo, a chuva parou./ o sol apareceu", "en": "When we reached the top, the rain stopped./ the sun came out" },
+        { "pt": "Foi a melhor viagem da minha vida./ uma viagem inesquecível", "en": "It has been the best trip of my life./ an unforgettable trip" },
+        { "pt": "Nós ficamos com frio e molhados por uma hora./ cansados e com fome", "en": "We were cold and wet for an hour./ tired and hungry" }
+      ],
+      "practiceExpressions": [
+        { "pt": "A vista era de tirar o fôlego! Eu nunca vou esquecer.", "en": "The view was breathtaking! I'll never forget it." },
+        { "pt": "Valeu a pena. Que aventura!", "en": "It was worth it. What an adventure!" },
+        { "pt": "Você tem que ir! Era de tirar o fôlego!", "en": "You have to go! It was breathtaking!" },
+        { "pt": "Que aventura! Valeu a pena.", "en": "What an adventure! It was worth it." },
+        { "pt": "Eu nunca vou esquecer. Você tem que ir!", "en": "I'll never forget it. You have to go!" }
+      ],
+      "practicingPart2": [
+        { "pt": "Eu já viajei para muitos países./ para muitos lugares", "en": "I have traveled to many countries./ to many places" },
+        { "pt": "Ano passado eu fui ao Peru pela primeira vez.", "en": "Last year I went to Peru for the first time." },
+        { "pt": "Nós sempre quisemos ver Machu Picchu./ as ruínas", "en": "We had always wanted to see Machu Picchu./ the ruins" },
+        { "pt": "Nós economizamos por meses e pegamos o voo em julho.", "en": "We saved money for months and took the flight in July." },
+        { "pt": "Nós estávamos subindo a montanha quando começou a chover.", "en": "We were walking up the mountain when it started to rain." },
+        { "pt": "Por uma hora, nós ficamos com frio, molhados e cansados.", "en": "For an hour, we were cold, wet, and tired." },
+        { "pt": "Quando chegamos ao topo, a vista era de tirar o fôlego.", "en": "When we reached the top, the view was breathtaking." },
+        { "pt": "Eu já vi muitos lugares lindos, mas nunca nada parecido.", "en": "I have seen many beautiful places, but never anything like that." },
+        { "pt": "Foi a melhor viagem da minha vida./ inesquecível", "en": "It has been the best trip of my life./ unforgettable" },
+        { "pt": "Você já visitou um lugar assim? Você tem que ir!", "en": "Have you ever visited a place like that? You have to go!" },
+        { "pt": "Nosso guia disse: 'Não se preocupe, vai valer a pena.'", "en": "Our guide said, 'Don't worry, it will be worth it.'" },
+        { "pt": "Ninguém disse uma palavra; nós só ficamos ali olhando.", "en": "Nobody said a word; we just stood there and looked." }
+      ]
+    },
+    {
+      "bookId": 2,
+      "lessonId": 27,
+      "practiceVerbs": [
+        { "pt": "Você deve seguir as regras./ as placas/ a lei", "en": "You must follow the rules./ the signs/ the law" },
+        { "pt": "Você tem que usar uniforme./ cinto de segurança/ capacete", "en": "You have to wear a uniform./ a seatbelt/ a helmet" },
+        { "pt": "Não é permitido fumar aqui./ Não são permitidos celulares", "en": "Smoking isn't allowed here./ Phones aren't allowed" },
+        { "pt": "Ela tem que estudar./ trabalhar/ sair cedo", "en": "She has to study./ to work/ to leave early" },
+        { "pt": "Nós não precisamos pagar./ esperar/ vir", "en": "We don't have to pay./ to wait/ to come" }
+      ],
+      "practiceVocabulary": [
+        { "pt": "Você deve usar cinto de segurança./ uniforme/ máscara", "en": "You must wear a seatbelt./ a uniform/ a mask" },
+        { "pt": "Eu tenho que trabalhar amanhã./ estudar hoje à noite/ sair agora", "en": "I have to work tomorrow./ study tonight/ leave now" },
+        { "pt": "Ela tem que estudar para a prova./ terminar o relatório", "en": "She has to study for the exam./ finish the report" },
+        { "pt": "Você não pode fumar aqui./ estacionar aqui/ se atrasar", "en": "You mustn't smoke here./ park here/ be late" },
+        { "pt": "Nós não precisamos pagar; é grátis./ está incluído", "en": "We don't have to pay; it's free./ it's included" },
+        { "pt": "É uma regra./ É proibido./ É necessário", "en": "It's a rule./ It's forbidden./ It's necessary" },
+        { "pt": "A placa diz que você não pode entrar./ que deve parar", "en": "The sign says you can't enter./ you must stop" },
+        { "pt": "Os alunos têm que usar uniforme./ seguir as regras", "en": "Students have to wear a uniform./ follow the rules" },
+        { "pt": "Você tem que trabalhar nos fins de semana?/ acordar cedo", "en": "Do you have to work on weekends?/ get up early" },
+        { "pt": "Você não precisa vir se estiver ocupado./ se estiver cansado", "en": "You don't have to come if you're busy./ if you're tired" },
+        { "pt": "É proibido usar celulares durante a prova.", "en": "It's forbidden to use phones during the exam." }
+      ],
+      "practiceExpressions": [
+        { "pt": "Eu sou obrigado? É uma regra.", "en": "Do I have to? It's a rule." },
+        { "pt": "Isso não é permitido. É proibido.", "en": "That's not allowed. It's forbidden." },
+        { "pt": "É necessário. É melhor você fazer.", "en": "It's necessary. You'd better do it." },
+        { "pt": "Eu tenho que vir? É necessário.", "en": "Do I have to come? It's necessary." },
+        { "pt": "É melhor se apressar. É uma regra.", "en": "You'd better hurry. It's a rule." }
+      ],
+      "practicingPart2": [
+        { "pt": "Você deve usar cinto de segurança./ uniforme/ capacete", "en": "You must wear a seatbelt./ a uniform/ a helmet" },
+        { "pt": "Eu tenho que trabalhar amanhã./ estudar hoje à noite/ sair cedo", "en": "I have to work tomorrow./ study tonight/ leave early" },
+        { "pt": "Ela tem que estudar para a prova./ terminar o trabalho dela", "en": "She has to study for the exam./ finish her work" },
+        { "pt": "Você não pode fumar aqui./ usar o celular/ se atrasar", "en": "You mustn't smoke here./ use your phone/ be late" },
+        { "pt": "Nós não precisamos pagar; é grátis./ está incluído", "en": "We don't have to pay; it's free./ it's included" },
+        { "pt": "Você tem que ir agora? Sim, tenho.", "en": "Do you have to leave now? Yes, I do." },
+        { "pt": "Os alunos têm que usar uniforme./ chegar na hora", "en": "Students have to wear a uniform./ arrive on time" },
+        { "pt": "Você não pode usar o celular durante a prova.", "en": "You mustn't use your phone during the exam." },
+        { "pt": "Eu não preciso acordar cedo aos domingos.", "en": "I don't have to get up early on Sundays." },
+        { "pt": "É uma regra: todos devem seguir as instruções.", "en": "It's a rule: everyone must follow the instructions." },
+        { "pt": "Eu tenho que vir? Não, você não precisa.", "en": "Do I have to come? No, you don't have to." },
+        { "pt": "Isso não é permitido; a placa diz que é proibido.", "en": "That's not allowed; the sign says it's forbidden." }
+      ]
+    },
+    {
+      "bookId": 2,
+      "lessonId": 28,
+      "practiceVerbs": [
+        { "pt": "Você deveria descansar./ relaxar/ fazer mais exercício", "en": "You should rest./ relax/ exercise more" },
+        { "pt": "Você não deveria se preocupar tanto./ trabalhar tanto", "en": "You shouldn't worry so much./ work so hard" },
+        { "pt": "Eu deveria descansar?/ relaxar/ chamar um médico", "en": "Should I rest?/ relax/ call a doctor" },
+        { "pt": "Eu acho que você deveria fazer exercício./ descansar/ relaxar", "en": "I think you should exercise./ rest/ relax" },
+        { "pt": "Ele não deveria se preocupar./ trabalhar até tarde/ pular refeições", "en": "He shouldn't worry./ work late/ skip meals" }
+      ],
+      "practiceVocabulary": [
+        { "pt": "Você deveria ir ao médico./ ao dentista/ a um especialista", "en": "You should see a doctor./ a dentist/ a specialist" },
+        { "pt": "Você não deveria comer tanto açúcar./ tanto sal", "en": "You shouldn't eat so much sugar./ so much salt" },
+        { "pt": "Eu recomendo este restaurante./ este livro/ este médico", "en": "I recommend this restaurant./ this book/ this doctor" },
+        { "pt": "Na minha opinião, você deveria descansar./ deveria ir", "en": "In my opinion, you should rest./ you should go" },
+        { "pt": "É uma boa ideia fazer exercício./ comer de forma saudável", "en": "It's a good idea to exercise./ to eat healthy" },
+        { "pt": "Você parece cansado./ estressado./ doente", "en": "You look tired./ stressed./ sick" },
+        { "pt": "É melhor você ir ao médico./ descansar/ ir para casa", "en": "You'd better see a doctor./ rest/ go home" },
+        { "pt": "Talvez você devesse fazer uma pausa./ ir para casa cedo", "en": "Maybe you should take a break./ go home early" },
+        { "pt": "Qual é o problema? Você deveria conversar com alguém.", "en": "What's the problem? You should talk to someone." },
+        { "pt": "Comer de forma saudável é uma boa ideia./ é importante", "en": "Eating healthy is a good idea./ is important" },
+        { "pt": "Ele não deveria ficar tão estressado./ tão preocupado/ tão cansado", "en": "He shouldn't be so stressed./ so worried/ so tired" }
+      ],
+      "practiceExpressions": [
+        { "pt": "É um bom conselho. Obrigado!", "en": "That's good advice. Thank you!" },
+        { "pt": "Se eu fosse você, eu descansaria. Vá com calma.", "en": "If I were you, I'd rest. Take it easy." },
+        { "pt": "Estou doente. Melhoras!", "en": "I'm sick. Get well soon!" },
+        { "pt": "Eu deveria ir? Você deveria mesmo!", "en": "Should I go? You really should!" },
+        { "pt": "Se eu fosse você, eu iria com calma.", "en": "If I were you, I'd take it easy." }
+      ],
+      "practicingPart2": [
+        { "pt": "Você deveria ir ao médico./ ao dentista/ a um especialista", "en": "You should see a doctor./ a dentist/ a specialist" },
+        { "pt": "Você não deveria comer tanto açúcar./ trabalhar tanto", "en": "You shouldn't eat so much sugar./ work so hard" },
+        { "pt": "Eu deveria ligar para ela? Sim, acho que sim.", "en": "Should I call her? Yes, I think you should." },
+        { "pt": "Eu acho que você deveria descansar mais./ fazer exercício/ relaxar", "en": "I think you should rest more./ exercise/ relax" },
+        { "pt": "Ele não deveria trabalhar tanto./ se preocupar tanto", "en": "He shouldn't work so hard./ worry so much" },
+        { "pt": "O que eu deveria fazer? Se eu fosse você, eu descansaria.", "en": "What should I do? If I were you, I'd rest." },
+        { "pt": "Você deveria fazer exercício e comer comida saudável.", "en": "You should exercise and eat healthy food." },
+        { "pt": "Se eu fosse você, eu não me preocuparia tanto.", "en": "If I were you, I wouldn't worry so much." },
+        { "pt": "Você não deveria dormir tão tarde./ ficar acordado até tarde", "en": "You shouldn't go to bed so late./ stay up so late" },
+        { "pt": "É um bom conselho. Muito obrigado!", "en": "That's good advice. Thank you very much!" },
+        { "pt": "Você parece estressado; talvez devesse fazer uma pausa.", "en": "You look stressed; maybe you should take a break." },
+        { "pt": "Na minha opinião, você deveria conversar com seu chefe.", "en": "In my opinion, you should talk to your boss." }
+      ]
+    },
+    {
+      "bookId": 2,
+      "lessonId": 29,
+      "practiceVerbs": [
+        { "pt": "Se você estudar, vai passar./ vai aprender/ vai se sair bem", "en": "If you study, you'll pass./ you'll learn/ you'll do well" },
+        { "pt": "Se você não se apressar, vai perder o ônibus./ se atrasar", "en": "If you don't hurry, you'll miss the bus./ be late" },
+        { "pt": "Eu te ligo quando chegar./ assim que puder", "en": "I'll call you when I arrive./ as soon as I can" },
+        { "pt": "Se chover, nós ficamos em casa./ cancelamos", "en": "If it rains, we'll stay home./ we'll cancel it" },
+        { "pt": "Eu te ajudo se tiver tempo./ se eu puder/ se você pedir", "en": "I'll help you if I have time./ if I can/ if you ask" }
+      ],
+      "practiceVocabulary": [
+        { "pt": "Se chover, eu fico em casa./ eu levo um guarda-chuva", "en": "If it rains, I'll stay home./ I'll take an umbrella" },
+        { "pt": "Se você estudar, vai passar na prova./ tirar uma boa nota", "en": "If you study, you'll pass the exam./ get a good grade" },
+        { "pt": "Eu te ligo assim que eu chegar./ assim que eu souber", "en": "I'll call you as soon as I arrive./ as soon as I know" },
+        { "pt": "A menos que você se apresse, vai se atrasar./ vai perder", "en": "Unless you hurry, you'll be late./ you'll miss it" },
+        { "pt": "Nós vamos à praia se fizer sol./ se estiver quente", "en": "We'll go to the beach if it's sunny./ if it's warm" },
+        { "pt": "Leve um guarda-chuva, só por garantia./ caso chova", "en": "Take an umbrella, just in case./ in case it rains" },
+        { "pt": "O que você vai fazer se chover?/ se ela se atrasar", "en": "What will you do if it rains?/ if she's late" },
+        { "pt": "Quando o filme terminar, nós vamos jantar./ vamos para casa", "en": "When the movie ends, we'll have dinner./ we'll go home" },
+        { "pt": "Se apressa, senão a gente perde o trem.", "en": "Hurry up, otherwise we'll miss the train." },
+        { "pt": "Se eu tiver tempo, eu te ajudo amanhã./ eu ligo", "en": "If I have time, I'll help you tomorrow./ I'll call" },
+        { "pt": "Se você não sair agora, vai se atrasar para o trabalho.", "en": "If you don't leave now, you'll be late for work." }
+      ],
+      "practiceExpressions": [
+        { "pt": "Leve só por garantia. Se você diz.", "en": "Take it just in case. If you say so." },
+        { "pt": "Vai funcionar? Vamos ver. Torcendo!", "en": "Will it work? We'll see. Fingers crossed!" },
+        { "pt": "E se chover? Então a gente fica em casa.", "en": "What if it rains? Then we'll stay home." },
+        { "pt": "Torcendo para você passar na prova!", "en": "Fingers crossed you pass the exam!" },
+        { "pt": "E se ela disser não? Vamos ver.", "en": "What if she says no? We'll see." }
+      ],
+      "practicingPart2": [
+        { "pt": "Se chover, eu fico em casa./ eu pego o carro", "en": "If it rains, I'll stay home./ I'll take the car" },
+        { "pt": "Se você estudar, vai passar na prova./ vai se sair bem", "en": "If you study, you'll pass the exam./ you'll do well" },
+        { "pt": "Eu te ligo quando eu chegar./ assim que puder", "en": "I'll call you when I arrive./ as soon as I can" },
+        { "pt": "Se ela não se apressar, vai perder o ônibus./ se atrasar", "en": "If she doesn't hurry, she'll miss the bus./ be late" },
+        { "pt": "Nós vamos à praia se fizer sol./ se estiver quente", "en": "We'll go to the beach if it's sunny./ if it's warm" },
+        { "pt": "O que você vai fazer se chover? Vou ficar em casa.", "en": "What will you do if it rains? I'll stay home." },
+        { "pt": "Leve um guarda-chuva, só por garantia, caso chova.", "en": "Take an umbrella, just in case it rains." },
+        { "pt": "A menos que você corra, vai se atrasar para a aula.", "en": "Unless you run, you'll be late for class." },
+        { "pt": "Se eu tiver tempo, eu te ajudo amanhã.", "en": "If I have time, I'll help you tomorrow." },
+        { "pt": "Quando o filme terminar, nós vamos jantar.", "en": "When the movie ends, we'll go for dinner." },
+        { "pt": "Se apressa, senão a gente perde o trem!", "en": "Hurry up, otherwise we'll miss the train!" },
+        { "pt": "Se você não sair agora, vai perder o voo.", "en": "If you don't leave now, you'll miss your flight." }
+      ]
+    },
+    {
+      "bookId": 2,
+      "lessonId": 30,
+      "practiceVerbs": [
+        { "pt": "Se eu ganhasse na loteria, eu viajaria./ compraria uma casa", "en": "If I won the lottery, I'd travel./ I'd buy a house" },
+        { "pt": "Se eu tivesse dinheiro, compraria um carro./ uma casa/ um barco", "en": "If I had money, I would buy a car./ a house/ a boat" },
+        { "pt": "Se eu pudesse, eu mudaria de emprego./ me mudaria/ ajudaria", "en": "If I could, I'd change jobs./ I'd move/ I'd help" },
+        { "pt": "Eu viajaria mais se tivesse tempo./ se estivesse livre", "en": "I would travel more if I had time./ if I were free" },
+        { "pt": "Se eu fosse você, aceitaria o emprego./ diria sim/ descansaria", "en": "If I were you, I'd take the job./ I'd say yes/ I'd rest" }
+      ],
+      "practiceVocabulary": [
+        { "pt": "Se eu tivesse um milhão de dólares, eu viajaria o mundo.", "en": "If I had a million dollars, I would travel the world." },
+        { "pt": "Se eu fosse você, aceitaria o emprego./ teria cuidado", "en": "If I were you, I'd take the job./ I'd be careful" },
+        { "pt": "O que você faria se ganhasse na loteria?/ se fosse rico", "en": "What would you do if you won the lottery?/ if you were rich" },
+        { "pt": "Ela seria mais feliz se tivesse mais tempo livre.", "en": "She would be happier if she had more free time." },
+        { "pt": "Se morássemos perto do mar, nadaríamos todo dia.", "en": "If we lived by the sea, we would swim every day." },
+        { "pt": "Eu não diria isso no seu lugar./ se fosse você", "en": "I wouldn't say that if I were in your place./ if I were you" },
+        { "pt": "Imagina se a gente pudesse voar./ se morasse na lua", "en": "Imagine if we could fly./ if we lived on the moon" },
+        { "pt": "É hipotético./ é improvável/ é impossível", "en": "It's hypothetical./ it's unlikely/ it's impossible" },
+        { "pt": "Se ele estudasse mais, passaria facilmente.", "en": "If he studied more, he would pass easily." },
+        { "pt": "O que você compraria se fosse rico?/ se tivesse dinheiro", "en": "What would you buy if you were rich?/ if you had money" },
+        { "pt": "Se eu tivesse mais tempo, eu aprenderia piano.", "en": "If I had more time, I would learn the piano." }
+      ],
+      "practiceExpressions": [
+        { "pt": "Eu compraria um iate! Nos seus sonhos!", "en": "I'd buy a yacht! In your dreams!" },
+        { "pt": "Se ao menos eu tivesse mais tempo! Quem me dera!", "en": "If only I had more time! I wish!" },
+        { "pt": "Ela ganhou uma viagem para Paris. Imagina só!", "en": "She won a trip to Paris. Imagine that!" },
+        { "pt": "O que você faria? Se eu fosse você, eu iria.", "en": "What would you do? If I were you, I'd go." },
+        { "pt": "Quem dera eu fosse rico! Quem me dera!", "en": "If only I were rich! I wish!" }
+      ],
+      "practicingPart2": [
+        { "pt": "Se eu tivesse um milhão de dólares, eu viajaria o mundo.", "en": "If I had a million dollars, I would travel the world." },
+        { "pt": "Se eu fosse você, eu aceitaria o emprego./ aceitaria", "en": "If I were you, I'd take the job./ I'd accept it" },
+        { "pt": "O que você faria se ganhasse na loteria?", "en": "What would you do if you won the lottery?" },
+        { "pt": "Ela seria mais feliz se tivesse mais tempo.", "en": "She would be happier if she had more time." },
+        { "pt": "Se morássemos perto do mar, nadaríamos todo dia.", "en": "If we lived by the sea, we would swim every day." },
+        { "pt": "Eu não diria isso se fosse você./ no seu lugar", "en": "I wouldn't say that if I were you./ in your place" },
+        { "pt": "Se eu pudesse, eu mudaria de emprego./ me mudaria para o exterior", "en": "If I could, I would change my job./ I would move abroad" },
+        { "pt": "Se ele estudasse mais, passaria facilmente.", "en": "If he studied more, he would pass easily." },
+        { "pt": "O que você compraria se fosse rico? Imagina só!", "en": "What would you buy if you were rich? Imagine that!" },
+        { "pt": "Se ao menos eu tivesse mais tempo livre! Quem me dera!", "en": "If only I had more free time! I wish!" },
+        { "pt": "Se eu fosse o chefe, eu mudaria muita coisa.", "en": "If I were the boss, I would change a lot of things." },
+        { "pt": "Ela aprenderia francês se morasse em Paris.", "en": "She would learn French if she lived in Paris." }
+      ]
+    },
+    {
+      "bookId": 2,
+      "lessonId": 31,
+      "practiceVerbs": [
+        { "pt": "Eu costumava jogar futebol./ nadar/ ler muito", "en": "I used to play soccer./ to swim/ to read a lot" },
+        { "pt": "Ela morava em Londres./ no campo/ perto daqui", "en": "She used to live in London./ in the country/ near here" },
+        { "pt": "Nós não tínhamos carro antigamente./ telefone/ muito dinheiro", "en": "We didn't use to have a car./ a phone/ much money" },
+        { "pt": "Você costumava fumar?/ viajar/ estudar aqui", "en": "Did you use to smoke?/ to travel/ to study here" },
+        { "pt": "Ele era tímido./ era magro/ trabalhava aqui", "en": "He used to be shy./ to be thin/ to work here" }
+      ],
+      "practiceVocabulary": [
+        { "pt": "Eu costumava brincar na rua quando criança./ quando era jovem", "en": "I used to play outside as a child./ when I was young" },
+        { "pt": "Ela morava em Londres./ no passado/ naquela época", "en": "She used to live in London./ in the past/ back then" },
+        { "pt": "Nós não tínhamos carro antigamente./ TV/ internet", "en": "We didn't use to have a car./ a TV/ the internet" },
+        { "pt": "Você costumava fumar? Agora não mais./ não mais", "en": "Did you use to smoke? Not anymore./ no longer" },
+        { "pt": "Ele era muito tímido./ muito magro/ muito quieto", "en": "He used to be very shy./ very thin/ very quiet" },
+        { "pt": "Eu não bebo mais café./ eu não fumo mais", "en": "I don't drink coffee anymore./ I no longer smoke" },
+        { "pt": "Hoje em dia, as coisas são diferentes./ atualmente/ agora", "en": "Nowadays, things are different./ these days/ now" },
+        { "pt": "Naquela época, não tínhamos celulares./ no passado", "en": "Back then, we didn't have phones./ in the past" },
+        { "pt": "Isso era um bom hábito./ um mau hábito/ uma rotina", "en": "It used to be a good habit./ a bad habit/ a routine" },
+        { "pt": "Eu costumava acordar tarde, mas agora acordo cedo.", "en": "I used to wake up late, but now I wake up early." },
+        { "pt": "Nós costumávamos visitar nossos avós todo domingo.", "en": "We used to visit our grandparents every Sunday." }
+      ],
+      "practiceExpressions": [
+        { "pt": "Os tempos mudaram. Aqueles eram bons tempos.", "en": "Times have changed. Those were the days." },
+        { "pt": "Você ainda fuma? Agora não mais.", "en": "Do you still smoke? Not anymore." },
+        { "pt": "Como as coisas mudam! Eu me lembro bem.", "en": "How things change! I remember well." },
+        { "pt": "Aqueles eram bons tempos! Os tempos mudaram.", "en": "Those were the days! Times have changed." },
+        { "pt": "Eu me lembro bem; mas agora não mais.", "en": "I remember well; not anymore, though." }
+      ],
+      "practicingPart2": [
+        { "pt": "Eu costumava jogar futebol todo dia./ quando era criança", "en": "I used to play soccer every day./ when I was a child" },
+        { "pt": "Ela morava em Londres./ em outra cidade", "en": "She used to live in London./ in another city" },
+        { "pt": "Nós não tínhamos carro antigamente./ muito dinheiro/ uma casa grande", "en": "We didn't use to have a car./ much money/ a big house" },
+        { "pt": "Você costumava fumar? Sim, mas agora não mais.", "en": "Did you use to smoke? Yes, but not anymore." },
+        { "pt": "Ele era muito tímido antigamente./ muito quieto/ muito magro", "en": "He used to be very shy./ very quiet/ very thin" },
+        { "pt": "Eu não bebo mais café./ eu não como mais carne", "en": "I don't drink coffee anymore./ I no longer eat meat" },
+        { "pt": "Hoje em dia, as crianças não brincam tanto na rua.", "en": "Nowadays, children don't play outside as much." },
+        { "pt": "Eu costumava acordar tarde, mas agora acordo cedo.", "en": "I used to wake up late, but now I wake up early." },
+        { "pt": "Nós costumávamos visitar meus avós todo domingo.", "en": "We used to visit my grandparents every Sunday." },
+        { "pt": "Como as coisas mudam! Aqueles eram bons tempos.", "en": "How things change! Those were the days." },
+        { "pt": "Naquela época, nós não tínhamos internet.", "en": "Back then, we didn't use to have the internet." },
+        { "pt": "As pessoas costumavam escrever mais cartas no passado?", "en": "Did people use to write more letters in the past?" }
+      ]
+    },
+    {
+      "bookId": 2,
+      "lessonId": 32,
+      "practiceVerbs": [
+        { "pt": "As pessoas costumavam escrever cartas./ ser mais pacientes", "en": "People used to write letters./ to be more patient" },
+        { "pt": "Você não precisa mais esperar./ escrever cartas", "en": "You don't have to wait anymore./ to write letters" },
+        { "pt": "Você pode se conectar com qualquer um./ falar numa tela", "en": "You can connect with anyone./ talk on a screen" },
+        { "pt": "Você não deveria passar o dia todo na tela./ online", "en": "You shouldn't spend all day on a screen./ online" },
+        { "pt": "A vida seria diferente sem isso./ mais difícil/ mais lenta", "en": "Life would be different without it./ harder/ slower" }
+      ],
+      "practiceVocabulary": [
+        { "pt": "As pessoas costumavam escrever cartas à mão./ esperar dias", "en": "People used to write letters by hand./ to wait for days" },
+        { "pt": "A tecnologia mudou tudo./ conectou o mundo", "en": "Technology has changed everything./ has connected the world" },
+        { "pt": "Você não precisa mais esperar./ enviar cartas", "en": "You don't have to wait anymore./ to send letters" },
+        { "pt": "Você pode falar com qualquer um numa tela./ por um aplicativo", "en": "You can talk to anyone on a screen./ through an app" },
+        { "pt": "Ela se preocupa com o tempo de tela./ com o futuro", "en": "She worries about screen time./ about the future" },
+        { "pt": "Você deveria sair./ conversar com pessoas reais/ descansar", "en": "You should go outside./ talk to real people/ rest" },
+        { "pt": "A vida seria diferente sem a internet./ mais difícil", "en": "Life would be different without the internet./ harder" },
+        { "pt": "Cada geração vive de forma diferente./ pensa diferente", "en": "Each generation lives differently./ thinks differently" },
+        { "pt": "É mais prático agora./ mais rápido/ mais fácil", "en": "It's more convenient now./ faster/ easier" },
+        { "pt": "Se fôssemos mais pacientes, seríamos mais felizes.", "en": "If we were more patient, we'd be happier." }
+      ],
+      "practiceExpressions": [
+        { "pt": "Como os tempos mudaram! Quem diria?", "en": "How times have changed! Who would have thought?" },
+        { "pt": "É difícil imaginar. Faz sentido.", "en": "It's hard to imagine. That makes sense." },
+        { "pt": "Para o bem ou para o mal, a vida é diferente agora.", "en": "For better or worse, life is different now." },
+        { "pt": "Quem diria? Como os tempos mudaram!", "en": "Who would have thought? How times have changed!" },
+        { "pt": "Faz sentido. É difícil imaginar.", "en": "That makes sense. It's hard to imagine." }
+      ],
+      "practicingPart2": [
+        { "pt": "As pessoas costumavam escrever cartas à mão e esperar dias.", "en": "People used to write letters by hand and wait for days." },
+        { "pt": "Antigamente não tínhamos telefone em casa./ internet", "en": "We didn't use to have phones at home./ the internet" },
+        { "pt": "Você não precisa mais esperar pelo correio.", "en": "You don't have to wait for the post anymore." },
+        { "pt": "Se você quer ver alguém, é só abrir um aplicativo.", "en": "If you want to see someone, you can open an app." },
+        { "pt": "Você não deveria passar o dia todo olhando para uma tela.", "en": "You shouldn't spend all day looking at a screen." },
+        { "pt": "Você deveria sair e conversar com pessoas de verdade também.", "en": "You should go outside and talk to real people too." },
+        { "pt": "A tecnologia conectou o mundo inteiro.", "en": "Technology has connected the whole world." },
+        { "pt": "A vida seria muito diferente sem isso.", "en": "Life would be very different without it." },
+        { "pt": "Se fôssemos mais pacientes, todos seríamos mais felizes.", "en": "If we were more patient, we would all be happier." },
+        { "pt": "Para o bem ou para o mal, algumas coisas antigas também eram boas.", "en": "For better or worse, some old things were good too." },
+        { "pt": "Como os tempos mudaram! Quem diria?", "en": "How times have changed! Who would have thought?" },
+        { "pt": "Nós costumávamos ser mais pacientes naquela época.", "en": "We used to be more patient back then." }
+      ]
+    },
+    {
+      "bookId": 2,
+      "lessonId": 33,
+      "practiceVerbs": [
+        { "pt": "Ele disse que estava cansado./ ocupado/ feliz", "en": "He said he was tired./ he was busy/ he was happy" },
+        { "pt": "Ela me disse que gostou./ que estava atrasada/ que concordava", "en": "She told me she liked it./ she was late/ she agreed" },
+        { "pt": "Ele perguntou se eu estava ocupado./ se eu podia ajudar/ onde eu morava", "en": "He asked if I was busy./ if I could help/ where I lived" },
+        { "pt": "Ela me disse para esperar./ para ligar para ela/ para ter cuidado", "en": "She told me to wait./ to call her/ to be careful" },
+        { "pt": "Ele explicou que era fácil./ que foi um erro", "en": "He explained that it was easy./ that it was a mistake" }
+      ],
+      "practiceVocabulary": [
+        { "pt": "Ela disse que estava cansada./ que viria/ que sabia", "en": "She said she was tired./ that she would come/ that she knew" },
+        { "pt": "Ele me contou a verdade./ um segredo/ uma história", "en": "He told me the truth./ a secret/ a story" },
+        { "pt": "Ela perguntou se eu estava livre./ se eu podia ajudar", "en": "She asked if I was free./ whether I could help" },
+        { "pt": "Eles disseram que chegariam no dia seguinte./ no dia anterior", "en": "They said they would arrive the next day./ the day before" },
+        { "pt": "Ele me disse para esperar lá./ para ligar naquele momento/ para ter paciência", "en": "He told me to wait there./ to call then/ to be patient" },
+        { "pt": "Ela comentou que estava ocupada./ repetiu a pergunta", "en": "She mentioned that she was busy./ repeated the question" },
+        { "pt": "Ele disse que não sabia./ que não podia vir/ que sentia muito", "en": "He said he didn't know./ he couldn't come/ he was sorry" },
+        { "pt": "Ela deixou um recado./ um bilhete/ o número dela", "en": "She left a message./ a note/ her number" },
+        { "pt": "O professor explicou que a prova seria na sexta.", "en": "The teacher explained that the exam would be on Friday." },
+        { "pt": "Ele me perguntou onde eu morava./ o que eu fazia/ quando eu cheguei", "en": "He asked me where I lived./ what I did/ when I arrived" },
+        { "pt": "Segundo ele, a reunião foi cancelada.", "en": "According to him, the meeting was canceled." }
+      ],
+      "practiceExpressions": [
+        { "pt": "Foi ele que disse. Foi isso que ela disse.", "en": "He said so. That's what she said." },
+        { "pt": "Em outras palavras, ele não vem.", "en": "In other words, he isn't coming." },
+        { "pt": "Segundo ele, é verdade. É o que dizem.", "en": "According to him, it's true. So they say." },
+        { "pt": "Foi isso que ela disse, em outras palavras.", "en": "That's what she said, in other words." },
+        { "pt": "É o que dizem, mas eu não tenho certeza.", "en": "So they say, but I'm not sure." }
+      ],
+      "practicingPart2": [
+        { "pt": "Ele disse que estava cansado./ ocupado/ doente", "en": "He said he was tired./ he was busy/ he was sick" },
+        { "pt": "Ela me disse que gostou do filme./ do livro/ da comida", "en": "She told me she liked the movie./ the book/ the food" },
+        { "pt": "Eles disseram que viriam à festa./ que ligariam", "en": "They said they would come to the party./ they would call" },
+        { "pt": "Ele perguntou se eu estava ocupado./ se eu podia ajudá-lo", "en": "He asked if I was busy./ if I could help him" },
+        { "pt": "Ela me disse para esperar lá fora./ para ligar mais tarde", "en": "She told me to wait outside./ to call her later" },
+        { "pt": "Eu disse que não sabia a resposta./ que não podia ir", "en": "I said I didn't know the answer./ I couldn't go" },
+        { "pt": "O professor explicou que a prova seria na sexta.", "en": "The teacher explained that the test would be on Friday." },
+        { "pt": "Minha mãe me disse para chegar cedo./ para ter cuidado", "en": "My mother told me to arrive early./ to be careful" },
+        { "pt": "Ele me perguntou onde eu morava./ no que eu trabalhava", "en": "He asked me where I lived./ what I did for work" },
+        { "pt": "Em outras palavras, ela disse que não podia ir.", "en": "In other words, she said she couldn't go." },
+        { "pt": "Ela me disse que me ajudaria no dia seguinte.", "en": "She told me she would help me the next day." },
+        { "pt": "Ele disse que nunca tinha estado lá antes.", "en": "He said he had never been there before." }
+      ]
+    },
+    {
+      "bookId": 2,
+      "lessonId": 34,
+      "practiceVerbs": [
+        { "pt": "Eu me levanto às seis./ às sete/ cedo", "en": "I get up at six./ at seven/ early" },
+        { "pt": "Acenda a luz./ ligue a TV/ ligue o computador", "en": "Turn on the light./ the TV/ the computer" },
+        { "pt": "Desligue a TV./ a luz/ o celular", "en": "Turn off the TV./ the light/ your phone" },
+        { "pt": "Eu estou procurando minhas chaves./ meu celular/ meus óculos", "en": "I'm looking for my keys./ my phone/ my glasses" },
+        { "pt": "Não desista!/ Espera aí!/ Volte!", "en": "Don't give up!/ Hang on!/ Come back!" }
+      ],
+      "practiceVocabulary": [
+        { "pt": "Eu acordo às seis./ levanto tarde/ levanto cedo", "en": "I wake up at six./ get up late/ get up early" },
+        { "pt": "Por favor, acenda a luz./ desligue a TV", "en": "Please turn on the light./ turn off the TV" },
+        { "pt": "Vista o casaco./ tire os sapatos", "en": "Put on your coat./ take off your shoes" },
+        { "pt": "Eu estou procurando minhas chaves./ cuidando do meu cachorro", "en": "I'm looking for my keys./ looking after my dog" },
+        { "pt": "Eu descobri a verdade./ descobri ontem", "en": "I found out the truth./ found out yesterday" },
+        { "pt": "Não desista!/ nunca desista/ pare de fumar", "en": "Don't give up!/ never give up/ give up smoking" },
+        { "pt": "Acabou o leite./ acabou o tempo/ acabou o dinheiro", "en": "We ran out of milk./ ran out of time/ ran out of money" },
+        { "pt": "A que horas você vai voltar?/ voltar para casa", "en": "What time will you come back?/ come back home" },
+        { "pt": "Eu me dou bem com meus colegas./ com meus vizinhos", "en": "I get along with my coworkers./ with my neighbors" },
+        { "pt": "Jogue fora os papéis velhos./ o lixo/ as caixas", "en": "Throw away the old papers./ the trash/ the boxes" },
+        { "pt": "Você pode cuidar das crianças hoje à noite?/ da casa", "en": "Can you look after the kids tonight?/ the house" }
+      ],
+      "practiceExpressions": [
+        { "pt": "Espera aí! Estou procurando.", "en": "Hang on! I'm looking for it." },
+        { "pt": "Se acalme. Não desista.", "en": "Calm down. Don't give up." },
+        { "pt": "Cuidado! Anda logo!", "en": "Watch out! Hurry up!" },
+        { "pt": "Vamos lá! Vamos nos atrasar.", "en": "Come on! We're going to be late." },
+        { "pt": "Espera aí, deixa eu desligar a TV.", "en": "Hang on, let me turn off the TV." }
+      ],
+      "practicingPart2": [
+        { "pt": "Eu me levanto às seis todo dia./ às sete/ cedo", "en": "I get up at six every day./ at seven/ early" },
+        { "pt": "Por favor, acenda a luz./ desligue a TV", "en": "Please turn on the light./ turn off the TV" },
+        { "pt": "Eu estou procurando minhas chaves./ minha carteira/ meus óculos", "en": "I'm looking for my keys./ my wallet/ my glasses" },
+        { "pt": "Não desista! Continue tentando./ Espera aí!", "en": "Don't give up! Keep trying./ Hang on!" },
+        { "pt": "Acabou o leite./ acabou o café/ acabou o tempo", "en": "We ran out of milk./ out of coffee/ out of time" },
+        { "pt": "Você pode cuidar do meu cachorro neste fim de semana?", "en": "Can you look after my dog this weekend?" },
+        { "pt": "Vista o casaco; está frio lá fora./ tire os sapatos", "en": "Put on your coat; it's cold outside./ take off your shoes" },
+        { "pt": "Eu descobri a verdade ontem./ descobri a notícia", "en": "I found out the truth yesterday./ found out the news" },
+        { "pt": "A que horas você vai voltar para casa?/ vai voltar", "en": "What time are you coming back home?/ coming back" },
+        { "pt": "Eu me dou bem com meus colegas de trabalho./ de classe", "en": "I get along well with my coworkers./ my classmates" },
+        { "pt": "Desligue isso, por favor; nós vamos sair.", "en": "Turn it off, please; we're going out." },
+        { "pt": "Vamos lá, anda logo! Vamos perder o ônibus.", "en": "Come on, hurry up! We're going to miss the bus." }
+      ]
+    },
+    {
+      "bookId": 2,
+      "lessonId": 35,
+      "practiceVerbs": [
+        { "pt": "Deixa eu explicar porque é importante./ já que você perguntou", "en": "Let me explain because it's important./ since you asked" },
+        { "pt": "Isso conecta as ideias./ as frases/ as duas partes", "en": "It connects the ideas./ the sentences/ the two parts" },
+        { "pt": "O que significa? Significa 'embora'./ 'no entanto'", "en": "What does it mean? It means 'although'./ 'however'" },
+        { "pt": "Eu acrescento que concordo./ que é verdade/ mais uma coisa", "en": "I'll add that I agree./ that it's true/ one more thing" },
+        { "pt": "Eu fiquei em casa, então descansei./ então estudei/ então dormi", "en": "I stayed home, so I rested./ so I studied/ so I slept" }
+      ],
+      "practiceVocabulary": [
+        { "pt": "Eu fiquei em casa porque estava chovendo./ porque estava cansado", "en": "I stayed home because it was raining./ because I was tired" },
+        { "pt": "Estava chovendo, então fiquei em casa./ então cancelamos", "en": "It was raining, so I stayed home./ so we canceled it" },
+        { "pt": "Embora estivesse chovendo, nós saímos./ mesmo estando frio", "en": "Although it was raining, we went out./ even though it was cold" },
+        { "pt": "Eu estava cansado, mas terminei o trabalho./ mas continuei", "en": "I was tired, but I finished the work./ but I kept going" },
+        { "pt": "Ela estudou muito; no entanto, não passou.", "en": "She studied hard; however, she didn't pass." },
+        { "pt": "Nós podemos ir à praia ou ficar em casa./ ou ir às compras", "en": "We can go to the beach or stay home./ or go shopping" },
+        { "pt": "Eu gosto de chá, e também gosto de café./ e de suco também", "en": "I like tea, and I also like coffee./ and juice too" },
+        { "pt": "Já que você está aqui, vamos começar./ já que é tarde, vamos", "en": "Since you're here, let's start./ since it's late, let's go" },
+        { "pt": "Estava frio; portanto, eu vesti um casaco./ fiquei dentro", "en": "It was cold; therefore, I wore a coat./ I stayed inside" },
+        { "pt": "Além disso, a comida estava ótima./ o atendimento foi rápido", "en": "In addition, the food was great./ the service was fast" },
+        { "pt": "Eu trabalho de manhã, enquanto ele trabalha à noite.", "en": "I work in the morning, while he works at night." }
+      ],
+      "practiceExpressions": [
+        { "pt": "Por outro lado, é mais barato.", "en": "On the other hand, it's cheaper." },
+        { "pt": "Como resultado, nos atrasamos. É por isso.", "en": "As a result, we were late. That's why." },
+        { "pt": "Por exemplo, este é melhor.", "en": "For example, this one is better." },
+        { "pt": "Para concluir, foi uma boa ideia.", "en": "In conclusion, it was a good idea." },
+        { "pt": "É por isso que fiquei em casa, por outro lado.", "en": "That's why I stayed home, on the other hand." }
+      ],
+      "practicingPart2": [
+        { "pt": "Eu fiquei em casa porque estava chovendo./ porque estava doente", "en": "I stayed home because it was raining./ because I was sick" },
+        { "pt": "Estava chovendo, então fiquei em casa./ então peguei o carro", "en": "It was raining, so I stayed home./ so I took the car" },
+        { "pt": "Embora estivesse chovendo, nós saímos./ nos divertimos", "en": "Although it was raining, we went out./ we had fun" },
+        { "pt": "Eu estava cansado, mas terminei o trabalho./ mas não parei", "en": "I was tired, but I finished the work./ but I didn't stop" },
+        { "pt": "Ela estudou muito; no entanto, não passou na prova.", "en": "She studied hard; however, she didn't pass the exam." },
+        { "pt": "Nós podemos ir à praia ou ficar em casa e descansar.", "en": "We can go to the beach or stay home and rest." },
+        { "pt": "Eu gosto de chá, e também gosto de café.", "en": "I like tea, and I also like coffee." },
+        { "pt": "Já que você está aqui, vamos começar a reunião.", "en": "Since you're here, let's start the meeting." },
+        { "pt": "Estava frio; portanto, eu vesti um casaco.", "en": "It was cold; therefore, I wore a coat." },
+        { "pt": "Eu trabalho de manhã, enquanto ele trabalha à noite.", "en": "I work in the morning, while he works at night." },
+        { "pt": "O hotel era barato; além disso, era muito limpo.", "en": "The hotel was cheap; in addition, it was very clean." },
+        { "pt": "Por outro lado, a cidade é mais cara.", "en": "On the other hand, the city is more expensive." }
+      ]
+    },
+    {
+      "bookId": 2,
+      "lessonId": 36,
+      "practiceVerbs": [
+        { "pt": "Eu aprendi muito./ eu melhorei/ eu pratiquei", "en": "I have learned a lot./ I have improved/ I have practiced" },
+        { "pt": "Eu costumava ficar nervoso./ traduzir tudo/ ter medo", "en": "I used to be nervous./ to translate everything/ to be afraid" },
+        { "pt": "Eu vou começar o Livro Três./ continuar estudando", "en": "I'm going to start Book Three./ to keep studying" },
+        { "pt": "Se eu continuar praticando, vou melhorar./ vou ficar melhor", "en": "If I keep practicing, I'll improve./ I'll get better" },
+        { "pt": "Eu ainda cometo erros./ eu faço progresso/ eu me sinto confiante", "en": "I still make mistakes./ I make progress/ I feel confident" }
+      ],
+      "practiceVocabulary": [
+        { "pt": "Eu fiz um progresso de verdade./ muito progresso", "en": "I have made real progress./ a lot of progress" },
+        { "pt": "Eu me sinto mais confiante agora./ menos nervoso/ orgulhoso", "en": "I feel more confident now./ less nervous/ proud" },
+        { "pt": "Não tenha medo de errar./ de falar/ de tentar", "en": "Don't be afraid of mistakes./ of speaking/ of trying" },
+        { "pt": "Pratique um pouco todo dia./ toda semana/ em toda lição", "en": "Practice a little every day./ every week/ every lesson" },
+        { "pt": "Eu costumava traduzir tudo./ ser muito tímido", "en": "I used to translate everything./ to be very shy" },
+        { "pt": "Vai ser mais difícil, mas não estou preocupado./ estou pronto", "en": "It will be harder, but I'm not worried./ I'm ready" },
+        { "pt": "Eu já li histórias curtas./ aprendi palavras novas", "en": "I have read short stories./ learned new words" },
+        { "pt": "Essa jornada foi incrível./ valeu a pena", "en": "This journey has been amazing./ has been worth it" },
+        { "pt": "Se eu continuar, vou alcançar meu objetivo./ vou ter sucesso", "en": "If I keep going, I'll reach my goal./ I'll succeed" },
+        { "pt": "Eu tenho orgulho do meu progresso./ dessa jornada/ de mim mesmo", "en": "I'm proud of my progress./ of this journey/ of myself" }
+      ],
+      "practiceExpressions": [
+        { "pt": "Continue assim! A prática leva à perfeição.", "en": "Keep it up! Practice makes perfect." },
+        { "pt": "Passo a passo, tenho orgulho de você.", "en": "Step by step, I'm proud of you." },
+        { "pt": "Rumo ao Livro Três! Continue assim!", "en": "Onward to Book Three! Keep it up!" },
+        { "pt": "A prática leva à perfeição, passo a passo.", "en": "Practice makes perfect, step by step." },
+        { "pt": "Tenho orgulho de você. Rumo ao Livro Três!", "en": "I'm proud of you. Onward to Book Three!" }
+      ],
+      "practicingPart2": [
+        { "pt": "Um ano atrás, eu não conseguia dizer muita coisa em inglês.", "en": "A year ago, I couldn't say much in English." },
+        { "pt": "Eu aprendi muito desde então./ desde que comecei", "en": "I have learned a lot since then./ since I started" },
+        { "pt": "Eu costumava ter medo de falar, mas agora não tenho mais.", "en": "I used to be afraid of speaking, but now I'm not." },
+        { "pt": "Eu estudei o passado, o futuro e o present perfect.", "en": "I have studied the past, the future, and the present perfect." },
+        { "pt": "Eu ainda cometo erros, mas fiz um progresso de verdade.", "en": "I still make mistakes, but I have made real progress." },
+        { "pt": "Você não deveria ter medo de errar./ de falar", "en": "You shouldn't be afraid of mistakes./ of speaking" },
+        { "pt": "Se você esperar até ficar perfeito, nunca vai falar.", "en": "If you wait until it's perfect, you'll never speak." },
+        { "pt": "Mês que vem, eu vou começar o Livro Três.", "en": "Next month, I'm going to start Book Three." },
+        { "pt": "Se eu continuar praticando todo dia, vou continuar melhorando.", "en": "If I keep practicing every day, I'll keep improving." },
+        { "pt": "A prática leva à perfeição, passo a passo.", "en": "Practice makes perfect, step by step." },
+        { "pt": "Tenho orgulho dessa jornada e me sinto confiante.", "en": "I'm proud of this journey, and I feel confident." },
+        { "pt": "Continuem assim, pessoal. Rumo ao Livro Três!", "en": "Keep it up, everyone. Onward to Book Three!" }
       ]
     },
     {

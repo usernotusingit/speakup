@@ -4150,7 +4150,7 @@
     {
       "id": 2,
       "title": "Book Two",
-      "level": "A1+",
+      "level": "A2",
       "color": "#ea580c",
       "listenings": 2,
       "lessons": [
@@ -4278,7 +4278,19 @@
             }
           ],
           "curiosity": "Did you know? The English word 'can' comes from Old English 'cunnan', meaning 'to know how'. So 'I can swim' originally meant 'I know how to swim' — which still makes perfect sense today!",
-          "teachingGuide": "Can: É um verbo modal — nunca usa -s na 3ª pessoa. Errado: 'He cans'. Certo: 'He can'.\n\nNegativa: cannot (formal) ou can't (informal). Apresente o can't logo de início — é mais usado na fala.\n\nPronúncia: 'can' em frases afirmativas é pronunciado fraco /kən/. Em frases negativas, 'can't' é pronunciado forte /kɑːnt/. Drill: I can speak. I CAN'T sing.\n\nSentences for drill:\nEu consigo cozinhar. / nadar / dançar\nEla não consegue dirigir. / ler inglês / tocar piano"
+          "teachingGuide": "Can: É um verbo modal — nunca usa -s na 3ª pessoa. Errado: 'He cans'. Certo: 'He can'.\n\nNegativa: cannot (formal) ou can't (informal). Apresente o can't logo de início — é mais usado na fala.\n\nPronúncia: 'can' em frases afirmativas é pronunciado fraco /kən/. Em frases negativas, 'can't' é pronunciado forte /kɑːnt/. Drill: I can speak. I CAN'T sing.\n\nSentences for drill:\nEu consigo cozinhar. / nadar / dançar\nEla não consegue dirigir. / ler inglês / tocar piano",
+          "homework": [
+            "Eu consigo cozinhar muito bem.",
+            "Você sabe dirigir? Sim, sei.",
+            "Ele não sabe nadar, mas sabe correr.",
+            "Nós conseguimos falar inglês um pouco.",
+            "Ela sabe tocar piano e violão.",
+            "Eu não consigo cantar bem.",
+            "Você consegue me ajudar?",
+            "Eles sabem dançar muito bem.",
+            "Eu sei ler em inglês, mas escrevo mal.",
+            "Claro que sim! Deixa eu tentar."
+          ]
         },
         {
           "id": 2,
@@ -4412,7 +4424,19 @@
             }
           ],
           "curiosity": "In many US cities, streets are organized in a grid system — numbered avenues run one way, numbered streets run the other. This makes directions much easier: 'Take 5th Avenue to 42nd Street' — simple and logical!",
-          "teachingGuide": "Imperative for directions: não há sujeito. 'Turn left.' 'Walk two blocks.' Enfatize que não é rude em inglês — é o modo correto de dar instruções.\n\nPrepositions of place: next to, across from, between, in front of, behind. Pratique com objetos na sala antes de usar no mapa.\n\nDrill com mapa: Professor aponta para lugares e alunos praticam: 'Go straight, turn right at the traffic light, it's next to the park.'"
+          "teachingGuide": "Imperative for directions: não há sujeito. 'Turn left.' 'Walk two blocks.' Enfatize que não é rude em inglês — é o modo correto de dar instruções.\n\nPrepositions of place: next to, across from, between, in front of, behind. Pratique com objetos na sala antes de usar no mapa.\n\nDrill com mapa: Professor aponta para lugares e alunos praticam: 'Go straight, turn right at the traffic light, it's next to the park.'",
+          "homework": [
+            "Com licença, onde fica o banco?",
+            "Vire à esquerda no semáforo.",
+            "Ande dois quarteirões e vire à direita.",
+            "A farmácia fica ao lado do supermercado.",
+            "Estou perdido. Você pode me ajudar?",
+            "O hospital fica em frente ao parque.",
+            "Pegue o ônibus até a escola.",
+            "É longe? Não, é aqui pertinho.",
+            "Vá reto e vire à direita.",
+            "O restaurante fica do outro lado da rua."
+          ]
         },
         {
           "id": 3,
@@ -4534,7 +4558,4335 @@
             }
           ],
           "curiosity": "In Britain, being punctual is considered very polite — arriving even 5 minutes late to a meeting is often seen as rude. In Brazil and many Latin cultures, a little lateness is usually accepted. Interesting cultural difference!",
-          "teachingGuide": "Telling time: Revise o relógio analógico: o'clock, half past, quarter past, quarter to. Ex.: 7:30 = half past seven / 7:45 = quarter to eight.\n\nWhat time does ___? (3ª pessoa usa does) vs What time do you ___? (1ª/2ª pessoa usa do).\n\nDrill de horários: Escreva horas no quadro e peça aos alunos para dizer em inglês. Depois, faça perguntas sobre a rotina deles usando as estruturas da lição."
+          "teachingGuide": "Telling time: Revise o relógio analógico: o'clock, half past, quarter past, quarter to. Ex.: 7:30 = half past seven / 7:45 = quarter to eight.\n\nWhat time does ___? (3ª pessoa usa does) vs What time do you ___? (1ª/2ª pessoa usa do).\n\nDrill de horários: Escreva horas no quadro e peça aos alunos para dizer em inglês. Depois, faça perguntas sobre a rotina deles usando as estruturas da lição.",
+          "homework": [
+            "A que horas começa a aula?",
+            "A aula começa às oito horas.",
+            "A reunião termina ao meio-dia.",
+            "Eu chego ao trabalho às nove.",
+            "Ela sai de casa às sete e meia.",
+            "O ônibus sai a cada vinte minutos.",
+            "Desculpe o atraso. Sem problema.",
+            "Eu sempre chego na hora.",
+            "O que vem a seguir? O intervalo.",
+            "A loja abre às nove e fecha às seis."
+          ]
+        },
+        {
+          "id": 4,
+          "title": "Lesson 4 — Simple Past: Regular Verbs",
+          "verbs": [
+            {
+              "en": "to work, worked",
+              "pt": "trabalhar"
+            },
+            {
+              "en": "to study, studied",
+              "pt": "estudar"
+            },
+            {
+              "en": "to watch, watched",
+              "pt": "assistir / observar"
+            },
+            {
+              "en": "to live, lived",
+              "pt": "morar / viver"
+            }
+          ],
+          "grammarPoints": [
+            {
+              "en": "I worked yesterday.",
+              "pt": "Eu trabalhei ontem."
+            },
+            {
+              "en": "She studied English last night.",
+              "pt": "Ela estudou inglês ontem à noite."
+            },
+            {
+              "en": "We watched a movie last weekend.",
+              "pt": "Nós assistimos a um filme no fim de semana passado."
+            },
+            {
+              "en": "They lived in Brazil two years ago.",
+              "pt": "Eles moraram no Brasil dois anos atrás."
+            },
+            {
+              "en": "He played soccer on Sunday.",
+              "pt": "Ele jogou futebol no domingo."
+            },
+            {
+              "en": "I cooked dinner for my family.",
+              "pt": "Eu cozinhei o jantar para minha família."
+            }
+          ],
+          "vocabulary": [
+            {
+              "en": "yesterday",
+              "pt": "ontem"
+            },
+            {
+              "en": "last night",
+              "pt": "ontem à noite"
+            },
+            {
+              "en": "last week",
+              "pt": "semana passada"
+            },
+            {
+              "en": "last month",
+              "pt": "mês passado"
+            },
+            {
+              "en": "last year",
+              "pt": "ano passado"
+            },
+            {
+              "en": "two days ago",
+              "pt": "dois dias atrás"
+            },
+            {
+              "en": "this morning",
+              "pt": "hoje de manhã"
+            },
+            {
+              "en": "then / after that",
+              "pt": "depois / depois disso"
+            },
+            {
+              "en": "to clean, cleaned",
+              "pt": "limpar"
+            },
+            {
+              "en": "to call, called",
+              "pt": "ligar / chamar"
+            },
+            {
+              "en": "to help, helped",
+              "pt": "ajudar"
+            },
+            {
+              "en": "to open, opened",
+              "pt": "abrir"
+            },
+            {
+              "en": "to close, closed",
+              "pt": "fechar"
+            },
+            {
+              "en": "to rain, rained",
+              "pt": "chover"
+            }
+          ],
+          "expressions": [
+            {
+              "en": "How was your day?",
+              "pt": "Como foi seu dia?"
+            },
+            {
+              "en": "It was great!",
+              "pt": "Foi ótimo!"
+            },
+            {
+              "en": "Really?",
+              "pt": "Sério? / Mesmo?"
+            },
+            {
+              "en": "Tell me more.",
+              "pt": "Me conta mais."
+            },
+            {
+              "en": "What happened?",
+              "pt": "O que aconteceu?"
+            }
+          ],
+          "curiosity": "Did you know? The regular past ending '-ed' has THREE different sounds in English: /t/ (worked), /d/ (lived), and /ɪd/ (wanted). Native speakers don't even notice — but learning the pattern makes you sound much more natural!",
+          "teachingGuide": "Simple Past regular: acrescente -ed ao verbo. A forma é a MESMA para todas as pessoas: I worked, she worked, they worked.\n\nRegras de spelling: live -> lived (só +d); study -> studied (y vira ied); stop -> stopped (dobra a consoante).\n\nPronúncia do -ed: /t/ depois de som surdo (worked), /d/ depois de som sonoro (lived), /ɪd/ depois de t/d (wanted, needed).\n\nDrill: Use time markers (yesterday, last week, ago) para deixar claro que é passado.",
+          "homework": [
+            "Eu trabalhei ontem o dia todo.",
+            "Ela estudou inglês ontem à noite.",
+            "Nós assistimos a um filme no fim de semana passado.",
+            "Eles moraram no Brasil dois anos atrás.",
+            "Eu limpei a casa hoje de manhã.",
+            "Você me ajudou muito ontem.",
+            "Choveu a semana passada.",
+            "Ele jogou futebol no domingo e depois descansou.",
+            "Eu cozinhei o jantar e depois lavei a louça.",
+            "A loja abriu cedo e fechou tarde ontem."
+          ]
+        },
+        {
+          "id": 5,
+          "title": "Lesson 5 — Simple Past: Irregular Verbs (Part 1)",
+          "verbs": [
+            {
+              "en": "to go, went",
+              "pt": "ir"
+            },
+            {
+              "en": "to have, had",
+              "pt": "ter"
+            },
+            {
+              "en": "to do, did",
+              "pt": "fazer"
+            },
+            {
+              "en": "to make, made",
+              "pt": "fazer / fabricar"
+            }
+          ],
+          "grammarPoints": [
+            {
+              "en": "I went to the park yesterday.",
+              "pt": "Eu fui ao parque ontem."
+            },
+            {
+              "en": "She had a great time.",
+              "pt": "Ela se divertiu muito."
+            },
+            {
+              "en": "We did our homework together.",
+              "pt": "Nós fizemos a lição de casa juntos."
+            },
+            {
+              "en": "He made a cake for the party.",
+              "pt": "Ele fez um bolo para a festa."
+            },
+            {
+              "en": "They went home early.",
+              "pt": "Eles foram para casa cedo."
+            },
+            {
+              "en": "I had breakfast at eight.",
+              "pt": "Eu tomei café da manhã às oito."
+            }
+          ],
+          "vocabulary": [
+            {
+              "en": "to get, got",
+              "pt": "conseguir / ficar / pegar"
+            },
+            {
+              "en": "to come, came",
+              "pt": "vir"
+            },
+            {
+              "en": "to see, saw",
+              "pt": "ver"
+            },
+            {
+              "en": "to eat, ate",
+              "pt": "comer"
+            },
+            {
+              "en": "to drink, drank",
+              "pt": "beber"
+            },
+            {
+              "en": "to give, gave",
+              "pt": "dar"
+            },
+            {
+              "en": "to say, said",
+              "pt": "dizer"
+            },
+            {
+              "en": "to know, knew",
+              "pt": "saber / conhecer"
+            },
+            {
+              "en": "together",
+              "pt": "juntos / juntas"
+            },
+            {
+              "en": "a great time",
+              "pt": "um ótimo momento / diversão"
+            },
+            {
+              "en": "party",
+              "pt": "festa"
+            },
+            {
+              "en": "trip",
+              "pt": "viagem"
+            }
+          ],
+          "expressions": [
+            {
+              "en": "How nice!",
+              "pt": "Que legal!"
+            },
+            {
+              "en": "What a day!",
+              "pt": "Que dia!"
+            },
+            {
+              "en": "Lucky you!",
+              "pt": "Que sorte a sua!"
+            },
+            {
+              "en": "That sounds fun!",
+              "pt": "Isso parece divertido!"
+            },
+            {
+              "en": "I see.",
+              "pt": "Entendi. / Saquei."
+            }
+          ],
+          "curiosity": "Did you know? Irregular verbs are actually the OLDEST verbs in English — and the most common ones (go, have, do, be). They're irregular precisely because we use them so much that they never got 'simplified' like newer verbs did.",
+          "teachingGuide": "Simple Past irregular: não tem regra — a forma do passado deve ser memorizada. go -> went, have -> had, do -> did, make -> made.\n\nA forma é a MESMA para todas as pessoas: I went, she went, they went. Não existe -ed e não existe -s.\n\nAtenção ao 'do': como verbo principal no passado é 'did' (I did my homework), diferente do auxiliar de pergunta.\n\nDrill: Faça flashcards base form / past form e revise rapidamente todos os dias.",
+          "homework": [
+            "Eu fui ao parque ontem e me diverti muito.",
+            "Ela teve um ótimo dia no trabalho.",
+            "Nós fizemos a lição de casa juntos.",
+            "Ele fez um bolo para a festa.",
+            "Eu comi pizza e bebi suco ontem à noite.",
+            "Eles foram para casa cedo.",
+            "Eu vi meus amigos no fim de semana.",
+            "Você deu um presente para sua mãe.",
+            "Nós viemos de ônibus para a aula.",
+            "Eu tomei café da manhã às oito e depois fui trabalhar."
+          ]
+        },
+        {
+          "id": 6,
+          "title": "Lesson 6 — Simple Past: Questions & Negatives",
+          "verbs": [
+            {
+              "en": "to ask, asked",
+              "pt": "perguntar / pedir"
+            },
+            {
+              "en": "to answer, answered",
+              "pt": "responder"
+            },
+            {
+              "en": "to visit, visited",
+              "pt": "visitar"
+            },
+            {
+              "en": "to happen, happened",
+              "pt": "acontecer"
+            }
+          ],
+          "grammarPoints": [
+            {
+              "en": "Did you go to the party?",
+              "pt": "Você foi à festa?"
+            },
+            {
+              "en": "Yes, I did. / No, I didn't.",
+              "pt": "Sim, fui. / Não, não fui."
+            },
+            {
+              "en": "I didn't see her yesterday.",
+              "pt": "Eu não a vi ontem."
+            },
+            {
+              "en": "What did you do last night?",
+              "pt": "O que você fez ontem à noite?"
+            },
+            {
+              "en": "Where did they go?",
+              "pt": "Para onde eles foram?"
+            },
+            {
+              "en": "She didn't call me.",
+              "pt": "Ela não me ligou."
+            }
+          ],
+          "vocabulary": [
+            {
+              "en": "did not / didn't",
+              "pt": "não (passado, auxiliar)"
+            },
+            {
+              "en": "anybody / anyone",
+              "pt": "alguém (em perguntas/negativas)"
+            },
+            {
+              "en": "nobody / no one",
+              "pt": "ninguém"
+            },
+            {
+              "en": "anything",
+              "pt": "nada / alguma coisa"
+            },
+            {
+              "en": "nothing",
+              "pt": "nada"
+            },
+            {
+              "en": "anywhere",
+              "pt": "em algum lugar / em lugar nenhum"
+            },
+            {
+              "en": "again",
+              "pt": "de novo / novamente"
+            },
+            {
+              "en": "why",
+              "pt": "por que"
+            },
+            {
+              "en": "who",
+              "pt": "quem"
+            },
+            {
+              "en": "how long",
+              "pt": "quanto tempo"
+            },
+            {
+              "en": "the day before yesterday",
+              "pt": "anteontem"
+            },
+            {
+              "en": "at all",
+              "pt": "de jeito nenhum / nem um pouco"
+            }
+          ],
+          "expressions": [
+            {
+              "en": "Really? What happened?",
+              "pt": "Sério? O que aconteceu?"
+            },
+            {
+              "en": "Are you serious?",
+              "pt": "Você está falando sério?"
+            },
+            {
+              "en": "Tell me everything!",
+              "pt": "Me conta tudo!"
+            },
+            {
+              "en": "I didn't know that.",
+              "pt": "Eu não sabia disso."
+            },
+            {
+              "en": "No way!",
+              "pt": "De jeito nenhum! / Não acredito!"
+            }
+          ],
+          "curiosity": "Did you know? In past questions and negatives, the word 'did' already carries the past tense — so the main verb goes back to its base form. That's why we say 'Did you GO?' and never 'Did you went?'. One past marker is enough!",
+          "teachingGuide": "Perguntas e negativas no passado usam DID/DIDN'T + verbo na forma base.\n\nERRO clássico: 'Did you went?' / 'I didn't went.' CERTO: 'Did you go?' / 'I didn't go.' O 'did/didn't' já marca o passado.\n\nRespostas curtas: Yes, I did. / No, I didn't. (não repete o verbo principal).\n\nWh- questions: What/Where/When/Why/Who + did + sujeito + verbo base. Drill: pergunte sobre o fim de semana dos alunos.",
+          "homework": [
+            "Você foi à festa ontem à noite? Sim, fui.",
+            "Eu não vi ninguém no parque.",
+            "O que você fez no fim de semana?",
+            "Para onde eles foram nas férias?",
+            "Ela não me ligou ontem.",
+            "Você visitou seus avós anteontem?",
+            "Por que você não veio para a aula?",
+            "Nós não fizemos nada no domingo.",
+            "Quem você encontrou na reunião?",
+            "O que aconteceu? Me conta tudo!"
+          ]
+        },
+        {
+          "id": 7,
+          "title": "Lesson 7 — Simple Past: Irregular Verbs (Part 2)",
+          "verbs": [
+            {
+              "en": "to buy, bought",
+              "pt": "comprar"
+            },
+            {
+              "en": "to bring, brought",
+              "pt": "trazer"
+            },
+            {
+              "en": "to think, thought",
+              "pt": "pensar / achar"
+            },
+            {
+              "en": "to find, found",
+              "pt": "encontrar / achar"
+            }
+          ],
+          "grammarPoints": [
+            {
+              "en": "I bought a new phone.",
+              "pt": "Eu comprei um celular novo."
+            },
+            {
+              "en": "She brought a gift to the party.",
+              "pt": "Ela trouxe um presente para a festa."
+            },
+            {
+              "en": "We thought about you all day.",
+              "pt": "Nós pensamos em você o dia todo."
+            },
+            {
+              "en": "He took the bus to work.",
+              "pt": "Ele pegou o ônibus para o trabalho."
+            },
+            {
+              "en": "They found a great restaurant.",
+              "pt": "Eles encontraram um ótimo restaurante."
+            },
+            {
+              "en": "I lost my keys yesterday.",
+              "pt": "Eu perdi minhas chaves ontem."
+            }
+          ],
+          "vocabulary": [
+            {
+              "en": "to lose, lost",
+              "pt": "perder"
+            },
+            {
+              "en": "to win, won",
+              "pt": "ganhar / vencer"
+            },
+            {
+              "en": "to pay, paid",
+              "pt": "pagar"
+            },
+            {
+              "en": "to meet, met",
+              "pt": "encontrar / conhecer"
+            },
+            {
+              "en": "to write, wrote",
+              "pt": "escrever"
+            },
+            {
+              "en": "to read, read",
+              "pt": "ler (passado: 'red')"
+            },
+            {
+              "en": "to sell, sold",
+              "pt": "vender"
+            },
+            {
+              "en": "to tell, told",
+              "pt": "contar / dizer"
+            },
+            {
+              "en": "keys",
+              "pt": "chaves"
+            },
+            {
+              "en": "gift / present",
+              "pt": "presente"
+            },
+            {
+              "en": "wallet",
+              "pt": "carteira"
+            },
+            {
+              "en": "ticket",
+              "pt": "ingresso / passagem"
+            }
+          ],
+          "expressions": [
+            {
+              "en": "What a surprise!",
+              "pt": "Que surpresa!"
+            },
+            {
+              "en": "You're kidding!",
+              "pt": "Você está brincando!"
+            },
+            {
+              "en": "That's too bad.",
+              "pt": "Que pena. / Que chato."
+            },
+            {
+              "en": "Good for you!",
+              "pt": "Que bom para você!"
+            },
+            {
+              "en": "Oh no!",
+              "pt": "Ah não!"
+            }
+          ],
+          "curiosity": "Did you know? Many common past verbs end in '-ought' or '-aught': bought, brought, thought, caught, taught. The spelling looks scary, but the sound is simple: all of them rhyme with 'sort'. Learn one and you know them all!",
+          "teachingGuide": "Mais verbos irregulares. Agrupe por padrão para facilitar a memorização:\n\nGrupo -ought/-aught: buy/bought, bring/brought, think/thought, catch/caught, teach/taught.\nGrupo que não muda: read/read (mas a pronúncia muda para 'red'), put/put, cut/cut.\nGrupo -old: sell/sold, tell/told.\n\nAtenção: read (presente) e read (passado) escrevem igual mas têm sons diferentes.\n\nDrill: histórias curtas usando 3 ou 4 verbos irregulares de cada vez.",
+          "homework": [
+            "Eu comprei um celular novo ontem.",
+            "Ela trouxe um presente para a festa.",
+            "Nós pensamos em você o dia todo.",
+            "Ele pegou o ônibus para o trabalho.",
+            "Eles encontraram um ótimo restaurante.",
+            "Eu perdi minhas chaves e minha carteira.",
+            "Você ganhou o jogo? Sim, ganhei!",
+            "Eu paguei a conta e depois saí.",
+            "Ela me contou uma história engraçada.",
+            "Eu li um livro e escrevi uma carta ontem à noite."
+          ]
+        },
+        {
+          "id": 8,
+          "title": "Lesson 8 — Telling a Story: Past Time Expressions",
+          "verbs": [
+            {
+              "en": "to begin, began",
+              "pt": "começar"
+            },
+            {
+              "en": "to wake up, woke up",
+              "pt": "acordar"
+            },
+            {
+              "en": "to fall, fell",
+              "pt": "cair"
+            },
+            {
+              "en": "to feel, felt",
+              "pt": "sentir / se sentir"
+            }
+          ],
+          "grammarPoints": [
+            {
+              "en": "First, I woke up at seven.",
+              "pt": "Primeiro, eu acordei às sete."
+            },
+            {
+              "en": "Then I had breakfast.",
+              "pt": "Depois eu tomei café da manhã."
+            },
+            {
+              "en": "After that, I went to work.",
+              "pt": "Depois disso, eu fui trabalhar."
+            },
+            {
+              "en": "Later, we met for lunch.",
+              "pt": "Mais tarde, nós nos encontramos para almoçar."
+            },
+            {
+              "en": "Suddenly, it started to rain.",
+              "pt": "De repente, começou a chover."
+            },
+            {
+              "en": "Finally, I came home and slept.",
+              "pt": "Finalmente, eu voltei para casa e dormi."
+            }
+          ],
+          "vocabulary": [
+            {
+              "en": "first",
+              "pt": "primeiro"
+            },
+            {
+              "en": "then",
+              "pt": "depois / então"
+            },
+            {
+              "en": "next",
+              "pt": "em seguida"
+            },
+            {
+              "en": "after that",
+              "pt": "depois disso"
+            },
+            {
+              "en": "later",
+              "pt": "mais tarde"
+            },
+            {
+              "en": "finally / in the end",
+              "pt": "finalmente / no fim"
+            },
+            {
+              "en": "suddenly / all of a sudden",
+              "pt": "de repente"
+            },
+            {
+              "en": "in the morning",
+              "pt": "de manhã"
+            },
+            {
+              "en": "in the afternoon",
+              "pt": "à tarde"
+            },
+            {
+              "en": "in the evening / at night",
+              "pt": "à noite"
+            },
+            {
+              "en": "once / one day",
+              "pt": "uma vez / um dia"
+            },
+            {
+              "en": "while",
+              "pt": "enquanto"
+            }
+          ],
+          "expressions": [
+            {
+              "en": "Let me tell you a story.",
+              "pt": "Deixa eu te contar uma história."
+            },
+            {
+              "en": "Guess what!",
+              "pt": "Adivinha só!"
+            },
+            {
+              "en": "You won't believe this!",
+              "pt": "Você não vai acreditar nisso!"
+            },
+            {
+              "en": "And then?",
+              "pt": "E aí? / E depois?"
+            },
+            {
+              "en": "In the end...",
+              "pt": "No final..."
+            }
+          ],
+          "curiosity": "Did you know? English stories almost always follow a strict time order, and speakers love 'signpost' words like first, then, suddenly, and finally. These little words tell the listener exactly where they are in the story — like road signs on a trip.",
+          "teachingGuide": "Conectores de sequência transformam frases soltas em uma narrativa: first, then, next, after that, later, finally.\n\nNote a vírgula depois de muitos deles no início da frase: 'First, ...', 'Suddenly, ...', 'Finally, ...'.\n\n'Suddenly' marca uma quebra inesperada na história — ótimo para criar tensão.\n\nDrill: peça aos alunos para contar a rotina de ontem em 5 frases usando first / then / after that / later / finally. Tudo no passado.",
+          "homework": [
+            "Primeiro, eu acordei às sete e tomei café da manhã.",
+            "Depois, eu fui trabalhar de ônibus.",
+            "Depois disso, eu tive uma reunião importante.",
+            "Mais tarde, nós nos encontramos para almoçar.",
+            "De repente, começou a chover muito.",
+            "Enquanto eu trabalhava, meu amigo me ligou.",
+            "À tarde, eu visitei meus pais.",
+            "À noite, nós assistimos a um filme.",
+            "Finalmente, eu voltei para casa e dormi.",
+            "No final, foi um dia muito bom."
+          ]
+        },
+        {
+          "id": 9,
+          "title": "Lesson 9 — There Was / There Were",
+          "verbs": [
+            {
+              "en": "to build, built",
+              "pt": "construir"
+            },
+            {
+              "en": "to stand, stood",
+              "pt": "ficar em pé / estar de pé"
+            },
+            {
+              "en": "to sit, sat",
+              "pt": "sentar"
+            },
+            {
+              "en": "to put, put",
+              "pt": "colocar / pôr"
+            }
+          ],
+          "grammarPoints": [
+            {
+              "en": "There was a party last night.",
+              "pt": "Houve uma festa ontem à noite."
+            },
+            {
+              "en": "There were many people there.",
+              "pt": "Havia muitas pessoas lá."
+            },
+            {
+              "en": "Was there a problem?",
+              "pt": "Houve algum problema?"
+            },
+            {
+              "en": "There wasn't any food.",
+              "pt": "Não havia comida."
+            },
+            {
+              "en": "There weren't any chairs.",
+              "pt": "Não havia cadeiras."
+            },
+            {
+              "en": "How many people were there?",
+              "pt": "Quantas pessoas havia?"
+            }
+          ],
+          "vocabulary": [
+            {
+              "en": "there was",
+              "pt": "havia / tinha (singular)"
+            },
+            {
+              "en": "there were",
+              "pt": "havia / tinham (plural)"
+            },
+            {
+              "en": "many",
+              "pt": "muitos / muitas"
+            },
+            {
+              "en": "a few",
+              "pt": "alguns / algumas"
+            },
+            {
+              "en": "several",
+              "pt": "vários / várias"
+            },
+            {
+              "en": "a lot of",
+              "pt": "muito / muitos"
+            },
+            {
+              "en": "crowd",
+              "pt": "multidão"
+            },
+            {
+              "en": "noise",
+              "pt": "barulho"
+            },
+            {
+              "en": "building",
+              "pt": "prédio / edifício"
+            },
+            {
+              "en": "chair",
+              "pt": "cadeira"
+            },
+            {
+              "en": "table",
+              "pt": "mesa"
+            },
+            {
+              "en": "place",
+              "pt": "lugar"
+            }
+          ],
+          "expressions": [
+            {
+              "en": "It was crowded.",
+              "pt": "Estava lotado / cheio."
+            },
+            {
+              "en": "It was quiet.",
+              "pt": "Estava silencioso / tranquilo."
+            },
+            {
+              "en": "What a place!",
+              "pt": "Que lugar!"
+            },
+            {
+              "en": "I loved it.",
+              "pt": "Eu adorei."
+            },
+            {
+              "en": "It was empty.",
+              "pt": "Estava vazio."
+            }
+          ],
+          "curiosity": "Did you know? 'There was' and 'there were' both translate to the Portuguese 'havia', but English makes you choose: 'was' for one thing, 'were' for many. The verb agrees with the noun that comes right after it — so it pays to look ahead!",
+          "teachingGuide": "There was / There were = 'havia / existia' no passado.\n\nThere WAS + singular: There was a problem.\nThere WERE + plural: There were many people.\n\nO verbo concorda com o substantivo que vem DEPOIS, não com 'there'.\n\nNegativa: there wasn't / there weren't (any). Pergunta: Was there...? / Were there...?\n\nDrill: descreva uma festa, uma sala, uma cidade no passado: 'There was a big cake. There were a lot of people.'",
+          "homework": [
+            "Houve uma festa ótima ontem à noite.",
+            "Havia muitas pessoas na festa.",
+            "Não havia comida suficiente.",
+            "Havia algumas cadeiras na sala.",
+            "Houve um problema com o ônibus hoje de manhã.",
+            "Quantas pessoas havia na reunião?",
+            "Não havia barulho; estava bem tranquilo.",
+            "Havia um prédio novo na esquina.",
+            "Estava lotado, mas eu adorei.",
+            "Havia várias mesas e muitas cadeiras no restaurante."
+          ]
+        },
+        {
+          "id": 10,
+          "title": "Lesson 10 — Review & Reading: A Day at the Beach",
+          "verbs": [],
+          "grammarPoints": [
+            {
+              "en": "We went to the beach last Saturday.",
+              "pt": "Nós fomos à praia no sábado passado."
+            },
+            {
+              "en": "There were a lot of people there.",
+              "pt": "Havia muitas pessoas lá."
+            },
+            {
+              "en": "First we swam, then we had lunch.",
+              "pt": "Primeiro nós nadamos, depois almoçamos."
+            },
+            {
+              "en": "Did you have a good time? Yes, we did.",
+              "pt": "Vocês se divertiram? Sim, nos divertimos."
+            },
+            {
+              "en": "She couldn't swim, but she walked on the sand.",
+              "pt": "Ela não sabia nadar, mas andou na areia."
+            }
+          ],
+          "vocabulary": [
+            {
+              "en": "beach",
+              "pt": "praia"
+            },
+            {
+              "en": "sand",
+              "pt": "areia"
+            },
+            {
+              "en": "wave",
+              "pt": "onda"
+            },
+            {
+              "en": "sun",
+              "pt": "sol"
+            },
+            {
+              "en": "towel",
+              "pt": "toalha"
+            },
+            {
+              "en": "umbrella",
+              "pt": "guarda-sol / guarda-chuva"
+            }
+          ],
+          "expressions": [
+            {
+              "en": "What a beautiful day!",
+              "pt": "Que dia lindo!"
+            },
+            {
+              "en": "I had a great time.",
+              "pt": "Eu me diverti muito."
+            },
+            {
+              "en": "Let's do it again!",
+              "pt": "Vamos fazer de novo!"
+            },
+            {
+              "en": "I'm exhausted.",
+              "pt": "Estou exausto(a)."
+            },
+            {
+              "en": "See you next time!",
+              "pt": "Até a próxima!"
+            }
+          ],
+          "curiosity": "Did you know? The English word 'beach' originally meant the loose pebbles and stones by the water, not the sand. Over time it came to mean the whole shoreline. So when you 'hit the beach', you're using a word that's been changing for centuries!",
+          "teachingGuide": "Lição de revisão (Lições 1-9). Use a leitura para consolidar o Simple Past (regular e irregular), there was/were, can/can't no passado (could), e os conectores de sequência.\n\nLeia o texto em voz alta primeiro. Depois faça perguntas de compreensão no passado: 'Where did they go? What did they do first? Were there many people?'\n\nPeça aos alunos para reconstruir a história usando first / then / after that / finally. Por fim, cada aluno conta um passeio real que fez, usando o mesmo tempo verbal.",
+          "readingText": {
+            "title": "A Day at the Beach",
+            "body": "Last Saturday, my family and I went to the beach. We woke up early, made some sandwiches, and took the bus to the coast. When we arrived, there were already a lot of people on the sand.\n\nFirst, my brother and I swam in the sea. The water was cold, but the waves were perfect. My sister couldn't swim very well, so she walked along the beach and looked for shells. Later, we sat under a big umbrella and had lunch together.\n\nIn the afternoon, the sun was very strong. Suddenly, the wind began to blow and the sky turned grey. We thought it was going to rain, so we packed our towels and started to walk home. In the end, it didn't rain at all!\n\nIt was a long, tiring day, but we had a wonderful time. On the bus home, everybody was quiet and happy. 'Let's do it again next month,' my father said. And we all agreed.",
+            "glossary": [
+              {
+                "en": "coast",
+                "pt": "litoral / costa"
+              },
+              {
+                "en": "shells",
+                "pt": "conchas"
+              },
+              {
+                "en": "to blow (the wind)",
+                "pt": "soprar (o vento)"
+              },
+              {
+                "en": "to pack",
+                "pt": "arrumar / empacotar"
+              },
+              {
+                "en": "tiring",
+                "pt": "cansativo"
+              }
+            ]
+          },
+          "homework": [
+            "No sábado passado, nós fomos à praia.",
+            "Nós acordamos cedo e pegamos o ônibus.",
+            "Havia muitas pessoas na areia.",
+            "Primeiro nós nadamos, depois almoçamos.",
+            "Minha irmã não sabia nadar bem.",
+            "De repente, o vento começou a soprar.",
+            "Nós achamos que ia chover, mas não choveu.",
+            "Foi um dia cansativo, mas nos divertimos muito.",
+            "Que dia lindo! Vamos fazer de novo!",
+            "No ônibus de volta, todos estavam felizes."
+          ]
+        },
+        {
+          "id": 11,
+          "title": "Lesson 11 — Comparatives",
+          "verbs": [
+            {
+              "en": "to compare, compared",
+              "pt": "comparar"
+            },
+            {
+              "en": "to prefer, preferred",
+              "pt": "preferir"
+            },
+            {
+              "en": "to grow, grew",
+              "pt": "crescer / cultivar"
+            },
+            {
+              "en": "to become, became",
+              "pt": "tornar-se / ficar"
+            }
+          ],
+          "grammarPoints": [
+            {
+              "en": "My car is faster than yours.",
+              "pt": "Meu carro é mais rápido que o seu."
+            },
+            {
+              "en": "She is taller than her brother.",
+              "pt": "Ela é mais alta que o irmão."
+            },
+            {
+              "en": "This book is more interesting than that one.",
+              "pt": "Este livro é mais interessante que aquele."
+            },
+            {
+              "en": "English is easier than Chinese.",
+              "pt": "Inglês é mais fácil que chinês."
+            },
+            {
+              "en": "Today is hotter than yesterday.",
+              "pt": "Hoje está mais quente que ontem."
+            },
+            {
+              "en": "He is a better cook than me.",
+              "pt": "Ele cozinha melhor que eu."
+            }
+          ],
+          "vocabulary": [
+            {
+              "en": "bigger",
+              "pt": "maior"
+            },
+            {
+              "en": "smaller",
+              "pt": "menor"
+            },
+            {
+              "en": "faster",
+              "pt": "mais rápido"
+            },
+            {
+              "en": "slower",
+              "pt": "mais lento"
+            },
+            {
+              "en": "cheaper",
+              "pt": "mais barato"
+            },
+            {
+              "en": "more expensive",
+              "pt": "mais caro"
+            },
+            {
+              "en": "better",
+              "pt": "melhor"
+            },
+            {
+              "en": "worse",
+              "pt": "pior"
+            },
+            {
+              "en": "more important",
+              "pt": "mais importante"
+            },
+            {
+              "en": "easier",
+              "pt": "mais fácil"
+            },
+            {
+              "en": "harder",
+              "pt": "mais difícil"
+            },
+            {
+              "en": "than",
+              "pt": "do que / que"
+            }
+          ],
+          "expressions": [
+            {
+              "en": "It depends.",
+              "pt": "Depende."
+            },
+            {
+              "en": "I prefer this one.",
+              "pt": "Eu prefiro este."
+            },
+            {
+              "en": "Which is better?",
+              "pt": "Qual é melhor?"
+            },
+            {
+              "en": "Me too.",
+              "pt": "Eu também."
+            },
+            {
+              "en": "I agree.",
+              "pt": "Concordo."
+            }
+          ],
+          "curiosity": "Did you know? Short adjectives add '-er' (taller, faster), but long ones use 'more' (more expensive, more interesting). The rough rule: one syllable gets '-er', three or more get 'more'. Two-syllable words? English keeps you guessing!",
+          "teachingGuide": "Comparativos: comparar duas coisas.\n\nAdjetivos curtos (1 sílaba): + -er + than. tall -> taller than. big -> bigger than (dobra a consoante).\nTerminados em -y: easy -> easier than.\nAdjetivos longos (2+ sílabas): more + adjetivo + than. more expensive than.\nIrregulares: good -> better, bad -> worse, far -> farther.\n\nNunca misture: NÃO diga 'more taller'. Drill: compare objetos, pessoas e lugares da sala.",
+          "homework": [
+            "Meu carro é mais rápido que o seu.",
+            "Ela é mais alta que o irmão dela.",
+            "Este livro é mais interessante que aquele.",
+            "Inglês é mais fácil que chinês para mim.",
+            "Hoje está mais quente que ontem.",
+            "Este restaurante é mais barato que o outro.",
+            "Ele cozinha melhor que eu.",
+            "O trânsito hoje está pior que ontem.",
+            "A saúde é mais importante que o dinheiro.",
+            "Eu prefiro o azul; é mais bonito que o vermelho."
+          ]
+        },
+        {
+          "id": 12,
+          "title": "Lesson 12 — Superlatives",
+          "verbs": [
+            {
+              "en": "to choose, chose",
+              "pt": "escolher"
+            },
+            {
+              "en": "to win, won",
+              "pt": "ganhar / vencer"
+            },
+            {
+              "en": "to break, broke",
+              "pt": "quebrar"
+            },
+            {
+              "en": "to spend, spent",
+              "pt": "gastar / passar (tempo)"
+            }
+          ],
+          "grammarPoints": [
+            {
+              "en": "It's the biggest city in Brazil.",
+              "pt": "É a maior cidade do Brasil."
+            },
+            {
+              "en": "She is the tallest in the class.",
+              "pt": "Ela é a mais alta da turma."
+            },
+            {
+              "en": "This is the most expensive restaurant.",
+              "pt": "Este é o restaurante mais caro."
+            },
+            {
+              "en": "He is the best player on the team.",
+              "pt": "Ele é o melhor jogador do time."
+            },
+            {
+              "en": "It was the worst day of my life.",
+              "pt": "Foi o pior dia da minha vida."
+            },
+            {
+              "en": "Which one is the cheapest?",
+              "pt": "Qual é o mais barato?"
+            }
+          ],
+          "vocabulary": [
+            {
+              "en": "the biggest",
+              "pt": "o maior"
+            },
+            {
+              "en": "the smallest",
+              "pt": "o menor"
+            },
+            {
+              "en": "the best",
+              "pt": "o melhor"
+            },
+            {
+              "en": "the worst",
+              "pt": "o pior"
+            },
+            {
+              "en": "the most beautiful",
+              "pt": "o mais bonito"
+            },
+            {
+              "en": "the most popular",
+              "pt": "o mais popular"
+            },
+            {
+              "en": "the most important",
+              "pt": "o mais importante"
+            },
+            {
+              "en": "the easiest",
+              "pt": "o mais fácil"
+            },
+            {
+              "en": "the hardest",
+              "pt": "o mais difícil"
+            },
+            {
+              "en": "ever",
+              "pt": "já (em superlativos)"
+            },
+            {
+              "en": "in the world",
+              "pt": "do mundo"
+            },
+            {
+              "en": "of all",
+              "pt": "de todos"
+            }
+          ],
+          "expressions": [
+            {
+              "en": "That's the best!",
+              "pt": "Esse é o melhor!"
+            },
+            {
+              "en": "By far.",
+              "pt": "De longe."
+            },
+            {
+              "en": "In my opinion...",
+              "pt": "Na minha opinião..."
+            },
+            {
+              "en": "Absolutely!",
+              "pt": "Com certeza!"
+            },
+            {
+              "en": "Not really.",
+              "pt": "Na verdade não."
+            }
+          ],
+          "curiosity": "Did you know? Superlatives almost always need the word 'the': the tallest, the best, the most popular. And to say a place, English uses 'in' (the biggest city IN Brazil), but a group takes 'of' (the best OF all). Small words, big difference!",
+          "teachingGuide": "Superlativos: comparar três ou mais coisas; destacar o número 1.\n\nUse sempre 'the': the + adjetivo curto + -est (the tallest) OU the most + adjetivo longo (the most expensive).\nIrregulares: good -> the best, bad -> the worst.\n\nDepois do superlativo: 'in' para lugares (the biggest in Brazil) e 'of' para grupos (the best of all).\n\nDrill: 'What's the best restaurant in your city? Who's the tallest in your family?'",
+          "homework": [
+            "São Paulo é a maior cidade do Brasil.",
+            "Ela é a aluna mais alta da turma.",
+            "Este é o restaurante mais caro da cidade.",
+            "Ele é o melhor jogador do time.",
+            "Foi o pior dia da minha vida.",
+            "Qual é o celular mais barato da loja?",
+            "Esse é o filme mais popular do ano.",
+            "A saúde é a coisa mais importante de todas.",
+            "Foi a melhor viagem da minha vida.",
+            "Este é o exercício mais fácil de todos."
+          ]
+        },
+        {
+          "id": 13,
+          "title": "Lesson 13 — Adverbs & 'as ... as'",
+          "verbs": [
+            {
+              "en": "to drive, drove",
+              "pt": "dirigir"
+            },
+            {
+              "en": "to speak, spoke",
+              "pt": "falar"
+            },
+            {
+              "en": "to learn, learned",
+              "pt": "aprender"
+            },
+            {
+              "en": "to improve, improved",
+              "pt": "melhorar"
+            }
+          ],
+          "grammarPoints": [
+            {
+              "en": "She speaks English well.",
+              "pt": "Ela fala inglês bem."
+            },
+            {
+              "en": "He drives carefully.",
+              "pt": "Ele dirige com cuidado."
+            },
+            {
+              "en": "They work hard every day.",
+              "pt": "Eles trabalham duro todos os dias."
+            },
+            {
+              "en": "I'm as tall as my brother.",
+              "pt": "Eu sou tão alto quanto meu irmão."
+            },
+            {
+              "en": "This car isn't as fast as that one.",
+              "pt": "Este carro não é tão rápido quanto aquele."
+            },
+            {
+              "en": "She learns as quickly as you.",
+              "pt": "Ela aprende tão rápido quanto você."
+            }
+          ],
+          "vocabulary": [
+            {
+              "en": "well",
+              "pt": "bem"
+            },
+            {
+              "en": "badly",
+              "pt": "mal"
+            },
+            {
+              "en": "quickly",
+              "pt": "rapidamente"
+            },
+            {
+              "en": "slowly",
+              "pt": "devagar / lentamente"
+            },
+            {
+              "en": "carefully",
+              "pt": "com cuidado / cuidadosamente"
+            },
+            {
+              "en": "easily",
+              "pt": "facilmente"
+            },
+            {
+              "en": "hard",
+              "pt": "duro / com esforço"
+            },
+            {
+              "en": "fast",
+              "pt": "rápido"
+            },
+            {
+              "en": "quietly",
+              "pt": "baixinho / silenciosamente"
+            },
+            {
+              "en": "loudly",
+              "pt": "alto / em voz alta"
+            },
+            {
+              "en": "as ... as",
+              "pt": "tão ... quanto"
+            },
+            {
+              "en": "fluently",
+              "pt": "fluentemente"
+            }
+          ],
+          "expressions": [
+            {
+              "en": "Well done!",
+              "pt": "Muito bem! / Bom trabalho!"
+            },
+            {
+              "en": "Keep it up!",
+              "pt": "Continue assim!"
+            },
+            {
+              "en": "Take it easy.",
+              "pt": "Vá com calma. / Relaxa."
+            },
+            {
+              "en": "Slow down!",
+              "pt": "Vai mais devagar!"
+            },
+            {
+              "en": "Hurry up!",
+              "pt": "Anda logo! / Se apressa!"
+            }
+          ],
+          "curiosity": "Did you know? Most adverbs are made by adding '-ly' (quick -> quickly), but a few rebels stay the same: you work 'hard' and run 'fast', never 'hardly' (which means 'almost not!') or 'fastly'. And 'good' becomes the irregular 'well'.",
+          "teachingGuide": "Advérbios descrevem COMO fazemos as ações (o verbo), enquanto adjetivos descrevem coisas (o substantivo).\n\nFormação: adjetivo + -ly (quick -> quickly; careful -> carefully; easy -> easily).\nIrregulares: good -> well; e 'hard' e 'fast' não mudam.\nCUIDADO: 'hardly' NÃO é 'com esforço' — significa 'quase não'.\n\nas ... as = igualdade: 'as tall as' (tão alto quanto). Negativa: 'not as ... as'.\n\nDrill: descreva como pessoas fazem coisas e compare habilidades com as...as.",
+          "homework": [
+            "Ela fala inglês muito bem.",
+            "Ele dirige com cuidado e devagar.",
+            "Eles trabalham duro todos os dias.",
+            "Por favor, fale mais devagar.",
+            "Eu aprendo rápido, mas escrevo mal.",
+            "Eu sou tão alto quanto meu irmão.",
+            "Este carro não é tão rápido quanto aquele.",
+            "Ela canta tão bem quanto uma profissional.",
+            "Meu inglês está melhorando rapidamente.",
+            "Bom trabalho! Continue assim!"
+          ]
+        },
+        {
+          "id": 14,
+          "title": "Lesson 14 — Quantifiers: some, any, much, many",
+          "verbs": [
+            {
+              "en": "to need, needed",
+              "pt": "precisar"
+            },
+            {
+              "en": "to add, added",
+              "pt": "adicionar / acrescentar"
+            },
+            {
+              "en": "to cost, cost",
+              "pt": "custar"
+            },
+            {
+              "en": "to order, ordered",
+              "pt": "pedir / encomendar"
+            }
+          ],
+          "grammarPoints": [
+            {
+              "en": "How much money do you have?",
+              "pt": "Quanto dinheiro você tem?"
+            },
+            {
+              "en": "How many people are there?",
+              "pt": "Quantas pessoas há?"
+            },
+            {
+              "en": "There is some milk in the fridge.",
+              "pt": "Há um pouco de leite na geladeira."
+            },
+            {
+              "en": "There aren't any eggs.",
+              "pt": "Não há ovos."
+            },
+            {
+              "en": "I have a little time.",
+              "pt": "Eu tenho um pouco de tempo."
+            },
+            {
+              "en": "She has a few friends here.",
+              "pt": "Ela tem alguns amigos aqui."
+            }
+          ],
+          "vocabulary": [
+            {
+              "en": "some",
+              "pt": "algum / um pouco de (afirmativo)"
+            },
+            {
+              "en": "any",
+              "pt": "algum / nenhum (perguntas e negativas)"
+            },
+            {
+              "en": "much",
+              "pt": "muito (incontável)"
+            },
+            {
+              "en": "many",
+              "pt": "muitos (contável)"
+            },
+            {
+              "en": "a lot of",
+              "pt": "muito / muitos"
+            },
+            {
+              "en": "a little",
+              "pt": "um pouco (incontável)"
+            },
+            {
+              "en": "a few",
+              "pt": "alguns / uns poucos (contável)"
+            },
+            {
+              "en": "too much",
+              "pt": "demais (incontável)"
+            },
+            {
+              "en": "too many",
+              "pt": "demais (contável)"
+            },
+            {
+              "en": "enough",
+              "pt": "suficiente / o bastante"
+            },
+            {
+              "en": "plenty of",
+              "pt": "bastante / de sobra"
+            },
+            {
+              "en": "none",
+              "pt": "nenhum / nada"
+            }
+          ],
+          "expressions": [
+            {
+              "en": "That's enough.",
+              "pt": "Já chega. / É o suficiente."
+            },
+            {
+              "en": "How much is it?",
+              "pt": "Quanto custa?"
+            },
+            {
+              "en": "I'll take it.",
+              "pt": "Vou levar."
+            },
+            {
+              "en": "A little more, please.",
+              "pt": "Um pouco mais, por favor."
+            },
+            {
+              "en": "No, thanks.",
+              "pt": "Não, obrigado(a)."
+            }
+          ],
+          "curiosity": "Did you know? English splits 'a lot' into two words depending on whether you can count the thing: 'much' for things you can't count (much water) and 'many' for things you can (many bottles). When in doubt, 'a lot of' works for both — a handy escape!",
+          "teachingGuide": "Substantivos contáveis (book, apple, person) vs incontáveis (water, money, time, rice).\n\nmuch + incontável (How much money?) / many + contável (How many people?).\nsome em frases afirmativas; any em perguntas e negativas.\na little + incontável (a little time) / a few + contável (a few friends).\n'a lot of' serve para os dois.\n\nDrill: lista de compras e geladeira: 'Is there any milk? There's a little. How many eggs? A few.'",
+          "homework": [
+            "Quanto dinheiro você tem?",
+            "Quantas pessoas há na sala?",
+            "Há um pouco de leite na geladeira.",
+            "Não há ovos; precisamos comprar.",
+            "Eu tenho um pouco de tempo agora.",
+            "Ela tem alguns amigos aqui na cidade.",
+            "Há muitos carros na rua hoje.",
+            "Não coma açúcar demais.",
+            "Nós temos comida suficiente para todos.",
+            "Quanto custa? Vou levar."
+          ]
+        },
+        {
+          "id": 15,
+          "title": "Lesson 15 — Review & Reading: City Life and Country Life",
+          "verbs": [],
+          "grammarPoints": [
+            {
+              "en": "The city is busier than the country.",
+              "pt": "A cidade é mais agitada que o campo."
+            },
+            {
+              "en": "The country is the quietest place of all.",
+              "pt": "O campo é o lugar mais tranquilo de todos."
+            },
+            {
+              "en": "There are too many cars in the city.",
+              "pt": "Há carros demais na cidade."
+            },
+            {
+              "en": "Life moves more slowly in the country.",
+              "pt": "A vida passa mais devagar no campo."
+            },
+            {
+              "en": "There isn't as much noise in the country.",
+              "pt": "Não há tanto barulho no campo."
+            }
+          ],
+          "vocabulary": [
+            {
+              "en": "the countryside",
+              "pt": "o campo / a zona rural"
+            },
+            {
+              "en": "downtown",
+              "pt": "o centro da cidade"
+            },
+            {
+              "en": "traffic",
+              "pt": "trânsito"
+            },
+            {
+              "en": "fresh air",
+              "pt": "ar puro / ar fresco"
+            },
+            {
+              "en": "neighbor",
+              "pt": "vizinho"
+            },
+            {
+              "en": "rent",
+              "pt": "aluguel"
+            }
+          ],
+          "expressions": [
+            {
+              "en": "It depends on you.",
+              "pt": "Depende de você."
+            },
+            {
+              "en": "On the one hand...",
+              "pt": "Por um lado..."
+            },
+            {
+              "en": "On the other hand...",
+              "pt": "Por outro lado..."
+            },
+            {
+              "en": "That makes sense.",
+              "pt": "Faz sentido."
+            },
+            {
+              "en": "I see your point.",
+              "pt": "Entendo seu ponto de vista."
+            }
+          ],
+          "curiosity": "Did you know? In English, 'the country' can mean a nation (like Brazil) OR the countryside (fields and farms). The meaning comes from context: 'I love my country' (nation) vs 'We live in the country' (rural area). One word, two worlds!",
+          "teachingGuide": "Lição de revisão (Lições 11-14). O texto compara cidade e campo, reciclando comparativos, superlativos, advérbios e quantificadores.\n\nLeia em voz alta e faça perguntas que forcem comparação: 'Which is bigger? Which has more traffic? Where is life quieter?'\n\nDepois, divida a turma: um lado defende a cidade, o outro o campo, usando 'On the one hand... on the other hand...'. Por fim, cada aluno diz onde prefere morar e por quê, usando comparativos e quantificadores.",
+          "readingText": {
+            "title": "City Life and Country Life",
+            "body": "My friend Lucas and I grew up in very different places. He lived downtown in a big city, and I lived in the countryside, on a small farm.\n\nLucas loves the city. For him, it is the most exciting place in the world. There are a lot of restaurants, cinemas, and shops, and everything is open late. But the city also has problems: there is too much traffic, the rent is more expensive, and it is much noisier than the country.\n\nI prefer my quiet life in the country. The air is fresher, the people are friendlier, and life moves more slowly. There aren't as many things to do, and the nearest town is far away, but I sleep better and I know all my neighbors.\n\nLast month, Lucas visited my farm for the first time. On the first night, he said the silence was 'too quiet'! But by the end of the weekend, he admitted that the country was more relaxing than he expected. 'Maybe the best life is a little bit of both,' he said. And I think he was right.",
+            "glossary": [
+              {
+                "en": "to grow up",
+                "pt": "crescer / ser criado"
+              },
+              {
+                "en": "exciting",
+                "pt": "empolgante / animado"
+              },
+              {
+                "en": "friendlier",
+                "pt": "mais amigável"
+              },
+              {
+                "en": "relaxing",
+                "pt": "relaxante"
+              },
+              {
+                "en": "to admit",
+                "pt": "admitir / reconhecer"
+              }
+            ]
+          },
+          "homework": [
+            "A cidade é mais agitada que o campo.",
+            "O campo é o lugar mais tranquilo de todos.",
+            "Há carros demais e muito trânsito na cidade.",
+            "O aluguel é mais caro no centro da cidade.",
+            "No campo, o ar é mais puro e as pessoas são mais amigáveis.",
+            "A vida passa mais devagar no campo.",
+            "Não há tanto barulho no campo quanto na cidade.",
+            "Por um lado, a cidade é empolgante; por outro lado, é cansativa.",
+            "Eu durmo melhor e conheço todos os meus vizinhos.",
+            "Talvez a melhor vida seja um pouco dos dois."
+          ]
+        },
+        {
+          "id": 16,
+          "title": "Lesson 16 — Future: Going To",
+          "verbs": [
+            {
+              "en": "to plan, planned",
+              "pt": "planejar"
+            },
+            {
+              "en": "to travel, traveled",
+              "pt": "viajar"
+            },
+            {
+              "en": "to move, moved",
+              "pt": "mudar-se"
+            },
+            {
+              "en": "to save, saved",
+              "pt": "economizar / poupar / salvar"
+            }
+          ],
+          "grammarPoints": [
+            {
+              "en": "I'm going to travel next month.",
+              "pt": "Eu vou viajar mês que vem."
+            },
+            {
+              "en": "She's going to study medicine.",
+              "pt": "Ela vai estudar medicina."
+            },
+            {
+              "en": "We're going to move to a new house.",
+              "pt": "Nós vamos nos mudar para uma casa nova."
+            },
+            {
+              "en": "Are you going to come to the party?",
+              "pt": "Você vai vir à festa?"
+            },
+            {
+              "en": "They aren't going to work tomorrow.",
+              "pt": "Eles não vão trabalhar amanhã."
+            },
+            {
+              "en": "What are you going to do this weekend?",
+              "pt": "O que você vai fazer neste fim de semana?"
+            }
+          ],
+          "vocabulary": [
+            {
+              "en": "tomorrow",
+              "pt": "amanhã"
+            },
+            {
+              "en": "next week",
+              "pt": "semana que vem"
+            },
+            {
+              "en": "next month",
+              "pt": "mês que vem"
+            },
+            {
+              "en": "next year",
+              "pt": "ano que vem"
+            },
+            {
+              "en": "tonight",
+              "pt": "hoje à noite"
+            },
+            {
+              "en": "this weekend",
+              "pt": "neste fim de semana"
+            },
+            {
+              "en": "soon",
+              "pt": "logo / em breve"
+            },
+            {
+              "en": "the day after tomorrow",
+              "pt": "depois de amanhã"
+            },
+            {
+              "en": "in the future",
+              "pt": "no futuro"
+            },
+            {
+              "en": "plan",
+              "pt": "plano"
+            },
+            {
+              "en": "in two days",
+              "pt": "em dois dias"
+            },
+            {
+              "en": "later",
+              "pt": "mais tarde"
+            }
+          ],
+          "expressions": [
+            {
+              "en": "Sounds like a plan!",
+              "pt": "Parece um bom plano!"
+            },
+            {
+              "en": "Good luck!",
+              "pt": "Boa sorte!"
+            },
+            {
+              "en": "Can't wait!",
+              "pt": "Mal posso esperar!"
+            },
+            {
+              "en": "What are your plans?",
+              "pt": "Quais são seus planos?"
+            },
+            {
+              "en": "Count me in!",
+              "pt": "Pode contar comigo!"
+            }
+          ],
+          "curiosity": "Did you know? In fast, casual speech, 'going to' often becomes 'gonna' (I'm gonna call you). It's perfectly natural in conversation, but you should still write 'going to' — 'gonna' belongs to texting and song lyrics, not formal writing!",
+          "teachingGuide": "'Be going to' + verbo na base = planos e intenções já decididos.\n\nForma: am/is/are + going to + verbo. I'm going to..., She's going to..., They're going to...\nNegativa: am/is/are + not going to.\nPergunta: inverte o verbo 'be': Are you going to...?\n\nUse marcadores de futuro: tomorrow, next week, this weekend.\n\nDrill: pergunte sobre os planos reais dos alunos para o fim de semana e as férias.",
+          "homework": [
+            "Eu vou viajar mês que vem.",
+            "Ela vai estudar medicina no ano que vem.",
+            "Nós vamos nos mudar para uma casa nova.",
+            "Você vai vir à festa hoje à noite?",
+            "Eles não vão trabalhar amanhã.",
+            "O que você vai fazer neste fim de semana?",
+            "Eu vou economizar dinheiro para a viagem.",
+            "Vamos visitar meus avós depois de amanhã.",
+            "Eu vou começar um curso de inglês em breve.",
+            "Quais são seus planos para o ano que vem?"
+          ]
+        },
+        {
+          "id": 17,
+          "title": "Lesson 17 — Future: Will",
+          "verbs": [
+            {
+              "en": "to help, helped",
+              "pt": "ajudar"
+            },
+            {
+              "en": "to call, called",
+              "pt": "ligar / chamar"
+            },
+            {
+              "en": "to promise, promised",
+              "pt": "prometer"
+            },
+            {
+              "en": "to change, changed",
+              "pt": "mudar / trocar"
+            }
+          ],
+          "grammarPoints": [
+            {
+              "en": "I'll help you with that.",
+              "pt": "Eu te ajudo com isso."
+            },
+            {
+              "en": "It will rain tomorrow.",
+              "pt": "Vai chover amanhã."
+            },
+            {
+              "en": "She'll be here soon.",
+              "pt": "Ela vai chegar logo."
+            },
+            {
+              "en": "I think they will win.",
+              "pt": "Eu acho que eles vão ganhar."
+            },
+            {
+              "en": "I won't tell anyone.",
+              "pt": "Eu não vou contar para ninguém."
+            },
+            {
+              "en": "Will you help me, please?",
+              "pt": "Você pode me ajudar, por favor?"
+            }
+          ],
+          "vocabulary": [
+            {
+              "en": "will",
+              "pt": "vai / irá (futuro)"
+            },
+            {
+              "en": "won't (will not)",
+              "pt": "não vai / não irá"
+            },
+            {
+              "en": "probably",
+              "pt": "provavelmente"
+            },
+            {
+              "en": "maybe / perhaps",
+              "pt": "talvez"
+            },
+            {
+              "en": "I think",
+              "pt": "eu acho"
+            },
+            {
+              "en": "I'm sure",
+              "pt": "tenho certeza"
+            },
+            {
+              "en": "certainly",
+              "pt": "certamente"
+            },
+            {
+              "en": "one day",
+              "pt": "um dia"
+            },
+            {
+              "en": "in the future",
+              "pt": "no futuro"
+            },
+            {
+              "en": "everything",
+              "pt": "tudo"
+            },
+            {
+              "en": "nobody / no one",
+              "pt": "ninguém"
+            },
+            {
+              "en": "for sure",
+              "pt": "com certeza"
+            }
+          ],
+          "expressions": [
+            {
+              "en": "I'll be right back.",
+              "pt": "Já volto."
+            },
+            {
+              "en": "Don't worry.",
+              "pt": "Não se preocupe."
+            },
+            {
+              "en": "I promise.",
+              "pt": "Eu prometo."
+            },
+            {
+              "en": "We'll see.",
+              "pt": "A gente vê. / Vamos ver."
+            },
+            {
+              "en": "I bet.",
+              "pt": "Eu aposto."
+            }
+          ],
+          "curiosity": "Did you know? English speakers use 'will' for decisions made AT the moment of speaking. If the phone rings, you say 'I'll get it!' — not 'I'm going to get it.' The plan didn't exist a second ago, so 'will' is the natural choice.",
+          "teachingGuide": "'Will' + verbo na base. Usos principais:\n1) Previsões: It will rain. I think they will win.\n2) Decisões na hora: The phone is ringing — I'll answer it.\n3) Promessas e ofertas: I'll help you. I won't tell anyone.\n\nForma igual para todas as pessoas: I will / she will / they will. Contração: 'll. Negativa: won't.\nPergunta: Will you...? (também serve como pedido educado).\n\nDrill: faça previsões sobre o futuro e ofereça ajuda em situações do dia a dia.",
+          "homework": [
+            "Eu te ajudo com isso, não se preocupe.",
+            "Vai chover amanhã, provavelmente.",
+            "Ela vai chegar logo.",
+            "Eu acho que eles vão ganhar o jogo.",
+            "Eu não vou contar para ninguém. Eu prometo.",
+            "Você pode me ajudar, por favor?",
+            "Um dia eu vou morar no exterior.",
+            "Talvez nós viajemos no ano que vem.",
+            "Tenho certeza de que tudo vai dar certo.",
+            "Já volto. Me espere aqui."
+          ]
+        },
+        {
+          "id": 18,
+          "title": "Lesson 18 — Will vs. Going To",
+          "verbs": [
+            {
+              "en": "to decide, decided",
+              "pt": "decidir"
+            },
+            {
+              "en": "to expect, expected",
+              "pt": "esperar / prever"
+            },
+            {
+              "en": "to guess, guessed",
+              "pt": "adivinhar / achar / supor"
+            },
+            {
+              "en": "to wonder, wondered",
+              "pt": "imaginar / se perguntar"
+            }
+          ],
+          "grammarPoints": [
+            {
+              "en": "Look at those clouds! It's going to rain.",
+              "pt": "Olha aquelas nuvens! Vai chover."
+            },
+            {
+              "en": "I think it will be a good year.",
+              "pt": "Eu acho que vai ser um bom ano."
+            },
+            {
+              "en": "I'm going to visit Italy next summer.",
+              "pt": "Eu vou visitar a Itália no próximo verão."
+            },
+            {
+              "en": "The phone is ringing. I'll get it!",
+              "pt": "O telefone está tocando. Eu atendo!"
+            },
+            {
+              "en": "We're going to get married in June.",
+              "pt": "Nós vamos nos casar em junho."
+            },
+            {
+              "en": "Don't worry, I'll help you.",
+              "pt": "Não se preocupe, eu te ajudo."
+            }
+          ],
+          "vocabulary": [
+            {
+              "en": "a decision",
+              "pt": "uma decisão"
+            },
+            {
+              "en": "a plan",
+              "pt": "um plano"
+            },
+            {
+              "en": "a prediction",
+              "pt": "uma previsão"
+            },
+            {
+              "en": "an intention",
+              "pt": "uma intenção"
+            },
+            {
+              "en": "an offer",
+              "pt": "uma oferta"
+            },
+            {
+              "en": "a promise",
+              "pt": "uma promessa"
+            },
+            {
+              "en": "Look!",
+              "pt": "Olha! / Veja!"
+            },
+            {
+              "en": "I guess",
+              "pt": "eu acho / eu suponho"
+            },
+            {
+              "en": "I expect",
+              "pt": "eu espero / eu acho que sim"
+            },
+            {
+              "en": "on second thought",
+              "pt": "pensando bem"
+            },
+            {
+              "en": "I've decided",
+              "pt": "eu decidi"
+            },
+            {
+              "en": "evidence",
+              "pt": "evidência / sinal"
+            }
+          ],
+          "expressions": [
+            {
+              "en": "Let me think.",
+              "pt": "Deixa eu pensar."
+            },
+            {
+              "en": "I guess so.",
+              "pt": "Acho que sim."
+            },
+            {
+              "en": "On second thought...",
+              "pt": "Pensando bem..."
+            },
+            {
+              "en": "Sounds good.",
+              "pt": "Parece bom."
+            },
+            {
+              "en": "Why not?",
+              "pt": "Por que não?"
+            }
+          ],
+          "curiosity": "Did you know? English uses 'going to' when there's evidence right in front of you ('Those clouds are dark — it's going to rain'), but 'will' for a guess based only on opinion ('I think it'll rain tomorrow'). The sky decides which one you use!",
+          "teachingGuide": "Os dois falam do futuro, mas a escolha depende da situação:\n\nGOING TO: plano já decidido antes (I'm going to visit Italy) e previsão com evidência visível (Look! It's going to rain).\nWILL: decisão tomada na hora (I'll get it!), oferta, promessa e previsão de opinião (I think it will...).\n\nDica: se a decisão já existia antes de falar = going to. Se nasce no momento da fala = will.\n\nDrill: dê situações e peça aos alunos para escolher will ou going to e justificar.",
+          "homework": [
+            "Olha aquelas nuvens! Vai chover.",
+            "Eu acho que o ano que vem vai ser ótimo.",
+            "Eu vou visitar a Itália no próximo verão. (já decidi)",
+            "O telefone está tocando. Eu atendo!",
+            "Nós vamos nos casar em junho.",
+            "Não se preocupe, eu te ajudo com a mala.",
+            "Pensando bem, eu vou aceitar o emprego.",
+            "Eu acho que ela vai gostar do presente.",
+            "Estou cansado. Acho que vou dormir cedo hoje.",
+            "Eu decidi: eu vou começar a estudar inglês todo dia."
+          ]
+        },
+        {
+          "id": 19,
+          "title": "Lesson 19 — Present Continuous for the Future",
+          "verbs": [
+            {
+              "en": "to meet, met",
+              "pt": "encontrar / se encontrar"
+            },
+            {
+              "en": "to leave, left",
+              "pt": "sair / partir / ir embora"
+            },
+            {
+              "en": "to fly, flew",
+              "pt": "voar / ir de avião"
+            },
+            {
+              "en": "to stay, stayed",
+              "pt": "ficar / hospedar-se"
+            }
+          ],
+          "grammarPoints": [
+            {
+              "en": "I'm meeting John at five tomorrow.",
+              "pt": "Eu vou encontrar o John às cinco amanhã."
+            },
+            {
+              "en": "We're leaving on Friday.",
+              "pt": "Nós vamos viajar na sexta."
+            },
+            {
+              "en": "She's flying to Lisbon next week.",
+              "pt": "Ela vai voar para Lisboa semana que vem."
+            },
+            {
+              "en": "What are you doing tonight?",
+              "pt": "O que você vai fazer hoje à noite?"
+            },
+            {
+              "en": "They're staying at a hotel.",
+              "pt": "Eles vão ficar num hotel."
+            },
+            {
+              "en": "I'm not working tomorrow.",
+              "pt": "Eu não vou trabalhar amanhã."
+            }
+          ],
+          "vocabulary": [
+            {
+              "en": "this evening",
+              "pt": "hoje à noite (mais cedo)"
+            },
+            {
+              "en": "tomorrow morning",
+              "pt": "amanhã de manhã"
+            },
+            {
+              "en": "on Friday",
+              "pt": "na sexta-feira"
+            },
+            {
+              "en": "at the weekend",
+              "pt": "no fim de semana"
+            },
+            {
+              "en": "next Tuesday",
+              "pt": "na próxima terça"
+            },
+            {
+              "en": "an arrangement",
+              "pt": "um combinado / compromisso"
+            },
+            {
+              "en": "an appointment",
+              "pt": "um compromisso / consulta"
+            },
+            {
+              "en": "a flight",
+              "pt": "um voo"
+            },
+            {
+              "en": "a reservation",
+              "pt": "uma reserva"
+            },
+            {
+              "en": "a ticket",
+              "pt": "uma passagem / ingresso"
+            },
+            {
+              "en": "luggage",
+              "pt": "bagagem"
+            },
+            {
+              "en": "to pick up",
+              "pt": "buscar / pegar"
+            }
+          ],
+          "expressions": [
+            {
+              "en": "Are you free?",
+              "pt": "Você está livre?"
+            },
+            {
+              "en": "Let's meet up.",
+              "pt": "Vamos nos encontrar."
+            },
+            {
+              "en": "I'm busy.",
+              "pt": "Estou ocupado(a)."
+            },
+            {
+              "en": "Sounds great.",
+              "pt": "Parece ótimo."
+            },
+            {
+              "en": "What time?",
+              "pt": "A que horas?"
+            }
+          ],
+          "curiosity": "Did you know? When a plan is fixed — a meeting, a flight, a dinner already booked — English often uses the present continuous for the future: 'I'm meeting her at six.' It feels more certain than 'going to', as if it's already in your calendar.",
+          "teachingGuide": "Present Continuous (am/is/are + verbo-ing) + expressão de tempo futura = compromisso já marcado, combinado, agendado (geralmente com outras pessoas ou com hora/local definidos).\n\nDiferença sutil: 'I'm meeting John at five' (já combinado) soa mais firme que 'I'm going to meet John'.\n\nSempre acompanhe de um marcador de tempo futuro para não confundir com o presente (agora).\n\nDrill: simule uma agenda da semana e pergunte: 'What are you doing on Friday? Who are you meeting on Saturday?'",
+          "homework": [
+            "Eu vou encontrar o João às cinco amanhã.",
+            "Nós vamos viajar na sexta de manhã.",
+            "Ela vai voar para Lisboa semana que vem.",
+            "O que você vai fazer hoje à noite?",
+            "Eles vão ficar num hotel no centro.",
+            "Eu não vou trabalhar amanhã; vou descansar.",
+            "Nós vamos jantar fora no fim de semana.",
+            "Eu vou buscar minha irmã no aeroporto às oito.",
+            "Você está livre na próxima terça? Vamos nos encontrar.",
+            "Eu tenho uma consulta médica amanhã de manhã."
+          ]
+        },
+        {
+          "id": 20,
+          "title": "Lesson 20 — Review & Reading: Plans for the Holidays",
+          "verbs": [],
+          "grammarPoints": [
+            {
+              "en": "We're going to travel during the holidays.",
+              "pt": "Nós vamos viajar durante as férias."
+            },
+            {
+              "en": "Our flight is leaving on Saturday morning.",
+              "pt": "Nosso voo vai partir no sábado de manhã."
+            },
+            {
+              "en": "I think it will be a wonderful trip.",
+              "pt": "Eu acho que vai ser uma viagem maravilhosa."
+            },
+            {
+              "en": "What are you doing for the holidays?",
+              "pt": "O que você vai fazer nas férias?"
+            },
+            {
+              "en": "I'll send you a postcard, I promise.",
+              "pt": "Eu vou te mandar um cartão-postal, eu prometo."
+            }
+          ],
+          "vocabulary": [
+            {
+              "en": "the holidays / vacation",
+              "pt": "as férias / o feriado"
+            },
+            {
+              "en": "abroad",
+              "pt": "no exterior / fora do país"
+            },
+            {
+              "en": "a suitcase",
+              "pt": "uma mala"
+            },
+            {
+              "en": "the airport",
+              "pt": "o aeroporto"
+            },
+            {
+              "en": "a postcard",
+              "pt": "um cartão-postal"
+            },
+            {
+              "en": "sightseeing",
+              "pt": "passeio turístico"
+            }
+          ],
+          "expressions": [
+            {
+              "en": "Have a great trip!",
+              "pt": "Boa viagem!"
+            },
+            {
+              "en": "I can't wait!",
+              "pt": "Mal posso esperar!"
+            },
+            {
+              "en": "Safe travels!",
+              "pt": "Boa viagem! / Vá com segurança!"
+            },
+            {
+              "en": "Send me a postcard!",
+              "pt": "Me manda um cartão-postal!"
+            },
+            {
+              "en": "It's going to be amazing!",
+              "pt": "Vai ser incrível!"
+            }
+          ],
+          "curiosity": "Did you know? In American English people usually say 'vacation', but in British English they say 'holiday(s)'. So an American is 'on vacation' while a Brit is 'on holiday' — same beach, different word!",
+          "teachingGuide": "Lição de revisão (Lições 16-19). O texto recicla as três formas de futuro: 'be going to' (planos), 'will' (previsões/promessas) e present continuous (compromissos marcados).\n\nPeça aos alunos para sublinhar cada futuro no texto e classificá-lo (plano, previsão, promessa ou compromisso).\n\nDepois, cada aluno descreve seus próprios planos de férias usando pelo menos uma vez cada forma. Reforce a diferença: 'My flight is leaving at six' (agendado) vs 'I'm going to relax' (intenção) vs 'It'll be fun' (previsão).",
+          "readingText": {
+            "title": "Plans for the Holidays",
+            "body": "The holidays are almost here, and everyone in my family has different plans.\n\nMy parents are going to travel abroad. They're flying to Portugal next Saturday, and they're staying with my aunt in Lisbon for two weeks. My mother already packed her suitcase — she says she's going to do a lot of sightseeing and eat at every restaurant in the city!\n\nMy brother isn't traveling this year. He's going to stay home and save money, because he's planning to buy a car. 'I'll relax, watch movies, and sleep a lot,' he told me. 'It's going to be the laziest holiday ever.'\n\nAnd me? I'm meeting my friends on the first day of vacation, and we're going camping in the mountains. The weather forecast says it will be sunny all week, so I think it's going to be perfect. I'm a little nervous, but I can't wait!\n\n'Have a great trip, everyone,' my father said at dinner. 'And don't forget to send us a postcard!'",
+            "glossary": [
+              {
+                "en": "to pack a suitcase",
+                "pt": "fazer a mala"
+              },
+              {
+                "en": "to go camping",
+                "pt": "acampar"
+              },
+              {
+                "en": "the weather forecast",
+                "pt": "a previsão do tempo"
+              },
+              {
+                "en": "lazy",
+                "pt": "preguiçoso"
+              },
+              {
+                "en": "nervous",
+                "pt": "nervoso / ansioso"
+              }
+            ]
+          },
+          "homework": [
+            "Nós vamos viajar durante as férias.",
+            "Meus pais vão voar para Portugal no sábado.",
+            "Eles vão ficar com minha tia por duas semanas.",
+            "Meu irmão não vai viajar este ano.",
+            "Ele vai ficar em casa e economizar dinheiro.",
+            "Eu vou encontrar meus amigos no primeiro dia de férias.",
+            "Nós vamos acampar nas montanhas.",
+            "A previsão do tempo diz que vai fazer sol a semana toda.",
+            "Eu acho que vai ser perfeito. Mal posso esperar!",
+            "Boa viagem! Não esqueça de mandar um cartão-postal!"
+          ]
+        },
+        {
+          "id": 21,
+          "title": "Lesson 21 — Present Perfect: Experiences",
+          "verbs": [
+            {
+              "en": "to be, was/were (been)",
+              "pt": "ser / estar (particípio: been)"
+            },
+            {
+              "en": "to see, saw (seen)",
+              "pt": "ver (particípio: seen)"
+            },
+            {
+              "en": "to eat, ate (eaten)",
+              "pt": "comer (particípio: eaten)"
+            },
+            {
+              "en": "to try, tried (tried)",
+              "pt": "experimentar / tentar"
+            }
+          ],
+          "grammarPoints": [
+            {
+              "en": "I have visited Paris.",
+              "pt": "Eu já visitei Paris."
+            },
+            {
+              "en": "Have you ever eaten sushi?",
+              "pt": "Você já comeu sushi alguma vez?"
+            },
+            {
+              "en": "She has never been to Japan.",
+              "pt": "Ela nunca foi ao Japão."
+            },
+            {
+              "en": "We have seen that movie before.",
+              "pt": "Nós já vimos esse filme antes."
+            },
+            {
+              "en": "They have done it twice.",
+              "pt": "Eles já fizeram isso duas vezes."
+            },
+            {
+              "en": "I've never tried Indian food.",
+              "pt": "Eu nunca experimentei comida indiana."
+            }
+          ],
+          "vocabulary": [
+            {
+              "en": "ever",
+              "pt": "alguma vez / já"
+            },
+            {
+              "en": "never",
+              "pt": "nunca"
+            },
+            {
+              "en": "before",
+              "pt": "antes / antes disso"
+            },
+            {
+              "en": "once",
+              "pt": "uma vez"
+            },
+            {
+              "en": "twice",
+              "pt": "duas vezes"
+            },
+            {
+              "en": "several times",
+              "pt": "várias vezes"
+            },
+            {
+              "en": "been (to)",
+              "pt": "particípio de 'be': já esteve em"
+            },
+            {
+              "en": "gone (to)",
+              "pt": "particípio de 'go': foi (e ainda está lá)"
+            },
+            {
+              "en": "done",
+              "pt": "particípio de 'do': feito"
+            },
+            {
+              "en": "an experience",
+              "pt": "uma experiência"
+            },
+            {
+              "en": "abroad",
+              "pt": "no exterior"
+            },
+            {
+              "en": "in my life",
+              "pt": "na minha vida"
+            }
+          ],
+          "expressions": [
+            {
+              "en": "Really? Me neither.",
+              "pt": "Sério? Eu também não."
+            },
+            {
+              "en": "Me too.",
+              "pt": "Eu também."
+            },
+            {
+              "en": "What was it like?",
+              "pt": "Como foi? / Como era?"
+            },
+            {
+              "en": "I'd love to.",
+              "pt": "Eu adoraria."
+            },
+            {
+              "en": "Not yet, but I want to.",
+              "pt": "Ainda não, mas eu quero."
+            }
+          ],
+          "curiosity": "Did you know? 'I've been to Japan' and 'I've gone to Japan' mean different things! 'Been to' means you went and came back. 'Gone to' means you're still there. So if your friend says 'She's gone to Japan', don't expect to see her this week!",
+          "teachingGuide": "Present Perfect para experiências de vida (sem dizer QUANDO): have/has + particípio passado.\n\nUse 'ever' em perguntas (Have you ever...?) e 'never' em negativas (I have never...).\n\nDiferença crucial: 'been to' (foi e voltou) x 'gone to' (foi e ainda está lá).\n\nO importante é a experiência, não a data. Se disser quando aconteceu, mude para Simple Past (próxima lição).\n\nDrill: 'Have you ever traveled abroad? Have you ever eaten...?' Alunos respondem com Yes, I have / No, I never have.",
+          "homework": [
+            "Eu já visitei Paris e Londres.",
+            "Você já comeu sushi alguma vez?",
+            "Ela nunca foi ao Japão.",
+            "Nós já vimos esse filme antes.",
+            "Eles já fizeram isso várias vezes.",
+            "Eu nunca experimentei comida indiana.",
+            "Você já viajou para o exterior?",
+            "Eu já estive nessa cidade duas vezes.",
+            "Ele nunca conheceu meus pais.",
+            "Essa é a melhor experiência da minha vida."
+          ]
+        },
+        {
+          "id": 22,
+          "title": "Lesson 22 — Present Perfect: already, yet, just",
+          "verbs": [
+            {
+              "en": "to finish, finished",
+              "pt": "terminar"
+            },
+            {
+              "en": "to arrive, arrived",
+              "pt": "chegar"
+            },
+            {
+              "en": "to send, sent (sent)",
+              "pt": "enviar / mandar"
+            },
+            {
+              "en": "to start, started",
+              "pt": "começar"
+            }
+          ],
+          "grammarPoints": [
+            {
+              "en": "I've already finished my homework.",
+              "pt": "Eu já terminei a lição."
+            },
+            {
+              "en": "Have you eaten yet?",
+              "pt": "Você já comeu?"
+            },
+            {
+              "en": "She hasn't arrived yet.",
+              "pt": "Ela ainda não chegou."
+            },
+            {
+              "en": "We've just had lunch.",
+              "pt": "Nós acabamos de almoçar."
+            },
+            {
+              "en": "The train has just left.",
+              "pt": "O trem acabou de sair."
+            },
+            {
+              "en": "I haven't done it yet.",
+              "pt": "Eu ainda não fiz isso."
+            }
+          ],
+          "vocabulary": [
+            {
+              "en": "already",
+              "pt": "já (antes do esperado)"
+            },
+            {
+              "en": "yet",
+              "pt": "ainda (perguntas e negativas)"
+            },
+            {
+              "en": "just",
+              "pt": "acabar de / agora mesmo"
+            },
+            {
+              "en": "still",
+              "pt": "ainda (continua)"
+            },
+            {
+              "en": "recently",
+              "pt": "recentemente"
+            },
+            {
+              "en": "lately",
+              "pt": "ultimamente"
+            },
+            {
+              "en": "so far",
+              "pt": "até agora"
+            },
+            {
+              "en": "up to now",
+              "pt": "até o momento"
+            },
+            {
+              "en": "this week",
+              "pt": "esta semana"
+            },
+            {
+              "en": "today",
+              "pt": "hoje"
+            },
+            {
+              "en": "all day",
+              "pt": "o dia todo"
+            },
+            {
+              "en": "since this morning",
+              "pt": "desde hoje de manhã"
+            }
+          ],
+          "expressions": [
+            {
+              "en": "Not yet.",
+              "pt": "Ainda não."
+            },
+            {
+              "en": "Already?",
+              "pt": "Já? / Tão cedo?"
+            },
+            {
+              "en": "Just a moment.",
+              "pt": "Só um momento."
+            },
+            {
+              "en": "Finally!",
+              "pt": "Finalmente!"
+            },
+            {
+              "en": "At last!",
+              "pt": "Até que enfim!"
+            }
+          ],
+          "curiosity": "Did you know? 'Just', 'already', and 'yet' each have a favorite spot in the sentence. 'Just' and 'already' sit in the middle ('I've just arrived'), but 'yet' waits at the very end ('Have you finished yet?'). Put them in the wrong place and it sounds odd to native ears!",
+          "teachingGuide": "Três advérbios típicos do Present Perfect:\n\nJUST = há pouquíssimo tempo (I've just arrived). Posição: entre o auxiliar e o particípio.\nALREADY = mais cedo do que o esperado, em frases afirmativas (I've already finished). Posição: no meio.\nYET = 'ainda', só em perguntas e negativas, no FINAL (Have you finished yet? / I haven't finished yet).\n\nCuidado para não trocar already por yet. Drill: situações de tarefas concluídas e pendentes.",
+          "homework": [
+            "Eu já terminei a lição de casa.",
+            "Você já comeu? Ainda não.",
+            "Ela ainda não chegou.",
+            "Nós acabamos de almoçar.",
+            "O trem acabou de sair.",
+            "Eu ainda não fiz isso.",
+            "Eu já mandei o e-mail para o chefe.",
+            "Eles acabaram de começar a reunião.",
+            "Eu já vi esse filme três vezes.",
+            "Você já fez o exercício? Finalmente, sim!"
+          ]
+        },
+        {
+          "id": 23,
+          "title": "Lesson 23 — Present Perfect: for / since",
+          "verbs": [
+            {
+              "en": "to live, lived",
+              "pt": "morar / viver"
+            },
+            {
+              "en": "to know, knew (known)",
+              "pt": "saber / conhecer (particípio: known)"
+            },
+            {
+              "en": "to work, worked",
+              "pt": "trabalhar"
+            },
+            {
+              "en": "to wait, waited",
+              "pt": "esperar"
+            }
+          ],
+          "grammarPoints": [
+            {
+              "en": "I have lived here for ten years.",
+              "pt": "Eu moro aqui há dez anos."
+            },
+            {
+              "en": "She has known him since 2010.",
+              "pt": "Ela o conhece desde 2010."
+            },
+            {
+              "en": "We have worked together for a long time.",
+              "pt": "Nós trabalhamos juntos há muito tempo."
+            },
+            {
+              "en": "How long have you studied English?",
+              "pt": "Há quanto tempo você estuda inglês?"
+            },
+            {
+              "en": "They have been married since June.",
+              "pt": "Eles estão casados desde junho."
+            },
+            {
+              "en": "I haven't seen her for weeks.",
+              "pt": "Eu não a vejo há semanas."
+            }
+          ],
+          "vocabulary": [
+            {
+              "en": "for",
+              "pt": "há / durante (período)"
+            },
+            {
+              "en": "since",
+              "pt": "desde (ponto no tempo)"
+            },
+            {
+              "en": "how long",
+              "pt": "há quanto tempo / por quanto tempo"
+            },
+            {
+              "en": "for a long time",
+              "pt": "há muito tempo"
+            },
+            {
+              "en": "for ages",
+              "pt": "há um tempão / faz séculos"
+            },
+            {
+              "en": "since then",
+              "pt": "desde então"
+            },
+            {
+              "en": "all my life",
+              "pt": "a vida toda"
+            },
+            {
+              "en": "for years",
+              "pt": "há anos"
+            },
+            {
+              "en": "since I was a child",
+              "pt": "desde criança"
+            },
+            {
+              "en": "a couple of days",
+              "pt": "alguns dias"
+            },
+            {
+              "en": "for a while",
+              "pt": "por um tempo"
+            },
+            {
+              "en": "lately",
+              "pt": "ultimamente"
+            }
+          ],
+          "expressions": [
+            {
+              "en": "How long?",
+              "pt": "Há quanto tempo?"
+            },
+            {
+              "en": "For ages!",
+              "pt": "Há um tempão!"
+            },
+            {
+              "en": "Time flies!",
+              "pt": "Como o tempo voa!"
+            },
+            {
+              "en": "It's been a while.",
+              "pt": "Faz um tempo."
+            },
+            {
+              "en": "Long time no see.",
+              "pt": "Quanto tempo! / Há quanto tempo não te vejo."
+            }
+          ],
+          "curiosity": "Did you know? 'For' and 'since' both answer 'how long?', but they work differently. 'For' is for a PERIOD ('for ten years'), and 'since' is for a STARTING POINT ('since 2010'). Quick test: '2010' is a point, so it takes 'since'!",
+          "teachingGuide": "Present Perfect para situações que começaram no passado e CONTINUAM até agora.\n\nFOR + período de duração: for ten years, for a while, for ages.\nSINCE + ponto de início: since 2010, since Monday, since I was a child.\n\nPergunta-chave: 'How long have you...?'\n\nAtenção: em português usamos o presente ('Eu moro aqui há dez anos'), mas em inglês é Present Perfect ('I have lived here for ten years'). Esse é um erro clássico.\n\nDrill: pergunte há quanto tempo os alunos moram na cidade, estudam inglês, conhecem alguém.",
+          "homework": [
+            "Eu moro aqui há dez anos.",
+            "Ela o conhece desde 2010.",
+            "Nós trabalhamos juntos há muito tempo.",
+            "Há quanto tempo você estuda inglês?",
+            "Eles estão casados desde junho.",
+            "Eu não a vejo há semanas.",
+            "Eu conheço meu melhor amigo desde criança.",
+            "Ele está esperando há mais de uma hora.",
+            "Nós moramos nesta cidade a vida toda.",
+            "Faz um tempo que eu não viajo."
+          ]
+        },
+        {
+          "id": 24,
+          "title": "Lesson 24 — Present Perfect vs. Simple Past",
+          "verbs": [
+            {
+              "en": "to lose, lost",
+              "pt": "perder"
+            },
+            {
+              "en": "to break, broke (broken)",
+              "pt": "quebrar (particípio: broken)"
+            },
+            {
+              "en": "to write, wrote (written)",
+              "pt": "escrever (particípio: written)"
+            },
+            {
+              "en": "to give, gave (given)",
+              "pt": "dar (particípio: given)"
+            }
+          ],
+          "grammarPoints": [
+            {
+              "en": "I have lost my keys.",
+              "pt": "Eu perdi minhas chaves. (e ainda estão perdidas)"
+            },
+            {
+              "en": "I lost my keys yesterday.",
+              "pt": "Eu perdi minhas chaves ontem."
+            },
+            {
+              "en": "Have you seen this film?",
+              "pt": "Você já viu este filme?"
+            },
+            {
+              "en": "Did you see the film last night?",
+              "pt": "Você viu o filme ontem à noite?"
+            },
+            {
+              "en": "She has written three books.",
+              "pt": "Ela já escreveu três livros."
+            },
+            {
+              "en": "She wrote that book in 2015.",
+              "pt": "Ela escreveu esse livro em 2015."
+            }
+          ],
+          "vocabulary": [
+            {
+              "en": "ever / never (perfect)",
+              "pt": "alguma vez / nunca (com perfect)"
+            },
+            {
+              "en": "yet / already (perfect)",
+              "pt": "ainda / já (com perfect)"
+            },
+            {
+              "en": "just (perfect)",
+              "pt": "acabar de (com perfect)"
+            },
+            {
+              "en": "yesterday (past)",
+              "pt": "ontem (com passado)"
+            },
+            {
+              "en": "ago (past)",
+              "pt": "atrás (com passado)"
+            },
+            {
+              "en": "last week (past)",
+              "pt": "semana passada (com passado)"
+            },
+            {
+              "en": "in 2015 (past)",
+              "pt": "em 2015 (com passado)"
+            },
+            {
+              "en": "when (past)",
+              "pt": "quando (com passado)"
+            },
+            {
+              "en": "recently",
+              "pt": "recentemente"
+            },
+            {
+              "en": "this morning",
+              "pt": "esta manhã / hoje de manhã"
+            },
+            {
+              "en": "a specific time",
+              "pt": "um momento específico"
+            },
+            {
+              "en": "finished time",
+              "pt": "tempo já terminado"
+            }
+          ],
+          "expressions": [
+            {
+              "en": "When exactly?",
+              "pt": "Quando exatamente?"
+            },
+            {
+              "en": "Recently.",
+              "pt": "Recentemente."
+            },
+            {
+              "en": "A long time ago.",
+              "pt": "Há muito tempo."
+            },
+            {
+              "en": "Just now.",
+              "pt": "Agora mesmo."
+            },
+            {
+              "en": "It depends.",
+              "pt": "Depende."
+            }
+          ],
+          "curiosity": "Did you know? The moment you say WHEN something happened, English forces you into the Simple Past. 'I've lost my keys' becomes 'I lost my keys YESTERDAY.' Add a finished-time word, and the present perfect simply can't stay!",
+          "teachingGuide": "A escolha depende do tempo:\n\nPRESENT PERFECT: sem momento específico, experiências, ações recentes com resultado agora. Marcadores: ever, never, just, already, yet, recently.\nSIMPLE PAST: momento definido e terminado. Marcadores: yesterday, ago, last week, in 2015, when, this morning (se já acabou).\n\nRegra de ouro: se a frase diz QUANDO (tempo terminado), use Simple Past.\n'I've seen it' (em algum momento) vs 'I saw it yesterday' (momento dado).\n\nDrill: dê pares de frases e peça aos alunos para completar com o tempo certo, justificando pelo marcador.",
+          "homework": [
+            "Eu perdi minhas chaves. (não acho até agora)",
+            "Eu perdi minhas chaves ontem.",
+            "Você já viu este filme alguma vez?",
+            "Você viu o filme ontem à noite?",
+            "Ela já escreveu três livros.",
+            "Ela escreveu esse livro em 2015.",
+            "Eu já estive em Paris. Eu fui lá em 2019.",
+            "Nós acabamos de chegar. Nós saímos de casa há uma hora.",
+            "Eles nunca viajaram de avião.",
+            "Quando você comprou esse carro? Há dois anos."
+          ]
+        },
+        {
+          "id": 25,
+          "title": "Lesson 25 — Past Continuous",
+          "verbs": [
+            {
+              "en": "to sleep, slept",
+              "pt": "dormir"
+            },
+            {
+              "en": "to cook, cooked",
+              "pt": "cozinhar"
+            },
+            {
+              "en": "to study, studied",
+              "pt": "estudar"
+            },
+            {
+              "en": "to drive, drove",
+              "pt": "dirigir"
+            }
+          ],
+          "grammarPoints": [
+            {
+              "en": "I was sleeping at midnight.",
+              "pt": "Eu estava dormindo à meia-noite."
+            },
+            {
+              "en": "They were watching TV when I arrived.",
+              "pt": "Eles estavam assistindo TV quando eu cheguei."
+            },
+            {
+              "en": "What were you doing at eight?",
+              "pt": "O que você estava fazendo às oito?"
+            },
+            {
+              "en": "She was cooking while he was cleaning.",
+              "pt": "Ela estava cozinhando enquanto ele estava limpando."
+            },
+            {
+              "en": "It was raining when we left.",
+              "pt": "Estava chovendo quando saímos."
+            },
+            {
+              "en": "I wasn't listening.",
+              "pt": "Eu não estava escutando."
+            }
+          ],
+          "vocabulary": [
+            {
+              "en": "when",
+              "pt": "quando"
+            },
+            {
+              "en": "while",
+              "pt": "enquanto"
+            },
+            {
+              "en": "at that moment",
+              "pt": "naquele momento"
+            },
+            {
+              "en": "all morning",
+              "pt": "a manhã toda"
+            },
+            {
+              "en": "at eight o'clock",
+              "pt": "às oito horas"
+            },
+            {
+              "en": "suddenly",
+              "pt": "de repente"
+            },
+            {
+              "en": "during",
+              "pt": "durante"
+            },
+            {
+              "en": "meanwhile",
+              "pt": "enquanto isso"
+            },
+            {
+              "en": "at the time",
+              "pt": "na época / naquele momento"
+            },
+            {
+              "en": "the whole day",
+              "pt": "o dia inteiro"
+            },
+            {
+              "en": "in the background",
+              "pt": "ao fundo"
+            },
+            {
+              "en": "just then",
+              "pt": "bem naquele instante"
+            }
+          ],
+          "expressions": [
+            {
+              "en": "What were you up to?",
+              "pt": "O que você estava aprontando? / fazendo?"
+            },
+            {
+              "en": "Nothing much.",
+              "pt": "Nada de mais."
+            },
+            {
+              "en": "Guess what I was doing!",
+              "pt": "Adivinha o que eu estava fazendo!"
+            },
+            {
+              "en": "Out of nowhere...",
+              "pt": "Do nada... / Sem mais nem menos..."
+            },
+            {
+              "en": "I was just about to leave.",
+              "pt": "Eu estava justo saindo."
+            }
+          ],
+          "curiosity": "Did you know? English uses the past continuous to set the scene — the long, background action — and the simple past for the sudden event that interrupts it. 'I was sleeping when the phone rang.' The sleeping is the movie; the ring is the surprise!",
+          "teachingGuide": "Past Continuous: was/were + verbo-ing = ação em andamento no passado (cenário, fundo).\n\nCombinação clássica: Past Continuous (ação longa) + WHEN + Simple Past (ação curta que interrompe): 'I was sleeping when the phone rang.'\n\nWHILE liga duas ações longas simultâneas: 'She was cooking while he was cleaning.'\n\nNegativa: wasn't/weren't + -ing. Pergunta: Was/Were + sujeito + -ing?\n\nDrill: 'What were you doing at 8 pm yesterday?' e narrativas com when/while.",
+          "homework": [
+            "Eu estava dormindo à meia-noite.",
+            "Eles estavam assistindo TV quando eu cheguei.",
+            "O que você estava fazendo às oito da noite?",
+            "Ela estava cozinhando enquanto ele estava limpando.",
+            "Estava chovendo quando nós saímos.",
+            "Eu não estava escutando; desculpe.",
+            "Enquanto eu estudava, meu telefone tocou.",
+            "De repente, alguém bateu na porta.",
+            "Nós estávamos jantando quando a luz acabou.",
+            "Eu estava justo saindo quando você ligou."
+          ]
+        },
+        {
+          "id": 26,
+          "title": "Lesson 26 — Review & Reading: An Unforgettable Trip",
+          "verbs": [],
+          "grammarPoints": [
+            {
+              "en": "I have traveled to many countries.",
+              "pt": "Eu já viajei para muitos países."
+            },
+            {
+              "en": "Last year I went to Peru for the first time.",
+              "pt": "Ano passado eu fui ao Peru pela primeira vez."
+            },
+            {
+              "en": "We were walking up the mountain when it started to rain.",
+              "pt": "Nós estávamos subindo a montanha quando começou a chover."
+            },
+            {
+              "en": "It has been the best trip of my life.",
+              "pt": "Foi a melhor viagem da minha vida."
+            },
+            {
+              "en": "Have you ever visited a place like that?",
+              "pt": "Você já visitou um lugar assim?"
+            }
+          ],
+          "vocabulary": [
+            {
+              "en": "a mountain",
+              "pt": "uma montanha"
+            },
+            {
+              "en": "a guide",
+              "pt": "um guia"
+            },
+            {
+              "en": "the view",
+              "pt": "a vista"
+            },
+            {
+              "en": "ancient",
+              "pt": "antigo / milenar"
+            },
+            {
+              "en": "to climb",
+              "pt": "escalar / subir"
+            },
+            {
+              "en": "unforgettable",
+              "pt": "inesquecível"
+            }
+          ],
+          "expressions": [
+            {
+              "en": "It was breathtaking!",
+              "pt": "Era de tirar o fôlego!"
+            },
+            {
+              "en": "I'll never forget it.",
+              "pt": "Eu nunca vou esquecer."
+            },
+            {
+              "en": "You have to go!",
+              "pt": "Você tem que ir!"
+            },
+            {
+              "en": "It was worth it.",
+              "pt": "Valeu a pena."
+            },
+            {
+              "en": "What an adventure!",
+              "pt": "Que aventura!"
+            }
+          ],
+          "curiosity": "Did you know? The word 'travel' comes from the old French 'travail', which meant hard work and even suffering! Centuries ago, going on a journey was so difficult and dangerous that the words for 'work' and 'trip' were the same.",
+          "teachingGuide": "Lição de revisão (Lições 21-25). O texto mistura Present Perfect (experiências, for/since), Simple Past (eventos datados) e Past Continuous (cenário interrompido).\n\nPeça aos alunos para identificar cada tempo verbal e explicar a escolha (experiência sem data = present perfect; data específica = past; ação em andamento = past continuous).\n\nPerguntas de compreensão: 'Where has the writer traveled? When did she go to Peru? What were they doing when it started to rain?'\n\nProdução: cada aluno conta uma viagem inesquecível usando os três tempos pelo menos uma vez.",
+          "readingText": {
+            "title": "An Unforgettable Trip",
+            "body": "I have traveled to many countries, but one trip has stayed in my heart since the day it happened.\n\nLast year, I went to Peru with two friends. We had always wanted to see Machu Picchu, the ancient city in the mountains. We saved money for months, and finally, in July, we took the long flight to Cusco.\n\nThe most exciting day was the hike to the ruins. We woke up at four in the morning and started to climb in the dark. We were walking up the steep path when, suddenly, it started to rain. For an hour, we were cold, wet, and tired. Our guide just smiled and said, 'Don't worry — it will be worth it.'\n\nHe was right. When we reached the top, the rain stopped and the clouds opened. The view was breathtaking. I have seen many beautiful places in my life, but I have never felt anything like that moment. Nobody said a word; we just stood there and looked.\n\nIt has been the best trip of my life, and I'll never forget it. If you ever have the chance, you have to go!",
+            "glossary": [
+              {
+                "en": "a hike",
+                "pt": "uma caminhada / trilha"
+              },
+              {
+                "en": "ruins",
+                "pt": "ruínas"
+              },
+              {
+                "en": "steep",
+                "pt": "íngreme"
+              },
+              {
+                "en": "a path",
+                "pt": "uma trilha / caminho"
+              },
+              {
+                "en": "to reach the top",
+                "pt": "chegar ao topo"
+              }
+            ]
+          },
+          "homework": [
+            "Eu já viajei para muitos países.",
+            "Ano passado eu fui ao Peru com dois amigos.",
+            "Nós sempre quisemos ver Machu Picchu.",
+            "Nós economizamos dinheiro durante meses.",
+            "Nós estávamos subindo a montanha quando começou a chover.",
+            "Quando chegamos ao topo, a vista era de tirar o fôlego.",
+            "Eu já vi muitos lugares lindos na minha vida.",
+            "Eu nunca senti nada parecido com aquele momento.",
+            "Foi a melhor viagem da minha vida.",
+            "Se você tiver a chance, você tem que ir!"
+          ]
+        },
+        {
+          "id": 27,
+          "title": "Lesson 27 — Must / Have To: Obligation",
+          "verbs": [
+            {
+              "en": "to follow, followed",
+              "pt": "seguir"
+            },
+            {
+              "en": "to allow, allowed",
+              "pt": "permitir"
+            },
+            {
+              "en": "to wear, wore",
+              "pt": "usar / vestir"
+            },
+            {
+              "en": "to obey, obeyed",
+              "pt": "obedecer"
+            }
+          ],
+          "grammarPoints": [
+            {
+              "en": "You must wear a seatbelt.",
+              "pt": "Você deve usar cinto de segurança."
+            },
+            {
+              "en": "I have to work tomorrow.",
+              "pt": "Eu tenho que trabalhar amanhã."
+            },
+            {
+              "en": "She has to study for the exam.",
+              "pt": "Ela tem que estudar para a prova."
+            },
+            {
+              "en": "You mustn't smoke here.",
+              "pt": "Você não pode fumar aqui."
+            },
+            {
+              "en": "We don't have to pay; it's free.",
+              "pt": "Nós não precisamos pagar; é grátis."
+            },
+            {
+              "en": "Do you have to leave now?",
+              "pt": "Você tem que ir agora?"
+            }
+          ],
+          "vocabulary": [
+            {
+              "en": "must",
+              "pt": "dever / ter que (obrigação forte)"
+            },
+            {
+              "en": "mustn't",
+              "pt": "não poder (proibição)"
+            },
+            {
+              "en": "have to / has to",
+              "pt": "ter que"
+            },
+            {
+              "en": "don't have to",
+              "pt": "não precisar"
+            },
+            {
+              "en": "a rule",
+              "pt": "uma regra"
+            },
+            {
+              "en": "allowed",
+              "pt": "permitido"
+            },
+            {
+              "en": "forbidden",
+              "pt": "proibido"
+            },
+            {
+              "en": "necessary",
+              "pt": "necessário"
+            },
+            {
+              "en": "an obligation",
+              "pt": "uma obrigação"
+            },
+            {
+              "en": "a sign",
+              "pt": "uma placa / um aviso"
+            },
+            {
+              "en": "a seatbelt",
+              "pt": "um cinto de segurança"
+            },
+            {
+              "en": "a uniform",
+              "pt": "um uniforme"
+            }
+          ],
+          "expressions": [
+            {
+              "en": "It's a rule.",
+              "pt": "É uma regra."
+            },
+            {
+              "en": "That's not allowed.",
+              "pt": "Isso não é permitido."
+            },
+            {
+              "en": "Do I have to?",
+              "pt": "Eu sou obrigado? / Tenho mesmo que?"
+            },
+            {
+              "en": "It's necessary.",
+              "pt": "É necessário."
+            },
+            {
+              "en": "You'd better.",
+              "pt": "É melhor você fazer isso."
+            }
+          ],
+          "curiosity": "Did you know? 'You mustn't' and 'you don't have to' look similar but mean opposite things! 'You mustn't go' = it's forbidden, don't do it. 'You don't have to go' = it's optional, your choice. One closes the door, the other opens it!",
+          "teachingGuide": "Obrigação:\n\nMUST e HAVE TO = obrigação (você é obrigado). 'must' é mais pessoal/forte; 'have to' é mais comum no dia a dia.\nHAVE TO muda na 3ª pessoa: he/she HAS to.\n\nCUIDADO com a negativa — significados opostos:\nMUSTN'T = proibido (You mustn't smoke).\nDON'T HAVE TO = não é necessário, é opcional (You don't have to come).\n\nPergunta com have to usa do/does: 'Do you have to work?'\n\nDrill: regras de trânsito, da escola, do trabalho.",
+          "homework": [
+            "Você deve usar cinto de segurança no carro.",
+            "Eu tenho que trabalhar amanhã cedo.",
+            "Ela tem que estudar para a prova.",
+            "Você não pode fumar aqui; é proibido.",
+            "Nós não precisamos pagar; é grátis.",
+            "Você tem que ir agora?",
+            "Os alunos têm que usar uniforme.",
+            "Você não pode usar o celular durante a prova.",
+            "Eu não preciso acordar cedo no domingo.",
+            "É uma regra: todos devem seguir as instruções."
+          ]
+        },
+        {
+          "id": 28,
+          "title": "Lesson 28 — Should: Advice",
+          "verbs": [
+            {
+              "en": "to rest, rested",
+              "pt": "descansar"
+            },
+            {
+              "en": "to relax, relaxed",
+              "pt": "relaxar"
+            },
+            {
+              "en": "to exercise, exercised",
+              "pt": "fazer exercício"
+            },
+            {
+              "en": "to worry, worried",
+              "pt": "se preocupar"
+            }
+          ],
+          "grammarPoints": [
+            {
+              "en": "You should see a doctor.",
+              "pt": "Você deveria ir ao médico."
+            },
+            {
+              "en": "You shouldn't eat so much sugar.",
+              "pt": "Você não deveria comer tanto açúcar."
+            },
+            {
+              "en": "Should I call her?",
+              "pt": "Eu deveria ligar para ela?"
+            },
+            {
+              "en": "I think you should rest.",
+              "pt": "Eu acho que você deveria descansar."
+            },
+            {
+              "en": "He shouldn't work so hard.",
+              "pt": "Ele não deveria trabalhar tanto."
+            },
+            {
+              "en": "What should I do?",
+              "pt": "O que eu deveria fazer?"
+            }
+          ],
+          "vocabulary": [
+            {
+              "en": "should",
+              "pt": "deveria"
+            },
+            {
+              "en": "shouldn't",
+              "pt": "não deveria"
+            },
+            {
+              "en": "advice",
+              "pt": "conselho"
+            },
+            {
+              "en": "to recommend",
+              "pt": "recomendar"
+            },
+            {
+              "en": "had better",
+              "pt": "é melhor (que)"
+            },
+            {
+              "en": "in my opinion",
+              "pt": "na minha opinião"
+            },
+            {
+              "en": "a good idea",
+              "pt": "uma boa ideia"
+            },
+            {
+              "en": "healthy",
+              "pt": "saudável"
+            },
+            {
+              "en": "a problem",
+              "pt": "um problema"
+            },
+            {
+              "en": "stressed",
+              "pt": "estressado"
+            },
+            {
+              "en": "tired",
+              "pt": "cansado"
+            },
+            {
+              "en": "maybe",
+              "pt": "talvez"
+            }
+          ],
+          "expressions": [
+            {
+              "en": "That's good advice.",
+              "pt": "É um bom conselho."
+            },
+            {
+              "en": "If I were you...",
+              "pt": "Se eu fosse você..."
+            },
+            {
+              "en": "Take it easy.",
+              "pt": "Vá com calma."
+            },
+            {
+              "en": "Get well soon.",
+              "pt": "Melhoras! / Fique bom logo."
+            },
+            {
+              "en": "You really should!",
+              "pt": "Você deveria mesmo!"
+            }
+          ],
+          "curiosity": "Did you know? 'Should' is the gentle cousin of 'must'. 'You must rest' sounds like an order, but 'You should rest' is friendly advice — a suggestion, not a command. That tiny change makes English speakers sound much more polite!",
+          "teachingGuide": "SHOULD / SHOULDN'T + verbo na base = conselho, recomendação, opinião. Mais suave que 'must'.\n\nForma igual para todas as pessoas: I should, she should, they should. Sem 'to', sem '-s'.\nPergunta: Should I...? What should I do?\n\nSuavize ainda mais com 'I think you should...' ou 'If I were you, I'd...'.\n\nReforce a diferença: 'must' = obrigação/regra; 'should' = sugestão.\n\nDrill: alunos descrevem problemas (estou cansado, estressado) e os colegas dão conselhos com should/shouldn't.",
+          "homework": [
+            "Você deveria ir ao médico.",
+            "Você não deveria comer tanto açúcar.",
+            "Eu deveria ligar para ela?",
+            "Eu acho que você deveria descansar mais.",
+            "Ele não deveria trabalhar tanto.",
+            "O que eu deveria fazer? Me dê um conselho.",
+            "Você deveria fazer exercício e comer de forma saudável.",
+            "Se eu fosse você, eu não me preocuparia tanto.",
+            "Você não deveria dormir tão tarde.",
+            "É um bom conselho. Obrigado!"
+          ]
+        },
+        {
+          "id": 29,
+          "title": "Lesson 29 — First Conditional",
+          "verbs": [
+            {
+              "en": "to study, studied",
+              "pt": "estudar"
+            },
+            {
+              "en": "to pass, passed",
+              "pt": "passar (em prova)"
+            },
+            {
+              "en": "to miss, missed",
+              "pt": "perder (ônibus, etc.) / sentir falta"
+            },
+            {
+              "en": "to call, called",
+              "pt": "ligar / chamar"
+            }
+          ],
+          "grammarPoints": [
+            {
+              "en": "If it rains, I'll stay home.",
+              "pt": "Se chover, eu fico em casa."
+            },
+            {
+              "en": "If you study, you'll pass the exam.",
+              "pt": "Se você estudar, vai passar na prova."
+            },
+            {
+              "en": "I'll call you when I arrive.",
+              "pt": "Eu te ligo quando eu chegar."
+            },
+            {
+              "en": "If she doesn't hurry, she'll miss the bus.",
+              "pt": "Se ela não se apressar, vai perder o ônibus."
+            },
+            {
+              "en": "We'll go to the beach if it's sunny.",
+              "pt": "Nós vamos à praia se fizer sol."
+            },
+            {
+              "en": "What will you do if it rains?",
+              "pt": "O que você vai fazer se chover?"
+            }
+          ],
+          "vocabulary": [
+            {
+              "en": "if",
+              "pt": "se"
+            },
+            {
+              "en": "when",
+              "pt": "quando"
+            },
+            {
+              "en": "unless",
+              "pt": "a menos que / a não ser que"
+            },
+            {
+              "en": "as soon as",
+              "pt": "assim que"
+            },
+            {
+              "en": "a condition",
+              "pt": "uma condição"
+            },
+            {
+              "en": "a result",
+              "pt": "um resultado / consequência"
+            },
+            {
+              "en": "a real possibility",
+              "pt": "uma possibilidade real"
+            },
+            {
+              "en": "then",
+              "pt": "então / nesse caso"
+            },
+            {
+              "en": "otherwise",
+              "pt": "caso contrário / senão"
+            },
+            {
+              "en": "in case",
+              "pt": "caso / no caso de"
+            },
+            {
+              "en": "to hurry",
+              "pt": "se apressar"
+            },
+            {
+              "en": "to be on time",
+              "pt": "estar/chegar na hora"
+            }
+          ],
+          "expressions": [
+            {
+              "en": "Just in case.",
+              "pt": "Só por garantia. / Por precaução."
+            },
+            {
+              "en": "If you say so.",
+              "pt": "Se você diz."
+            },
+            {
+              "en": "We'll see.",
+              "pt": "Vamos ver."
+            },
+            {
+              "en": "Fingers crossed!",
+              "pt": "Torcendo! / Que dê certo!"
+            },
+            {
+              "en": "What if...?",
+              "pt": "E se...?"
+            }
+          ],
+          "curiosity": "Did you know? In the first conditional, English never puts 'will' in the 'if' part. We say 'If it RAINS, I'll stay home' — never 'If it will rain'. The 'if' clause stays in the present, even though it's about the future!",
+          "teachingGuide": "First Conditional = situações reais e prováveis no futuro.\n\nEstrutura: IF + presente simples, ... WILL + verbo na base.\n'If it rains, I'll stay home.'\n\nREGRA DE OURO: nunca use 'will' depois de 'if'. Errado: 'If it will rain'. Certo: 'If it rains'.\n\nWhen, as soon as e unless também pedem presente: 'I'll call you when I arrive.'\n\nA ordem pode inverter (sem vírgula): 'I'll stay home if it rains.'\n\nDrill: planos dependentes do tempo, das notas, do dinheiro.",
+          "homework": [
+            "Se chover, eu fico em casa.",
+            "Se você estudar, vai passar na prova.",
+            "Eu te ligo assim que eu chegar.",
+            "Se ela não se apressar, vai perder o ônibus.",
+            "Nós vamos à praia se fizer sol.",
+            "O que você vai fazer se chover?",
+            "Leve um guarda-chuva, só por garantia.",
+            "A menos que você corra, vai se atrasar.",
+            "Se eu tiver tempo, eu te ajudo amanhã.",
+            "Quando o filme terminar, nós vamos jantar."
+          ]
+        },
+        {
+          "id": 30,
+          "title": "Lesson 30 — Second Conditional",
+          "verbs": [
+            {
+              "en": "to win, won",
+              "pt": "ganhar / vencer"
+            },
+            {
+              "en": "to travel, traveled",
+              "pt": "viajar"
+            },
+            {
+              "en": "to buy, bought",
+              "pt": "comprar"
+            },
+            {
+              "en": "to change, changed",
+              "pt": "mudar / trocar"
+            }
+          ],
+          "grammarPoints": [
+            {
+              "en": "If I had a million dollars, I would travel the world.",
+              "pt": "Se eu tivesse um milhão de dólares, viajaria o mundo."
+            },
+            {
+              "en": "If I were you, I'd take the job.",
+              "pt": "Se eu fosse você, eu aceitaria o emprego."
+            },
+            {
+              "en": "What would you do if you won the lottery?",
+              "pt": "O que você faria se ganhasse na loteria?"
+            },
+            {
+              "en": "She would be happier if she had more time.",
+              "pt": "Ela seria mais feliz se tivesse mais tempo."
+            },
+            {
+              "en": "If we lived by the sea, we would swim every day.",
+              "pt": "Se morássemos perto do mar, nadaríamos todo dia."
+            },
+            {
+              "en": "I wouldn't say that if I were you.",
+              "pt": "Eu não diria isso se fosse você."
+            }
+          ],
+          "vocabulary": [
+            {
+              "en": "would",
+              "pt": "(condicional) -ia / -ria"
+            },
+            {
+              "en": "wouldn't",
+              "pt": "não -ia / não -ria"
+            },
+            {
+              "en": "if I were",
+              "pt": "se eu fosse"
+            },
+            {
+              "en": "to imagine",
+              "pt": "imaginar"
+            },
+            {
+              "en": "a dream",
+              "pt": "um sonho"
+            },
+            {
+              "en": "the lottery",
+              "pt": "a loteria"
+            },
+            {
+              "en": "impossible",
+              "pt": "impossível"
+            },
+            {
+              "en": "unlikely",
+              "pt": "improvável"
+            },
+            {
+              "en": "hypothetical",
+              "pt": "hipotético"
+            },
+            {
+              "en": "in your place",
+              "pt": "no seu lugar"
+            },
+            {
+              "en": "rich",
+              "pt": "rico"
+            },
+            {
+              "en": "free time",
+              "pt": "tempo livre"
+            }
+          ],
+          "expressions": [
+            {
+              "en": "Imagine that!",
+              "pt": "Imagina só!"
+            },
+            {
+              "en": "In your dreams!",
+              "pt": "Nos seus sonhos!"
+            },
+            {
+              "en": "If only...",
+              "pt": "Quem dera... / Se ao menos..."
+            },
+            {
+              "en": "I wish!",
+              "pt": "Quem me dera!"
+            },
+            {
+              "en": "What would you do?",
+              "pt": "O que você faria?"
+            }
+          ],
+          "curiosity": "Did you know? In the second conditional, careful English uses 'were' for everyone — 'If I WERE you', not 'If I was you'. It's a leftover from an old grammar form, and it still sounds more correct in writing and polite speech today.",
+          "teachingGuide": "Second Conditional = situações imaginárias, irreais ou improváveis (no presente/futuro).\n\nEstrutura: IF + passado simples, ... WOULD + verbo na base.\n'If I had a million dollars, I would travel.'\n\nForma especial: use 'were' para todas as pessoas — 'If I WERE you' (conselho clássico).\n\nContraste com o First Conditional: First = possível/real (If I have time...); Second = imaginário (If I had time...).\n\n'would' contrai para 'd: I'd, she'd, we'd.\n\nDrill: 'What would you do if you won the lottery / could travel anywhere / were the president?'",
+          "homework": [
+            "Se eu tivesse um milhão de dólares, eu viajaria o mundo.",
+            "Se eu fosse você, eu aceitaria o emprego.",
+            "O que você faria se ganhasse na loteria?",
+            "Ela seria mais feliz se tivesse mais tempo livre.",
+            "Se morássemos perto do mar, nadaríamos todo dia.",
+            "Eu não diria isso se fosse você.",
+            "Se eu pudesse, eu mudaria de profissão.",
+            "Se ele estudasse mais, passaria facilmente.",
+            "O que você compraria se fosse rico?",
+            "Se ao menos eu tivesse mais tempo!"
+          ]
+        },
+        {
+          "id": 31,
+          "title": "Lesson 31 — Used To: Past Habits",
+          "verbs": [
+            {
+              "en": "used to",
+              "pt": "costumava / antigamente (fazia)"
+            },
+            {
+              "en": "to change, changed",
+              "pt": "mudar"
+            },
+            {
+              "en": "to remember, remembered",
+              "pt": "lembrar"
+            },
+            {
+              "en": "to grow up, grew up",
+              "pt": "crescer / ser criado"
+            }
+          ],
+          "grammarPoints": [
+            {
+              "en": "I used to play soccer every day.",
+              "pt": "Eu costumava jogar futebol todo dia."
+            },
+            {
+              "en": "She used to live in London.",
+              "pt": "Ela morava em Londres (antigamente)."
+            },
+            {
+              "en": "We didn't use to have a car.",
+              "pt": "Nós não tínhamos carro antigamente."
+            },
+            {
+              "en": "Did you use to smoke?",
+              "pt": "Você costumava fumar?"
+            },
+            {
+              "en": "He used to be very shy.",
+              "pt": "Ele era muito tímido antigamente."
+            },
+            {
+              "en": "I don't drink coffee anymore.",
+              "pt": "Eu não bebo mais café."
+            }
+          ],
+          "vocabulary": [
+            {
+              "en": "used to",
+              "pt": "costumava (no passado)"
+            },
+            {
+              "en": "didn't use to",
+              "pt": "não costumava"
+            },
+            {
+              "en": "anymore",
+              "pt": "mais (não... mais)"
+            },
+            {
+              "en": "no longer",
+              "pt": "não mais"
+            },
+            {
+              "en": "in the past",
+              "pt": "no passado / antigamente"
+            },
+            {
+              "en": "back then",
+              "pt": "naquela época"
+            },
+            {
+              "en": "as a child",
+              "pt": "quando criança"
+            },
+            {
+              "en": "these days / nowadays",
+              "pt": "hoje em dia"
+            },
+            {
+              "en": "a habit",
+              "pt": "um hábito / costume"
+            },
+            {
+              "en": "shy",
+              "pt": "tímido"
+            },
+            {
+              "en": "to change",
+              "pt": "mudar"
+            },
+            {
+              "en": "the same",
+              "pt": "o mesmo / igual"
+            }
+          ],
+          "expressions": [
+            {
+              "en": "Times have changed.",
+              "pt": "Os tempos mudaram."
+            },
+            {
+              "en": "Those were the days.",
+              "pt": "Aqueles eram bons tempos."
+            },
+            {
+              "en": "Not anymore.",
+              "pt": "Agora não mais."
+            },
+            {
+              "en": "How things change!",
+              "pt": "Como as coisas mudam!"
+            },
+            {
+              "en": "I remember well.",
+              "pt": "Eu me lembro bem."
+            }
+          ],
+          "curiosity": "Did you know? When 'used to' becomes a question or negative, it secretly loses its 'd': 'Did you USE to smoke?' and 'I didn't USE to like it.' The 'did' already shows the past, so the extra 'd' on 'used' disappears!",
+          "teachingGuide": "USED TO + verbo na base = hábito ou estado do passado que NÃO acontece mais.\n\nAfirmativa: I used to play... (com 'd').\nNegativa: didn't use to (sem 'd' — o 'did' já marca o passado).\nPergunta: Did you use to...? (sem 'd').\n\nServe para hábitos (used to play) e estados (used to be shy, used to live).\n\nPara o presente que mudou, use 'not... anymore' / 'no longer': 'I don't smoke anymore.'\n\nDrill: compare a infância e a vida adulta dos alunos: 'I used to... but now I...'.",
+          "homework": [
+            "Eu costumava jogar futebol todo dia quando criança.",
+            "Ela morava em Londres antigamente.",
+            "Nós não tínhamos carro antigamente.",
+            "Você costumava fumar? Sim, mas agora não mais.",
+            "Ele era muito tímido naquela época.",
+            "Eu não bebo mais café.",
+            "Hoje em dia as crianças não brincam tanto na rua.",
+            "Eu costumava acordar tarde, mas agora acordo cedo.",
+            "Nós costumávamos visitar meus avós todo domingo.",
+            "Como as coisas mudam! Aqueles eram bons tempos."
+          ]
+        },
+        {
+          "id": 32,
+          "title": "Lesson 32 — Review & Reading: How Life Has Changed",
+          "verbs": [],
+          "grammarPoints": [
+            {
+              "en": "People used to write letters by hand.",
+              "pt": "As pessoas costumavam escrever cartas à mão."
+            },
+            {
+              "en": "You don't have to wait for the post anymore.",
+              "pt": "Você não precisa mais esperar pelo correio."
+            },
+            {
+              "en": "If you want to talk to someone, you can just call.",
+              "pt": "Se você quer falar com alguém, é só ligar."
+            },
+            {
+              "en": "Life would be very different without the internet.",
+              "pt": "A vida seria muito diferente sem a internet."
+            },
+            {
+              "en": "We should be grateful for these changes.",
+              "pt": "Nós deveríamos ser gratos por essas mudanças."
+            }
+          ],
+          "vocabulary": [
+            {
+              "en": "technology",
+              "pt": "tecnologia"
+            },
+            {
+              "en": "a letter",
+              "pt": "uma carta"
+            },
+            {
+              "en": "a screen",
+              "pt": "uma tela"
+            },
+            {
+              "en": "to connect",
+              "pt": "conectar / se conectar"
+            },
+            {
+              "en": "a generation",
+              "pt": "uma geração"
+            },
+            {
+              "en": "convenient",
+              "pt": "prático / conveniente"
+            }
+          ],
+          "expressions": [
+            {
+              "en": "How times have changed!",
+              "pt": "Como os tempos mudaram!"
+            },
+            {
+              "en": "It's hard to imagine.",
+              "pt": "É difícil imaginar."
+            },
+            {
+              "en": "For better or worse.",
+              "pt": "Para o bem ou para o mal."
+            },
+            {
+              "en": "That makes sense.",
+              "pt": "Faz sentido."
+            },
+            {
+              "en": "Who would have thought?",
+              "pt": "Quem diria?"
+            }
+          ],
+          "curiosity": "Did you know? The word 'computer' once meant a PERSON, not a machine! For centuries, a 'computer' was someone whose job was to do calculations by hand. The meaning only changed to the electronic machine in the middle of the twentieth century.",
+          "teachingGuide": "Lição de revisão (Lições 27-31). O texto combina 'used to' (como a vida era), modais (have to / should / must) e condicionais (first e second) para comparar passado e presente.\n\nPeça aos alunos para localizar exemplos de cada estrutura e classificá-los.\n\nPerguntas de discussão: 'What did people use to do before smartphones? What would your life be like without the internet? What should we do to use technology well?'\n\nProdução: cada aluno escreve 3 frases comparando 'antigamente' e 'hoje em dia', usando used to + um modal + um condicional.",
+          "readingText": {
+            "title": "How Life Has Changed",
+            "body": "My grandmother is eighty years old, and she loves to tell me how different life used to be.\n\nWhen she was young, people didn't use to have phones at home. If you wanted to talk to a friend, you had to write a letter and wait for days, or even weeks, for an answer. 'We used to be more patient back then,' she always says with a smile.\n\nToday, everything is faster and more convenient. You don't have to wait for anything. If you want to see someone's face, you can just open an app and talk to them on a screen, even if they live on the other side of the world. My grandmother thinks this is wonderful, but she also worries a little. 'You shouldn't spend all day looking at a screen,' she tells me. 'You should go outside and talk to real people too.'\n\nI think she's right. Technology has connected the whole world, and life would be very different without it. But for better or worse, some old things were good as well. Maybe, if we were a little more patient and a little less busy, we would all be happier.\n\nHow times have changed! Who would have thought?",
+            "glossary": [
+              {
+                "en": "patient",
+                "pt": "paciente"
+              },
+              {
+                "en": "an app",
+                "pt": "um aplicativo"
+              },
+              {
+                "en": "to worry",
+                "pt": "se preocupar"
+              },
+              {
+                "en": "the whole world",
+                "pt": "o mundo inteiro"
+              },
+              {
+                "en": "grateful",
+                "pt": "grato / agradecido"
+              }
+            ]
+          },
+          "homework": [
+            "As pessoas costumavam escrever cartas à mão.",
+            "Antigamente, não tínhamos telefone em casa.",
+            "Hoje você não precisa mais esperar pelo correio.",
+            "Se você quer ver o rosto de alguém, é só abrir um aplicativo.",
+            "Minha avó acha isso maravilhoso, mas se preocupa um pouco.",
+            "Você não deveria passar o dia todo olhando para uma tela.",
+            "Você deveria sair e conversar com pessoas de verdade também.",
+            "A vida seria muito diferente sem a internet.",
+            "Se fôssemos mais pacientes, seríamos mais felizes.",
+            "Como os tempos mudaram! Quem diria?"
+          ]
+        },
+        {
+          "id": 33,
+          "title": "Lesson 33 — Reported Speech",
+          "verbs": [
+            {
+              "en": "to say, said",
+              "pt": "dizer / falar"
+            },
+            {
+              "en": "to tell, told",
+              "pt": "contar / dizer (a alguém)"
+            },
+            {
+              "en": "to ask, asked",
+              "pt": "perguntar / pedir"
+            },
+            {
+              "en": "to explain, explained",
+              "pt": "explicar"
+            }
+          ],
+          "grammarPoints": [
+            {
+              "en": "He said he was tired.",
+              "pt": "Ele disse que estava cansado."
+            },
+            {
+              "en": "She told me she liked the movie.",
+              "pt": "Ela me disse que gostou do filme."
+            },
+            {
+              "en": "They said they would come.",
+              "pt": "Eles disseram que viriam."
+            },
+            {
+              "en": "He asked if I was busy.",
+              "pt": "Ele perguntou se eu estava ocupado."
+            },
+            {
+              "en": "She told me to wait.",
+              "pt": "Ela me disse para esperar."
+            },
+            {
+              "en": "I said I didn't know.",
+              "pt": "Eu disse que não sabia."
+            }
+          ],
+          "vocabulary": [
+            {
+              "en": "to say (that)",
+              "pt": "dizer (que)"
+            },
+            {
+              "en": "to tell someone",
+              "pt": "dizer a alguém / contar para alguém"
+            },
+            {
+              "en": "to ask if / whether",
+              "pt": "perguntar se"
+            },
+            {
+              "en": "that",
+              "pt": "que"
+            },
+            {
+              "en": "the day before",
+              "pt": "no dia anterior"
+            },
+            {
+              "en": "the next day",
+              "pt": "no dia seguinte"
+            },
+            {
+              "en": "there",
+              "pt": "lá (no lugar de 'aqui')"
+            },
+            {
+              "en": "then",
+              "pt": "naquele momento (no lugar de 'agora')"
+            },
+            {
+              "en": "to mention",
+              "pt": "mencionar / comentar"
+            },
+            {
+              "en": "to repeat",
+              "pt": "repetir"
+            },
+            {
+              "en": "a message",
+              "pt": "uma mensagem / recado"
+            },
+            {
+              "en": "the truth",
+              "pt": "a verdade"
+            }
+          ],
+          "expressions": [
+            {
+              "en": "He said so.",
+              "pt": "Foi ele que disse."
+            },
+            {
+              "en": "That's what she said.",
+              "pt": "Foi isso que ela disse."
+            },
+            {
+              "en": "In other words...",
+              "pt": "Em outras palavras..."
+            },
+            {
+              "en": "According to him...",
+              "pt": "Segundo ele..."
+            },
+            {
+              "en": "So they say.",
+              "pt": "É o que dizem."
+            }
+          ],
+          "curiosity": "Did you know? English is strict about 'say' and 'tell': you 'say' something, but you 'tell' someone. So 'He told me' is correct, but 'He said me' is not. 'Tell' almost always wants a person right after it!",
+          "teachingGuide": "Discurso indireto (reported speech): contar o que alguém disse.\n\nSAY x TELL: 'say' não precisa de pessoa (He said that...); 'tell' precisa de pessoa (He told ME that...).\n\nRecuo de tempo (backshift): o verbo volta um passo ao passado.\nis -> was; like -> liked; will -> would; can -> could.\n\nPerguntas indiretas: ask + if/whether + ordem de afirmativa (He asked if I WAS busy — não 'was I busy').\nOrdens: tell someone + to + verbo (She told me to wait).\n\nDrill: um aluno fala uma frase; o outro reporta: 'He said that...'.",
+          "homework": [
+            "Ele disse que estava cansado.",
+            "Ela me disse que gostou do filme.",
+            "Eles disseram que viriam à festa.",
+            "Ele perguntou se eu estava ocupado.",
+            "Ela me disse para esperar lá fora.",
+            "Eu disse que não sabia a resposta.",
+            "O professor explicou que a prova seria na sexta.",
+            "Minha mãe me disse para chegar cedo.",
+            "Ele me perguntou onde eu morava.",
+            "Em outras palavras, ela disse que não podia ir."
+          ]
+        },
+        {
+          "id": 34,
+          "title": "Lesson 34 — Phrasal Verbs",
+          "verbs": [
+            {
+              "en": "to get up, got up",
+              "pt": "levantar / se levantar"
+            },
+            {
+              "en": "to turn on / turn off",
+              "pt": "ligar / desligar"
+            },
+            {
+              "en": "to look for",
+              "pt": "procurar"
+            },
+            {
+              "en": "to give up, gave up",
+              "pt": "desistir"
+            }
+          ],
+          "grammarPoints": [
+            {
+              "en": "I get up at six every day.",
+              "pt": "Eu me levanto às seis todo dia."
+            },
+            {
+              "en": "Please turn on the light.",
+              "pt": "Por favor, acenda a luz."
+            },
+            {
+              "en": "Turn off the TV, please.",
+              "pt": "Desligue a TV, por favor."
+            },
+            {
+              "en": "I'm looking for my keys.",
+              "pt": "Eu estou procurando minhas chaves."
+            },
+            {
+              "en": "Don't give up!",
+              "pt": "Não desista!"
+            },
+            {
+              "en": "We ran out of milk.",
+              "pt": "Acabou o nosso leite."
+            }
+          ],
+          "vocabulary": [
+            {
+              "en": "to wake up",
+              "pt": "acordar"
+            },
+            {
+              "en": "to get up",
+              "pt": "levantar da cama"
+            },
+            {
+              "en": "to turn on / off",
+              "pt": "ligar / desligar"
+            },
+            {
+              "en": "to put on / take off",
+              "pt": "vestir / tirar (roupa)"
+            },
+            {
+              "en": "to look for",
+              "pt": "procurar"
+            },
+            {
+              "en": "to look after",
+              "pt": "cuidar de"
+            },
+            {
+              "en": "to find out",
+              "pt": "descobrir"
+            },
+            {
+              "en": "to give up",
+              "pt": "desistir"
+            },
+            {
+              "en": "to run out of",
+              "pt": "ficar sem / acabar"
+            },
+            {
+              "en": "to come back",
+              "pt": "voltar"
+            },
+            {
+              "en": "to get along with",
+              "pt": "se dar bem com"
+            },
+            {
+              "en": "to throw away",
+              "pt": "jogar fora"
+            }
+          ],
+          "expressions": [
+            {
+              "en": "Hang on!",
+              "pt": "Espera aí! / Aguenta firme!"
+            },
+            {
+              "en": "Calm down.",
+              "pt": "Calma. / Se acalme."
+            },
+            {
+              "en": "Watch out!",
+              "pt": "Cuidado!"
+            },
+            {
+              "en": "Come on!",
+              "pt": "Vamos lá! / Qual é!"
+            },
+            {
+              "en": "Hurry up!",
+              "pt": "Anda logo!"
+            }
+          ],
+          "curiosity": "Did you know? Phrasal verbs can completely change meaning with one small word. 'Look' means to see, but 'look for' means to search, 'look after' means to take care of, and 'look up' means to search for information. Same verb, four different actions!",
+          "teachingGuide": "Phrasal verbs = verbo + partícula (preposição/advérbio) com sentido próprio, muitas vezes impossível de adivinhar.\n\nSão MUITO comuns na fala do dia a dia. Ensine como blocos: 'get up', 'turn on', 'look for'.\n\nAlguns são separáveis: 'turn on the light' = 'turn the light on'. Com pronome, SEPARA obrigatoriamente: 'turn IT on' (nunca 'turn on it').\n\nNão traduza palavra por palavra; ensine o significado inteiro.\n\nDrill: rotina diária (wake up, get up, put on) e situações de casa (turn on/off, run out of).",
+          "homework": [
+            "Eu me levanto às seis todo dia.",
+            "Por favor, acenda a luz.",
+            "Desligue a TV, por favor.",
+            "Eu estou procurando minhas chaves.",
+            "Não desista! Continue tentando.",
+            "Acabou o nosso leite; preciso comprar.",
+            "Você pode cuidar do meu cachorro no fim de semana?",
+            "Vista o casaco; está frio lá fora.",
+            "Eu descobri a verdade ontem.",
+            "A que horas você vai voltar para casa?"
+          ]
+        },
+        {
+          "id": 35,
+          "title": "Lesson 35 — Connectors: because, so, although, however",
+          "verbs": [
+            {
+              "en": "to connect, connected",
+              "pt": "conectar / ligar"
+            },
+            {
+              "en": "to explain, explained",
+              "pt": "explicar"
+            },
+            {
+              "en": "to mean, meant",
+              "pt": "significar / querer dizer"
+            },
+            {
+              "en": "to add, added",
+              "pt": "acrescentar / adicionar"
+            }
+          ],
+          "grammarPoints": [
+            {
+              "en": "I stayed home because it was raining.",
+              "pt": "Eu fiquei em casa porque estava chovendo."
+            },
+            {
+              "en": "It was raining, so I stayed home.",
+              "pt": "Estava chovendo, então fiquei em casa."
+            },
+            {
+              "en": "Although it was raining, we went out.",
+              "pt": "Embora estivesse chovendo, nós saímos."
+            },
+            {
+              "en": "I was tired, but I finished the work.",
+              "pt": "Eu estava cansado, mas terminei o trabalho."
+            },
+            {
+              "en": "She studied hard; however, she didn't pass.",
+              "pt": "Ela estudou muito; no entanto, não passou."
+            },
+            {
+              "en": "We can go to the beach or stay home.",
+              "pt": "Nós podemos ir à praia ou ficar em casa."
+            }
+          ],
+          "vocabulary": [
+            {
+              "en": "because",
+              "pt": "porque (motivo)"
+            },
+            {
+              "en": "so",
+              "pt": "então / por isso (resultado)"
+            },
+            {
+              "en": "although / even though",
+              "pt": "embora / apesar de"
+            },
+            {
+              "en": "but",
+              "pt": "mas"
+            },
+            {
+              "en": "however",
+              "pt": "no entanto / porém"
+            },
+            {
+              "en": "and",
+              "pt": "e"
+            },
+            {
+              "en": "or",
+              "pt": "ou"
+            },
+            {
+              "en": "also",
+              "pt": "também"
+            },
+            {
+              "en": "therefore",
+              "pt": "portanto"
+            },
+            {
+              "en": "since",
+              "pt": "já que / visto que"
+            },
+            {
+              "en": "while",
+              "pt": "enquanto / ao passo que"
+            },
+            {
+              "en": "in addition",
+              "pt": "além disso"
+            }
+          ],
+          "expressions": [
+            {
+              "en": "On the other hand...",
+              "pt": "Por outro lado..."
+            },
+            {
+              "en": "As a result...",
+              "pt": "Como resultado..."
+            },
+            {
+              "en": "For example...",
+              "pt": "Por exemplo..."
+            },
+            {
+              "en": "That's why.",
+              "pt": "É por isso."
+            },
+            {
+              "en": "In conclusion...",
+              "pt": "Para concluir..."
+            }
+          ],
+          "curiosity": "Did you know? 'Because' and 'so' tell the same story from opposite directions. 'I stayed home BECAUSE it rained' puts the reason second; 'It rained, SO I stayed home' puts the reason first. Cause and effect simply swap places!",
+          "teachingGuide": "Conectores ligam ideias e deixam a fala mais fluente e adulta.\n\nMOTIVO: because / since + causa ('I stayed home because it rained').\nRESULTADO: so / therefore + consequência ('It rained, so I stayed home').\nCONTRASTE: but, although/even though, however ('Although it rained, we went out').\nADIÇÃO: and, also, in addition.\nESCOLHA: or.\n\nPontuação: 'however' costuma vir com ponto e vírgula ou ponto antes e vírgula depois.\nNote que because e so invertem causa e efeito.\n\nDrill: una pares de frases curtas usando o conector correto.",
+          "homework": [
+            "Eu fiquei em casa porque estava chovendo.",
+            "Estava chovendo, então fiquei em casa.",
+            "Embora estivesse chovendo, nós saímos.",
+            "Eu estava cansado, mas terminei o trabalho.",
+            "Ela estudou muito; no entanto, não passou.",
+            "Nós podemos ir à praia ou ficar em casa.",
+            "Eu gosto de chá e também de café.",
+            "Já que você está aqui, vamos começar.",
+            "Estava frio; por isso, eu vesti um casaco.",
+            "Por exemplo, eu acordo cedo, ao passo que ele acorda tarde."
+          ]
+        },
+        {
+          "id": 36,
+          "title": "Lesson 36 — Review & Reading: Looking Back at Book Two",
+          "verbs": [],
+          "grammarPoints": [
+            {
+              "en": "A year ago, I couldn't say much in English.",
+              "pt": "Um ano atrás, eu não conseguia dizer muita coisa em inglês."
+            },
+            {
+              "en": "I have learned a lot since then.",
+              "pt": "Eu aprendi muito desde então."
+            },
+            {
+              "en": "I used to be afraid of speaking, but now I'm not.",
+              "pt": "Eu costumava ter medo de falar, mas agora não tenho mais."
+            },
+            {
+              "en": "If I keep practicing, I'll keep improving.",
+              "pt": "Se eu continuar praticando, vou continuar melhorando."
+            },
+            {
+              "en": "I'm going to start Book Three next month.",
+              "pt": "Eu vou começar o Livro Três mês que vem."
+            }
+          ],
+          "vocabulary": [
+            {
+              "en": "progress",
+              "pt": "progresso"
+            },
+            {
+              "en": "confident",
+              "pt": "confiante"
+            },
+            {
+              "en": "a mistake",
+              "pt": "um erro"
+            },
+            {
+              "en": "to practice",
+              "pt": "praticar"
+            },
+            {
+              "en": "proud",
+              "pt": "orgulhoso"
+            },
+            {
+              "en": "a journey",
+              "pt": "uma jornada"
+            }
+          ],
+          "expressions": [
+            {
+              "en": "Keep it up!",
+              "pt": "Continue assim!"
+            },
+            {
+              "en": "Practice makes perfect.",
+              "pt": "A prática leva à perfeição."
+            },
+            {
+              "en": "Step by step.",
+              "pt": "Passo a passo."
+            },
+            {
+              "en": "I'm proud of you.",
+              "pt": "Tenho orgulho de você."
+            },
+            {
+              "en": "Onward to Book Three!",
+              "pt": "Rumo ao Livro Três!"
+            }
+          ],
+          "curiosity": "Did you know? Linguists say that making mistakes is one of the BEST ways to learn a language. Every error your brain notices and fixes builds a stronger memory. So don't be afraid of mistakes — they're proof that you're actually learning!",
+          "teachingGuide": "Lição final do Livro Dois: revisão geral. O texto recicla TODO o livro — Simple Past, there was/were, comparativos e superlativos, futuros (will / going to / present continuous), present perfect, past continuous, modais, condicionais, used to e conectores.\n\nPeça aos alunos para encontrar e nomear o maior número possível de estruturas no texto.\n\nProdução final (avaliação informal): cada aluno fala ou escreve um pequeno texto 'Looking back at my year of English', usando used to (como era), present perfect (o que já conquistou) e going to/will (próximos planos).\n\nComemore o progresso e prepare a transição para o Livro Três.",
+          "readingText": {
+            "title": "Looking Back at Book Two",
+            "body": "A year ago, when I started this book, I couldn't say much in English. I knew a few words and some simple sentences, but I was nervous every time I had to speak. I used to translate everything in my head first, and by the time I was ready, the conversation had already moved on!\n\nLooking back now, I can see how much I have learned. I have studied the past, the future, and the present perfect. I have read short stories, learned hundreds of new words, and practiced speaking in every lesson. I'm not perfect — I still make mistakes — but I have made real progress, and I feel much more confident.\n\nThe most important thing I learned is simple: you shouldn't be afraid of mistakes. If you wait until your English is perfect, you'll never speak at all. My teacher always says, 'Practice makes perfect, step by step.'\n\nNext month, I'm going to start Book Three. I know it will be harder, but I'm not worried. If I keep practicing a little every day, I'll keep improving. I'm proud of this journey, and I can't wait to see how far I'll go.\n\nKeep it up, everyone. Onward to Book Three!",
+            "glossary": [
+              {
+                "en": "nervous",
+                "pt": "nervoso"
+              },
+              {
+                "en": "to translate",
+                "pt": "traduzir"
+              },
+              {
+                "en": "to make progress",
+                "pt": "fazer progresso / progredir"
+              },
+              {
+                "en": "afraid",
+                "pt": "com medo"
+              },
+              {
+                "en": "to keep (doing)",
+                "pt": "continuar (fazendo)"
+              }
+            ]
+          },
+          "homework": [
+            "Um ano atrás, eu não conseguia dizer muita coisa em inglês.",
+            "Eu aprendi muito desde então.",
+            "Eu costumava traduzir tudo na minha cabeça primeiro.",
+            "Eu já li histórias curtas e aprendi centenas de palavras.",
+            "Eu ainda cometo erros, mas fiz um progresso de verdade.",
+            "Você não deveria ter medo de errar.",
+            "A prática leva à perfeição, passo a passo.",
+            "Mês que vem eu vou começar o Livro Três.",
+            "Se eu continuar praticando, vou continuar melhorando.",
+            "Tenho orgulho dessa jornada. Continue assim!"
+          ]
         }
       ]
     },
