@@ -8893,346 +8893,594 @@
     {
       "id": 3,
       "title": "Book Three",
-      "level": "A2",
+      "level": "B1",
       "color": "#2563eb",
       "listenings": 2,
       "lessons": [
         {
           "id": 1,
-          "title": "Lesson 1 — Past Simple: Regular Verbs",
+          "title": "Lesson 1 — Present Perfect Continuous",
           "verbs": [
             {
-              "en": "to travel, travelled",
-              "pt": "viajar"
+              "en": "to wait, waited",
+              "pt": "esperar"
             },
             {
-              "en": "to visit, visited",
-              "pt": "visitar"
+              "en": "to work, worked",
+              "pt": "trabalhar"
             },
             {
-              "en": "to stay, stayed",
-              "pt": "ficar / hospedar-se"
+              "en": "to learn, learned",
+              "pt": "aprender"
             },
             {
-              "en": "to enjoy, enjoyed",
-              "pt": "curtir / aproveitar"
+              "en": "to live, lived",
+              "pt": "morar / viver"
             }
           ],
           "grammarPoints": [
             {
-              "en": "I travelled to the USA last year.",
-              "pt": "Eu viajei para os EUA ano passado."
+              "en": "I have been waiting for an hour.",
+              "pt": "Eu estou esperando há uma hora."
             },
             {
-              "en": "We visited a beautiful museum.",
-              "pt": "Nós visitamos um museu lindo."
+              "en": "She has been working all day.",
+              "pt": "Ela está trabalhando o dia todo."
             },
             {
-              "en": "She stayed in a hotel for three days.",
-              "pt": "Ela ficou em um hotel por três dias."
+              "en": "How long have you been studying English?",
+              "pt": "Há quanto tempo você está estudando inglês?"
             },
             {
-              "en": "Did you enjoy the trip?",
-              "pt": "Você curtiu a viagem?"
+              "en": "They have been living here since 2015.",
+              "pt": "Eles estão morando aqui desde 2015."
             },
             {
-              "en": "Yes, I enjoyed it very much!",
-              "pt": "Sim, eu curtí muito!"
+              "en": "It has been raining all morning.",
+              "pt": "Está chovendo a manhã toda."
             },
             {
-              "en": "I didn't travel by plane.",
-              "pt": "Eu não viajei de avião."
+              "en": "I haven't been sleeping well lately.",
+              "pt": "Eu não tenho dormido bem ultimamente."
             }
           ],
           "vocabulary": [
             {
-              "en": "last year",
-              "pt": "ano passado"
+              "en": "have/has been + -ing",
+              "pt": "venho/vem (fazendo algo)"
             },
             {
-              "en": "last week",
-              "pt": "semana passada"
+              "en": "for",
+              "pt": "há / durante (período)"
             },
             {
-              "en": "yesterday",
-              "pt": "ontem"
+              "en": "since",
+              "pt": "desde (ponto no tempo)"
             },
             {
-              "en": "ago",
-              "pt": "atrás / há"
+              "en": "how long",
+              "pt": "há quanto tempo"
             },
             {
-              "en": "trip / travel",
-              "pt": "viagem"
+              "en": "all day",
+              "pt": "o dia todo"
             },
             {
-              "en": "hotel",
-              "pt": "hotel"
+              "en": "all morning",
+              "pt": "a manhã toda"
             },
             {
-              "en": "museum",
-              "pt": "museu"
+              "en": "lately",
+              "pt": "ultimamente"
             },
             {
-              "en": "beach",
-              "pt": "praia"
+              "en": "recently",
+              "pt": "recentemente"
             },
             {
-              "en": "by plane",
-              "pt": "de avião"
+              "en": "nonstop",
+              "pt": "sem parar"
             },
             {
-              "en": "by car",
-              "pt": "de carro"
+              "en": "the whole time",
+              "pt": "o tempo todo"
             },
             {
-              "en": "by bus",
-              "pt": "de ônibus"
+              "en": "for hours",
+              "pt": "há horas"
             },
             {
-              "en": "passport",
-              "pt": "passaporte"
-            },
-            {
-              "en": "suitcase",
-              "pt": "mala"
-            },
-            {
-              "en": "ticket",
-              "pt": "passagem / bilhete"
+              "en": "since this morning",
+              "pt": "desde hoje de manhã"
             }
           ],
           "expressions": [
             {
-              "en": "It was amazing!",
-              "pt": "Foi incrível!"
+              "en": "You look tired.",
+              "pt": "Você parece cansado."
             },
             {
-              "en": "I had a great time.",
-              "pt": "Me diverti muito."
+              "en": "I'm exhausted.",
+              "pt": "Estou exausto(a)."
             },
             {
-              "en": "I can't wait to go back!",
-              "pt": "Mal posso esperar para voltar!"
+              "en": "Take a break.",
+              "pt": "Faça uma pausa."
             },
             {
-              "en": "What a pity!",
-              "pt": "Que pena!"
+              "en": "No wonder!",
+              "pt": "Não é à toa! / Com razão!"
             },
             {
-              "en": "Next time, for sure.",
-              "pt": "Na próxima vez, com certeza."
+              "en": "Keep going.",
+              "pt": "Continue. / Não pare."
             }
           ],
-          "curiosity": "The USA receives over 70 million international tourists every year. The most visited cities are New York, Los Angeles, and Orlando. Brazil is one of the top countries sending tourists to the US!",
-          "teachingGuide": "Past simple regular: adiciona -ed ao infinitivo. Atenção às regras de spelling: travel → travelled (UK), traveled (US). Stop → stopped (duplica consoante). Enjoy → enjoyed (sem alteração).\n\nNegativa: didn't + infinitivo (sem -ed). Erro comum: 'I didn't travelled' — corrija para 'I didn't travel'.\n\nPergunta: Did + sujeito + infinitivo? 'Did you enjoy it?' 'Did she travel?'\n\nDrill timeline: Escreva ontem / semana passada / ano passado no quadro. Alunos formam frases com cada marcador de tempo."
+          "curiosity": "Did you know? The present perfect continuous puts the spotlight on the activity itself and how long it has lasted, not on the result. 'I've been painting' explains why your hands are covered in paint — it's about the doing, not the done!",
+          "teachingGuide": "Present Perfect Continuous: have/has + been + verbo-ing. Foca na DURAÇÃO de uma atividade que começou no passado e continua até agora (ou acabou de parar).\n\nUse com for (período) e since (ponto inicial), e pergunte com 'How long have you been...?'.\n\nFrequentemente explica uma situação atual: 'I'm tired because I've been working all day.'\n\nNo português, muitas vezes equivale ao presente ('Eu estou esperando há uma hora') — cuidado, em inglês é Present Perfect Continuous, não present simple.\n\nDrill: alunos explicam por que estão cansados/com fome usando 'I've been ...-ing'.",
+          "homework": [
+            "Eu estou esperando há uma hora.",
+            "Ela está trabalhando o dia todo.",
+            "Há quanto tempo você está estudando inglês?",
+            "Eles estão morando aqui desde 2015.",
+            "Está chovendo a manhã toda.",
+            "Eu não tenho dormido bem ultimamente.",
+            "Nós estamos esperando o ônibus há vinte minutos.",
+            "Ele está aprendendo a dirigir desde março.",
+            "Você parece cansado. O que você tem feito?",
+            "Estou exausto porque estou trabalhando sem parar."
+          ]
         },
         {
           "id": 2,
-          "title": "Lesson 2 — Past Simple: Irregular Verbs",
+          "title": "Lesson 2 — Present Perfect: Simple vs. Continuous",
           "verbs": [
             {
-              "en": "to go, went",
-              "pt": "ir"
+              "en": "to read, read (read)",
+              "pt": "ler"
             },
             {
-              "en": "to see, saw",
-              "pt": "ver"
+              "en": "to write, wrote (written)",
+              "pt": "escrever"
             },
             {
-              "en": "to meet, met",
-              "pt": "conhecer / encontrar"
+              "en": "to paint, painted",
+              "pt": "pintar"
             },
             {
-              "en": "to buy, bought",
-              "pt": "comprar"
+              "en": "to build, built",
+              "pt": "construir"
             }
           ],
           "grammarPoints": [
             {
-              "en": "I went to the market yesterday.",
-              "pt": "Eu fui ao mercado ontem."
+              "en": "I've read three books this month.",
+              "pt": "Eu li três livros este mês."
             },
             {
-              "en": "We saw a great movie last night.",
-              "pt": "Nós vimos um ótimo filme ontem à noite."
+              "en": "I've been reading all afternoon.",
+              "pt": "Eu estou lendo a tarde toda."
             },
             {
-              "en": "She met her best friend at the party.",
-              "pt": "Ela conheceu seu melhor amigo na festa."
+              "en": "She has written ten emails.",
+              "pt": "Ela escreveu dez e-mails."
             },
             {
-              "en": "I bought a new book last week.",
-              "pt": "Eu comprei um livro novo semana passada."
+              "en": "She has been writing emails all day.",
+              "pt": "Ela está escrevendo e-mails o dia todo."
             },
             {
-              "en": "Where did you go last weekend?",
-              "pt": "Onde você foi no fim de semana passado?"
+              "en": "They have painted the house.",
+              "pt": "Eles pintaram a casa."
             },
             {
-              "en": "I didn't see him at school.",
-              "pt": "Eu não o vi na escola."
+              "en": "They have been painting the house.",
+              "pt": "Eles estão pintando a casa."
             }
           ],
           "vocabulary": [
             {
-              "en": "market",
-              "pt": "mercado / feira"
+              "en": "how many / how much",
+              "pt": "quantos / quanto (resultado)"
             },
             {
-              "en": "party",
-              "pt": "festa"
+              "en": "how long",
+              "pt": "há quanto tempo (duração)"
             },
             {
-              "en": "movie / film",
-              "pt": "filme"
+              "en": "finished",
+              "pt": "terminado / concluído"
             },
             {
-              "en": "concert",
-              "pt": "show / concerto"
+              "en": "in progress",
+              "pt": "em andamento"
             },
             {
-              "en": "game",
-              "pt": "jogo"
+              "en": "a result",
+              "pt": "um resultado"
             },
             {
-              "en": "weekend",
-              "pt": "fim de semana"
+              "en": "twice",
+              "pt": "duas vezes"
             },
             {
-              "en": "last night",
-              "pt": "ontem à noite"
+              "en": "three times",
+              "pt": "três vezes"
             },
             {
-              "en": "this morning",
-              "pt": "hoje de manhã"
+              "en": "already",
+              "pt": "já"
             },
             {
-              "en": "friend",
-              "pt": "amigo(a)"
+              "en": "just",
+              "pt": "acabar de"
             },
             {
-              "en": "best friend",
-              "pt": "melhor amigo(a)"
+              "en": "so far",
+              "pt": "até agora"
             },
             {
-              "en": "gift / present",
-              "pt": "presente"
+              "en": "all afternoon",
+              "pt": "a tarde toda"
             },
             {
-              "en": "money",
-              "pt": "dinheiro"
-            },
-            {
-              "en": "a lot",
-              "pt": "muito / bastante"
+              "en": "a state verb (know, be)",
+              "pt": "verbo de estado (não usa continuous)"
             }
           ],
           "expressions": [
             {
-              "en": "How was your weekend?",
-              "pt": "Como foi seu fim de semana?"
+              "en": "Almost done.",
+              "pt": "Quase pronto."
             },
             {
-              "en": "It was so much fun!",
-              "pt": "Foi muito divertido!"
+              "en": "Still working on it.",
+              "pt": "Ainda estou nisso."
             },
             {
-              "en": "Not bad at all.",
-              "pt": "Nada mal."
+              "en": "How's it going?",
+              "pt": "Como vai isso? / Como está indo?"
             },
             {
-              "en": "It was a bit boring.",
-              "pt": "Foi um pouco chato."
+              "en": "Nearly there.",
+              "pt": "Quase lá."
             },
             {
-              "en": "I stayed home.",
-              "pt": "Eu fiquei em casa."
+              "en": "Just finished.",
+              "pt": "Acabei agora mesmo."
             }
           ],
-          "curiosity": "English has over 200 irregular verbs, but the 20 most common ones cover around 80% of everyday speech. Learning just those 20 — like go/went, see/saw, buy/bought — will transform your fluency fast!",
-          "teachingGuide": "Irregular verbs: não seguem regra — precisam ser memorizados. Foque nos 20 mais comuns primeiro.\n\nTop irregulars para esta lição: go/went, see/saw, meet/met, buy/bought, have/had, get/got, make/made, take/took.\n\nNegativa/pergunta: usa 'did/didn't' + INFINITIVO (não a forma irregular). Erro clássico: 'I didn't went' → corrija para 'I didn't go'.\n\nDrill de fim de semana: Pergunte a cada aluno 'How was your weekend? Where did you go? What did you see/buy/do?'"
+          "curiosity": "Did you know? Some verbs almost never appear in the continuous form. We say 'I have known her for years', never 'I have been knowing'. Verbs of state — know, believe, own, love — describe a condition, not an activity, so they stay simple.",
+          "teachingGuide": "Diferença-chave:\n\nPRESENT PERFECT SIMPLE = resultado, conclusão, quantidade. Pergunta 'How many / How much?'. 'I've read three books.'\nPRESENT PERFECT CONTINUOUS = a atividade e sua duração (talvez ainda em curso). Pergunta 'How long?'. 'I've been reading all afternoon.'\n\nReforce: 'I've painted the house' (terminou) x 'I've been painting' (em andamento, mãos sujas de tinta).\n\nVerbos de estado (know, be, have=possuir, love) NÃO usam a forma contínua.\n\nDrill: dê uma situação e peça aos alunos para escolher simples (resultado) ou contínuo (atividade).",
+          "homework": [
+            "Eu li três livros este mês.",
+            "Eu estou lendo a tarde toda.",
+            "Ela escreveu dez e-mails hoje.",
+            "Ela está escrevendo e-mails o dia todo.",
+            "Eles já pintaram a casa toda.",
+            "Eles estão pintando a casa desde cedo.",
+            "Quantas páginas você já leu?",
+            "Há quanto tempo você está lendo?",
+            "Eu conheço a Ana há anos. (verbo de estado)",
+            "Eu acabei de terminar o relatório."
+          ]
         },
         {
           "id": 3,
-          "title": "Lesson 3 — Weather & Seasons",
+          "title": "Lesson 3 — Past Perfect",
           "verbs": [
             {
-              "en": "to rain, rained",
-              "pt": "chover"
+              "en": "to leave, left",
+              "pt": "sair / partir / deixar"
             },
+            {
+              "en": "to finish, finished",
+              "pt": "terminar"
+            },
+            {
+              "en": "to arrive, arrived",
+              "pt": "chegar"
+            },
+            {
+              "en": "to forget, forgot (forgotten)",
+              "pt": "esquecer"
+            }
+          ],
+          "grammarPoints": [
+            {
+              "en": "When I arrived, the train had already left.",
+              "pt": "Quando cheguei, o trem já tinha saído."
+            },
+            {
+              "en": "She had finished her work before lunch.",
+              "pt": "Ela tinha terminado o trabalho antes do almoço."
+            },
+            {
+              "en": "They had never seen snow before.",
+              "pt": "Eles nunca tinham visto neve antes."
+            },
+            {
+              "en": "I realized I had forgotten my keys.",
+              "pt": "Eu percebi que tinha esquecido as chaves."
+            },
+            {
+              "en": "After he had eaten, he went out.",
+              "pt": "Depois que ele tinha comido, saiu."
+            },
+            {
+              "en": "Had you met her before the party?",
+              "pt": "Você tinha conhecido ela antes da festa?"
+            }
+          ],
+          "vocabulary": [
+            {
+              "en": "had + past participle",
+              "pt": "tinha (feito algo)"
+            },
+            {
+              "en": "already",
+              "pt": "já"
+            },
+            {
+              "en": "before",
+              "pt": "antes"
+            },
+            {
+              "en": "after",
+              "pt": "depois"
+            },
+            {
+              "en": "by the time",
+              "pt": "quando / na hora em que"
+            },
+            {
+              "en": "when",
+              "pt": "quando"
+            },
+            {
+              "en": "never ... before",
+              "pt": "nunca ... antes"
+            },
+            {
+              "en": "just",
+              "pt": "tinha acabado de"
+            },
+            {
+              "en": "until then",
+              "pt": "até então"
+            },
+            {
+              "en": "earlier",
+              "pt": "mais cedo / antes"
+            },
+            {
+              "en": "previously",
+              "pt": "anteriormente"
+            },
+            {
+              "en": "to realize",
+              "pt": "perceber / se dar conta"
+            }
+          ],
+          "expressions": [
+            {
+              "en": "It was too late.",
+              "pt": "Já era tarde demais."
+            },
+            {
+              "en": "I had no idea.",
+              "pt": "Eu não fazia ideia."
+            },
+            {
+              "en": "What a relief!",
+              "pt": "Que alívio!"
+            },
+            {
+              "en": "Just in time.",
+              "pt": "Bem na hora. / Em cima da hora."
+            },
+            {
+              "en": "If only I had known.",
+              "pt": "Se ao menos eu soubesse."
+            }
+          ],
+          "curiosity": "Did you know? The past perfect is 'the past before the past'. In a story set yesterday, it lets you jump even further back: 'When I arrived (past), the train had already left (earlier past).' It's English's built-in time machine for storytelling!",
+          "teachingGuide": "Past Perfect: had + particípio passado. Mostra que uma ação aconteceu ANTES de outra ação no passado.\n\nA ação mais antiga = Past Perfect (had left); a mais recente = Simple Past (arrived).\n'When I arrived, the train had already left.'\n\nMuito usado com before, after, by the time, when e already.\n\nForma igual para todas as pessoas: I/you/he had. Contração: 'd. Negativa: hadn't. Pergunta: Had you...?\n\nCuidado para não confundir 'd (had) com 'd (would).\n\nDrill: narre eventos e ordene-os com had + before/after.",
+          "homework": [
+            "Quando eu cheguei, o trem já tinha saído.",
+            "Ela tinha terminado o trabalho antes do almoço.",
+            "Eles nunca tinham visto neve antes.",
+            "Eu percebi que tinha esquecido as chaves em casa.",
+            "Depois que ele tinha comido, saiu para trabalhar.",
+            "Você tinha conhecido ela antes da festa?",
+            "Quando o filme começou, nós já tínhamos chegado.",
+            "Eu não fazia ideia de que ela já tinha viajado.",
+            "Na hora em que chegamos, a loja já tinha fechado.",
+            "Se ao menos eu tivesse estudado mais para a prova."
+          ]
+        },
+        {
+          "id": 4,
+          "title": "Lesson 4 — Past Perfect vs. Past Simple",
+          "verbs": [
+            {
+              "en": "to happen, happened",
+              "pt": "acontecer"
+            },
+            {
+              "en": "to notice, noticed",
+              "pt": "notar / reparar"
+            },
+            {
+              "en": "to recognize, recognized",
+              "pt": "reconhecer"
+            },
+            {
+              "en": "to discover, discovered",
+              "pt": "descobrir"
+            }
+          ],
+          "grammarPoints": [
+            {
+              "en": "When she arrived, the meeting had started.",
+              "pt": "Quando ela chegou, a reunião tinha começado."
+            },
+            {
+              "en": "He told me what had happened.",
+              "pt": "Ele me contou o que tinha acontecido."
+            },
+            {
+              "en": "I went home after I had finished.",
+              "pt": "Eu fui para casa depois que terminei."
+            },
+            {
+              "en": "The streets were wet because it had rained.",
+              "pt": "As ruas estavam molhadas porque tinha chovido."
+            },
+            {
+              "en": "She didn't recognize him because he had changed.",
+              "pt": "Ela não o reconheceu porque ele tinha mudado."
+            },
+            {
+              "en": "By the time we left, the rain had stopped.",
+              "pt": "Quando saímos, a chuva tinha parado."
+            }
+          ],
+          "vocabulary": [
+            {
+              "en": "by the time",
+              "pt": "quando / na hora em que"
+            },
+            {
+              "en": "as soon as",
+              "pt": "assim que"
+            },
+            {
+              "en": "because",
+              "pt": "porque"
+            },
+            {
+              "en": "when",
+              "pt": "quando"
+            },
+            {
+              "en": "after",
+              "pt": "depois que"
+            },
+            {
+              "en": "before",
+              "pt": "antes que / antes de"
+            },
+            {
+              "en": "already",
+              "pt": "já"
+            },
+            {
+              "en": "that's why",
+              "pt": "é por isso que"
+            },
+            {
+              "en": "eventually",
+              "pt": "no fim / por fim"
+            },
+            {
+              "en": "in the end",
+              "pt": "no final"
+            },
+            {
+              "en": "suddenly",
+              "pt": "de repente"
+            },
+            {
+              "en": "at first",
+              "pt": "no começo / a princípio"
+            }
+          ],
+          "expressions": [
+            {
+              "en": "To make a long story short...",
+              "pt": "Resumindo a história..."
+            },
+            {
+              "en": "It turned out that...",
+              "pt": "Acabou que... / No fim das contas..."
+            },
+            {
+              "en": "That explains it.",
+              "pt": "Isso explica tudo."
+            },
+            {
+              "en": "Believe it or not.",
+              "pt": "Acredite se quiser."
+            },
+            {
+              "en": "As it happened...",
+              "pt": "Por acaso... / Acontece que..."
+            }
+          ],
+          "curiosity": "Did you know? You don't always need the past perfect. If two past events are in clear order ('I woke up and got up'), the simple past is enough. Use the past perfect only when you want to flag that one thing happened BEFORE the other.",
+          "teachingGuide": "Combinando os dois tempos numa narrativa:\n\nA ação ANTERIOR = Past Perfect (had + particípio).\nA ação principal/posterior = Simple Past.\n'When she arrived (past), the meeting had started (earlier past).'\n\nMuito usado para explicar causas: 'The streets were wet because it had rained.'\n\nNÃO exagere: se a ordem já está clara (com after/before ou eventos em sequência), o simple past basta.\n\nDrill: dê duas frases no passado e peça aos alunos para ligá-las mostrando qual veio primeiro.",
+          "homework": [
+            "Quando ela chegou, a reunião já tinha começado.",
+            "Ele me contou o que tinha acontecido.",
+            "Eu fui para casa depois que tinha terminado.",
+            "As ruas estavam molhadas porque tinha chovido.",
+            "Ela não o reconheceu porque ele tinha mudado muito.",
+            "Quando saímos, a chuva já tinha parado.",
+            "No começo eu não entendi, mas depois ela explicou.",
+            "Eu descobri que ele já tinha vendido o carro.",
+            "Acabou que eles já tinham se conhecido antes.",
+            "Resumindo a história, nós perdemos o voo."
+          ]
+        },
+        {
+          "id": 5,
+          "title": "Lesson 5 — Weather, Seasons & Climate",
+          "verbs": [
             {
               "en": "to snow, snowed",
               "pt": "nevar"
             },
             {
-              "en": "to feel, felt",
-              "pt": "sentir / estar se sentindo"
+              "en": "to freeze, froze (frozen)",
+              "pt": "congelar"
             },
             {
-              "en": "to change, changed",
-              "pt": "mudar / trocar"
+              "en": "to melt, melted",
+              "pt": "derreter"
+            },
+            {
+              "en": "to clear up, cleared up",
+              "pt": "abrir o tempo / clarear"
             }
           ],
           "grammarPoints": [
             {
-              "en": "What's the weather like today?",
-              "pt": "Como está o tempo hoje?"
+              "en": "It's pouring with rain.",
+              "pt": "Está caindo um toró. / Está chovendo muito."
             },
             {
-              "en": "It's sunny and hot.",
-              "pt": "Está ensolarado e quente."
+              "en": "The forecast says it will be sunny.",
+              "pt": "A previsão diz que vai fazer sol."
             },
             {
-              "en": "It's raining heavily.",
-              "pt": "Está chovendo muito."
+              "en": "It's freezing today.",
+              "pt": "Está um frio congelante hoje."
             },
             {
-              "en": "It was cold and windy yesterday.",
-              "pt": "Ontem estava frio e com vento."
+              "en": "We had a heatwave last summer.",
+              "pt": "Tivemos uma onda de calor no verão passado."
             },
             {
-              "en": "I feel cold. Can we close the window?",
-              "pt": "Estou com frio. Podemos fechar a janela?"
+              "en": "What's the weather like in winter?",
+              "pt": "Como é o tempo no inverno?"
             },
             {
-              "en": "The weather changes a lot in spring.",
-              "pt": "O tempo muda muito na primavera."
+              "en": "It gets very humid in the summer.",
+              "pt": "Fica muito úmido no verão."
             }
           ],
           "vocabulary": [
-            {
-              "en": "sunny",
-              "pt": "ensolarado"
-            },
-            {
-              "en": "cloudy",
-              "pt": "nublado"
-            },
-            {
-              "en": "rainy",
-              "pt": "chuvoso"
-            },
-            {
-              "en": "windy",
-              "pt": "ventoso / com vento"
-            },
-            {
-              "en": "hot",
-              "pt": "quente"
-            },
-            {
-              "en": "cold",
-              "pt": "frio"
-            },
-            {
-              "en": "warm",
-              "pt": "morno / agradável"
-            },
-            {
-              "en": "humid",
-              "pt": "úmido"
-            },
             {
               "en": "spring",
               "pt": "primavera"
@@ -9250,42 +9498,4126 @@
               "pt": "inverno"
             },
             {
-              "en": "storm",
-              "pt": "tempestade"
+              "en": "sunny",
+              "pt": "ensolarado"
             },
             {
-              "en": "forecast",
-              "pt": "previsão do tempo"
+              "en": "cloudy",
+              "pt": "nublado"
             },
             {
-              "en": "temperature",
-              "pt": "temperatura"
+              "en": "foggy",
+              "pt": "com neblina"
+            },
+            {
+              "en": "windy",
+              "pt": "ventando / com vento"
+            },
+            {
+              "en": "humid",
+              "pt": "úmido / abafado"
+            },
+            {
+              "en": "a heatwave",
+              "pt": "uma onda de calor"
+            },
+            {
+              "en": "a storm",
+              "pt": "uma tempestade"
+            },
+            {
+              "en": "thunder and lightning",
+              "pt": "trovões e relâmpagos"
+            },
+            {
+              "en": "a drought",
+              "pt": "uma seca"
+            },
+            {
+              "en": "a flood",
+              "pt": "uma enchente"
+            },
+            {
+              "en": "the temperature / degrees",
+              "pt": "a temperatura / graus"
             }
           ],
           "expressions": [
             {
-              "en": "What a beautiful day!",
+              "en": "What a lovely day!",
               "pt": "Que dia lindo!"
             },
             {
               "en": "It's freezing!",
-              "pt": "Está um frio de rachar! / Está congelando!"
+              "pt": "Está um gelo!"
             },
             {
-              "en": "I love this weather.",
-              "pt": "Adoro esse tempo."
+              "en": "I'm soaked.",
+              "pt": "Estou encharcado(a)."
             },
             {
-              "en": "Typical Brazilian weather!",
-              "pt": "Clima típico do Brasil!"
+              "en": "It's raining cats and dogs.",
+              "pt": "Está chovendo canivete / muito forte."
             },
             {
-              "en": "Don't forget your umbrella!",
-              "pt": "Não esqueça o seu guarda-chuva!"
+              "en": "Bundle up!",
+              "pt": "Se agasalhe bem!"
             }
           ],
-          "curiosity": "Brazil doesn't have four distinct seasons like Europe or North America — the south has more variation, but much of the country has just a wet and a dry season. In places like Manaus (Amazon), it rains almost every day!",
-          "teachingGuide": "Weather expressions: em inglês, usa-se 'It is' impessoal: It's raining. It's cold. Nunca 'He is cold' para o clima — somente para pessoas.\n\n'I feel cold' vs 'It is cold': 'I feel cold' = eu sinto frio (minha percepção). 'It is cold' = a temperatura está baixa (clima).\n\nSeasons: outono = autumn (UK) / fall (US). Explique essa diferença regional.\n\nDrill: Descreva o tempo hoje → ontem → semana passada. Use advérbios: very, quite, a little, extremely."
+          "curiosity": "Did you know? The British are famous for talking about the weather, and English is full of weather idioms. 'It's raining cats and dogs' means it's pouring — though nobody is quite sure why cats and dogs ended up in the saying!",
+          "teachingGuide": "Vocabulário de clima e estações + small talk (conversa fiada), tão comum em inglês.\n\nEstruturas: 'It's + adjetivo' (It's sunny/cloudy) e 'It's + verbo-ing' (It's raining/snowing).\nPergunta-chave: 'What's the weather like?'\n\nDiferença: weather = tempo de hoje; climate = clima de uma região.\nNote autumn (britânico) x fall (americano).\n\nApresente idioms: 'raining cats and dogs', 'freezing', 'soaked'.\n\nDrill: alunos descrevem o tempo de hoje e o clima típico de cada estação na sua cidade.",
+          "homework": [
+            "Está caindo um toró lá fora.",
+            "A previsão diz que vai fazer sol amanhã.",
+            "Está um frio congelante hoje; se agasalhe bem.",
+            "Tivemos uma onda de calor no verão passado.",
+            "Como é o tempo no inverno na sua cidade?",
+            "Fica muito úmido e abafado no verão.",
+            "Houve uma tempestade com trovões e relâmpagos ontem à noite.",
+            "No outono, as folhas caem e venta bastante.",
+            "A temperatura caiu para cinco graus.",
+            "Está chovendo muito; estou encharcado!"
+          ]
+        },
+        {
+          "id": 6,
+          "title": "Lesson 6 — Future Continuous & Future Perfect",
+          "verbs": [
+            {
+              "en": "to graduate, graduated",
+              "pt": "se formar / se graduar"
+            },
+            {
+              "en": "to retire, retired",
+              "pt": "se aposentar"
+            },
+            {
+              "en": "to complete, completed",
+              "pt": "concluir / completar"
+            },
+            {
+              "en": "to achieve, achieved",
+              "pt": "alcançar / conquistar"
+            }
+          ],
+          "grammarPoints": [
+            {
+              "en": "This time tomorrow, I'll be flying to Rome.",
+              "pt": "Amanhã a essa hora, estarei voando para Roma."
+            },
+            {
+              "en": "Don't call at eight; I'll be having dinner.",
+              "pt": "Não ligue às oito; estarei jantando."
+            },
+            {
+              "en": "By 2030, I will have finished my studies.",
+              "pt": "Até 2030, eu terei terminado meus estudos."
+            },
+            {
+              "en": "By next year, they will have been married for ten years.",
+              "pt": "Ano que vem, eles já estarão casados há dez anos."
+            },
+            {
+              "en": "She'll be working late tonight.",
+              "pt": "Ela estará trabalhando até tarde hoje à noite."
+            },
+            {
+              "en": "Will you have finished by Friday?",
+              "pt": "Você terá terminado até sexta?"
+            }
+          ],
+          "vocabulary": [
+            {
+              "en": "will be + -ing",
+              "pt": "estarei (fazendo algo)"
+            },
+            {
+              "en": "will have + past participle",
+              "pt": "terei (feito algo)"
+            },
+            {
+              "en": "by then",
+              "pt": "até lá"
+            },
+            {
+              "en": "by 2030",
+              "pt": "até 2030"
+            },
+            {
+              "en": "by the time",
+              "pt": "quando / na hora em que"
+            },
+            {
+              "en": "this time tomorrow",
+              "pt": "amanhã a essa hora"
+            },
+            {
+              "en": "in ten years",
+              "pt": "em dez anos"
+            },
+            {
+              "en": "soon",
+              "pt": "logo / em breve"
+            },
+            {
+              "en": "eventually",
+              "pt": "no fim / com o tempo"
+            },
+            {
+              "en": "by next week",
+              "pt": "até a semana que vem"
+            },
+            {
+              "en": "a goal",
+              "pt": "um objetivo / uma meta"
+            },
+            {
+              "en": "a deadline",
+              "pt": "um prazo"
+            }
+          ],
+          "expressions": [
+            {
+              "en": "Time will tell.",
+              "pt": "O tempo dirá."
+            },
+            {
+              "en": "Before you know it.",
+              "pt": "Quando você menos esperar."
+            },
+            {
+              "en": "In no time.",
+              "pt": "Num instante / rapidinho."
+            },
+            {
+              "en": "Sooner or later.",
+              "pt": "Mais cedo ou mais tarde."
+            },
+            {
+              "en": "Mark my words.",
+              "pt": "Pode anotar o que eu digo."
+            }
+          ],
+          "curiosity": "Did you know? English has two ways to look ahead in time. The future continuous ('I'll be flying') zooms in on an action happening AT a future moment, while the future perfect ('I'll have arrived') looks back from the future to something already DONE.",
+          "teachingGuide": "Dois futuros mais avançados:\n\nFUTURE CONTINUOUS: will be + verbo-ing = ação em andamento em um momento futuro. 'This time tomorrow, I'll be flying.' Use com 'this time tomorrow', 'at 8 pm'.\n\nFUTURE PERFECT: will have + particípio = ação concluída ANTES de um momento futuro. 'By Friday, I'll have finished.' Use com 'by + tempo'.\n\nDica de palavra-chave: 'at + hora' pede continuous; 'by + tempo' pede perfect.\n\nDrill: planos e metas: 'What will you be doing this time next week? What will you have achieved by next year?'",
+          "homework": [
+            "Amanhã a essa hora, estarei voando para Roma.",
+            "Não me ligue às oito; estarei jantando.",
+            "Até 2030, eu terei terminado meus estudos.",
+            "Ano que vem, eles já estarão casados há dez anos.",
+            "Ela estará trabalhando até tarde hoje à noite.",
+            "Você terá terminado o relatório até sexta?",
+            "Em dez anos, eu já terei me aposentado.",
+            "Quando você chegar, eu já terei saído.",
+            "A essa hora na semana que vem, estaremos na praia.",
+            "Até o fim do ano, ela terá se formado."
+          ]
+        },
+        {
+          "id": 7,
+          "title": "Lesson 7 — Future Time Clauses",
+          "verbs": [
+            {
+              "en": "to return, returned",
+              "pt": "voltar / retornar / devolver"
+            },
+            {
+              "en": "to call, called",
+              "pt": "ligar / chamar"
+            },
+            {
+              "en": "to get ready, got ready",
+              "pt": "se arrumar / se preparar"
+            },
+            {
+              "en": "to settle, settled",
+              "pt": "se estabelecer / resolver"
+            }
+          ],
+          "grammarPoints": [
+            {
+              "en": "I'll call you when I get home.",
+              "pt": "Eu te ligo quando chegar em casa."
+            },
+            {
+              "en": "Wait here until I come back.",
+              "pt": "Espere aqui até eu voltar."
+            },
+            {
+              "en": "As soon as the rain stops, we'll leave.",
+              "pt": "Assim que a chuva parar, nós saímos."
+            },
+            {
+              "en": "Before you leave, turn off the lights.",
+              "pt": "Antes de você sair, apague as luzes."
+            },
+            {
+              "en": "After I finish work, I'll call you.",
+              "pt": "Depois que eu terminar o trabalho, te ligo."
+            },
+            {
+              "en": "I'll wait while you get ready.",
+              "pt": "Eu espero enquanto você se arruma."
+            }
+          ],
+          "vocabulary": [
+            {
+              "en": "when",
+              "pt": "quando"
+            },
+            {
+              "en": "until",
+              "pt": "até (que)"
+            },
+            {
+              "en": "as soon as",
+              "pt": "assim que"
+            },
+            {
+              "en": "before",
+              "pt": "antes (de/que)"
+            },
+            {
+              "en": "after",
+              "pt": "depois (de/que)"
+            },
+            {
+              "en": "while",
+              "pt": "enquanto"
+            },
+            {
+              "en": "the moment",
+              "pt": "no instante em que"
+            },
+            {
+              "en": "once",
+              "pt": "assim que / uma vez que"
+            },
+            {
+              "en": "by the time",
+              "pt": "na hora em que"
+            },
+            {
+              "en": "as long as",
+              "pt": "contanto que / enquanto"
+            },
+            {
+              "en": "whenever",
+              "pt": "sempre que / quando quer que"
+            },
+            {
+              "en": "in the meantime",
+              "pt": "enquanto isso"
+            }
+          ],
+          "expressions": [
+            {
+              "en": "Take your time.",
+              "pt": "Sem pressa. / Pode levar o tempo que precisar."
+            },
+            {
+              "en": "In the meantime.",
+              "pt": "Enquanto isso."
+            },
+            {
+              "en": "Hold on.",
+              "pt": "Espera aí."
+            },
+            {
+              "en": "No rush.",
+              "pt": "Sem pressa."
+            },
+            {
+              "en": "Whenever you're ready.",
+              "pt": "Quando você estiver pronto."
+            }
+          ],
+          "curiosity": "Did you know? After time words like 'when', 'as soon as', and 'until', English uses the present tense for the future — never 'will'. We say 'I'll call you when I GET home', not 'when I will get home'. It's the same rule as 'if' in conditionals!",
+          "teachingGuide": "Orações temporais sobre o futuro: depois de when, as soon as, until, before, after, while, NÃO se usa 'will'. Usa-se o PRESENTE simples.\n'I'll call you when I GET home.' (não 'when I will get').\n\nA oração principal fica no futuro (will / going to); a oração de tempo fica no presente.\n\nMesma lógica do primeiro condicional ('if').\n\nA ordem pode inverter: 'When I get home, I'll call you.' (com vírgula).\n\nDrill: planos encadeados — 'As soon as I finish X, I'll do Y'.",
+          "homework": [
+            "Eu te ligo quando chegar em casa.",
+            "Espere aqui até eu voltar.",
+            "Assim que a chuva parar, nós saímos.",
+            "Antes de você sair, apague as luzes.",
+            "Depois que eu terminar o trabalho, te ligo.",
+            "Eu espero enquanto você se arruma.",
+            "Quando eu me formar, vou procurar um emprego.",
+            "Na hora em que você chegar, o jantar estará pronto.",
+            "Sempre que você precisar, é só me chamar.",
+            "Contanto que você estude, vai se sair bem."
+          ]
+        },
+        {
+          "id": 8,
+          "title": "Lesson 8 — The Passive Voice: Present & Past",
+          "verbs": [
+            {
+              "en": "to make, made",
+              "pt": "fazer / fabricar"
+            },
+            {
+              "en": "to build, built",
+              "pt": "construir"
+            },
+            {
+              "en": "to invent, invented",
+              "pt": "inventar"
+            },
+            {
+              "en": "to produce, produced",
+              "pt": "produzir"
+            }
+          ],
+          "grammarPoints": [
+            {
+              "en": "English is spoken all over the world.",
+              "pt": "Inglês é falado no mundo todo."
+            },
+            {
+              "en": "This house was built in 1990.",
+              "pt": "Esta casa foi construída em 1990."
+            },
+            {
+              "en": "Coffee is grown in Brazil.",
+              "pt": "Café é cultivado no Brasil."
+            },
+            {
+              "en": "The car was made in Japan.",
+              "pt": "O carro foi feito no Japão."
+            },
+            {
+              "en": "These products are sold everywhere.",
+              "pt": "Esses produtos são vendidos em todo lugar."
+            },
+            {
+              "en": "The letters were sent yesterday.",
+              "pt": "As cartas foram enviadas ontem."
+            }
+          ],
+          "vocabulary": [
+            {
+              "en": "is / are + past participle",
+              "pt": "é / são (feito) — passiva presente"
+            },
+            {
+              "en": "was / were + past participle",
+              "pt": "foi / foram (feito) — passiva passado"
+            },
+            {
+              "en": "by",
+              "pt": "por (quem fez a ação)"
+            },
+            {
+              "en": "the agent",
+              "pt": "o agente (quem faz a ação)"
+            },
+            {
+              "en": "active voice",
+              "pt": "voz ativa"
+            },
+            {
+              "en": "passive voice",
+              "pt": "voz passiva"
+            },
+            {
+              "en": "to be grown",
+              "pt": "ser cultivado"
+            },
+            {
+              "en": "to be exported",
+              "pt": "ser exportado"
+            },
+            {
+              "en": "to be designed",
+              "pt": "ser projetado"
+            },
+            {
+              "en": "everywhere",
+              "pt": "em todo lugar"
+            },
+            {
+              "en": "all over the world",
+              "pt": "no mundo todo"
+            },
+            {
+              "en": "factory",
+              "pt": "fábrica"
+            }
+          ],
+          "expressions": [
+            {
+              "en": "It's well known.",
+              "pt": "É bem conhecido / sabido."
+            },
+            {
+              "en": "It's said that...",
+              "pt": "Dizem que..."
+            },
+            {
+              "en": "As you can see.",
+              "pt": "Como você pode ver."
+            },
+            {
+              "en": "It goes without saying.",
+              "pt": "Nem precisa dizer."
+            },
+            {
+              "en": "So I'm told.",
+              "pt": "Pelo que me disseram."
+            }
+          ],
+          "curiosity": "Did you know? The passive voice lets you talk about an action without naming who did it. 'The window was broken' tells you what happened — but politely hides who broke it! That's why it's so common in news, science, and… excuses.",
+          "teachingGuide": "Voz passiva: be + particípio passado. O foco vai para a AÇÃO ou o objeto, não para quem fez.\n\nAtiva: 'They built this house in 1990.'\nPassiva: 'This house WAS BUILT in 1990.'\n\nPresente: is/are + particípio (Coffee is grown in Brazil).\nPassado: was/were + particípio (The car was made in Japan).\n\nUse quando quem fez é desconhecido, óbvio ou irrelevante. O agente entra com 'by' só se for importante.\n\nMuito comum em textos formais, notícias e descrições de processos.\n\nDrill: transforme frases ativas em passivas e descreva de onde vêm produtos.",
+          "homework": [
+            "Inglês é falado no mundo todo.",
+            "Esta casa foi construída em 1990.",
+            "Café é cultivado no Brasil.",
+            "O carro foi feito no Japão.",
+            "Esses produtos são vendidos em todo lugar.",
+            "As cartas foram enviadas ontem.",
+            "O telefone celular foi inventado no século vinte.",
+            "Muitos carros são produzidos nesta fábrica.",
+            "A janela foi quebrada durante a tempestade.",
+            "Dizem que este restaurante é o melhor da cidade."
+          ]
+        },
+        {
+          "id": 9,
+          "title": "Lesson 9 — The Passive: Other Tenses & Agent",
+          "verbs": [
+            {
+              "en": "to discover, discovered",
+              "pt": "descobrir"
+            },
+            {
+              "en": "to design, designed",
+              "pt": "projetar / desenhar"
+            },
+            {
+              "en": "to deliver, delivered",
+              "pt": "entregar"
+            },
+            {
+              "en": "to repair, repaired",
+              "pt": "consertar / reparar"
+            }
+          ],
+          "grammarPoints": [
+            {
+              "en": "The package will be delivered tomorrow.",
+              "pt": "O pacote será entregue amanhã."
+            },
+            {
+              "en": "The road is being repaired right now.",
+              "pt": "A estrada está sendo consertada agora."
+            },
+            {
+              "en": "The work has been finished.",
+              "pt": "O trabalho já foi concluído."
+            },
+            {
+              "en": "The phone was designed by a famous company.",
+              "pt": "O celular foi projetado por uma empresa famosa."
+            },
+            {
+              "en": "Penicillin was discovered by Fleming.",
+              "pt": "A penicilina foi descoberta por Fleming."
+            },
+            {
+              "en": "The house is being painted this week.",
+              "pt": "A casa está sendo pintada esta semana."
+            }
+          ],
+          "vocabulary": [
+            {
+              "en": "will be + past participle",
+              "pt": "será (feito) — passiva futuro"
+            },
+            {
+              "en": "is being + past participle",
+              "pt": "está sendo (feito) — passiva contínua"
+            },
+            {
+              "en": "has been + past participle",
+              "pt": "foi / já foi (feito) — passiva perfect"
+            },
+            {
+              "en": "by + agent",
+              "pt": "por + agente (quem fez)"
+            },
+            {
+              "en": "to be installed",
+              "pt": "ser instalado"
+            },
+            {
+              "en": "to be repaired",
+              "pt": "ser consertado"
+            },
+            {
+              "en": "to be delivered",
+              "pt": "ser entregue"
+            },
+            {
+              "en": "to be canceled",
+              "pt": "ser cancelado"
+            },
+            {
+              "en": "to be fixed",
+              "pt": "ser arrumado / resolvido"
+            },
+            {
+              "en": "right now",
+              "pt": "agora mesmo"
+            },
+            {
+              "en": "recently",
+              "pt": "recentemente"
+            },
+            {
+              "en": "under construction",
+              "pt": "em construção / em obras"
+            }
+          ],
+          "expressions": [
+            {
+              "en": "It's under construction.",
+              "pt": "Está em obras / em construção."
+            },
+            {
+              "en": "It's being dealt with.",
+              "pt": "Está sendo resolvido / cuidado."
+            },
+            {
+              "en": "Leave it to me.",
+              "pt": "Deixa comigo."
+            },
+            {
+              "en": "It'll be done soon.",
+              "pt": "Vai estar pronto logo."
+            },
+            {
+              "en": "Consider it done.",
+              "pt": "Pode considerar feito."
+            }
+          ],
+          "curiosity": "Did you know? When the 'doer' really matters, the passive brings it back with 'by': 'Penicillin was discovered BY Fleming.' We name the agent only when it adds important information — otherwise English happily leaves it out.",
+          "teachingGuide": "A passiva funciona em todos os tempos — basta conjugar o verbo 'be':\n\nFuturo: will be + particípio (will be delivered).\nPresente contínuo: is/are being + particípio (is being repaired).\nPresent perfect: has/have been + particípio (has been finished).\n\nO AGENTE (quem faz) entra com 'by' só quando é importante: 'designed BY Apple', 'discovered BY Fleming'.\n\nMostre o contraste com a ativa para fixar.\n\nDrill: anúncios e situações reais — entregas, obras, consertos: 'The road is being repaired', 'It will be fixed tomorrow'.",
+          "homework": [
+            "O pacote será entregue amanhã.",
+            "A estrada está sendo consertada agora.",
+            "O trabalho já foi concluído.",
+            "O celular foi projetado por uma empresa famosa.",
+            "A penicilina foi descoberta por Fleming.",
+            "A casa está sendo pintada esta semana.",
+            "A internet será instalada na sexta-feira.",
+            "O problema já foi resolvido.",
+            "O voo foi cancelado por causa do tempo.",
+            "Esses quadros foram pintados por um artista local."
+          ]
+        },
+        {
+          "id": 10,
+          "title": "Lesson 10 — Review & Reading: A Story Worth Telling",
+          "verbs": [],
+          "grammarPoints": [
+            {
+              "en": "By the time we arrived, the show had started.",
+              "pt": "Quando chegamos, o show já tinha começado."
+            },
+            {
+              "en": "The theater had been built a hundred years before.",
+              "pt": "O teatro tinha sido construído cem anos antes."
+            },
+            {
+              "en": "We had been waiting for this night for months.",
+              "pt": "Nós estávamos esperando por essa noite havia meses."
+            },
+            {
+              "en": "The tickets were sold out in minutes.",
+              "pt": "Os ingressos foram esgotados em minutos."
+            },
+            {
+              "en": "It was a night we would never forget.",
+              "pt": "Foi uma noite que nunca esqueceríamos."
+            }
+          ],
+          "vocabulary": [
+            {
+              "en": "a theater / theatre",
+              "pt": "um teatro"
+            },
+            {
+              "en": "the stage",
+              "pt": "o palco"
+            },
+            {
+              "en": "the audience",
+              "pt": "a plateia / o público"
+            },
+            {
+              "en": "a performance",
+              "pt": "uma apresentação / espetáculo"
+            },
+            {
+              "en": "sold out",
+              "pt": "esgotado / lotado"
+            },
+            {
+              "en": "to applaud",
+              "pt": "aplaudir"
+            }
+          ],
+          "expressions": [
+            {
+              "en": "It was worth the wait.",
+              "pt": "Valeu a pena esperar."
+            },
+            {
+              "en": "I was on the edge of my seat.",
+              "pt": "Eu fiquei na ponta da cadeira (em suspense)."
+            },
+            {
+              "en": "I'll never forget it.",
+              "pt": "Eu nunca vou esquecer."
+            },
+            {
+              "en": "What a performance!",
+              "pt": "Que apresentação!"
+            },
+            {
+              "en": "Goosebumps!",
+              "pt": "Arrepios! / Que arrepiante!"
+            }
+          ],
+          "curiosity": "Did you know? Storytellers in English mix tenses on purpose. The simple past moves the story forward, the past perfect jumps back to earlier events, and the passive hides the doer to build suspense. Together, they turn plain facts into a story worth telling.",
+          "teachingGuide": "Lição de revisão (Lições 1-9). A leitura combina narrative tenses (simple past, past perfect, past perfect continuous) e voz passiva.\n\nPeça aos alunos para localizar e classificar cada tempo verbal e cada frase passiva no texto.\n\nPerguntas de compreensão: 'What had happened before they arrived? How long had they been waiting? How were the tickets described?'\n\nProdução: cada aluno conta uma noite ou evento memorável, usando pelo menos um past perfect, um past perfect continuous e uma frase na passiva.",
+          "readingText": {
+            "title": "A Story Worth Telling",
+            "body": "I will never forget the night we finally saw our favorite band live.\n\nWe had been waiting for that concert for months. The tickets had been sold out in just a few minutes, but we had been lucky enough to buy ours early. The show was being held in an old theater downtown — a beautiful building that had been built more than a hundred years before.\n\nBy the time we arrived, a huge crowd had already gathered outside, and the doors had just been opened. We found our seats, and a few minutes later the lights went down. The audience went quiet. Then the music started.\n\nIt was incredible. For two hours, we sang, we danced, and we forgot about everything else. I was on the edge of my seat the whole time. When the band played their most famous song, the entire theater was singing along, and I got goosebumps.\n\nAfter the last song, the musicians were applauded for nearly ten minutes. As we walked home that night, nobody said much. We were tired, but we were happy. It had been worth the wait. Some nights, I realized, are simply a story worth telling.",
+            "glossary": [
+              {
+                "en": "a concert",
+                "pt": "um show / concerto"
+              },
+              {
+                "en": "a band",
+                "pt": "uma banda"
+              },
+              {
+                "en": "to gather",
+                "pt": "se reunir / se juntar"
+              },
+              {
+                "en": "to sing along",
+                "pt": "cantar junto"
+              },
+              {
+                "en": "goosebumps",
+                "pt": "arrepios"
+              }
+            ]
+          },
+          "homework": [
+            "Nós estávamos esperando por aquele show havia meses.",
+            "Os ingressos tinham sido esgotados em poucos minutos.",
+            "O show estava sendo realizado em um teatro antigo.",
+            "O prédio tinha sido construído mais de cem anos antes.",
+            "Quando chegamos, uma multidão já tinha se reunido lá fora.",
+            "Quando a banda tocou a música mais famosa, todos cantaram junto.",
+            "Os músicos foram aplaudidos por quase dez minutos.",
+            "Eu fiquei na ponta da cadeira o tempo todo.",
+            "Tinha valido a pena esperar.",
+            "Foi uma noite que eu nunca vou esquecer."
+          ]
+        },
+        {
+          "id": 11,
+          "title": "Lesson 11 — Relative Clauses: Defining",
+          "verbs": [
+            {
+              "en": "to belong, belonged",
+              "pt": "pertencer"
+            },
+            {
+              "en": "to own, owned",
+              "pt": "possuir / ser dono de"
+            },
+            {
+              "en": "to contain, contained",
+              "pt": "conter"
+            },
+            {
+              "en": "to mean, meant",
+              "pt": "significar / querer dizer"
+            }
+          ],
+          "grammarPoints": [
+            {
+              "en": "The man who lives next door is a doctor.",
+              "pt": "O homem que mora na casa ao lado é médico."
+            },
+            {
+              "en": "This is the book that I told you about.",
+              "pt": "Este é o livro que eu te falei."
+            },
+            {
+              "en": "The woman whose car was stolen called the police.",
+              "pt": "A mulher cujo carro foi roubado chamou a polícia."
+            },
+            {
+              "en": "That's the restaurant where we met.",
+              "pt": "Esse é o restaurante onde nos conhecemos."
+            },
+            {
+              "en": "The phone which I bought broke.",
+              "pt": "O celular que eu comprei quebrou."
+            },
+            {
+              "en": "Do you know the people who live here?",
+              "pt": "Você conhece as pessoas que moram aqui?"
+            }
+          ],
+          "vocabulary": [
+            {
+              "en": "who",
+              "pt": "que / quem (pessoas)"
+            },
+            {
+              "en": "which",
+              "pt": "que (coisas)"
+            },
+            {
+              "en": "that",
+              "pt": "que (pessoas ou coisas)"
+            },
+            {
+              "en": "whose",
+              "pt": "cujo / cuja"
+            },
+            {
+              "en": "where",
+              "pt": "onde"
+            },
+            {
+              "en": "when",
+              "pt": "quando / em que"
+            },
+            {
+              "en": "the one that",
+              "pt": "aquele que"
+            },
+            {
+              "en": "somebody who",
+              "pt": "alguém que"
+            },
+            {
+              "en": "something that",
+              "pt": "algo que"
+            },
+            {
+              "en": "a place where",
+              "pt": "um lugar onde"
+            },
+            {
+              "en": "the reason why",
+              "pt": "o motivo pelo qual"
+            },
+            {
+              "en": "everything that",
+              "pt": "tudo que"
+            }
+          ],
+          "expressions": [
+            {
+              "en": "You know the type.",
+              "pt": "Você sabe como é o tipo."
+            },
+            {
+              "en": "The thing is...",
+              "pt": "A questão é que..."
+            },
+            {
+              "en": "The one and only.",
+              "pt": "O único e inigualável."
+            },
+            {
+              "en": "That reminds me.",
+              "pt": "Isso me lembra (de algo)."
+            },
+            {
+              "en": "Speaking of which...",
+              "pt": "Por falar nisso..."
+            }
+          ],
+          "curiosity": "Did you know? In defining relative clauses, English often lets you drop the relative pronoun when it's the object: 'the book THAT I read' can simply become 'the book I read'. Native speakers do this all the time to sound more natural.",
+          "teachingGuide": "Orações relativas DEFINIDORAS dão informação ESSENCIAL (identificam de qual pessoa/coisa falamos). NÃO levam vírgula.\n\nPronomes: who (pessoas), which (coisas), that (ambos), whose (posse), where (lugar), when (tempo).\n\n'that' pode substituir who/which em orações definidoras.\n\nQuando o pronome é OBJETO, pode ser omitido: 'the book (that) I read'.\n\nDrill: combine duas frases em uma usando o pronome relativo certo; depois pratique omitir o pronome quando possível.",
+          "homework": [
+            "O homem que mora na casa ao lado é médico.",
+            "Este é o livro que eu te falei.",
+            "A mulher cujo carro foi roubado chamou a polícia.",
+            "Esse é o restaurante onde nós nos conhecemos.",
+            "O celular que eu comprei quebrou.",
+            "Você conhece as pessoas que moram aqui?",
+            "Eu preciso de alguém que fale inglês.",
+            "Essa é a razão pela qual eu me atrasei.",
+            "O filme que nós assistimos ontem foi ótimo.",
+            "Eu quero algo que seja barato e útil."
+          ]
+        },
+        {
+          "id": 12,
+          "title": "Lesson 12 — Relative Clauses: Non-defining",
+          "verbs": [
+            {
+              "en": "to introduce, introduced",
+              "pt": "apresentar / introduzir"
+            },
+            {
+              "en": "to mention, mentioned",
+              "pt": "mencionar / comentar"
+            },
+            {
+              "en": "to inherit, inherited",
+              "pt": "herdar"
+            },
+            {
+              "en": "to found, founded",
+              "pt": "fundar"
+            }
+          ],
+          "grammarPoints": [
+            {
+              "en": "My brother, who lives in Rio, is a teacher.",
+              "pt": "Meu irmão, que mora no Rio, é professor."
+            },
+            {
+              "en": "Paris, which is the capital of France, is beautiful.",
+              "pt": "Paris, que é a capital da França, é linda."
+            },
+            {
+              "en": "Mr. Silva, whose son is my friend, called me.",
+              "pt": "O Sr. Silva, cujo filho é meu amigo, me ligou."
+            },
+            {
+              "en": "We visited London, where my aunt lives.",
+              "pt": "Nós visitamos Londres, onde minha tia mora."
+            },
+            {
+              "en": "In 2020, when the pandemic started, everything changed.",
+              "pt": "Em 2020, quando a pandemia começou, tudo mudou."
+            },
+            {
+              "en": "This book, which I read last year, is excellent.",
+              "pt": "Este livro, que eu li ano passado, é excelente."
+            }
+          ],
+          "vocabulary": [
+            {
+              "en": "who (non-defining)",
+              "pt": "que / o qual (info extra)"
+            },
+            {
+              "en": "which (non-defining)",
+              "pt": "que / o qual (info extra)"
+            },
+            {
+              "en": "whose",
+              "pt": "cujo / cuja"
+            },
+            {
+              "en": "where",
+              "pt": "onde"
+            },
+            {
+              "en": "when",
+              "pt": "quando / época em que"
+            },
+            {
+              "en": "extra information",
+              "pt": "informação extra"
+            },
+            {
+              "en": "by the way",
+              "pt": "a propósito"
+            },
+            {
+              "en": "in fact",
+              "pt": "na verdade / de fato"
+            },
+            {
+              "en": "namely",
+              "pt": "a saber / ou seja"
+            },
+            {
+              "en": "that is",
+              "pt": "isto é / ou seja"
+            },
+            {
+              "en": "as well",
+              "pt": "também"
+            },
+            {
+              "en": "a comma",
+              "pt": "uma vírgula"
+            }
+          ],
+          "expressions": [
+            {
+              "en": "By the way...",
+              "pt": "A propósito... / Aliás..."
+            },
+            {
+              "en": "As I mentioned.",
+              "pt": "Como eu mencionei."
+            },
+            {
+              "en": "Just so you know.",
+              "pt": "Só para você saber."
+            },
+            {
+              "en": "For your information.",
+              "pt": "Para sua informação."
+            },
+            {
+              "en": "In any case.",
+              "pt": "De qualquer forma."
+            }
+          ],
+          "curiosity": "Did you know? Non-defining clauses live between two commas, like a little aside in a conversation. And there's a strict rule: you can never use 'that' in them — only 'who' or 'which'. 'My car, which is red, ...' is fine; 'My car, that is red,' is not!",
+          "teachingGuide": "Orações relativas NÃO DEFINIDORAS acrescentam informação EXTRA (não essencial). Vêm entre VÍRGULAS.\n\nSe você remover a oração, a frase principal ainda faz sentido: 'My brother is a teacher.'\n\nREGRAS importantes:\n- NÃO se usa 'that' (apenas who/which/whose/where/when).\n- NÃO se pode omitir o pronome.\n\nContraste com as definidoras (sem vírgula, info essencial, 'that' permitido).\n\nDrill: dê uma frase e peça aos alunos para inserir uma informação extra entre vírgulas com who/which.",
+          "homework": [
+            "Meu irmão, que mora no Rio, é professor.",
+            "Paris, que é a capital da França, é linda.",
+            "O Sr. Silva, cujo filho é meu amigo, me ligou.",
+            "Nós visitamos Londres, onde minha tia mora.",
+            "Em 2020, quando a pandemia começou, tudo mudou.",
+            "Este livro, que eu li ano passado, é excelente.",
+            "Minha chefe, que é muito gentil, me deu um dia de folga.",
+            "O carro dela, que é novo, já está com problema.",
+            "Nossa professora, que fala três idiomas, viajou muito.",
+            "A empresa, que foi fundada em 1995, cresceu muito."
+          ]
+        },
+        {
+          "id": 13,
+          "title": "Lesson 13 — Gerunds and Infinitives",
+          "verbs": [
+            {
+              "en": "to enjoy, enjoyed",
+              "pt": "gostar / curtir / aproveitar"
+            },
+            {
+              "en": "to avoid, avoided",
+              "pt": "evitar"
+            },
+            {
+              "en": "to decide, decided",
+              "pt": "decidir"
+            },
+            {
+              "en": "to hope, hoped",
+              "pt": "esperar / torcer"
+            }
+          ],
+          "grammarPoints": [
+            {
+              "en": "I enjoy reading before bed.",
+              "pt": "Eu gosto de ler antes de dormir."
+            },
+            {
+              "en": "She decided to study medicine.",
+              "pt": "Ela decidiu estudar medicina."
+            },
+            {
+              "en": "I'm thinking of changing jobs.",
+              "pt": "Eu estou pensando em mudar de emprego."
+            },
+            {
+              "en": "He wants to travel abroad.",
+              "pt": "Ele quer viajar para o exterior."
+            },
+            {
+              "en": "Swimming is good for your health.",
+              "pt": "Nadar é bom para a saúde."
+            },
+            {
+              "en": "I'd like to learn the piano.",
+              "pt": "Eu gostaria de aprender piano."
+            }
+          ],
+          "vocabulary": [
+            {
+              "en": "a gerund (-ing)",
+              "pt": "gerúndio (verbo + -ing)"
+            },
+            {
+              "en": "an infinitive (to + verb)",
+              "pt": "infinitivo (to + verbo)"
+            },
+            {
+              "en": "enjoy + -ing",
+              "pt": "gostar de (fazer)"
+            },
+            {
+              "en": "avoid + -ing",
+              "pt": "evitar (fazer)"
+            },
+            {
+              "en": "finish + -ing",
+              "pt": "terminar de (fazer)"
+            },
+            {
+              "en": "want + to",
+              "pt": "querer (fazer)"
+            },
+            {
+              "en": "decide + to",
+              "pt": "decidir (fazer)"
+            },
+            {
+              "en": "hope + to",
+              "pt": "esperar (fazer)"
+            },
+            {
+              "en": "be good at + -ing",
+              "pt": "ser bom em (fazer)"
+            },
+            {
+              "en": "be interested in + -ing",
+              "pt": "ter interesse em (fazer)"
+            },
+            {
+              "en": "before / after + -ing",
+              "pt": "antes de / depois de (fazer)"
+            },
+            {
+              "en": "would like + to",
+              "pt": "gostaria de (fazer)"
+            }
+          ],
+          "expressions": [
+            {
+              "en": "I can't help it.",
+              "pt": "Não consigo evitar."
+            },
+            {
+              "en": "It's worth a try.",
+              "pt": "Vale a tentativa."
+            },
+            {
+              "en": "I look forward to it.",
+              "pt": "Estou ansioso por isso."
+            },
+            {
+              "en": "There's no point.",
+              "pt": "Não adianta. / Não tem sentido."
+            },
+            {
+              "en": "I feel like ...-ing.",
+              "pt": "Estou a fim de (fazer)."
+            }
+          ],
+          "curiosity": "Did you know? After a preposition, English ALWAYS uses the -ing form: 'good at swimming', 'interested in learning', 'tired of waiting'. So 'I look forward to seeing you' uses -ing — even though 'to' is usually a sign of the infinitive. Tricky!",
+          "teachingGuide": "Gerúndio (-ing) x Infinitivo (to + verbo):\n\nComo SUJEITO, use o gerúndio: 'Swimming is good for you.'\nVerbos seguidos de -ING: enjoy, avoid, finish, mind, suggest, keep.\nVerbos seguidos de TO: want, decide, hope, need, plan, would like.\nDepois de PREPOSIÇÃO, sempre -ING: good at swimming, think of changing, before leaving.\n\nDica: ensine os verbos em grupos e dê listas de referência.\n\nDrill: complete frases escolhendo -ing ou to; depois alunos falam sobre hábitos (enjoy/avoid) e planos (want/hope to).",
+          "homework": [
+            "Eu gosto de ler antes de dormir.",
+            "Ela decidiu estudar medicina.",
+            "Eu estou pensando em mudar de emprego.",
+            "Ele quer viajar para o exterior.",
+            "Nadar é bom para a saúde.",
+            "Eu gostaria de aprender a tocar piano.",
+            "Eu evito comer muito açúcar.",
+            "Eu sou bom em cozinhar, mas ruim em cantar.",
+            "Depois de terminar o trabalho, eu fui para casa.",
+            "Eu espero te ver em breve."
+          ]
+        },
+        {
+          "id": 14,
+          "title": "Lesson 14 — Verb Patterns: stop, remember, try, like",
+          "verbs": [
+            {
+              "en": "to remember, remembered",
+              "pt": "lembrar / lembrar-se"
+            },
+            {
+              "en": "to forget, forgot (forgotten)",
+              "pt": "esquecer"
+            },
+            {
+              "en": "to try, tried",
+              "pt": "tentar / experimentar"
+            },
+            {
+              "en": "to stop, stopped",
+              "pt": "parar"
+            }
+          ],
+          "grammarPoints": [
+            {
+              "en": "I stopped smoking last year.",
+              "pt": "Eu parei de fumar ano passado."
+            },
+            {
+              "en": "We stopped to have a coffee.",
+              "pt": "Nós paramos para tomar um café."
+            },
+            {
+              "en": "Remember to lock the door.",
+              "pt": "Lembre-se de trancar a porta."
+            },
+            {
+              "en": "I remember meeting him.",
+              "pt": "Eu me lembro de tê-lo conhecido."
+            },
+            {
+              "en": "Try to relax.",
+              "pt": "Tente relaxar."
+            },
+            {
+              "en": "I like cooking, but I hate washing dishes.",
+              "pt": "Eu gosto de cozinhar, mas odeio lavar louça."
+            }
+          ],
+          "vocabulary": [
+            {
+              "en": "stop + -ing",
+              "pt": "parar de (deixar de fazer)"
+            },
+            {
+              "en": "stop + to",
+              "pt": "parar para (fazer outra coisa)"
+            },
+            {
+              "en": "remember + to",
+              "pt": "lembrar de (fazer algo futuro)"
+            },
+            {
+              "en": "remember + -ing",
+              "pt": "lembrar de (ter feito)"
+            },
+            {
+              "en": "forget + to",
+              "pt": "esquecer de (fazer)"
+            },
+            {
+              "en": "try + to",
+              "pt": "tentar / fazer esforço"
+            },
+            {
+              "en": "try + -ing",
+              "pt": "experimentar (testar algo)"
+            },
+            {
+              "en": "like / love / hate + -ing",
+              "pt": "gostar / amar / odiar (em geral)"
+            },
+            {
+              "en": "would prefer + to",
+              "pt": "preferir (numa situação)"
+            },
+            {
+              "en": "can't stand + -ing",
+              "pt": "não suportar (fazer)"
+            },
+            {
+              "en": "prefer",
+              "pt": "preferir"
+            },
+            {
+              "en": "instead",
+              "pt": "em vez disso"
+            }
+          ],
+          "expressions": [
+            {
+              "en": "It depends.",
+              "pt": "Depende."
+            },
+            {
+              "en": "Either way.",
+              "pt": "De qualquer jeito / Tanto faz."
+            },
+            {
+              "en": "Up to you.",
+              "pt": "Você que sabe / Como preferir."
+            },
+            {
+              "en": "I'd rather not.",
+              "pt": "Prefiro não."
+            },
+            {
+              "en": "Suit yourself.",
+              "pt": "Como quiser. / Faça como achar melhor."
+            }
+          ],
+          "curiosity": "Did you know? With some verbs, -ing and 'to' tell completely different stories. 'I stopped smoking' means I quit; 'I stopped to smoke' means I paused in order to have a cigarette. One little word, two opposite habits!",
+          "teachingGuide": "Verbos cujo SIGNIFICADO muda conforme venha -ing ou to:\n\nSTOP + -ing = deixar de fazer (I stopped smoking = parei de fumar).\nSTOP + to = parar com o objetivo de (I stopped to smoke = parei para fumar).\nREMEMBER/FORGET + to = lembrar/esquecer de algo a fazer (futuro).\nREMEMBER + -ing = lembrar de algo já feito (memória).\nTRY + to = fazer esforço; TRY + -ing = experimentar/testar.\n\nlike/love/hate + -ing (gosto geral); would like/prefer + to (situação específica).\n\nDrill: pares de frases contrastando os dois sentidos.",
+          "homework": [
+            "Eu parei de fumar ano passado.",
+            "Nós paramos para tomar um café.",
+            "Lembre-se de trancar a porta ao sair.",
+            "Eu me lembro de tê-lo conhecido na festa.",
+            "Tente relaxar; vai dar tudo certo.",
+            "Eu gosto de cozinhar, mas odeio lavar louça.",
+            "Não esqueça de me ligar amanhã.",
+            "Experimente adicionar um pouco de sal.",
+            "Eu prefiro ficar em casa hoje à noite.",
+            "Eu não suporto acordar cedo."
+          ]
+        },
+        {
+          "id": 15,
+          "title": "Lesson 15 — Review & Reading: City of Dreams",
+          "verbs": [],
+          "grammarPoints": [
+            {
+              "en": "It's the city where I always dreamed of living.",
+              "pt": "É a cidade onde eu sempre sonhei em morar."
+            },
+            {
+              "en": "I enjoy walking around streets that are full of life.",
+              "pt": "Eu gosto de caminhar por ruas que são cheias de vida."
+            },
+            {
+              "en": "The people who live there love sharing their culture.",
+              "pt": "As pessoas que moram lá adoram compartilhar sua cultura."
+            },
+            {
+              "en": "I decided to move there, which changed my life.",
+              "pt": "Eu decidi me mudar para lá, o que mudou minha vida."
+            },
+            {
+              "en": "Living in a big city means learning every day.",
+              "pt": "Morar numa cidade grande significa aprender todo dia."
+            }
+          ],
+          "vocabulary": [
+            {
+              "en": "a neighborhood",
+              "pt": "um bairro"
+            },
+            {
+              "en": "a skyscraper",
+              "pt": "um arranha-céu"
+            },
+            {
+              "en": "culture",
+              "pt": "cultura"
+            },
+            {
+              "en": "an opportunity",
+              "pt": "uma oportunidade"
+            },
+            {
+              "en": "a stranger",
+              "pt": "um estranho / desconhecido"
+            },
+            {
+              "en": "to belong",
+              "pt": "pertencer / fazer parte"
+            }
+          ],
+          "expressions": [
+            {
+              "en": "It's a dream come true.",
+              "pt": "É um sonho realizado."
+            },
+            {
+              "en": "It grows on you.",
+              "pt": "Você vai gostando aos poucos."
+            },
+            {
+              "en": "There's never a dull moment.",
+              "pt": "Nunca tem um momento de tédio."
+            },
+            {
+              "en": "It feels like home.",
+              "pt": "Parece um lar."
+            },
+            {
+              "en": "I wouldn't change it for the world.",
+              "pt": "Eu não trocaria por nada."
+            }
+          ],
+          "curiosity": "Did you know? Many of the world's biggest cities are nicknamed for what they offer dreamers. New York is 'The City That Never Sleeps', and for millions of newcomers any big city becomes a personal 'city of dreams' — a place where reinventing yourself feels possible.",
+          "teachingGuide": "Lição de revisão (Lições 11-14). A leitura combina orações relativas (definidoras e não definidoras) com gerúndios e infinitivos.\n\nPeça aos alunos para sublinhar cada oração relativa (who/which/that/where) e cada gerúndio/infinitivo, classificando-os.\n\nPerguntas: 'Why did the writer move? What does she enjoy doing? What does living in the city mean to her?'\n\nProdução: cada aluno descreve uma cidade (real ou dos sonhos) usando pelo menos duas orações relativas e dois padrões verbais (enjoy + -ing, decide + to, etc.).",
+          "readingText": {
+            "title": "City of Dreams",
+            "body": "Five years ago, I decided to move to São Paulo, a city which had always fascinated me. I grew up in a small town where nothing ever seemed to happen, and I dreamed of living somewhere full of energy and opportunity.\n\nAt first, the city, which is enormous, was overwhelming. I didn't know anyone, and I spent my first weeks feeling like a stranger. Finding a job that I liked wasn't easy, and getting used to the noise and the crowds took time. There were days when I considered going back home.\n\nBut slowly, the city grew on me. I started enjoying the little things: walking around neighborhoods that each have their own personality, trying food from every corner of the world, and meeting people who came here, just like me, hoping to build a better life.\n\nNow I can't imagine living anywhere else. The friends I have made, the things I have learned, the opportunities I have found — none of it would have happened if I had stayed where I was. Moving here was the best decision I ever made.\n\nThis is the city where I finally feel I belong. It's a dream come true, and I wouldn't change it for the world.",
+            "glossary": [
+              {
+                "en": "to fascinate",
+                "pt": "fascinar / encantar"
+              },
+              {
+                "en": "overwhelming",
+                "pt": "avassalador / impressionante"
+              },
+              {
+                "en": "to get used to",
+                "pt": "se acostumar com"
+              },
+              {
+                "en": "to consider",
+                "pt": "considerar / pensar em"
+              },
+              {
+                "en": "to build a better life",
+                "pt": "construir uma vida melhor"
+              }
+            ]
+          },
+          "homework": [
+            "É a cidade onde eu sempre sonhei em morar.",
+            "Eu cresci numa cidade pequena onde nada parecia acontecer.",
+            "No começo, a cidade, que é enorme, era avassaladora.",
+            "Encontrar um emprego de que eu gostasse não foi fácil.",
+            "Eu comecei a curtir as pequenas coisas.",
+            "Eu gosto de caminhar por bairros que têm sua própria personalidade.",
+            "Eu conheci pessoas que vieram para cá esperando uma vida melhor.",
+            "Eu decidi me mudar para lá, o que mudou minha vida.",
+            "Morar numa cidade grande significa aprender todo dia.",
+            "É um sonho realizado, e eu não trocaria por nada."
+          ]
+        },
+        {
+          "id": 16,
+          "title": "Lesson 16 — Modals of Deduction: Present",
+          "verbs": [
+            {
+              "en": "to seem, seemed",
+              "pt": "parecer"
+            },
+            {
+              "en": "to belong, belonged",
+              "pt": "pertencer"
+            },
+            {
+              "en": "to wonder, wondered",
+              "pt": "se perguntar / imaginar"
+            },
+            {
+              "en": "to assume, assumed",
+              "pt": "presumir / supor"
+            }
+          ],
+          "grammarPoints": [
+            {
+              "en": "He must be rich; he has three cars.",
+              "pt": "Ele deve ser rico; tem três carros."
+            },
+            {
+              "en": "She can't be at home; the lights are off.",
+              "pt": "Ela não pode estar em casa; as luzes estão apagadas."
+            },
+            {
+              "en": "They might be tired after the trip.",
+              "pt": "Eles talvez estejam cansados depois da viagem."
+            },
+            {
+              "en": "That must be the new teacher.",
+              "pt": "Aquele deve ser o novo professor."
+            },
+            {
+              "en": "It could be a mistake.",
+              "pt": "Pode ser um erro."
+            },
+            {
+              "en": "He might not know the answer.",
+              "pt": "Talvez ele não saiba a resposta."
+            }
+          ],
+          "vocabulary": [
+            {
+              "en": "must be",
+              "pt": "deve ser (certeza lógica)"
+            },
+            {
+              "en": "can't be",
+              "pt": "não pode ser (impossível)"
+            },
+            {
+              "en": "might / may be",
+              "pt": "talvez seja"
+            },
+            {
+              "en": "could be",
+              "pt": "poderia ser / pode ser"
+            },
+            {
+              "en": "probably",
+              "pt": "provavelmente"
+            },
+            {
+              "en": "possibly",
+              "pt": "possivelmente"
+            },
+            {
+              "en": "certainly",
+              "pt": "certamente"
+            },
+            {
+              "en": "I'm sure",
+              "pt": "tenho certeza"
+            },
+            {
+              "en": "perhaps",
+              "pt": "talvez"
+            },
+            {
+              "en": "evidence",
+              "pt": "evidência / indício"
+            },
+            {
+              "en": "obvious",
+              "pt": "óbvio"
+            },
+            {
+              "en": "a guess",
+              "pt": "um palpite"
+            }
+          ],
+          "expressions": [
+            {
+              "en": "Who knows?",
+              "pt": "Quem sabe? / Vai saber."
+            },
+            {
+              "en": "It makes sense.",
+              "pt": "Faz sentido."
+            },
+            {
+              "en": "I bet.",
+              "pt": "Aposto que sim."
+            },
+            {
+              "en": "I suppose so.",
+              "pt": "Suponho que sim."
+            },
+            {
+              "en": "Your guess is as good as mine.",
+              "pt": "Eu sei tanto quanto você."
+            }
+          ],
+          "curiosity": "Did you know? For a logical 'no', English uses 'can't', not 'mustn't'. 'She can't be at home' means I'm sure she isn't. 'Mustn't' is about prohibition, not deduction — so don't mix them up when you're playing detective!",
+          "teachingGuide": "Modais para DEDUZIR sobre o presente, com base em evidências:\n\nMUST BE = tenho quase certeza que SIM (He must be rich).\nCAN'T BE = tenho quase certeza que NÃO (She can't be home). CUIDADO: é 'can't', não 'mustn't'.\nMIGHT/MAY/COULD BE = é possível, talvez.\n\nUse 'be' ou um verbo na base (He must know, She might work here).\n\nGrau de certeza: must (forte) > might/may/could (possível) > can't (negação forte).\n\nDrill: mostre fotos/situações e os alunos deduzem: 'He must be a teacher. They can't be tourists.'",
+          "homework": [
+            "Ele deve ser rico; tem três carros.",
+            "Ela não pode estar em casa; as luzes estão apagadas.",
+            "Eles talvez estejam cansados depois da viagem.",
+            "Aquele deve ser o novo professor.",
+            "Pode ser um erro; deixe-me verificar.",
+            "Talvez ele não saiba a resposta.",
+            "Você deve estar com fome; não comeu nada.",
+            "Esse celular não pode ser dela; ela tem um diferente.",
+            "Eles devem morar perto daqui.",
+            "Talvez esteja chovendo; as pessoas estão com guarda-chuva."
+          ]
+        },
+        {
+          "id": 17,
+          "title": "Lesson 17 — Modals of Deduction: Past",
+          "verbs": [
+            {
+              "en": "to leave, left",
+              "pt": "sair / partir"
+            },
+            {
+              "en": "to lose, lost",
+              "pt": "perder"
+            },
+            {
+              "en": "to miss, missed",
+              "pt": "perder (algo) / sentir falta"
+            },
+            {
+              "en": "to break, broke (broken)",
+              "pt": "quebrar"
+            }
+          ],
+          "grammarPoints": [
+            {
+              "en": "She must have left already.",
+              "pt": "Ela deve ter saído já."
+            },
+            {
+              "en": "He can't have finished so fast.",
+              "pt": "Ele não pode ter terminado tão rápido."
+            },
+            {
+              "en": "They might have missed the train.",
+              "pt": "Eles talvez tenham perdido o trem."
+            },
+            {
+              "en": "You must have been tired.",
+              "pt": "Você devia estar cansado."
+            },
+            {
+              "en": "It could have been worse.",
+              "pt": "Poderia ter sido pior."
+            },
+            {
+              "en": "She may have forgotten.",
+              "pt": "Ela pode ter esquecido."
+            }
+          ],
+          "vocabulary": [
+            {
+              "en": "must have + past participle",
+              "pt": "deve ter (feito)"
+            },
+            {
+              "en": "can't have + past participle",
+              "pt": "não pode ter (feito)"
+            },
+            {
+              "en": "might / may have + past participle",
+              "pt": "talvez tenha (feito)"
+            },
+            {
+              "en": "could have + past participle",
+              "pt": "poderia ter (feito)"
+            },
+            {
+              "en": "probably",
+              "pt": "provavelmente"
+            },
+            {
+              "en": "by mistake",
+              "pt": "por engano"
+            },
+            {
+              "en": "somehow",
+              "pt": "de alguma forma"
+            },
+            {
+              "en": "apparently",
+              "pt": "aparentemente / pelo visto"
+            },
+            {
+              "en": "evidently",
+              "pt": "evidentemente"
+            },
+            {
+              "en": "no idea",
+              "pt": "nenhuma ideia"
+            },
+            {
+              "en": "after all",
+              "pt": "afinal de contas"
+            },
+            {
+              "en": "to figure out",
+              "pt": "descobrir / entender"
+            }
+          ],
+          "expressions": [
+            {
+              "en": "That explains it.",
+              "pt": "Isso explica tudo."
+            },
+            {
+              "en": "It's possible.",
+              "pt": "É possível."
+            },
+            {
+              "en": "I had no idea.",
+              "pt": "Eu não fazia ideia."
+            },
+            {
+              "en": "Who would have guessed?",
+              "pt": "Quem diria?"
+            },
+            {
+              "en": "Makes sense now.",
+              "pt": "Agora faz sentido."
+            }
+          ],
+          "curiosity": "Did you know? To guess about the past, English adds 'have + past participle' to the modal: 'She must HAVE LEFT.' In fast speech, 'must have' sounds like 'must've' — which is why some people mistakenly write 'must of'. Don't fall for it!",
+          "teachingGuide": "Modais para deduzir sobre o PASSADO: modal + HAVE + particípio passado.\n\nMUST HAVE + pp = quase certeza que aconteceu (She must have left).\nCAN'T HAVE + pp = quase certeza que NÃO aconteceu (He can't have finished).\nMIGHT/MAY/COULD HAVE + pp = era possível (They might have missed it).\n\nNa fala, 'must have' vira 'must've' — mas NUNCA escreva 'must of'.\n\nMuito usado para explicar mistérios e situações passadas.\n\nDrill: dê uma situação estranha do passado e peça aos alunos para explicá-la com must/can't/might have.",
+          "homework": [
+            "Ela deve ter saído já.",
+            "Ele não pode ter terminado tão rápido.",
+            "Eles talvez tenham perdido o trem.",
+            "Você devia estar cansado depois da viagem.",
+            "Poderia ter sido pior; ninguém se machucou.",
+            "Ela pode ter esquecido do nosso encontro.",
+            "Alguém deve ter pegado minhas chaves por engano.",
+            "Ele não pode ter dito isso; não é do feitio dele.",
+            "Pelo visto, eles devem ter mudado de ideia.",
+            "Isso explica tudo: ela deve ter perdido o ônibus."
+          ]
+        },
+        {
+          "id": 18,
+          "title": "Lesson 18 — used to / be used to / get used to",
+          "verbs": [
+            {
+              "en": "to adapt, adapted",
+              "pt": "se adaptar"
+            },
+            {
+              "en": "to cope, coped",
+              "pt": "lidar / dar conta"
+            },
+            {
+              "en": "to manage, managed",
+              "pt": "conseguir / administrar"
+            },
+            {
+              "en": "to struggle, struggled",
+              "pt": "ter dificuldade / batalhar"
+            }
+          ],
+          "grammarPoints": [
+            {
+              "en": "I used to live in the countryside.",
+              "pt": "Eu morava no campo (antigamente)."
+            },
+            {
+              "en": "I'm used to living in the city now.",
+              "pt": "Eu estou acostumado a morar na cidade agora."
+            },
+            {
+              "en": "She's getting used to her new job.",
+              "pt": "Ela está se acostumando com o novo emprego."
+            },
+            {
+              "en": "He isn't used to the cold weather.",
+              "pt": "Ele não está acostumado com o frio."
+            },
+            {
+              "en": "Are you used to driving on the left?",
+              "pt": "Você está acostumado a dirigir pela esquerda?"
+            },
+            {
+              "en": "I'll get used to it eventually.",
+              "pt": "Eu vou me acostumar com isso com o tempo."
+            }
+          ],
+          "vocabulary": [
+            {
+              "en": "used to + verb",
+              "pt": "costumava (hábito passado)"
+            },
+            {
+              "en": "be used to + -ing/noun",
+              "pt": "estar acostumado a/com"
+            },
+            {
+              "en": "get used to + -ing",
+              "pt": "se acostumar com (processo)"
+            },
+            {
+              "en": "at first",
+              "pt": "no começo"
+            },
+            {
+              "en": "gradually",
+              "pt": "aos poucos / gradualmente"
+            },
+            {
+              "en": "eventually",
+              "pt": "com o tempo / no fim"
+            },
+            {
+              "en": "strange",
+              "pt": "estranho"
+            },
+            {
+              "en": "normal",
+              "pt": "normal"
+            },
+            {
+              "en": "a routine",
+              "pt": "uma rotina"
+            },
+            {
+              "en": "a habit",
+              "pt": "um hábito"
+            },
+            {
+              "en": "difficult at first",
+              "pt": "difícil no começo"
+            },
+            {
+              "en": "by now",
+              "pt": "a esta altura"
+            }
+          ],
+          "expressions": [
+            {
+              "en": "It takes time.",
+              "pt": "Leva tempo."
+            },
+            {
+              "en": "You'll get the hang of it.",
+              "pt": "Você vai pegar o jeito."
+            },
+            {
+              "en": "It's second nature.",
+              "pt": "É automático / já virou natural."
+            },
+            {
+              "en": "Old habits die hard.",
+              "pt": "É difícil mudar velhos hábitos."
+            },
+            {
+              "en": "Give it time.",
+              "pt": "Dê um tempo / Tenha paciência."
+            }
+          ],
+          "curiosity": "Did you know? These three look almost the same but mean very different things! 'I used to swim' = a past habit. 'I'm used to swimming' = it feels normal now. 'I'm getting used to swimming' = it's becoming normal. Watch that little '-ing'!",
+          "teachingGuide": "Três estruturas parecidas, sentidos diferentes:\n\nUSED TO + verbo base = hábito do PASSADO que acabou (I used to live there).\nBE USED TO + -ing/substantivo = estar ACOSTUMADO (estado atual) (I'm used to living here).\nGET USED TO + -ing = se ACOSTUMANDO (processo) (I'm getting used to it).\n\nO grande perigo: 'used to + verbo' (passado) x 'be/get used to + -ing'. O '-ing' é a pista.\n\nDrill: alunos comparam a vida antiga (used to) com a atual (be used to) e mudanças recentes (getting used to).",
+          "homework": [
+            "Eu morava no campo antigamente.",
+            "Eu estou acostumado a morar na cidade agora.",
+            "Ela está se acostumando com o novo emprego.",
+            "Ele não está acostumado com o frio.",
+            "Você está acostumado a dirigir pela esquerda?",
+            "Eu vou me acostumar com isso com o tempo.",
+            "No começo foi estranho, mas agora é normal.",
+            "Eu costumava acordar tarde, mas agora estou acostumado a acordar cedo.",
+            "Leva tempo para se acostumar com uma rotina nova.",
+            "Eles ainda não estão acostumados com a comida daqui."
+          ]
+        },
+        {
+          "id": 19,
+          "title": "Lesson 19 — So / Such / Too / Enough",
+          "verbs": [
+            {
+              "en": "to manage, managed",
+              "pt": "conseguir / dar conta"
+            },
+            {
+              "en": "to afford, afforded",
+              "pt": "ter dinheiro para / poder pagar"
+            },
+            {
+              "en": "to fit, fit",
+              "pt": "caber / servir"
+            },
+            {
+              "en": "to reach, reached",
+              "pt": "alcançar"
+            }
+          ],
+          "grammarPoints": [
+            {
+              "en": "It was so hot that we stayed inside.",
+              "pt": "Estava tão quente que ficamos dentro de casa."
+            },
+            {
+              "en": "It was such a hot day.",
+              "pt": "Foi um dia tão quente."
+            },
+            {
+              "en": "This coffee is too hot to drink.",
+              "pt": "Este café está quente demais para beber."
+            },
+            {
+              "en": "I'm not tall enough to reach it.",
+              "pt": "Eu não sou alto o suficiente para alcançar."
+            },
+            {
+              "en": "She's so kind that everyone loves her.",
+              "pt": "Ela é tão gentil que todos a amam."
+            },
+            {
+              "en": "We don't have enough time.",
+              "pt": "Nós não temos tempo suficiente."
+            }
+          ],
+          "vocabulary": [
+            {
+              "en": "so + adjective",
+              "pt": "tão + adjetivo"
+            },
+            {
+              "en": "such + (a) + noun",
+              "pt": "um(a) tão / tanto"
+            },
+            {
+              "en": "too + adjective",
+              "pt": "demais (excesso)"
+            },
+            {
+              "en": "adjective + enough",
+              "pt": "suficientemente (adjetivo)"
+            },
+            {
+              "en": "enough + noun",
+              "pt": "suficiente (substantivo)"
+            },
+            {
+              "en": "... that ...",
+              "pt": "... que ... (resultado)"
+            },
+            {
+              "en": "too ... to ...",
+              "pt": "demais para ..."
+            },
+            {
+              "en": "way too",
+              "pt": "muito além (do necessário)"
+            },
+            {
+              "en": "far too",
+              "pt": "exageradamente"
+            },
+            {
+              "en": "not ... enough",
+              "pt": "não ... o suficiente"
+            },
+            {
+              "en": "more than enough",
+              "pt": "mais que suficiente"
+            },
+            {
+              "en": "barely enough",
+              "pt": "mal suficiente / quase nada"
+            }
+          ],
+          "expressions": [
+            {
+              "en": "That's too much.",
+              "pt": "Isso é demais."
+            },
+            {
+              "en": "Good enough.",
+              "pt": "Tá bom assim. / Suficiente."
+            },
+            {
+              "en": "Just enough.",
+              "pt": "Na medida certa."
+            },
+            {
+              "en": "Far too expensive.",
+              "pt": "Caro demais."
+            },
+            {
+              "en": "More than enough.",
+              "pt": "Mais que suficiente."
+            }
+          ],
+          "curiosity": "Did you know? 'So' and 'such' both mean 'very', but they choose different partners. 'So' goes with an adjective alone ('so hot'), while 'such' wraps around a noun ('such a hot day'). Same feeling, different grammar!",
+          "teachingGuide": "Quatro intensificadores:\n\nSO + adjetivo/advérbio: 'It's so hot.'\nSUCH + (a/an) + (adjetivo) + substantivo: 'It's such a hot day.'\nso/such ... THAT ... (resultado): 'It was so hot THAT we stayed inside.'\n\nTOO + adjetivo = excesso, sentido negativo: 'too hot (to drink)'.\nadjetivo + ENOUGH = suficiente: 'tall enough'. ENOUGH + substantivo: 'enough time'.\n\nContraste-chave: TOO = mais do que o necessário (ruim); ENOUGH = o necessário.\n\nDrill: descreva situações e peça aos alunos para escolher so/such/too/enough.",
+          "homework": [
+            "Estava tão quente que ficamos dentro de casa.",
+            "Foi um dia tão quente.",
+            "Este café está quente demais para beber.",
+            "Eu não sou alto o suficiente para alcançar a prateleira.",
+            "Ela é tão gentil que todos a amam.",
+            "Nós não temos tempo suficiente para terminar.",
+            "O carro era caro demais; não pude comprar.",
+            "Foi um filme tão chato que eu dormi.",
+            "Você é forte o suficiente para carregar isso?",
+            "Tem comida mais que suficiente para todos."
+          ]
+        },
+        {
+          "id": 20,
+          "title": "Lesson 20 — Review & Reading: The Mystery Guest",
+          "verbs": [],
+          "grammarPoints": [
+            {
+              "en": "It must have been someone we knew.",
+              "pt": "Deve ter sido alguém que conhecíamos."
+            },
+            {
+              "en": "She can't have come alone.",
+              "pt": "Ela não pode ter vindo sozinha."
+            },
+            {
+              "en": "He might have left through the back door.",
+              "pt": "Ele talvez tenha saído pela porta dos fundos."
+            },
+            {
+              "en": "The room was so quiet that we heard everything.",
+              "pt": "A sala estava tão silenciosa que ouvimos tudo."
+            },
+            {
+              "en": "There were too many clues to ignore.",
+              "pt": "Havia pistas demais para ignorar."
+            }
+          ],
+          "vocabulary": [
+            {
+              "en": "a clue",
+              "pt": "uma pista"
+            },
+            {
+              "en": "a suspect",
+              "pt": "um suspeito"
+            },
+            {
+              "en": "a detective",
+              "pt": "um detetive"
+            },
+            {
+              "en": "to solve",
+              "pt": "resolver / solucionar"
+            },
+            {
+              "en": "evidence",
+              "pt": "evidência"
+            },
+            {
+              "en": "a coincidence",
+              "pt": "uma coincidência"
+            }
+          ],
+          "expressions": [
+            {
+              "en": "It doesn't add up.",
+              "pt": "Não bate / Não faz sentido."
+            },
+            {
+              "en": "Something's not right.",
+              "pt": "Tem algo errado."
+            },
+            {
+              "en": "Now it all makes sense.",
+              "pt": "Agora tudo faz sentido."
+            },
+            {
+              "en": "I knew it!",
+              "pt": "Eu sabia!"
+            },
+            {
+              "en": "Case closed.",
+              "pt": "Caso encerrado."
+            }
+          ],
+          "curiosity": "Did you know? The classic detective story was born in English in 1841 with Edgar Allan Poe. Ever since, fictional detectives have made one grammar point famous: deduction. 'It must have been the butler!' is modal grammar doing detective work.",
+          "teachingGuide": "Lição de revisão (Lições 16-19). A leitura é uma mini-história de mistério que recicla os modais de dedução (presente e passado) e as estruturas so/such/too/enough.\n\nPeça aos alunos para sublinhar cada dedução (must have / can't have / might have) e cada uso de so/such/too/enough.\n\nPerguntas: 'Who do they think the guest was? Why couldn't it have been a stranger? What clues did they find?'\n\nProdução: em duplas, os alunos criam suas próprias deduções sobre um pequeno mistério, usando must/can't/might (have).",
+          "readingText": {
+            "title": "The Mystery Guest",
+            "body": "When we got home from our trip, something was strange. The front door was unlocked, and there were dishes in the sink. Someone had clearly been in the house.\n\n'It can't have been a burglar,' my sister said. 'Nothing is missing, and a thief wouldn't wash the dishes!' She was right — it didn't add up. The kitchen was so clean that the visitor must have been someone tidy. And the door hadn't been forced, so the person must have had a key.\n\nWe looked for more clues. There was a cup of coffee, still slightly warm, which meant the guest must have left only minutes before. On the table, we found a book that none of us owned. 'They might have forgotten it,' I said.\n\nSuddenly, my sister laughed. 'I think I know! Grandma has a key, and that's her favorite book. She must have come to water the plants while we were away.' It all made sense now. The mystery guest wasn't a mystery at all.\n\nA minute later, the phone rang. It was Grandma. 'Welcome home, dears! I hope you don't mind — I let myself in to look after the plants.' Case closed!",
+            "glossary": [
+              {
+                "en": "unlocked",
+                "pt": "destrancado"
+              },
+              {
+                "en": "a burglar / thief",
+                "pt": "um ladrão"
+              },
+              {
+                "en": "to force (a door)",
+                "pt": "arrombar (uma porta)"
+              },
+              {
+                "en": "tidy",
+                "pt": "organizado / arrumado"
+              },
+              {
+                "en": "to water the plants",
+                "pt": "regar as plantas"
+              }
+            ]
+          },
+          "homework": [
+            "Alguém claramente tinha estado na casa.",
+            "Não pode ter sido um ladrão; nada estava faltando.",
+            "A cozinha estava tão limpa que o visitante devia ser alguém organizado.",
+            "A porta não foi arrombada, então a pessoa devia ter uma chave.",
+            "O café ainda estava morno, então o hóspede deve ter saído há minutos.",
+            "Eles talvez tenham esquecido o livro na mesa.",
+            "A vovó deve ter vindo regar as plantas.",
+            "Agora tudo faz sentido.",
+            "Havia pistas demais para ignorar.",
+            "Caso encerrado!"
+          ]
+        },
+        {
+          "id": 21,
+          "title": "Lesson 21 — Reported Speech: Statements",
+          "verbs": [
+            {
+              "en": "to say, said",
+              "pt": "dizer"
+            },
+            {
+              "en": "to tell, told",
+              "pt": "dizer a / contar para"
+            },
+            {
+              "en": "to claim, claimed",
+              "pt": "alegar / afirmar"
+            },
+            {
+              "en": "to admit, admitted",
+              "pt": "admitir"
+            }
+          ],
+          "grammarPoints": [
+            {
+              "en": "She said that she was tired.",
+              "pt": "Ela disse que estava cansada."
+            },
+            {
+              "en": "He told me he had finished.",
+              "pt": "Ele me disse que tinha terminado."
+            },
+            {
+              "en": "They said they would help.",
+              "pt": "Eles disseram que ajudariam."
+            },
+            {
+              "en": "She said she could swim.",
+              "pt": "Ela disse que sabia nadar."
+            },
+            {
+              "en": "He said he was leaving the next day.",
+              "pt": "Ele disse que estava saindo no dia seguinte."
+            },
+            {
+              "en": "I told her I had seen the film.",
+              "pt": "Eu disse a ela que tinha visto o filme."
+            }
+          ],
+          "vocabulary": [
+            {
+              "en": "say (that)",
+              "pt": "dizer (que)"
+            },
+            {
+              "en": "tell someone (that)",
+              "pt": "dizer a alguém (que)"
+            },
+            {
+              "en": "backshift (is to was)",
+              "pt": "recuo de tempo (is vira was)"
+            },
+            {
+              "en": "will to would",
+              "pt": "will vira would"
+            },
+            {
+              "en": "can to could",
+              "pt": "can vira could"
+            },
+            {
+              "en": "the next day",
+              "pt": "no dia seguinte"
+            },
+            {
+              "en": "the day before",
+              "pt": "no dia anterior"
+            },
+            {
+              "en": "there",
+              "pt": "lá (no lugar de 'aqui')"
+            },
+            {
+              "en": "then",
+              "pt": "naquele momento (no lugar de 'agora')"
+            },
+            {
+              "en": "that",
+              "pt": "que"
+            },
+            {
+              "en": "to claim",
+              "pt": "alegar"
+            },
+            {
+              "en": "to admit",
+              "pt": "admitir / reconhecer"
+            }
+          ],
+          "expressions": [
+            {
+              "en": "Word for word.",
+              "pt": "Palavra por palavra."
+            },
+            {
+              "en": "So she claims.",
+              "pt": "É o que ela alega."
+            },
+            {
+              "en": "Or so I heard.",
+              "pt": "Ou pelo menos foi o que ouvi."
+            },
+            {
+              "en": "That's what they say.",
+              "pt": "É o que dizem."
+            },
+            {
+              "en": "Apparently.",
+              "pt": "Pelo visto. / Aparentemente."
+            }
+          ],
+          "curiosity": "Did you know? When we report what someone said, the verb usually shifts one step into the past: 'I am tired' becomes 'She said she WAS tired.' English calls this 'backshift', as if every reported sentence takes one step back in time.",
+          "teachingGuide": "Discurso indireto — afirmações: say (that) / tell + alguém (that) + oração com recuo de tempo (backshift).\n\nRecuo um passo para o passado:\nam/is/are -> was/were; do/does -> did; will -> would; can -> could; must -> had to.\nPresent perfect e past simple -> past perfect (had + particípio).\n\nMudam também pronomes e marcadores: now -> then, today -> that day, tomorrow -> the next day, here -> there.\n\nSAY não leva pessoa; TELL leva (told ME).\n\nDrill: alunos dizem frases e os colegas reportam com 'He said that...'.",
+          "homework": [
+            "Ela disse que estava cansada.",
+            "Ele me disse que tinha terminado o trabalho.",
+            "Eles disseram que ajudariam.",
+            "Ela disse que sabia nadar.",
+            "Ele disse que estava saindo no dia seguinte.",
+            "Eu disse a ela que tinha visto o filme.",
+            "Ele alegou que não sabia de nada.",
+            "Ela admitiu que tinha cometido um erro.",
+            "Eles disseram que estavam felizes naquele momento.",
+            "Ele me contou que tinha morado lá no ano anterior."
+          ]
+        },
+        {
+          "id": 22,
+          "title": "Lesson 22 — Reported Speech: Questions & Commands",
+          "verbs": [
+            {
+              "en": "to ask, asked",
+              "pt": "perguntar / pedir"
+            },
+            {
+              "en": "to wonder, wondered",
+              "pt": "se perguntar / querer saber"
+            },
+            {
+              "en": "to order, ordered",
+              "pt": "mandar / ordenar"
+            },
+            {
+              "en": "to invite, invited",
+              "pt": "convidar"
+            }
+          ],
+          "grammarPoints": [
+            {
+              "en": "She asked if I was busy.",
+              "pt": "Ela perguntou se eu estava ocupado."
+            },
+            {
+              "en": "He asked where I lived.",
+              "pt": "Ele perguntou onde eu morava."
+            },
+            {
+              "en": "They asked what time it was.",
+              "pt": "Eles perguntaram que horas eram."
+            },
+            {
+              "en": "She told me to wait.",
+              "pt": "Ela me disse para esperar."
+            },
+            {
+              "en": "He asked me not to be late.",
+              "pt": "Ele me pediu para não me atrasar."
+            },
+            {
+              "en": "The teacher told us to be quiet.",
+              "pt": "O professor mandou a gente ficar quieto."
+            }
+          ],
+          "vocabulary": [
+            {
+              "en": "ask if / whether",
+              "pt": "perguntar se"
+            },
+            {
+              "en": "ask + wh-word",
+              "pt": "perguntar (o que/onde/quando)"
+            },
+            {
+              "en": "tell someone to + verb",
+              "pt": "mandar alguém (fazer)"
+            },
+            {
+              "en": "ask someone to + verb",
+              "pt": "pedir a alguém para (fazer)"
+            },
+            {
+              "en": "told (not) to",
+              "pt": "mandou (não) fazer"
+            },
+            {
+              "en": "wanted to know",
+              "pt": "queria saber"
+            },
+            {
+              "en": "statement word order",
+              "pt": "ordem de frase afirmativa"
+            },
+            {
+              "en": "no question mark",
+              "pt": "sem ponto de interrogação"
+            },
+            {
+              "en": "no 'do/did'",
+              "pt": "sem auxiliar 'do/did'"
+            },
+            {
+              "en": "to remind someone",
+              "pt": "lembrar alguém (de algo)"
+            },
+            {
+              "en": "to beg",
+              "pt": "implorar"
+            },
+            {
+              "en": "to encourage",
+              "pt": "incentivar"
+            }
+          ],
+          "expressions": [
+            {
+              "en": "Mind your manners.",
+              "pt": "Tenha modos."
+            },
+            {
+              "en": "Just asking.",
+              "pt": "Só perguntando."
+            },
+            {
+              "en": "If you don't mind me asking.",
+              "pt": "Se não se importa que eu pergunte."
+            },
+            {
+              "en": "Good question.",
+              "pt": "Boa pergunta."
+            },
+            {
+              "en": "It's none of my business.",
+              "pt": "Não é da minha conta."
+            }
+          ],
+          "curiosity": "Did you know? Reported questions drop the question 'twist'. 'Where do you live?' becomes 'He asked where I LIVED' — no 'do', no inversion, no question mark. The question turns back into a normal statement on its way to being reported.",
+          "teachingGuide": "Perguntas indiretas:\nYes/No -> ask + IF/WHETHER: 'Are you busy?' -> 'She asked if I was busy.'\nWh- -> ask + palavra-wh: 'Where do you live?' -> 'He asked where I lived.'\n\nREGRAS: ordem de frase AFIRMATIVA (sujeito + verbo), SEM do/does/did, SEM ponto de interrogação. Aplica-se também o backshift.\n\nOrdens e pedidos: tell/ask + alguém + (not) to + verbo: 'She told me to wait.' / 'He asked me not to be late.'\n\nDrill: transformar perguntas e ordens diretas em reportadas.",
+          "homework": [
+            "Ela perguntou se eu estava ocupado.",
+            "Ele perguntou onde eu morava.",
+            "Eles perguntaram que horas eram.",
+            "Ela me disse para esperar lá fora.",
+            "Ele me pediu para não me atrasar.",
+            "O professor mandou a gente ficar quieto.",
+            "Ela quis saber por que eu não tinha ligado.",
+            "Eu perguntei se eles tinham gostado do filme.",
+            "Ele me pediu para fechar a janela.",
+            "Minha mãe me lembrou de levar o guarda-chuva."
+          ]
+        },
+        {
+          "id": 23,
+          "title": "Lesson 23 — Reporting Verbs",
+          "verbs": [
+            {
+              "en": "to promise, promised",
+              "pt": "prometer"
+            },
+            {
+              "en": "to suggest, suggested",
+              "pt": "sugerir"
+            },
+            {
+              "en": "to offer, offered",
+              "pt": "oferecer / se oferecer"
+            },
+            {
+              "en": "to refuse, refused",
+              "pt": "recusar / se recusar"
+            }
+          ],
+          "grammarPoints": [
+            {
+              "en": "He promised to help me.",
+              "pt": "Ele prometeu me ajudar."
+            },
+            {
+              "en": "She suggested going to the beach.",
+              "pt": "Ela sugeriu ir à praia."
+            },
+            {
+              "en": "They offered to drive us home.",
+              "pt": "Eles se ofereceram para nos levar em casa."
+            },
+            {
+              "en": "He refused to apologize.",
+              "pt": "Ele se recusou a pedir desculpas."
+            },
+            {
+              "en": "She advised me to see a doctor.",
+              "pt": "Ela me aconselhou a ir ao médico."
+            },
+            {
+              "en": "He apologized for being late.",
+              "pt": "Ele se desculpou por estar atrasado."
+            }
+          ],
+          "vocabulary": [
+            {
+              "en": "promise / offer / refuse + to",
+              "pt": "prometer / oferecer / recusar + (fazer)"
+            },
+            {
+              "en": "agree / decide + to",
+              "pt": "concordar / decidir + (fazer)"
+            },
+            {
+              "en": "suggest / recommend + -ing",
+              "pt": "sugerir / recomendar + (fazer)"
+            },
+            {
+              "en": "advise someone + to",
+              "pt": "aconselhar alguém a (fazer)"
+            },
+            {
+              "en": "remind someone + to",
+              "pt": "lembrar alguém de (fazer)"
+            },
+            {
+              "en": "warn someone (not) to",
+              "pt": "avisar alguém para (não) fazer"
+            },
+            {
+              "en": "apologize for + -ing",
+              "pt": "pedir desculpas por (fazer)"
+            },
+            {
+              "en": "admit + -ing",
+              "pt": "admitir (ter feito)"
+            },
+            {
+              "en": "insist on + -ing",
+              "pt": "insistir em (fazer)"
+            },
+            {
+              "en": "threaten + to",
+              "pt": "ameaçar (fazer)"
+            },
+            {
+              "en": "to invite someone + to",
+              "pt": "convidar alguém para (fazer)"
+            },
+            {
+              "en": "to encourage someone + to",
+              "pt": "incentivar alguém a (fazer)"
+            }
+          ],
+          "expressions": [
+            {
+              "en": "Fair enough.",
+              "pt": "Justo. / Tá bom."
+            },
+            {
+              "en": "It's a deal.",
+              "pt": "Negócio fechado."
+            },
+            {
+              "en": "I'll take you up on that.",
+              "pt": "Vou aceitar sua oferta."
+            },
+            {
+              "en": "No promises.",
+              "pt": "Não prometo nada."
+            },
+            {
+              "en": "Point taken.",
+              "pt": "Entendi seu ponto. / Aceito a crítica."
+            }
+          ],
+          "curiosity": "Did you know? Instead of always saying 'said', good English picks a precise reporting verb. 'He said he would help' becomes the sharper 'He PROMISED to help.' One well-chosen verb can replace a whole sentence of explanation.",
+          "teachingGuide": "Verbos de relato dão mais precisão que 'say'. Cada um pede um padrão:\n\n+ TO + verbo: promise, offer, refuse, agree, decide, threaten (He promised TO help).\n+ -ING: suggest, recommend (She suggested GOING).\n+ alguém + TO: advise, remind, warn, encourage, invite (She advised me TO go).\n+ for + -ING: apologize (He apologized FOR being late).\n+ -ING: admit (He admitted TAKING it).\n\nNão é preciso decorar tudo de uma vez — agrupe por padrão.\n\nDrill: reescreva 'He said...' usando o verbo de relato mais preciso.",
+          "homework": [
+            "Ele prometeu me ajudar.",
+            "Ela sugeriu ir à praia.",
+            "Eles se ofereceram para nos levar em casa.",
+            "Ele se recusou a pedir desculpas.",
+            "Ela me aconselhou a ir ao médico.",
+            "Ele se desculpou por estar atrasado.",
+            "Eu recomendo visitar o museu.",
+            "Ela me lembrou de levar o passaporte.",
+            "Eles concordaram em nos encontrar mais tarde.",
+            "O médico me aconselhou a descansar mais."
+          ]
+        },
+        {
+          "id": 24,
+          "title": "Lesson 24 — Question Tags",
+          "verbs": [
+            {
+              "en": "to agree, agreed",
+              "pt": "concordar"
+            },
+            {
+              "en": "to confirm, confirmed",
+              "pt": "confirmar"
+            },
+            {
+              "en": "to doubt, doubted",
+              "pt": "duvidar"
+            },
+            {
+              "en": "to suppose, supposed",
+              "pt": "supor / achar"
+            }
+          ],
+          "grammarPoints": [
+            {
+              "en": "You're coming, aren't you?",
+              "pt": "Você vem, não vem?"
+            },
+            {
+              "en": "She doesn't like coffee, does she?",
+              "pt": "Ela não gosta de café, gosta?"
+            },
+            {
+              "en": "They went home, didn't they?",
+              "pt": "Eles foram para casa, não foram?"
+            },
+            {
+              "en": "It's a nice day, isn't it?",
+              "pt": "Está um dia bonito, não está?"
+            },
+            {
+              "en": "You can swim, can't you?",
+              "pt": "Você sabe nadar, não sabe?"
+            },
+            {
+              "en": "Let's go, shall we?",
+              "pt": "Vamos, né?"
+            }
+          ],
+          "vocabulary": [
+            {
+              "en": "isn't it?",
+              "pt": "não é? / né?"
+            },
+            {
+              "en": "aren't you?",
+              "pt": "não é? (você)"
+            },
+            {
+              "en": "doesn't she?",
+              "pt": "não é? (ela, presente)"
+            },
+            {
+              "en": "didn't they?",
+              "pt": "não foi? (eles, passado)"
+            },
+            {
+              "en": "can't you?",
+              "pt": "não sabe/pode?"
+            },
+            {
+              "en": "will you?",
+              "pt": "(ordem) está bem?"
+            },
+            {
+              "en": "won't you?",
+              "pt": "não vai?"
+            },
+            {
+              "en": "shall we?",
+              "pt": "vamos? (sugestão)"
+            },
+            {
+              "en": "a question tag",
+              "pt": "uma pergunta-tag / coda"
+            },
+            {
+              "en": "positive / negative",
+              "pt": "positivo / negativo"
+            },
+            {
+              "en": "to confirm",
+              "pt": "confirmar"
+            },
+            {
+              "en": "right?",
+              "pt": "não é? / certo?"
+            }
+          ],
+          "expressions": [
+            {
+              "en": "Right?",
+              "pt": "Né? / Certo?"
+            },
+            {
+              "en": "I knew it.",
+              "pt": "Eu sabia."
+            },
+            {
+              "en": "Exactly.",
+              "pt": "Exatamente."
+            },
+            {
+              "en": "Of course.",
+              "pt": "Claro."
+            },
+            {
+              "en": "You bet.",
+              "pt": "Com certeza. / Pode apostar."
+            }
+          ],
+          "curiosity": "Did you know? Question tags follow a simple mirror rule: a positive sentence takes a negative tag, and a negative sentence takes a positive one. 'You're tired, AREN'T you?' / 'You aren't tired, ARE you?' English just flips it!",
+          "teachingGuide": "Question tags = mini-perguntas no fim da frase para confirmar ou buscar concordância.\n\nREGRA DO ESPELHO: frase positiva -> tag negativa; frase negativa -> tag positiva.\nO auxiliar da tag combina com o verbo: is -> isn't it; can -> can't you; did -> didn't they; don't -> do you.\n\nCasos especiais: 'I am' -> aren't I; 'Let's...' -> shall we; imperativo -> will you.\n\nEntonação: subindo = pergunta real; descendo = espera concordância.\n\nDrill: o professor diz uma frase e os alunos acrescentam a tag correta.",
+          "homework": [
+            "Você vem, não vem?",
+            "Ela não gosta de café, gosta?",
+            "Eles foram para casa, não foram?",
+            "Está um dia bonito, não está?",
+            "Você sabe nadar, não sabe?",
+            "Vamos, né?",
+            "Você não esqueceu as chaves, esqueceu?",
+            "Eles vão chegar logo, não vão?",
+            "Feche a porta, está bem?",
+            "Nós já nos conhecemos antes, não foi?"
+          ]
+        },
+        {
+          "id": 25,
+          "title": "Lesson 25 — Indirect Questions",
+          "verbs": [
+            {
+              "en": "to explain, explained",
+              "pt": "explicar"
+            },
+            {
+              "en": "to find out, found out",
+              "pt": "descobrir"
+            },
+            {
+              "en": "to imagine, imagined",
+              "pt": "imaginar"
+            },
+            {
+              "en": "to suppose, supposed",
+              "pt": "supor"
+            }
+          ],
+          "grammarPoints": [
+            {
+              "en": "Could you tell me where the station is?",
+              "pt": "Você poderia me dizer onde fica a estação?"
+            },
+            {
+              "en": "Do you know what time it is?",
+              "pt": "Você sabe que horas são?"
+            },
+            {
+              "en": "I wonder if she's coming.",
+              "pt": "Eu me pergunto se ela vem."
+            },
+            {
+              "en": "Can you tell me how much this costs?",
+              "pt": "Você pode me dizer quanto isso custa?"
+            },
+            {
+              "en": "I'd like to know whether it's open.",
+              "pt": "Eu gostaria de saber se está aberto."
+            },
+            {
+              "en": "Do you have any idea where he went?",
+              "pt": "Você faz ideia de onde ele foi?"
+            }
+          ],
+          "vocabulary": [
+            {
+              "en": "Could you tell me...?",
+              "pt": "Você poderia me dizer...?"
+            },
+            {
+              "en": "Do you know...?",
+              "pt": "Você sabe...?"
+            },
+            {
+              "en": "I wonder...",
+              "pt": "Eu me pergunto..."
+            },
+            {
+              "en": "I'd like to know...",
+              "pt": "Eu gostaria de saber..."
+            },
+            {
+              "en": "Do you have any idea...?",
+              "pt": "Você faz ideia...?"
+            },
+            {
+              "en": "whether / if",
+              "pt": "se"
+            },
+            {
+              "en": "where / what / how",
+              "pt": "onde / o que / como"
+            },
+            {
+              "en": "polite",
+              "pt": "educado / cortês"
+            },
+            {
+              "en": "direct question",
+              "pt": "pergunta direta"
+            },
+            {
+              "en": "indirect question",
+              "pt": "pergunta indireta"
+            },
+            {
+              "en": "statement order",
+              "pt": "ordem de afirmativa"
+            },
+            {
+              "en": "no 'do/does'",
+              "pt": "sem 'do/does'"
+            }
+          ],
+          "expressions": [
+            {
+              "en": "If you don't mind.",
+              "pt": "Se você não se importar."
+            },
+            {
+              "en": "Just wondering.",
+              "pt": "Só por curiosidade."
+            },
+            {
+              "en": "Excuse me.",
+              "pt": "Com licença."
+            },
+            {
+              "en": "Sorry to bother you.",
+              "pt": "Desculpe incomodar."
+            },
+            {
+              "en": "Pardon me.",
+              "pt": "Perdão. / Desculpe."
+            }
+          ],
+          "curiosity": "Did you know? Indirect questions sound much more polite, but they have a twist: the word order goes back to normal. 'Where IS the station?' becomes 'Could you tell me where the station IS?' — the verb quietly moves to the end!",
+          "teachingGuide": "Perguntas indiretas são mais EDUCADAS e suaves. Começam com uma abertura cortês:\n'Could you tell me...?', 'Do you know...?', 'I wonder...', 'I'd like to know...'.\n\nDepois da abertura, use ORDEM DE FRASE AFIRMATIVA: sujeito + verbo, SEM do/does/did.\nDireta: 'Where is the station?' -> Indireta: 'Could you tell me where the station IS?'\n\nPerguntas sim/não viram if/whether: 'Is it open?' -> 'Do you know if it's open?'\n\nO ponto de interrogação depende da abertura (Could you...? = pergunta; I wonder... = afirmação).\n\nDrill: transformar perguntas diretas em educadas.",
+          "homework": [
+            "Você poderia me dizer onde fica a estação?",
+            "Você sabe que horas são?",
+            "Eu me pergunto se ela vem.",
+            "Você pode me dizer quanto isso custa?",
+            "Eu gostaria de saber se está aberto.",
+            "Você faz ideia de onde ele foi?",
+            "Com licença, você sabe onde fica o banheiro?",
+            "Eu queria saber se você está livre amanhã.",
+            "Você poderia me explicar como isso funciona?",
+            "Desculpe incomodar, você sabe se o ônibus já passou?"
+          ]
+        },
+        {
+          "id": 26,
+          "title": "Lesson 26 — Review & Reading: An Interview",
+          "verbs": [],
+          "grammarPoints": [
+            {
+              "en": "She asked me why I wanted the job.",
+              "pt": "Ela me perguntou por que eu queria o emprego."
+            },
+            {
+              "en": "I told her that I had worked in sales before.",
+              "pt": "Eu disse a ela que tinha trabalhado com vendas antes."
+            },
+            {
+              "en": "He wanted to know whether I could start soon.",
+              "pt": "Ele quis saber se eu poderia começar logo."
+            },
+            {
+              "en": "It was a difficult interview, wasn't it?",
+              "pt": "Foi uma entrevista difícil, não foi?"
+            },
+            {
+              "en": "They promised to call me the following week.",
+              "pt": "Eles prometeram me ligar na semana seguinte."
+            }
+          ],
+          "vocabulary": [
+            {
+              "en": "a job interview",
+              "pt": "uma entrevista de emprego"
+            },
+            {
+              "en": "an applicant / candidate",
+              "pt": "um candidato"
+            },
+            {
+              "en": "experience",
+              "pt": "experiência"
+            },
+            {
+              "en": "a skill",
+              "pt": "uma habilidade / competência"
+            },
+            {
+              "en": "a strength / weakness",
+              "pt": "um ponto forte / fraco"
+            },
+            {
+              "en": "nervous",
+              "pt": "nervoso"
+            }
+          ],
+          "expressions": [
+            {
+              "en": "Fingers crossed.",
+              "pt": "Torcendo. / Que dê certo."
+            },
+            {
+              "en": "I gave it my best shot.",
+              "pt": "Eu dei o meu melhor."
+            },
+            {
+              "en": "It went well.",
+              "pt": "Correu bem."
+            },
+            {
+              "en": "We'll be in touch.",
+              "pt": "Entraremos em contato."
+            },
+            {
+              "en": "Keep your fingers crossed.",
+              "pt": "Continue torcendo."
+            }
+          ],
+          "curiosity": "Did you know? In English-speaking job interviews, one question appears almost everywhere: 'What is your greatest weakness?' It's so common that interview coaches spend hours preparing candidates to report a weakness that secretly sounds like a strength!",
+          "teachingGuide": "Lição de revisão (Lições 21-25). A leitura é o relato de uma entrevista de emprego, reciclando discurso indireto (afirmações, perguntas, verbos de relato), question tags e perguntas indiretas.\n\nPeça aos alunos para localizar cada estrutura: 'She asked me...', 'I told her...', 'He wanted to know whether...', as tags e as perguntas educadas.\n\nProdução (role-play): em duplas, um aluno é o entrevistador e o outro o candidato; depois cada um REPORTA o que o outro disse, usando reported speech.",
+          "readingText": {
+            "title": "An Interview",
+            "body": "Last Monday, I had a job interview, and I was incredibly nervous.\n\nWhen I arrived, the manager shook my hand and asked me to sit down. She started with the usual questions. She asked me why I wanted the job, and I told her that I had always admired the company. Then she wanted to know whether I had any experience, so I explained that I had worked in sales for three years.\n\n'Could you tell me what your greatest strength is?' she asked. I said that I was a good listener and that I enjoyed working with people. Then came the difficult one: she asked me about my biggest weakness. I admitted that I sometimes worked too hard and forgot to take breaks — which, between us, isn't the worst weakness to have!\n\nAt the end, she asked if I had any questions. I asked her how big the team was and when they would make a decision. She smiled and said they would be in touch the following week.\n\nAs I left, I wasn't sure how it had gone, but I felt I had given it my best shot. 'It went well, didn't it?' I told myself on the way home. Now all I can do is wait. Fingers crossed!",
+            "glossary": [
+              {
+                "en": "to shake hands",
+                "pt": "apertar as mãos"
+              },
+              {
+                "en": "to admire",
+                "pt": "admirar"
+              },
+              {
+                "en": "a good listener",
+                "pt": "alguém que sabe ouvir"
+              },
+              {
+                "en": "a decision",
+                "pt": "uma decisão"
+              },
+              {
+                "en": "between us",
+                "pt": "cá entre nós"
+              }
+            ]
+          },
+          "homework": [
+            "Na segunda passada, eu tive uma entrevista de emprego.",
+            "A gerente me pediu para sentar.",
+            "Ela me perguntou por que eu queria o emprego.",
+            "Eu disse a ela que sempre tinha admirado a empresa.",
+            "Ela quis saber se eu tinha alguma experiência.",
+            "Eu expliquei que tinha trabalhado com vendas por três anos.",
+            "Ela me perguntou qual era o meu maior ponto forte.",
+            "No fim, ela perguntou se eu tinha alguma pergunta.",
+            "Eles prometeram me ligar na semana seguinte.",
+            "Correu bem, não foi? Torcendo!"
+          ]
+        },
+        {
+          "id": 27,
+          "title": "Lesson 27 — The Third Conditional",
+          "verbs": [
+            {
+              "en": "to study, studied",
+              "pt": "estudar"
+            },
+            {
+              "en": "to know, knew (known)",
+              "pt": "saber / conhecer"
+            },
+            {
+              "en": "to win, won",
+              "pt": "ganhar / vencer"
+            },
+            {
+              "en": "to regret, regretted",
+              "pt": "se arrepender / lamentar"
+            }
+          ],
+          "grammarPoints": [
+            {
+              "en": "If I had studied, I would have passed.",
+              "pt": "Se eu tivesse estudado, teria passado."
+            },
+            {
+              "en": "If she had known, she would have come.",
+              "pt": "Se ela tivesse sabido, teria vindo."
+            },
+            {
+              "en": "We wouldn't have missed the train if we had left earlier.",
+              "pt": "Não teríamos perdido o trem se tivéssemos saído mais cedo."
+            },
+            {
+              "en": "If they had asked, I would have helped.",
+              "pt": "Se eles tivessem pedido, eu teria ajudado."
+            },
+            {
+              "en": "I would have called you if I had had your number.",
+              "pt": "Eu teria te ligado se eu tivesse seu número."
+            },
+            {
+              "en": "What would you have done?",
+              "pt": "O que você teria feito?"
+            }
+          ],
+          "vocabulary": [
+            {
+              "en": "if + past perfect",
+              "pt": "se + tivesse feito"
+            },
+            {
+              "en": "would have + past participle",
+              "pt": "teria feito"
+            },
+            {
+              "en": "could have + past participle",
+              "pt": "poderia ter feito"
+            },
+            {
+              "en": "might have + past participle",
+              "pt": "talvez tivesse feito"
+            },
+            {
+              "en": "regret",
+              "pt": "arrependimento"
+            },
+            {
+              "en": "otherwise",
+              "pt": "caso contrário / senão"
+            },
+            {
+              "en": "in that case",
+              "pt": "nesse caso"
+            },
+            {
+              "en": "looking back",
+              "pt": "olhando para trás"
+            },
+            {
+              "en": "a missed chance",
+              "pt": "uma chance perdida"
+            },
+            {
+              "en": "a mistake",
+              "pt": "um erro"
+            },
+            {
+              "en": "to blame",
+              "pt": "culpar"
+            },
+            {
+              "en": "if only",
+              "pt": "se ao menos"
+            }
+          ],
+          "expressions": [
+            {
+              "en": "Hindsight is 20/20.",
+              "pt": "É fácil falar depois que aconteceu."
+            },
+            {
+              "en": "What's done is done.",
+              "pt": "O que está feito está feito."
+            },
+            {
+              "en": "Live and learn.",
+              "pt": "Vivendo e aprendendo."
+            },
+            {
+              "en": "No use crying over spilt milk.",
+              "pt": "Não adianta chorar pelo leite derramado."
+            },
+            {
+              "en": "If only...",
+              "pt": "Se ao menos..."
+            }
+          ],
+          "curiosity": "Did you know? The third conditional talks about a past that never happened — a kind of 'parallel universe'. 'If I had studied, I would have passed' means I didn't study and I didn't pass. It's the grammar of regret and second-guessing!",
+          "teachingGuide": "Third Conditional = passado IMAGINÁRIO (o contrário do que realmente aconteceu). Geralmente expressa arrependimento ou crítica.\n\nEstrutura: IF + past perfect (had + particípio), ... WOULD HAVE + particípio.\n'If I had studied, I would have passed.' (não estudei, não passei).\n\nVariações: could have / might have no resultado.\n\nContrações na fala: would've, could've, might've (mas nunca 'would of').\n\nA ordem pode inverter (sem vírgula): 'I would have passed if I had studied.'\n\nDrill: alunos reescrevem arrependimentos reais: 'I didn't study, so... -> If I had studied...'.",
+          "homework": [
+            "Se eu tivesse estudado, teria passado.",
+            "Se ela tivesse sabido, teria vindo.",
+            "Não teríamos perdido o trem se tivéssemos saído mais cedo.",
+            "Se eles tivessem pedido, eu teria ajudado.",
+            "Eu teria te ligado se tivesse seu número.",
+            "O que você teria feito no meu lugar?",
+            "Se não tivesse chovido, teríamos ido à praia.",
+            "Ele teria conseguido o emprego se tivesse se preparado mais.",
+            "Se ao menos eu tivesse acordado mais cedo!",
+            "Nós teríamos ganhado se tivéssemos jogado melhor."
+          ]
+        },
+        {
+          "id": 28,
+          "title": "Lesson 28 — Mixed Conditionals",
+          "verbs": [
+            {
+              "en": "to choose, chose (chosen)",
+              "pt": "escolher"
+            },
+            {
+              "en": "to grow up, grew up",
+              "pt": "crescer / ser criado"
+            },
+            {
+              "en": "to save, saved",
+              "pt": "economizar / poupar"
+            },
+            {
+              "en": "to accept, accepted",
+              "pt": "aceitar"
+            }
+          ],
+          "grammarPoints": [
+            {
+              "en": "If I had studied medicine, I would be a doctor now.",
+              "pt": "Se eu tivesse estudado medicina, eu seria médico agora."
+            },
+            {
+              "en": "If I were more organized, I wouldn't have lost it.",
+              "pt": "Se eu fosse mais organizado, não teria perdido isso."
+            },
+            {
+              "en": "If she had saved money, she wouldn't be in debt now.",
+              "pt": "Se ela tivesse economizado, não estaria endividada agora."
+            },
+            {
+              "en": "If he weren't so shy, he would have spoken up.",
+              "pt": "Se ele não fosse tão tímido, teria se manifestado."
+            },
+            {
+              "en": "I would be happier if I had taken that job.",
+              "pt": "Eu seria mais feliz se tivesse aceitado aquele emprego."
+            },
+            {
+              "en": "If we had left earlier, we would be there by now.",
+              "pt": "Se tivéssemos saído mais cedo, já estaríamos lá."
+            }
+          ],
+          "vocabulary": [
+            {
+              "en": "a mixed conditional",
+              "pt": "um condicional misto"
+            },
+            {
+              "en": "past affecting present",
+              "pt": "passado afetando o presente"
+            },
+            {
+              "en": "present affecting past",
+              "pt": "presente afetando o passado"
+            },
+            {
+              "en": "would be (now)",
+              "pt": "seria/estaria (agora)"
+            },
+            {
+              "en": "would have been",
+              "pt": "teria sido"
+            },
+            {
+              "en": "now / still",
+              "pt": "agora / ainda"
+            },
+            {
+              "en": "as a result",
+              "pt": "como resultado"
+            },
+            {
+              "en": "a consequence",
+              "pt": "uma consequência"
+            },
+            {
+              "en": "a turning point",
+              "pt": "um ponto de virada"
+            },
+            {
+              "en": "by now",
+              "pt": "a esta altura"
+            },
+            {
+              "en": "a decision",
+              "pt": "uma decisão"
+            },
+            {
+              "en": "in debt",
+              "pt": "endividado / devendo"
+            }
+          ],
+          "expressions": [
+            {
+              "en": "It's all connected.",
+              "pt": "Está tudo ligado."
+            },
+            {
+              "en": "One thing led to another.",
+              "pt": "Uma coisa levou a outra."
+            },
+            {
+              "en": "That changed everything.",
+              "pt": "Isso mudou tudo."
+            },
+            {
+              "en": "Looking back.",
+              "pt": "Olhando para trás."
+            },
+            {
+              "en": "Who knows?",
+              "pt": "Quem sabe?"
+            }
+          ],
+          "curiosity": "Did you know? Mixed conditionals jump between two times in a single sentence. 'If I had studied medicine (past), I would be a doctor now (present).' English lets the past and the present meet in one breath — like connecting two dots across your life.",
+          "teachingGuide": "Condicionais mistos ligam tempos diferentes na mesma frase:\n\nPASSADO -> PRESENTE: if + past perfect, ... would + verbo base.\n'If I had studied medicine, I would be a doctor now.' (condição passada, resultado presente).\n\nPRESENTE -> PASSADO: if + past simple, ... would have + particípio.\n'If I were more organized, I wouldn't have lost it.' (condição geral/presente, resultado passado).\n\nRevise rapidamente os 3 condicionais: 1º (real futuro), 2º (irreal presente), 3º (irreal passado).\n\nDrill: ligue uma decisão do passado a uma consequência de hoje.",
+          "homework": [
+            "Se eu tivesse estudado medicina, eu seria médico agora.",
+            "Se eu fosse mais organizado, não teria perdido isso.",
+            "Se ela tivesse economizado, não estaria endividada agora.",
+            "Se ele não fosse tão tímido, teria se manifestado.",
+            "Eu seria mais feliz se tivesse aceitado aquele emprego.",
+            "Se tivéssemos saído mais cedo, já estaríamos lá.",
+            "Se eu não tivesse perdido o voo, estaria na praia agora.",
+            "Se ela falasse inglês, teria conseguido aquele emprego.",
+            "Se eles tivessem se mudado, as crianças estariam em outra escola.",
+            "Olhando para trás, uma coisa levou a outra."
+          ]
+        },
+        {
+          "id": 29,
+          "title": "Lesson 29 — I wish / If only",
+          "verbs": [
+            {
+              "en": "to wish, wished",
+              "pt": "desejar / gostaria"
+            },
+            {
+              "en": "to hope, hoped",
+              "pt": "esperar / torcer"
+            },
+            {
+              "en": "to regret, regretted",
+              "pt": "se arrepender / lamentar"
+            },
+            {
+              "en": "to complain, complained",
+              "pt": "reclamar"
+            }
+          ],
+          "grammarPoints": [
+            {
+              "en": "I wish I were taller.",
+              "pt": "Eu queria ser mais alto."
+            },
+            {
+              "en": "I wish I had studied harder.",
+              "pt": "Eu queria ter estudado mais."
+            },
+            {
+              "en": "I wish you would stop complaining.",
+              "pt": "Eu queria que você parasse de reclamar."
+            },
+            {
+              "en": "If only I had more time.",
+              "pt": "Quem dera eu tivesse mais tempo."
+            },
+            {
+              "en": "She wishes she could travel more.",
+              "pt": "Ela queria poder viajar mais."
+            },
+            {
+              "en": "I wish it weren't so cold.",
+              "pt": "Eu queria que não estivesse tão frio."
+            }
+          ],
+          "vocabulary": [
+            {
+              "en": "wish + past simple",
+              "pt": "queria que (desejo no presente)"
+            },
+            {
+              "en": "wish + past perfect",
+              "pt": "queria ter (arrependimento)"
+            },
+            {
+              "en": "wish + would",
+              "pt": "queria que (alguém mudasse)"
+            },
+            {
+              "en": "if only",
+              "pt": "quem dera / se ao menos"
+            },
+            {
+              "en": "I'd rather",
+              "pt": "eu preferiria"
+            },
+            {
+              "en": "to hope (real)",
+              "pt": "esperar (algo possível)"
+            },
+            {
+              "en": "a regret",
+              "pt": "um arrependimento"
+            },
+            {
+              "en": "a complaint",
+              "pt": "uma reclamação"
+            },
+            {
+              "en": "were (all persons)",
+              "pt": "fosse / estivesse (todas as pessoas)"
+            },
+            {
+              "en": "could",
+              "pt": "pudesse"
+            },
+            {
+              "en": "different",
+              "pt": "diferente"
+            },
+            {
+              "en": "to come true",
+              "pt": "se realizar"
+            }
+          ],
+          "expressions": [
+            {
+              "en": "I wish!",
+              "pt": "Quem me dera!"
+            },
+            {
+              "en": "Don't I wish.",
+              "pt": "Quem dera fosse verdade."
+            },
+            {
+              "en": "In a perfect world.",
+              "pt": "Num mundo perfeito."
+            },
+            {
+              "en": "One can dream.",
+              "pt": "Sonhar não custa nada."
+            },
+            {
+              "en": "Be careful what you wish for.",
+              "pt": "Cuidado com o que você deseja."
+            }
+          ],
+          "curiosity": "Did you know? 'I hope' and 'I wish' are not the same. 'I hope it's sunny' is a real possibility for the future. 'I wish it were sunny' means it isn't, and I'd love it to be. Hope is for the possible; wish is for the imaginary!",
+          "teachingGuide": "WISH / IF ONLY para situações irreais ou desejos:\n\nWISH + past simple = desejo sobre o PRESENTE (que é diferente da realidade): 'I wish I were taller.' (não sou).\nWISH + past perfect = ARREPENDIMENTO do passado: 'I wish I had studied.' (não estudei).\nWISH + would = querer que ALGUÉM mude um comportamento (irritação): 'I wish you would stop.'\n\nUse 'were' para todas as pessoas (I wish I were...).\n\nHOPE (real/possível) x WISH (irreal). 'I hope it's sunny' (talvez seja) x 'I wish it were sunny' (não é).\n\nDrill: alunos expressam desejos sobre si mesmos e arrependimentos.",
+          "homework": [
+            "Eu queria ser mais alto.",
+            "Eu queria ter estudado mais para a prova.",
+            "Eu queria que você parasse de reclamar.",
+            "Quem dera eu tivesse mais tempo.",
+            "Ela queria poder viajar mais.",
+            "Eu queria que não estivesse tão frio hoje.",
+            "Eu queria saber falar três idiomas.",
+            "Quem dera eu não tivesse vendido aquele carro.",
+            "Eu queria que eles fizessem menos barulho.",
+            "Eu espero que faça sol amanhã. (desejo real)"
+          ]
+        },
+        {
+          "id": 30,
+          "title": "Lesson 30 — Despite / In spite of / Although",
+          "verbs": [
+            {
+              "en": "to succeed, succeeded",
+              "pt": "ter sucesso / conseguir"
+            },
+            {
+              "en": "to fail, failed",
+              "pt": "fracassar / reprovar"
+            },
+            {
+              "en": "to overcome, overcame",
+              "pt": "superar"
+            },
+            {
+              "en": "to continue, continued",
+              "pt": "continuar"
+            }
+          ],
+          "grammarPoints": [
+            {
+              "en": "Although it was raining, we went out.",
+              "pt": "Embora estivesse chovendo, nós saímos."
+            },
+            {
+              "en": "Despite the rain, we went out.",
+              "pt": "Apesar da chuva, nós saímos."
+            },
+            {
+              "en": "In spite of being tired, she kept working.",
+              "pt": "Apesar de estar cansada, ela continuou trabalhando."
+            },
+            {
+              "en": "It was expensive. However, I bought it.",
+              "pt": "Era caro. Mesmo assim, eu comprei."
+            },
+            {
+              "en": "He passed the exam even though he didn't study.",
+              "pt": "Ele passou na prova mesmo sem estudar."
+            },
+            {
+              "en": "We enjoyed it despite the bad weather.",
+              "pt": "Nós aproveitamos apesar do mau tempo."
+            }
+          ],
+          "vocabulary": [
+            {
+              "en": "although / even though",
+              "pt": "embora / mesmo que (+ frase)"
+            },
+            {
+              "en": "despite / in spite of",
+              "pt": "apesar de (+ nome/-ing)"
+            },
+            {
+              "en": "however",
+              "pt": "no entanto / contudo"
+            },
+            {
+              "en": "nevertheless",
+              "pt": "mesmo assim / não obstante"
+            },
+            {
+              "en": "but",
+              "pt": "mas"
+            },
+            {
+              "en": "whereas",
+              "pt": "ao passo que / enquanto"
+            },
+            {
+              "en": "on the other hand",
+              "pt": "por outro lado"
+            },
+            {
+              "en": "still",
+              "pt": "ainda assim"
+            },
+            {
+              "en": "anyway",
+              "pt": "de qualquer forma"
+            },
+            {
+              "en": "a contrast",
+              "pt": "um contraste"
+            },
+            {
+              "en": "the fact that",
+              "pt": "o fato de que"
+            },
+            {
+              "en": "even so",
+              "pt": "mesmo assim"
+            }
+          ],
+          "expressions": [
+            {
+              "en": "Even so.",
+              "pt": "Mesmo assim."
+            },
+            {
+              "en": "Nonetheless.",
+              "pt": "Ainda assim. / Mesmo assim."
+            },
+            {
+              "en": "All the same.",
+              "pt": "Dá no mesmo. / Mesmo assim."
+            },
+            {
+              "en": "Against all odds.",
+              "pt": "Contra todas as probabilidades."
+            },
+            {
+              "en": "No matter what.",
+              "pt": "Não importa o quê."
+            }
+          ],
+          "curiosity": "Did you know? 'Despite' and 'although' mean the same thing but never share the same grammar. 'Although' is followed by a full sentence ('although it rained'), while 'despite' is followed by a noun or -ing ('despite the rain'). And 'despite OF' is always wrong!",
+          "teachingGuide": "Conectores de CONTRASTE (concessão):\n\nALTHOUGH / EVEN THOUGH + frase (sujeito + verbo): 'Although it was raining...'.\nDESPITE / IN SPITE OF + substantivo ou -ing (NÃO frase): 'Despite the rain...', 'In spite of being tired...'.\nHOWEVER / NEVERTHELESS = conectores de frase, geralmente com ponto/ponto e vírgula antes e vírgula depois.\n\nERROS comuns: 'despite of' (errado) e 'although + nome' (errado).\nTruque: depois de despite/in spite of, pode-se usar 'the fact that' + frase.\n\nDrill: una pares de frases contrastantes usando cada conector.",
+          "homework": [
+            "Embora estivesse chovendo, nós saímos.",
+            "Apesar da chuva, nós saímos.",
+            "Apesar de estar cansada, ela continuou trabalhando.",
+            "Era caro. Mesmo assim, eu comprei.",
+            "Ele passou na prova mesmo sem estudar.",
+            "Nós aproveitamos apesar do mau tempo.",
+            "Embora ela seja jovem, é muito experiente.",
+            "Apesar de todos os problemas, eles tiveram sucesso.",
+            "Eu gosto da cidade; no entanto, prefiro o campo.",
+            "Contra todas as probabilidades, o pequeno time venceu."
+          ]
+        },
+        {
+          "id": 31,
+          "title": "Lesson 31 — Phrasal Verbs II",
+          "verbs": [
+            {
+              "en": "to set up, set up",
+              "pt": "montar / organizar / configurar"
+            },
+            {
+              "en": "to carry on, carried on",
+              "pt": "continuar / prosseguir"
+            },
+            {
+              "en": "to put off, put off",
+              "pt": "adiar"
+            },
+            {
+              "en": "to look forward to",
+              "pt": "estar ansioso por / aguardar"
+            }
+          ],
+          "grammarPoints": [
+            {
+              "en": "We need to set up a meeting.",
+              "pt": "Nós precisamos marcar uma reunião."
+            },
+            {
+              "en": "Carry on with your work.",
+              "pt": "Continue com seu trabalho."
+            },
+            {
+              "en": "The meeting was put off until Friday.",
+              "pt": "A reunião foi adiada para sexta."
+            },
+            {
+              "en": "Please give the book back.",
+              "pt": "Por favor, devolva o livro."
+            },
+            {
+              "en": "I'm looking forward to the weekend.",
+              "pt": "Estou ansioso pelo fim de semana."
+            },
+            {
+              "en": "I came across an old photo.",
+              "pt": "Eu encontrei por acaso uma foto antiga."
+            }
+          ],
+          "vocabulary": [
+            {
+              "en": "to set up",
+              "pt": "montar / configurar / marcar"
+            },
+            {
+              "en": "to carry on",
+              "pt": "continuar"
+            },
+            {
+              "en": "to put off",
+              "pt": "adiar"
+            },
+            {
+              "en": "to give back",
+              "pt": "devolver"
+            },
+            {
+              "en": "to look forward to + -ing",
+              "pt": "estar ansioso por (fazer)"
+            },
+            {
+              "en": "to come across",
+              "pt": "encontrar por acaso"
+            },
+            {
+              "en": "to turn down",
+              "pt": "recusar / abaixar (volume)"
+            },
+            {
+              "en": "to deal with",
+              "pt": "lidar com / resolver"
+            },
+            {
+              "en": "to run into",
+              "pt": "encontrar (por acaso) alguém"
+            },
+            {
+              "en": "to take over",
+              "pt": "assumir / tomar conta"
+            },
+            {
+              "en": "to work out",
+              "pt": "dar certo / resolver / malhar"
+            },
+            {
+              "en": "to get over",
+              "pt": "superar / se recuperar de"
+            }
+          ],
+          "expressions": [
+            {
+              "en": "Let's get down to business.",
+              "pt": "Vamos ao que interessa."
+            },
+            {
+              "en": "Hang in there.",
+              "pt": "Aguenta firme."
+            },
+            {
+              "en": "Cut it out.",
+              "pt": "Para com isso."
+            },
+            {
+              "en": "Sort it out.",
+              "pt": "Resolva isso."
+            },
+            {
+              "en": "Figure it out.",
+              "pt": "Dê um jeito. / Descubra."
+            }
+          ],
+          "curiosity": "Did you know? Some phrasal verbs come in three parts, like 'look forward to' and 'come up with'. And here's the trap: even though they end in 'to', the next verb takes -ing — 'I look forward to MEETING you', never 'to meet'.",
+          "teachingGuide": "Phrasal verbs mais avançados, incluindo os de TRÊS partes.\n\nSeparáveis (objeto pode ir no meio): set up the meeting / set the meeting up; turn down the offer / turn it down (com pronome, SEPARA).\nInseparáveis: deal with, run into, look forward to.\n\nATENÇÃO: 'look forward to' e 'get used to' terminam em 'to' mas pedem -ING depois (look forward to seeing you).\n\nEnsine como blocos com significado próprio; muitos são comuns no trabalho.\n\nDrill: situações de escritório e do dia a dia usando set up / put off / deal with / carry on.",
+          "homework": [
+            "Nós precisamos marcar uma reunião.",
+            "Continue com seu trabalho; está ótimo.",
+            "A reunião foi adiada para sexta.",
+            "Por favor, devolva o livro que você pegou.",
+            "Estou ansioso pelo fim de semana.",
+            "Eu encontrei por acaso uma foto antiga.",
+            "Ela recusou a oferta de emprego.",
+            "Nós precisamos lidar com esse problema hoje.",
+            "Eu encontrei um velho amigo na rua.",
+            "Não se preocupe; tudo vai dar certo."
+          ]
+        },
+        {
+          "id": 32,
+          "title": "Lesson 32 — Review & Reading: Looking Forward, Looking Back",
+          "verbs": [],
+          "grammarPoints": [
+            {
+              "en": "If I hadn't moved abroad, my life would be very different.",
+              "pt": "Se eu não tivesse me mudado para o exterior, minha vida seria muito diferente."
+            },
+            {
+              "en": "Sometimes I wish I had stayed closer to home.",
+              "pt": "Às vezes eu queria ter ficado mais perto de casa."
+            },
+            {
+              "en": "Despite the hard moments, I have no regrets.",
+              "pt": "Apesar dos momentos difíceis, eu não me arrependo."
+            },
+            {
+              "en": "If only I had known then what I know now.",
+              "pt": "Se ao menos eu soubesse antes o que sei agora."
+            },
+            {
+              "en": "I'm looking forward to whatever comes next.",
+              "pt": "Estou ansioso pelo que vier a seguir."
+            }
+          ],
+          "vocabulary": [
+            {
+              "en": "a decision",
+              "pt": "uma decisão"
+            },
+            {
+              "en": "a regret",
+              "pt": "um arrependimento"
+            },
+            {
+              "en": "a risk",
+              "pt": "um risco"
+            },
+            {
+              "en": "a chance",
+              "pt": "uma chance / oportunidade"
+            },
+            {
+              "en": "grateful",
+              "pt": "grato"
+            },
+            {
+              "en": "the future",
+              "pt": "o futuro"
+            }
+          ],
+          "expressions": [
+            {
+              "en": "No regrets.",
+              "pt": "Sem arrependimentos."
+            },
+            {
+              "en": "Everything happens for a reason.",
+              "pt": "Tudo acontece por um motivo."
+            },
+            {
+              "en": "You only live once.",
+              "pt": "Só se vive uma vez."
+            },
+            {
+              "en": "Take the leap.",
+              "pt": "Arrisque-se. / Dê o salto."
+            },
+            {
+              "en": "Onwards and upwards.",
+              "pt": "Sempre em frente / rumo ao alto."
+            }
+          ],
+          "curiosity": "Did you know? Psychologists say that, in the long run, people regret the chances they DIDN'T take far more than the mistakes they made. That's why so much English advice — 'You only live once', 'Take the leap' — pushes us toward action, not caution.",
+          "teachingGuide": "Lição de revisão (Lições 27-31). A leitura é uma reflexão pessoal que recicla os condicionais (3º e misto), 'I wish / if only', os conectores de contraste (despite/although) e phrasal verbs como 'look forward to'.\n\nPeça aos alunos para localizar cada estrutura e classificá-la.\n\nPerguntas de discussão: 'What does the writer regret? What is she grateful for? What would be different if she had stayed?'\n\nProdução: cada aluno escreve uma reflexão 'Looking back / looking forward' sobre uma grande decisão, usando pelo menos um condicional misto e um 'I wish'.",
+          "readingText": {
+            "title": "Looking Forward, Looking Back",
+            "body": "Ten years ago, I made the biggest decision of my life: I left my country to study abroad. Looking back now, I sometimes wonder what would have happened if I had stayed.\n\nIf I hadn't taken that risk, my life would be completely different today. I probably wouldn't speak English, I wouldn't have met my closest friends, and I certainly wouldn't be doing the job I love. In a way, that one decision shaped everything that came after it.\n\nOf course, it wasn't always easy. There were lonely nights when I wished I had stayed closer to home, and moments when I thought about giving up. If only I had known then how hard the first year would be! But despite all the difficulties, I don't regret a single thing. As people say, everything happens for a reason.\n\nNow, when I look forward, I feel excited rather than afraid. I've learned that the chances we don't take are the ones we regret the most. If I could give my younger self one piece of advice, it would be simple: take the leap.\n\nLife is short, and you only live once. Whatever comes next, I'm ready for it. Onwards and upwards!",
+            "glossary": [
+              {
+                "en": "abroad",
+                "pt": "no exterior"
+              },
+              {
+                "en": "to shape",
+                "pt": "moldar / dar forma a"
+              },
+              {
+                "en": "lonely",
+                "pt": "solitário"
+              },
+              {
+                "en": "to give up",
+                "pt": "desistir"
+              },
+              {
+                "en": "younger self",
+                "pt": "o eu mais jovem"
+              }
+            ]
+          },
+          "homework": [
+            "Dez anos atrás, eu tomei a maior decisão da minha vida.",
+            "Olhando para trás, eu me pergunto o que teria acontecido se tivesse ficado.",
+            "Se eu não tivesse corrido aquele risco, minha vida seria diferente.",
+            "Eu provavelmente não falaria inglês.",
+            "Houve noites em que eu queria ter ficado mais perto de casa.",
+            "Se ao menos eu soubesse o quão difícil seria o primeiro ano!",
+            "Apesar de todas as dificuldades, eu não me arrependo de nada.",
+            "As chances que não aproveitamos são as que mais lamentamos.",
+            "Estou ansioso pelo que vier a seguir.",
+            "A vida é curta; só se vive uma vez."
+          ]
+        },
+        {
+          "id": 33,
+          "title": "Lesson 33 — Word Building & Collocations",
+          "verbs": [
+            {
+              "en": "to make, made",
+              "pt": "fazer (criar / produzir)"
+            },
+            {
+              "en": "to do, did",
+              "pt": "fazer (realizar / atividade)"
+            },
+            {
+              "en": "to take, took",
+              "pt": "tomar / pegar / levar"
+            },
+            {
+              "en": "to have, had",
+              "pt": "ter / tomar (em expressões)"
+            }
+          ],
+          "grammarPoints": [
+            {
+              "en": "I need to make a decision.",
+              "pt": "Eu preciso tomar uma decisão."
+            },
+            {
+              "en": "She does the housework every day.",
+              "pt": "Ela faz as tarefas domésticas todo dia."
+            },
+            {
+              "en": "Let's take a break.",
+              "pt": "Vamos fazer uma pausa."
+            },
+            {
+              "en": "He made a mistake.",
+              "pt": "Ele cometeu um erro."
+            },
+            {
+              "en": "They do business together.",
+              "pt": "Eles fazem negócios juntos."
+            },
+            {
+              "en": "Have a look at this.",
+              "pt": "Dê uma olhada nisto."
+            }
+          ],
+          "vocabulary": [
+            {
+              "en": "make a decision / a mistake",
+              "pt": "tomar uma decisão / cometer um erro"
+            },
+            {
+              "en": "make an effort / progress",
+              "pt": "fazer um esforço / progresso"
+            },
+            {
+              "en": "do homework / the dishes",
+              "pt": "fazer a lição / a louça"
+            },
+            {
+              "en": "do a favor / business",
+              "pt": "fazer um favor / negócios"
+            },
+            {
+              "en": "take a break / a photo",
+              "pt": "fazer uma pausa / tirar uma foto"
+            },
+            {
+              "en": "take a risk / your time",
+              "pt": "correr um risco / sem pressa"
+            },
+            {
+              "en": "have a rest / a look",
+              "pt": "descansar / dar uma olhada"
+            },
+            {
+              "en": "a collocation",
+              "pt": "uma combinação de palavras"
+            },
+            {
+              "en": "un- / dis- (prefixes)",
+              "pt": "prefixos de negação (un-, dis-)"
+            },
+            {
+              "en": "-ful / -less (suffixes)",
+              "pt": "sufixos (-ful = cheio de, -less = sem)"
+            },
+            {
+              "en": "careful / careless",
+              "pt": "cuidadoso / descuidado"
+            },
+            {
+              "en": "useful / useless",
+              "pt": "útil / inútil"
+            }
+          ],
+          "expressions": [
+            {
+              "en": "Make yourself at home.",
+              "pt": "Fique à vontade."
+            },
+            {
+              "en": "Do your best.",
+              "pt": "Faça o seu melhor."
+            },
+            {
+              "en": "Take it or leave it.",
+              "pt": "É pegar ou largar."
+            },
+            {
+              "en": "Have a good one.",
+              "pt": "Tenha um bom dia."
+            },
+            {
+              "en": "Make sense?",
+              "pt": "Faz sentido?"
+            }
+          ],
+          "curiosity": "Did you know? 'Make' and 'do' both translate to 'fazer' in Portuguese, which is why they're so tricky! A rough guide: 'make' is for creating or producing something (make a cake, make a decision), and 'do' is for activities and tasks (do homework, do the dishes).",
+          "teachingGuide": "Collocations = palavras que andam JUNTAS naturalmente. Usar a combinação certa soa nativo (make a decision, NÃO 'do a decision').\n\nMAKE = criar / produzir um resultado: make a decision, a mistake, an effort, progress, money.\nDO = realizar uma atividade/tarefa: do homework, the dishes, a favor, business, exercise.\nTAKE: take a break, a photo, a risk, your time. HAVE: have a look, a rest, fun.\n\nWord building (rápido): prefixos un-/dis-/im- (unhappy, dislike) e sufixos -ful/-less/-ness/-tion (careful/careless).\n\nDrill: complete frases com make/do e forme opostos com prefixos.",
+          "homework": [
+            "Eu preciso tomar uma decisão importante.",
+            "Ela faz as tarefas domésticas todo dia.",
+            "Vamos fazer uma pausa de dez minutos.",
+            "Ele cometeu um erro, mas pediu desculpas.",
+            "Eles fazem negócios juntos há anos.",
+            "Dê uma olhada neste relatório, por favor.",
+            "Você pode me fazer um favor?",
+            "Tente fazer um esforço maior na próxima vez.",
+            "Tenha cuidado; não seja descuidado.",
+            "Este aplicativo é muito útil, não inútil."
+          ]
+        },
+        {
+          "id": 34,
+          "title": "Lesson 34 — Discourse Markers",
+          "verbs": [
+            {
+              "en": "to add, added",
+              "pt": "acrescentar"
+            },
+            {
+              "en": "to conclude, concluded",
+              "pt": "concluir"
+            },
+            {
+              "en": "to point out, pointed out",
+              "pt": "apontar / ressaltar"
+            },
+            {
+              "en": "to emphasize, emphasized",
+              "pt": "enfatizar / destacar"
+            }
+          ],
+          "grammarPoints": [
+            {
+              "en": "Firstly, we need to consider the cost.",
+              "pt": "Primeiramente, precisamos considerar o custo."
+            },
+            {
+              "en": "Moreover, it saves time.",
+              "pt": "Além disso, economiza tempo."
+            },
+            {
+              "en": "Nevertheless, there are some risks.",
+              "pt": "Mesmo assim, há alguns riscos."
+            },
+            {
+              "en": "Therefore, we should be careful.",
+              "pt": "Portanto, devemos ter cuidado."
+            },
+            {
+              "en": "In conclusion, it's a good idea.",
+              "pt": "Para concluir, é uma boa ideia."
+            },
+            {
+              "en": "For instance, take this example.",
+              "pt": "Por exemplo, veja este caso."
+            }
+          ],
+          "vocabulary": [
+            {
+              "en": "firstly / secondly",
+              "pt": "primeiramente / em segundo lugar"
+            },
+            {
+              "en": "moreover / furthermore",
+              "pt": "além disso / ademais"
+            },
+            {
+              "en": "in addition",
+              "pt": "além disso"
+            },
+            {
+              "en": "however / nevertheless",
+              "pt": "no entanto / mesmo assim"
+            },
+            {
+              "en": "therefore / thus",
+              "pt": "portanto / assim"
+            },
+            {
+              "en": "for instance / for example",
+              "pt": "por exemplo"
+            },
+            {
+              "en": "in conclusion",
+              "pt": "para concluir"
+            },
+            {
+              "en": "on the contrary",
+              "pt": "pelo contrário"
+            },
+            {
+              "en": "as a result",
+              "pt": "como resultado"
+            },
+            {
+              "en": "in other words",
+              "pt": "em outras palavras"
+            },
+            {
+              "en": "to sum up",
+              "pt": "resumindo"
+            },
+            {
+              "en": "on the whole",
+              "pt": "no geral / de modo geral"
+            }
+          ],
+          "expressions": [
+            {
+              "en": "To put it simply.",
+              "pt": "Simplificando."
+            },
+            {
+              "en": "In short.",
+              "pt": "Em resumo."
+            },
+            {
+              "en": "That said.",
+              "pt": "Dito isso."
+            },
+            {
+              "en": "Bear in mind.",
+              "pt": "Tenha em mente."
+            },
+            {
+              "en": "All things considered.",
+              "pt": "Considerando tudo."
+            }
+          ],
+          "curiosity": "Did you know? Discourse markers are like road signs for the listener. 'However' warns that a contrast is coming, 'therefore' announces a result, and 'in conclusion' says the end is near. They don't add facts — they guide the reader through your ideas.",
+          "teachingGuide": "Discourse markers (marcadores de discurso) organizam textos e falas mais FORMAIS (redações, apresentações, debates).\n\nSequência: firstly, secondly, then, finally.\nAdição: moreover, furthermore, in addition.\nContraste: however, nevertheless, on the contrary.\nResultado: therefore, thus, as a result.\nExemplo: for instance, for example.\nReformular/resumir: in other words, to sum up, in conclusion.\n\nGeralmente vêm no INÍCIO da frase, seguidos de vírgula.\n\nRegistro formal — contraste com os conectores informais do Livro 2.\n\nDrill: alunos organizam um pequeno argumento usando firstly / moreover / however / therefore / in conclusion.",
+          "homework": [
+            "Primeiramente, precisamos considerar o custo.",
+            "Além disso, isso economiza tempo.",
+            "Mesmo assim, há alguns riscos.",
+            "Portanto, devemos ter cuidado.",
+            "Para concluir, é uma boa ideia.",
+            "Por exemplo, veja este caso.",
+            "Em outras palavras, o plano precisa de ajustes.",
+            "Como resultado, as vendas aumentaram.",
+            "Por outro lado, alguns clientes reclamaram.",
+            "Resumindo, valeu a pena."
+          ]
+        },
+        {
+          "id": 35,
+          "title": "Lesson 35 — Opinions & Formal Register",
+          "verbs": [
+            {
+              "en": "to believe, believed",
+              "pt": "acreditar / achar"
+            },
+            {
+              "en": "to argue, argued",
+              "pt": "argumentar / discutir"
+            },
+            {
+              "en": "to assume, assumed",
+              "pt": "presumir / supor"
+            },
+            {
+              "en": "to admit, admitted",
+              "pt": "admitir"
+            }
+          ],
+          "grammarPoints": [
+            {
+              "en": "In my opinion, we should wait.",
+              "pt": "Na minha opinião, devemos esperar."
+            },
+            {
+              "en": "I strongly believe that it's the best option.",
+              "pt": "Eu acredito firmemente que é a melhor opção."
+            },
+            {
+              "en": "I see your point, but I disagree.",
+              "pt": "Entendo seu ponto, mas discordo."
+            },
+            {
+              "en": "I'm afraid I don't agree.",
+              "pt": "Receio que eu não concorde."
+            },
+            {
+              "en": "That's a good point.",
+              "pt": "Esse é um bom argumento."
+            },
+            {
+              "en": "It seems to me that we need more time.",
+              "pt": "Me parece que precisamos de mais tempo."
+            }
+          ],
+          "vocabulary": [
+            {
+              "en": "in my opinion",
+              "pt": "na minha opinião"
+            },
+            {
+              "en": "from my point of view",
+              "pt": "do meu ponto de vista"
+            },
+            {
+              "en": "I believe / I think",
+              "pt": "eu acredito / eu acho"
+            },
+            {
+              "en": "I agree / I disagree",
+              "pt": "eu concordo / eu discordo"
+            },
+            {
+              "en": "I see your point",
+              "pt": "entendo seu ponto"
+            },
+            {
+              "en": "that's true",
+              "pt": "é verdade"
+            },
+            {
+              "en": "to some extent",
+              "pt": "até certo ponto"
+            },
+            {
+              "en": "absolutely",
+              "pt": "com certeza / totalmente"
+            },
+            {
+              "en": "exactly",
+              "pt": "exatamente"
+            },
+            {
+              "en": "I'm not so sure",
+              "pt": "eu não tenho tanta certeza"
+            },
+            {
+              "en": "it seems to me",
+              "pt": "me parece"
+            },
+            {
+              "en": "I'd argue that",
+              "pt": "eu diria que / eu defenderia que"
+            }
+          ],
+          "expressions": [
+            {
+              "en": "I couldn't agree more.",
+              "pt": "Não poderia concordar mais."
+            },
+            {
+              "en": "Fair point.",
+              "pt": "Bom argumento. / É justo."
+            },
+            {
+              "en": "Let's agree to disagree.",
+              "pt": "Vamos concordar em discordar."
+            },
+            {
+              "en": "With all due respect.",
+              "pt": "Com todo o respeito."
+            },
+            {
+              "en": "It depends how you look at it.",
+              "pt": "Depende de como você olha."
+            }
+          ],
+          "curiosity": "Did you know? In formal English, people rarely say a flat 'No, you're wrong.' Instead, they soften it: 'I see your point, but...' or 'I'm afraid I disagree.' Polite disagreement is considered a sign of respect and good manners.",
+          "teachingGuide": "Expressar e defender OPINIÕES em registro formal/educado.\n\nDar opinião: In my opinion, From my point of view, I believe (that), It seems to me (that), I'd argue that.\nConcordar: Absolutely, Exactly, I couldn't agree more, That's a good point.\nDiscordar com educação: I see your point, but...; I'm afraid I disagree; I'm not so sure.\nSuavizar (hedging): to some extent, it seems, perhaps.\n\nReforce: em inglês formal, discordância é SUAVIZADA — evite 'You're wrong'.\n\nDrill: mini-debate; cada aluno dá opinião e os outros concordam/discordam educadamente.",
+          "homework": [
+            "Na minha opinião, devemos esperar mais um pouco.",
+            "Eu acredito firmemente que é a melhor opção.",
+            "Entendo seu ponto, mas eu discordo.",
+            "Receio que eu não concorde com isso.",
+            "Esse é um bom argumento.",
+            "Me parece que precisamos de mais tempo.",
+            "Do meu ponto de vista, o plano é arriscado.",
+            "Eu concordo até certo ponto.",
+            "Com todo o respeito, eu vejo de outra forma.",
+            "Vamos concordar em discordar."
+          ]
+        },
+        {
+          "id": 36,
+          "title": "Lesson 36 — Review & Reading: Looking Back at Book Three",
+          "verbs": [],
+          "grammarPoints": [
+            {
+              "en": "I have been studying English for three books now.",
+              "pt": "Eu venho estudando inglês há três livros agora."
+            },
+            {
+              "en": "By the end of this book, I had learned so much.",
+              "pt": "Até o fim deste livro, eu já tinha aprendido tanto."
+            },
+            {
+              "en": "If you keep going, you will be amazed at your progress.",
+              "pt": "Se você continuar, vai se surpreender com o seu progresso."
+            },
+            {
+              "en": "Grammar that once seemed impossible is now used naturally.",
+              "pt": "A gramática que antes parecia impossível agora é usada naturalmente."
+            },
+            {
+              "en": "I wish I had started learning English sooner.",
+              "pt": "Eu queria ter começado a aprender inglês antes."
+            }
+          ],
+          "vocabulary": [
+            {
+              "en": "progress",
+              "pt": "progresso"
+            },
+            {
+              "en": "confident",
+              "pt": "confiante"
+            },
+            {
+              "en": "fluent",
+              "pt": "fluente"
+            },
+            {
+              "en": "a challenge",
+              "pt": "um desafio"
+            },
+            {
+              "en": "an achievement",
+              "pt": "uma conquista"
+            },
+            {
+              "en": "proud",
+              "pt": "orgulhoso"
+            }
+          ],
+          "expressions": [
+            {
+              "en": "You've come a long way.",
+              "pt": "Você percorreu um longo caminho."
+            },
+            {
+              "en": "The sky's the limit.",
+              "pt": "O céu é o limite."
+            },
+            {
+              "en": "Keep up the good work.",
+              "pt": "Continue com o bom trabalho."
+            },
+            {
+              "en": "Practice makes perfect.",
+              "pt": "A prática leva à perfeição."
+            },
+            {
+              "en": "Onward to Book Four!",
+              "pt": "Rumo ao Livro Quatro!"
+            }
+          ],
+          "curiosity": "Did you know? Researchers say that reaching an intermediate level in a language is the hardest part of the whole journey — it's often called 'the intermediate plateau'. If you've made it through Book Three, you've already passed the toughest climb. From here, it gets easier!",
+          "teachingGuide": "Lição final do Livro Três: revisão geral. O texto recicla TODO o livro — present/past perfect (continuous), narrative tenses, voz passiva, orações relativas, gerúndios/infinitivos, modais de dedução, condicionais (incl. 3º e misto), 'I wish', conectores de contraste, discourse markers e linguagem de opinião.\n\nPeça aos alunos para identificar o maior número possível de estruturas no texto.\n\nProdução final (avaliação informal): cada aluno escreve/fala uma reflexão 'Looking back at Book Three', usando present perfect (conquistas), past perfect (onde começou), um condicional e um 'I wish'.\n\nCelebre o progresso e prepare a transição para o Livro Quatro.",
+          "readingText": {
+            "title": "Looking Back at Book Three",
+            "body": "When I started Book Three, I could already hold a basic conversation, but I knew there was still a long way to go. Now that I've reached the final lesson, I can hardly believe how much I have learned.\n\nThings that used to confuse me have become natural. I no longer panic when I have to use the passive voice, and relative clauses, which once seemed impossible, are now part of how I speak. I have learned to tell stories in different past tenses, to make polite requests, and to give my opinion in a clear, respectful way. If someone had told me a year ago that I would be writing a text like this, I wouldn't have believed them.\n\nOf course, it hasn't always been easy. There were lessons that I had to study two or three times, and there are still mistakes that I make. Sometimes I wish I had started learning English sooner. Nevertheless, I'm proud of how far I have come.\n\nThe most important lesson isn't about grammar at all. It's that progress comes from showing up, again and again, even when it's hard. As my teacher likes to say, practice makes perfect.\n\nI'm not fluent yet, but I'm getting there. The sky's the limit, and I can't wait to keep going. Onward to Book Four!",
+            "glossary": [
+              {
+                "en": "to hold a conversation",
+                "pt": "manter uma conversa"
+              },
+              {
+                "en": "to panic",
+                "pt": "entrar em pânico"
+              },
+              {
+                "en": "to show up",
+                "pt": "aparecer / comparecer / dar as caras"
+              },
+              {
+                "en": "to be getting there",
+                "pt": "estar chegando lá"
+              },
+              {
+                "en": "a long way to go",
+                "pt": "um longo caminho pela frente"
+              }
+            ]
+          },
+          "homework": [
+            "Quando eu comecei o Livro Três, eu já mantinha uma conversa básica.",
+            "Agora eu mal acredito o quanto eu aprendi.",
+            "Coisas que me confundiam se tornaram naturais.",
+            "As orações relativas, que antes pareciam impossíveis, agora fazem parte de como eu falo.",
+            "Eu aprendi a contar histórias em diferentes tempos do passado.",
+            "Se alguém tivesse me dito isso há um ano, eu não teria acreditado.",
+            "Às vezes eu queria ter começado a aprender inglês antes.",
+            "Mesmo assim, eu tenho orgulho do quanto eu avancei.",
+            "O progresso vem de aparecer, de novo e de novo.",
+            "Eu ainda não sou fluente, mas estou chegando lá. Rumo ao Livro Quatro!"
+          ]
         }
       ]
     },
