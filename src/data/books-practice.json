@@ -3824,7 +3824,9 @@
         { "en": "I am not drinking milk./ juice/ water/ wine", "pt": "Eu não estou bebendo leite./ suco/ água/ vinho" },
         { "en": "He is not sleeping now./ going to the office/ studying at home", "pt": "Ele não está dormindo agora./ indo ao escritório/ estudando em casa" },
         { "en": "We are living here./ cooking/ opening the market", "pt": "Nós estamos morando aqui./ cozinhando/ abrindo o mercado" },
-        { "en": "They are speaking./ working/ studying", "pt": "Eles estão falando./ trabalhando/ estudando" }
+        { "en": "They are speaking./ working/ studying", "pt": "Eles estão falando./ trabalhando/ estudando" },
+        { "en": "I want to be a good student.", "pt": "Eu quero ser um bom aluno." },
+        { "en": "You need to be at home now.", "pt": "Você precisa estar em casa agora." }
       ]
     },
     {
@@ -3848,7 +3850,9 @@
         { "en": "Do your children go to school by bus?", "pt": "Seus filhos vão à escola de ônibus?" },
         { "en": "Do you like to work on Mondays?", "pt": "Você gosta de trabalhar às segundas?" },
         { "en": "Do you work on Saturdays? Where do you eat on Saturday?", "pt": "Você trabalha aos sábados? Onde você come no sábado?" },
-        { "en": "Are you a manager? When are we going?", "pt": "Você é gerente? Quando nós vamos?" }
+        { "en": "Are you a manager? When are we going?", "pt": "Você é gerente? Quando nós vamos?" },
+        { "en": "She wants to be a teacher.", "pt": "Ela quer ser professora." },
+        { "en": "We don't want to be late.", "pt": "Nós não queremos chegar atrasados." }
       ]
     },
     {
@@ -3903,7 +3907,14 @@
         { "en": "How many classes do you have this morning?/ this afternoon/ tonight?", "pt": "Quantas aulas você tem hoje de manhã?/ de tarde?/ à noite?" },
         { "en": "What time do you want to eat something?/ to read/ to write?", "pt": "Que horas você quer comer algo?/ ler?/ escrever?" },
         { "en": "How many days of vacation do you have?/ want/ need?", "pt": "Quantos dias de férias você tem?/ quer?/ precisa?" },
-        { "en": "I have something to eat, but I don't have anything to drink.", "pt": "Eu tenho algo para comer, mas não tenho nada para beber." }
+        { "en": "I have something to eat, but I don't have anything to drink.", "pt": "Eu tenho algo para comer, mas não tenho nada para beber." },
+        { "en": "I need to be at work early.", "pt": "Eu preciso estar no trabalho cedo." },
+        { "en": "Do you want to be a teacher?", "pt": "Você quer ser professor?" },
+        { "en": "I am starting my homework now.", "pt": "Eu estou começando minha lição de casa agora." },
+        { "en": "She is coming to my house today.", "pt": "Ela está vindo para a minha casa hoje." },
+        { "en": "We are not finishing the book today.", "pt": "Nós não estamos terminando o livro hoje." },
+        { "en": "They are not staying at home tonight.", "pt": "Eles não estão ficando em casa esta noite." },
+        { "en": "Are you coming with me now?", "pt": "Você está vindo comigo agora?" }
       ]
     },
     {
@@ -3929,7 +3940,14 @@
         { "en": "Do you like clubs? Are there a lot of clubs in your city?", "pt": "Você gosta de clubes? Há muitos clubes na sua cidade?" },
         { "en": "How many classes do you have every day?", "pt": "Quantas aulas você tem todos os dias?" },
         { "en": "Do you go to parks? Do you like the parks in your city?", "pt": "Você vai a parques? Você gosta dos parques da sua cidade?" },
-        { "en": "When do you go on vacation? Do you have a vacation every year?", "pt": "Quando você vai de férias? Você tira férias todo ano?" }
+        { "en": "When do you go on vacation? Do you have a vacation every year?", "pt": "Quando você vai de férias? Você tira férias todo ano?" },
+        { "en": "He would like to be here with us.", "pt": "Ele gostaria de estar aqui conosco." },
+        { "en": "They don't want to be at home today.", "pt": "Eles não querem ficar em casa hoje." },
+        { "en": "I am going on vacation this year.", "pt": "Eu estou indo de férias este ano." },
+        { "en": "My brother is going to the beach.", "pt": "Meu irmão está indo para a praia." },
+        { "en": "We are not going to work tomorrow.", "pt": "Nós não estamos indo trabalhar amanhã." },
+        { "en": "She is not going home now.", "pt": "Ela não está indo para casa agora." },
+        { "en": "Where are you going this weekend?", "pt": "Para onde você está indo neste fim de semana?" }
       ]
     },
     {
@@ -3983,7 +4001,14 @@
         { "en": "Nice to meet you! Have a nice day!/ nice class/ nice weekend", "pt": "Prazer em conhecê-lo! Tenha um bom dia!/ boa aula/ bom fim de semana" },
         { "en": "See you later! I need to help my friend tomorrow./ on Friday/ on Monday", "pt": "Até mais tarde! Eu preciso ajudar meu amigo amanhã./ na sexta/ na segunda" },
         { "en": "I never study here./ drink/ eat", "pt": "Eu nunca estudo aqui./ bebo/ como" },
-        { "en": "Your son likes to go to the movies.", "pt": "Coloque na terceira pessoa: Your children like to go to the movies." }
+        { "en": "Your son likes to go to the movies.", "pt": "Coloque na terceira pessoa: Your children like to go to the movies." },
+        { "en": "My son wants to be a teacher.", "pt": "Meu filho quer ser professor." },
+        { "en": "I don't want to be alone tonight.", "pt": "Eu não quero ficar sozinho esta noite." },
+        { "en": "My cousin is visiting us today.", "pt": "Meu primo está nos visitando hoje." },
+        { "en": "My aunt is visiting my mother.", "pt": "Minha tia está visitando minha mãe." },
+        { "en": "We are not visiting the school today.", "pt": "Nós não estamos visitando a escola hoje." },
+        { "en": "He is not saying anything now.", "pt": "Ele não está dizendo nada agora." },
+        { "en": "Who is visiting you this afternoon?", "pt": "Quem está te visitando esta tarde?" }
       ]
     },
     {
@@ -4040,7 +4065,14 @@
         { "en": "This city has a lot of bridges./ a few", "pt": "Esta cidade tem muitos viadutos./ poucos" },
         { "en": "Do you have a lot of work?/ a little?", "pt": "Você tem muito trabalho?/ pouco?" },
         { "en": "He drinks a lot of water./ a little water/ a lot of glasses of water", "pt": "Ele bebe muita água./ pouca água/ muitos copos de água" },
-        { "en": "Sometimes I eat a lot of bread./ drink a lot of glasses of water", "pt": "De vez em quando, eu como muito pão./ tomo muitos copos de água" }
+        { "en": "Sometimes I eat a lot of bread./ drink a lot of glasses of water", "pt": "De vez em quando, eu como muito pão./ tomo muitos copos de água" },
+        { "en": "We need to be at the store now.", "pt": "Nós precisamos estar na loja agora." },
+        { "en": "Do you need to be at work today?", "pt": "Você precisa estar no trabalho hoje?" },
+        { "en": "The company is selling doors and windows.", "pt": "A empresa está vendendo portas e janelas." },
+        { "en": "My father is working at the store today.", "pt": "Meu pai está trabalhando na loja hoje." },
+        { "en": "They are not selling cars this week.", "pt": "Eles não estão vendendo carros esta semana." },
+        { "en": "I am not buying anything today.", "pt": "Eu não estou comprando nada hoje." },
+        { "en": "Are you working this morning?", "pt": "Você está trabalhando esta manhã?" }
       ]
     },
     {
@@ -4066,7 +4098,14 @@
         { "en": "Does your house have a garage? Do you have a big garage?", "pt": "Sua casa tem uma garagem? Você tem uma garagem grande?" },
         { "en": "When do you have meetings? Do you have a lot of meetings at the office?", "pt": "Quando você tem reuniões? Você tem muitas reuniões no escritório?" },
         { "en": "Do you sometimes have a meeting on Saturdays?", "pt": "Você às vezes tem reunião aos sábados?" },
-        { "en": "Do you drink water during work? Do you study during work?", "pt": "Você bebe água durante o trabalho? Você estuda durante o trabalho?" }
+        { "en": "Do you drink water during work? Do you study during work?", "pt": "Você bebe água durante o trabalho? Você estuda durante o trabalho?" },
+        { "en": "She would like to be a good student.", "pt": "Ela gostaria de ser uma boa aluna." },
+        { "en": "I don't want to be late for lunch.", "pt": "Eu não quero chegar atrasado para o almoço." },
+        { "en": "We are drinking coffee before lunch.", "pt": "Nós estamos bebendo café antes do almoço." },
+        { "en": "She is eating a salad now.", "pt": "Ela está comendo uma salada agora." },
+        { "en": "I am not drinking wine tonight.", "pt": "Eu não estou bebendo vinho esta noite." },
+        { "en": "They are not eating meat today.", "pt": "Eles não estão comendo carne hoje." },
+        { "en": "What are you drinking now?", "pt": "O que você está bebendo agora?" }
       ]
     },
     {
@@ -4121,7 +4160,14 @@
         { "en": "Who talks a lot?/ only a little bit/ at school/ better?", "pt": "Quem conversa bastante?/ só um pouco?/ na escola?/ melhor?" },
         { "en": "I need a little bit of sugar./ a lot of sugar", "pt": "Eu preciso de um pouco de açúcar./ de muito açúcar" },
         { "en": "He doesn't want sugar in his juice./ coffee/ tea", "pt": "Ele não quer açúcar no suco./ no café/ no chá" },
-        { "en": "Are you better today?/ is he/ are they/ is your son?", "pt": "Você está melhor hoje?/ ele?/ eles?/ seu filho?" }
+        { "en": "Are you better today?/ is he/ are they/ is your son?", "pt": "Você está melhor hoje?/ ele?/ eles?/ seu filho?" },
+        { "en": "My daughter wants to be happy.", "pt": "Minha filha quer ser feliz." },
+        { "en": "Do you want to be here tomorrow?", "pt": "Você quer estar aqui amanhã?" },
+        { "en": "The maid is washing the dishes.", "pt": "A empregada está lavando a louça." },
+        { "en": "My uncle is watching TV now.", "pt": "Meu tio está assistindo TV agora." },
+        { "en": "I am not talking to my neighbor now.", "pt": "Eu não estou falando com meu vizinho agora." },
+        { "en": "We are not washing the car today.", "pt": "Nós não estamos lavando o carro hoje." },
+        { "en": "Are you watching the game tonight?", "pt": "Você está assistindo ao jogo esta noite?" }
       ]
     },
     {
@@ -4147,7 +4193,14 @@
         { "en": "Do you have any horse?/ any chicken/ any animal?", "pt": "Você tem algum cavalo?/ alguma galinha?/ algum animal?" },
         { "en": "I go to work on foot in the morning./ to school by bus in the afternoon/ downtown by car in the evening", "pt": "Eu vou ao trabalho a pé de manhã./ à escola de ônibus de tarde/ ao centro de carro à noite" },
         { "en": "They say that you wash the dishes./ they tell me", "pt": "Eles dizem que você lava a louça./ eles me dizem" },
-        { "en": "I live very near here./ very far", "pt": "Eu moro muito perto daqui./ muito longe" }
+        { "en": "I live very near here./ very far", "pt": "Eu moro muito perto daqui./ muito longe" },
+        { "en": "I need to be home early tonight.", "pt": "Eu preciso estar em casa cedo esta noite." },
+        { "en": "We don't want to be tired tomorrow.", "pt": "Nós não queremos estar cansados amanhã." },
+        { "en": "Your wife is reading the newspaper.", "pt": "Sua esposa está lendo o jornal." },
+        { "en": "My husband is reading a book now.", "pt": "Meu marido está lendo um livro agora." },
+        { "en": "She is not reading anything today.", "pt": "Ela não está lendo nada hoje." },
+        { "en": "We are not writing the lesson now.", "pt": "Nós não estamos escrevendo a lição agora." },
+        { "en": "What are you reading this morning?", "pt": "O que você está lendo esta manhã?" }
       ]
     },
     {
@@ -4200,7 +4253,14 @@
         { "en": "They talked a lot during the last class./ meeting/ movie", "pt": "Eles falaram muito durante a última aula./ reunião/ filme" },
         { "en": "Mary took my brother to school last week./ last month/ a long time ago", "pt": "A Mary levou meu irmão à escola semana passada./ mês passado/ muito tempo atrás" },
         { "en": "I studied a lot during the last class./ read/ wrote", "pt": "Eu estudei muito durante a última aula./ li/ escrevi" },
-        { "en": "Who spoke English yesterday morning?/ evening/ afternoon?", "pt": "Quem falou inglês ontem de manhã?/ à noite?/ à tarde?" }
+        { "en": "Who spoke English yesterday morning?/ evening/ afternoon?", "pt": "Quem falou inglês ontem de manhã?/ à noite?/ à tarde?" },
+        { "en": "He wants to be a teacher too.", "pt": "Ele também quer ser professor." },
+        { "en": "Do they want to be with us?", "pt": "Eles querem estar conosco?" },
+        { "en": "My cousin is washing the clothes.", "pt": "Meu primo está lavando as roupas." },
+        { "en": "They are talking with the neighbor.", "pt": "Eles estão conversando com o vizinho." },
+        { "en": "He is not taking the car today.", "pt": "Ele não está pegando o carro hoje." },
+        { "en": "I am not watching TV this afternoon.", "pt": "Eu não estou assistindo TV esta tarde." },
+        { "en": "Who is washing the dishes now?", "pt": "Quem está lavando a louça agora?" }
       ]
     },
     {
@@ -4226,7 +4286,14 @@
         { "en": "Do you like to watch the moon? Is the moon big today?", "pt": "Você gosta de observar a lua? A lua está grande hoje?" },
         { "en": "Are you very busy today? Do you like busy days?", "pt": "Você está muito ocupado hoje? Você gosta de dias ocupados?" },
         { "en": "Is your wife (husband) tall? Are you tall?", "pt": "Sua esposa (seu marido) é alta? Você é alto?" },
-        { "en": "Did you study English a long time ago?", "pt": "Você estudou inglês muito tempo atrás?" }
+        { "en": "Did you study English a long time ago?", "pt": "Você estudou inglês muito tempo atrás?" },
+        { "en": "I would like to be at the beach now.", "pt": "Eu gostaria de estar na praia agora." },
+        { "en": "She doesn't want to be late.", "pt": "Ela não quer chegar atrasada." },
+        { "en": "I am studying English every day.", "pt": "Eu estou estudando inglês todos os dias." },
+        { "en": "My parents are working today.", "pt": "Meus pais estão trabalhando hoje." },
+        { "en": "We are not staying home tonight.", "pt": "Nós não estamos ficando em casa esta noite." },
+        { "en": "She is not cooking lunch now.", "pt": "Ela não está cozinhando o almoço agora." },
+        { "en": "Are you studying with your friends?", "pt": "Você está estudando com seus amigos?" }
       ]
     },
     {
@@ -4278,7 +4345,14 @@
         { "en": "My hometown is near here./ far from here/ in the country", "pt": "Minha cidade natal é perto daqui./ longe/ no interior" },
         { "en": "We usually study twice a week./ once a week/ many times a week", "pt": "Nós geralmente estudamos duas vezes por semana./ uma vez/ muitas vezes" },
         { "en": "She buys clothes once a year./ twice a month/ every week", "pt": "Ela compra roupas uma vez por ano./ duas vezes por mês/ toda semana" },
-        { "en": "We have lunch at home four times a week./ have dinner twice/ a few times", "pt": "Nós almoçamos em casa quatro vezes por semana./ jantamos duas/ poucas vezes" }
+        { "en": "We have lunch at home four times a week./ have dinner twice/ a few times", "pt": "Nós almoçamos em casa quatro vezes por semana./ jantamos duas/ poucas vezes" },
+        { "en": "We need to be at the meeting now.", "pt": "Nós precisamos estar na reunião agora." },
+        { "en": "Do you need to be at school early?", "pt": "Você precisa estar na escola cedo?" },
+        { "en": "John is saying something during the class.", "pt": "O John está dizendo algo durante a aula." },
+        { "en": "We are learning a lot in this class.", "pt": "Nós estamos aprendendo muito nesta aula." },
+        { "en": "They are not studying now.", "pt": "Eles não estão estudando agora." },
+        { "en": "I am not talking during the meeting.", "pt": "Eu não estou falando durante a reunião." },
+        { "en": "What are you saying now?", "pt": "O que você está dizendo agora?" }
       ]
     },
     {
@@ -4304,7 +4378,14 @@
         { "en": "Do you go to the market once a week?", "pt": "Você vai ao mercado uma vez por semana?" },
         { "en": "Do you have English class three times a week?", "pt": "Você tem aula de inglês três vezes por semana?" },
         { "en": "Do you go to the movies once a month?", "pt": "Você vai ao cinema uma vez por mês?" },
-        { "en": "What did you do last night? What did you eat last night?", "pt": "O que você fez ontem à noite? O que você comeu ontem à noite?" }
+        { "en": "What did you do last night? What did you eat last night?", "pt": "O que você fez ontem à noite? O que você comeu ontem à noite?" },
+        { "en": "My friend wants to be a teacher.", "pt": "Meu amigo quer ser professor." },
+        { "en": "I don't want to be at work tonight.", "pt": "Eu não quero estar no trabalho esta noite." },
+        { "en": "My sister is cooking for the family.", "pt": "Minha irmã está cozinhando para a família." },
+        { "en": "The children are playing in the house.", "pt": "As crianças estão brincando em casa." },
+        { "en": "We are not eating now.", "pt": "Nós não estamos comendo agora." },
+        { "en": "He is not working this week.", "pt": "Ele não está trabalhando esta semana." },
+        { "en": "Are the children studying now?", "pt": "As crianças estão estudando agora?" }
       ]
     },
     {
@@ -4358,7 +4439,14 @@
         { "en": "Does she work part time or full time?/ study?", "pt": "Ela trabalha meio período ou período integral?/ estuda?" },
         { "en": "This park is pretty too, especially at night.", "pt": "Este parque também é bonito, principalmente à noite." },
         { "en": "Now I am so happy./ so busy/ so tired", "pt": "Agora eu estou tão feliz./ tão ocupado/ tão cansado" },
-        { "en": "Jane didn't do this because she didn't know how to do it./ didn't want to/ didn't have time", "pt": "A Jane não fez isso porque ela não sabia fazer./ não queria/ não tinha tempo" }
+        { "en": "Jane didn't do this because she didn't know how to do it./ didn't want to/ didn't have time", "pt": "A Jane não fez isso porque ela não sabia fazer./ não queria/ não tinha tempo" },
+        { "en": "They would like to be at home now.", "pt": "Eles gostariam de estar em casa agora." },
+        { "en": "Do you want to be with your family today?", "pt": "Você quer estar com a sua família hoje?" },
+        { "en": "I am finishing my work now.", "pt": "Eu estou terminando meu trabalho agora." },
+        { "en": "They are coming to the beach with us.", "pt": "Eles estão vindo para a praia conosco." },
+        { "en": "She is not starting the lesson yet.", "pt": "Ela não está começando a lição ainda." },
+        { "en": "We are not staying in the city this weekend.", "pt": "Nós não estamos ficando na cidade neste fim de semana." },
+        { "en": "When are you coming home?", "pt": "Quando você está vindo para casa?" }
       ]
     },
     {
@@ -4384,7 +4472,12 @@
         { "en": "Are you sad today? How often do you stay sad?", "pt": "Você está triste hoje? Com que frequência você fica triste?" },
         { "en": "Do you work part time? Do you study part time?", "pt": "Você trabalha meio período? Você estuda meio período?" },
         { "en": "Do your children study full time? Do you work full time?", "pt": "Seus filhos estudam período integral? Você trabalha período integral?" },
-        { "en": "How often do you visit your relatives? How often do you visit your friends?", "pt": "Com que frequência você visita seus parentes? Com que frequência você visita seus amigos?" }
+        { "en": "How often do you visit your relatives? How often do you visit your friends?", "pt": "Com que frequência você visita seus parentes? Com que frequência você visita seus amigos?" },
+        { "en": "My mother is buying flowers today.", "pt": "Minha mãe está comprando flores hoje." },
+        { "en": "We are selling the old house.", "pt": "Nós estamos vendendo a casa velha." },
+        { "en": "I am not buying a new car now.", "pt": "Eu não estou comprando um carro novo agora." },
+        { "en": "They are not selling anything this week.", "pt": "Eles não estão vendendo nada esta semana." },
+        { "en": "What are you buying at the store?", "pt": "O que você está comprando na loja?" }
       ]
     },
     {
@@ -4439,7 +4532,12 @@
         { "en": "Take it easy! The post office didn't close yet./ the store/ the school", "pt": "Fica calmo! O correio não fechou ainda./ a loja/ a escola" },
         { "en": "He also studies with her./ with them/ with us/ with me", "pt": "Ele também estuda com ela./ com elas/ conosco/ comigo" },
         { "en": "Are you near her?/ us/ him/ them?", "pt": "Você está perto dela?/ de nós?/ dele?/ deles?" },
-        { "en": "Never mind! The farm is near here./ far/ close to a small town", "pt": "Nem esquente! A fazenda é perto daqui./ longe/ perto de uma cidadezinha" }
+        { "en": "Never mind! The farm is near here./ far/ close to a small town", "pt": "Nem esquente! A fazenda é perto daqui./ longe/ perto de uma cidadezinha" },
+        { "en": "They are coming with me tonight.", "pt": "Eles estão vindo comigo esta noite." },
+        { "en": "My friend is coming to the party.", "pt": "Meu amigo está vindo para a festa." },
+        { "en": "She is not coming with us today.", "pt": "Ela não está vindo conosco hoje." },
+        { "en": "We are not going to the movies now.", "pt": "Nós não estamos indo ao cinema agora." },
+        { "en": "Are you coming to my house tonight?", "pt": "Você está vindo para a minha casa esta noite?" }
       ]
     },
     {
@@ -4465,7 +4563,12 @@
         { "en": "Are you young? Do you have a young brother?", "pt": "Você é jovem? Você tem um irmão mais novo?" },
         { "en": "Are your parents young? Do you think you are young?", "pt": "Seus pais são jovens? Você acha que é jovem?" },
         { "en": "Are highways good in Brazil? Do you have a good mechanic?", "pt": "As rodovias são boas no Brasil? Você tem um bom mecânico?" },
-        { "en": "Do you have relatives that live on a farm? Do you have animals on your farm?", "pt": "Você tem parentes que moram numa fazenda? Você tem animais na sua fazenda?" }
+        { "en": "Do you have relatives that live on a farm? Do you have animals on your farm?", "pt": "Você tem parentes que moram numa fazenda? Você tem animais na sua fazenda?" },
+        { "en": "He is buying gas at the gas station.", "pt": "Ele está comprando gasolina no posto." },
+        { "en": "They are living near the beach now.", "pt": "Eles estão morando perto da praia agora." },
+        { "en": "I am not living in that building.", "pt": "Eu não estou morando naquele prédio." },
+        { "en": "We are not going to the gas station now.", "pt": "Nós não estamos indo ao posto agora." },
+        { "en": "Where are you living now?", "pt": "Onde você está morando agora?" }
       ]
     },
     {
@@ -4519,7 +4622,12 @@
         { "en": "I eat any kind of food./ dessert/ candy/ butter", "pt": "Eu como qualquer tipo de comida./ sobremesa/ doce/ manteiga" },
         { "en": "Do you have any presents to take? Yes, I have some presents to take.", "pt": "Você tem algum presente para levar? Sim, eu tenho alguns presentes para levar." },
         { "en": "No, I don't have any presents to take.", "pt": "Não, eu não tenho nenhum presente para levar." },
-        { "en": "Do you eat any kind of cookie?/ candy/ pie/ fish?", "pt": "Você come qualquer tipo de biscoito?/ doce?/ torta?/ peixe?" }
+        { "en": "Do you eat any kind of cookie?/ candy/ pie/ fish?", "pt": "Você come qualquer tipo de biscoito?/ doce?/ torta?/ peixe?" },
+        { "en": "I am reading a good book tonight.", "pt": "Eu estou lendo um bom livro esta noite." },
+        { "en": "She is doing her homework now.", "pt": "Ela está fazendo a lição de casa agora." },
+        { "en": "They are not doing anything today.", "pt": "Eles não estão fazendo nada hoje." },
+        { "en": "He is not reading the newspaper now.", "pt": "Ele não está lendo o jornal agora." },
+        { "en": "What are you doing tonight?", "pt": "O que você está fazendo esta noite?" }
       ]
     },
     {
@@ -4545,7 +4653,12 @@
         { "en": "What do you do when you are sick? What do you like to eat when you are sick?", "pt": "O que você faz quando está doente? O que você gosta de comer?" },
         { "en": "Are you usually tired after work?", "pt": "Você geralmente fica cansado depois do trabalho?" },
         { "en": "Are you tired on weekends too? When do you get tired?", "pt": "Você fica cansado nos fins de semana também? Quando você fica cansado?" },
-        { "en": "How many refrigerators do you have at home? Is your refrigerator big?", "pt": "Quantas geladeiras você tem em casa? Sua geladeira é grande?" }
+        { "en": "How many refrigerators do you have at home? Is your refrigerator big?", "pt": "Quantas geladeiras você tem em casa? Sua geladeira é grande?" },
+        { "en": "We are watching a movie at home.", "pt": "Nós estamos assistindo a um filme em casa." },
+        { "en": "My son is playing soccer now.", "pt": "Meu filho está jogando futebol agora." },
+        { "en": "I am not watching TV tonight.", "pt": "Eu não estou assistindo TV esta noite." },
+        { "en": "She is not playing now.", "pt": "Ela não está brincando agora." },
+        { "en": "Are you watching the game now?", "pt": "Você está assistindo ao jogo agora?" }
       ]
     },
     {
@@ -4599,7 +4712,12 @@
         { "en": "Who sold this dress to you?/ to her/ to them?", "pt": "Quem vendeu este vestido para você?/ para ela?/ para elas?" },
         { "en": "They watch TV until ten twenty./ half past ten/ ten forty-five/ eleven o'clock", "pt": "Eles assistem TV até as dez e vinte./ dez e meia/ dez e quarenta e cinco/ onze horas" },
         { "en": "I want to stay in this small town until two fifteen./ noon", "pt": "Eu quero ficar nesta cidadezinha até as duas e quinze./ o meio-dia" },
-        { "en": "Who is there?/ lives/ helps/ reads/ writes?", "pt": "Quem está lá?/ mora?/ ajuda?/ lê?/ escreve?" }
+        { "en": "Who is there?/ lives/ helps/ reads/ writes?", "pt": "Quem está lá?/ mora?/ ajuda?/ lê?/ escreve?" },
+        { "en": "They are buying a nice house.", "pt": "Eles estão comprando uma casa bonita." },
+        { "en": "I am selling my old car.", "pt": "Eu estou vendendo meu carro velho." },
+        { "en": "We are not buying flowers today.", "pt": "Nós não estamos comprando flores hoje." },
+        { "en": "She is not selling her house now.", "pt": "Ela não está vendendo a casa dela agora." },
+        { "en": "What are they buying now?", "pt": "O que eles estão comprando agora?" }
       ]
     },
     {
@@ -4625,7 +4743,12 @@
         { "en": "How many pairs of shoes do you have? What is your favorite shoe?", "pt": "Quantos pares de sapatos você tem? Qual é o seu sapato favorito?" },
         { "en": "Do you like to watch the moon at night? Do you like to watch the moon alone?", "pt": "Você gosta de observar a lua à noite? Você gosta de observar a lua sozinho?" },
         { "en": "How often do you go to a drugstore? Is there any drugstore near your house?", "pt": "Com que frequência você vai à farmácia? Há alguma farmácia perto da sua casa?" },
-        { "en": "Where do you like to buy shirts? What is your favorite color of shirt?", "pt": "Onde você gosta de comprar camisas? De que cor é a sua camisa favorita?" }
+        { "en": "Where do you like to buy shirts? What is your favorite color of shirt?", "pt": "Onde você gosta de comprar camisas? De que cor é a sua camisa favorita?" },
+        { "en": "I am selling clothes at work today.", "pt": "Eu estou vendendo roupas no trabalho hoje." },
+        { "en": "He is working at the store now.", "pt": "Ele está trabalhando na loja agora." },
+        { "en": "We are not selling cars this month.", "pt": "Nós não estamos vendendo carros este mês." },
+        { "en": "They are not working tonight.", "pt": "Eles não estão trabalhando esta noite." },
+        { "en": "Are you selling anything at work?", "pt": "Você está vendendo algo no trabalho?" }
       ]
     },
     {
@@ -4680,7 +4803,12 @@
         { "en": "Jane lives in the black building./ green/ red/ yellow", "pt": "A Jane mora no prédio preto./ verde/ vermelho/ amarelo" },
         { "en": "I start to work at 7 p.m./ 4 p.m./ 1 p.m.", "pt": "Eu começo a trabalhar às sete da noite./ quatro da tarde/ uma da tarde" },
         { "en": "How often does he stay here?/ there/ eat there?", "pt": "Com que frequência ele fica aqui?/ lá?/ come lá?" },
-        { "en": "They are going to a restaurant./ my parents went to a snack bar", "pt": "Eles estão indo para um restaurante./ meus pais foram para uma lanchonete" }
+        { "en": "They are going to a restaurant./ my parents went to a snack bar", "pt": "Eles estão indo para um restaurante./ meus pais foram para uma lanchonete" },
+        { "en": "We are watching a good movie now.", "pt": "Nós estamos assistindo a um bom filme agora." },
+        { "en": "They are visiting a beautiful country.", "pt": "Eles estão visitando um país bonito." },
+        { "en": "I am not watching that movie today.", "pt": "Eu não estou assistindo àquele filme hoje." },
+        { "en": "She is not traveling this year.", "pt": "Ela não está viajando este ano." },
+        { "en": "What movie are you watching now?", "pt": "Que filme você está assistindo agora?" }
       ]
     },
     {
@@ -4706,7 +4834,12 @@
         { "en": "Did you go to a pub last night? Do you like to go to a pub?", "pt": "Você foi a um bar ontem à noite? Você gosta de ir a bares?" },
         { "en": "Do you live in a building? Do you prefer to live in a building or a house?", "pt": "Você mora num prédio? Você prefere morar num prédio ou numa casa?" },
         { "en": "Do you like to play cards? When was the last time you played cards?", "pt": "Você gosta de jogar baralho? Quando foi a última vez que você jogou?" },
-        { "en": "Do you have a bank card? How many bank cards do you have?", "pt": "Você tem um cartão do banco? Quantos cartões do banco você tem?" }
+        { "en": "Do you have a bank card? How many bank cards do you have?", "pt": "Você tem um cartão do banco? Quantos cartões do banco você tem?" },
+        { "en": "They are living in a big building.", "pt": "Eles estão morando em um prédio grande." },
+        { "en": "I am staying at my friend's house.", "pt": "Eu estou ficando na casa do meu amigo." },
+        { "en": "We are not living downtown now.", "pt": "Nós não estamos morando no centro agora." },
+        { "en": "He is not staying in the city this week.", "pt": "Ele não está ficando na cidade esta semana." },
+        { "en": "Are you living near your work?", "pt": "Você está morando perto do seu trabalho?" }
       ]
     },
     {
@@ -4761,7 +4894,12 @@
         { "en": "It's too hot! I want to go to the beach./ pool/ club", "pt": "Está muito quente! Eu quero ir à praia./ piscina/ clube" },
         { "en": "Is it too hot?/ so cold/ very expensive/ very cheap/ so slow?", "pt": "Está muito quente?/ tão frio?/ caro demais?/ muito barato?/ tão lento?" },
         { "en": "Are they married?/ single/ happy/ young/ sad?", "pt": "Eles são casados?/ solteiros?/ felizes?/ jovens?/ estão tristes?" },
-        { "en": "Nobody likes this sport. Everyone prefers soccer.", "pt": "Ninguém gosta desse esporte. Todos preferem futebol." }
+        { "en": "Nobody likes this sport. Everyone prefers soccer.", "pt": "Ninguém gosta desse esporte. Todos preferem futebol." },
+        { "en": "My parents are working this morning.", "pt": "Meus pais estão trabalhando esta manhã." },
+        { "en": "I am studying for the test now.", "pt": "Eu estou estudando para a prova agora." },
+        { "en": "We are not playing soccer today.", "pt": "Nós não estamos jogando futebol hoje." },
+        { "en": "She is not working this afternoon.", "pt": "Ela não está trabalhando esta tarde." },
+        { "en": "What are you studying now?", "pt": "O que você está estudando agora?" }
       ]
     },
     {
@@ -4819,7 +4957,12 @@
         { "en": "Does anyone understand a lot?/ everything/ this", "pt": "Alguém entende muito?/ tudo?/ isso?" },
         { "en": "They understood the whole lesson./ book/ report", "pt": "Eles entenderam a lição inteira./ livro/ relatório" },
         { "en": "His father has much money./ many children/ time/ many friends", "pt": "O pai dele tem muito dinheiro./ filhos/ tempo/ amigos" },
-        { "en": "My wife likes avocado a lot./ peach/ pie", "pt": "Minha esposa gosta muito de abacate./ pêssego/ torta" }
+        { "en": "My wife likes avocado a lot./ peach/ pie", "pt": "Minha esposa gosta muito de abacate./ pêssego/ torta" },
+        { "en": "He is talking to her during the class.", "pt": "Ele está conversando com ela durante a aula." },
+        { "en": "We are studying English now.", "pt": "Nós estamos estudando inglês agora." },
+        { "en": "I am not talking to him now.", "pt": "Eu não estou falando com ele agora." },
+        { "en": "They are not talking now.", "pt": "Eles não estão conversando agora." },
+        { "en": "Who are you talking to now?", "pt": "Com quem você está conversando agora?" }
       ]
     },
     {
@@ -4877,7 +5020,12 @@
         { "en": "Don't drink too much wine./ too many cans of beer", "pt": "Não beba tanto vinho./ tantas latas de cerveja" },
         { "en": "The policeman said you are in trouble./ told me", "pt": "O policial disse que você está encrencado./ me disse" },
         { "en": "How many accidents did you have last year?/ I had a few last year/ so many accidents", "pt": "Quantos acidentes você teve ano passado?/ eu tive poucos ano passado/ tantos acidentes" },
-        { "en": "His girlfriend lives two blocks from here./ many blocks/ a few", "pt": "A namorada dele mora duas quadras daqui./ muitas quadras/ poucas" }
+        { "en": "His girlfriend lives two blocks from here./ many blocks/ a few", "pt": "A namorada dele mora duas quadras daqui./ muitas quadras/ poucas" },
+        { "en": "We are watching a game this afternoon.", "pt": "Nós estamos assistindo a um jogo esta tarde." },
+        { "en": "She is watching a movie with her family.", "pt": "Ela está assistindo a um filme com a família." },
+        { "en": "I am not watching TV now.", "pt": "Eu não estou assistindo TV agora." },
+        { "en": "They are not playing now.", "pt": "Eles não estão jogando agora." },
+        { "en": "Are you watching the game with us?", "pt": "Você está assistindo ao jogo conosco?" }
       ]
     }
   ]
