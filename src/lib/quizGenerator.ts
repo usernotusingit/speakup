@@ -178,7 +178,6 @@ export function buildChallenges(lesson: QuizLesson): Challenge[] {
   // Shuffle vocab for batching
   const vocabShuffled = shuffle(lesson.vocabulary);
   const vocabBatch1 = vocabShuffled.slice(0, 8);
-  const vocabBatch2 = vocabShuffled.slice(8, 16);
 
   // 1. FlipCards — vocabulary batch 1
   challenges.push({
@@ -187,8 +186,8 @@ export function buildChallenges(lesson: QuizLesson): Challenge[] {
     cards: vocabBatch1,
   });
 
-  // 2. MultipleChoice × 4 — one per verb: EN → PT
-  for (const verb of lesson.verbs) {
+  // 2. MultipleChoice × 2 — two verbs: EN → PT
+  for (const verb of pick(lesson.verbs, 2)) {
     const { options, answer } = makeOptions(verbPtPool, verb.pt);
     challenges.push({
       type: "multiple-choice",
@@ -198,10 +197,10 @@ export function buildChallenges(lesson: QuizLesson): Challenge[] {
     });
   }
 
-  // 3. TrueFalse × up to 4 — alternating correct/incorrect
+  // 3. TrueFalse × up to 2 — alternating correct/incorrect
   const trueFalseChallenges: TrueFalseChallenge[] = [];
   for (const gp of lesson.grammarPoints) {
-    if (trueFalseChallenges.length >= 4) break;
+    if (trueFalseChallenges.length >= 2) break;
     const sentence = gp.en.trim();
 
     // Alternate: even idx = correct, odd = incorrect
@@ -234,8 +233,8 @@ export function buildChallenges(lesson: QuizLesson): Challenge[] {
   }
   challenges.push(...trueFalseChallenges);
 
-  // 4. MultipleChoice × 5 — vocab EN→PT
-  const vocabForMC1 = pick(lesson.vocabulary, 5);
+  // 4. MultipleChoice × 1 — vocab EN→PT
+  const vocabForMC1 = pick(lesson.vocabulary, 1);
   for (const v of vocabForMC1) {
     const { options, answer } = makeOptions(vocabPtPool, v.pt);
     challenges.push({
@@ -246,19 +245,10 @@ export function buildChallenges(lesson: QuizLesson): Challenge[] {
     });
   }
 
-  // 5. FlipCards — vocabulary batch 2
-  if (vocabBatch2.length > 0) {
-    challenges.push({
-      type: "flipcards",
-      label: "Vocabulary",
-      cards: vocabBatch2,
-    });
-  }
-
-  // 6. FillBlank × up to 5 — from grammar points
+  // 6. FillBlank × up to 2 — from grammar points
   const fillBlanks: FillBlankChallenge[] = [];
   for (const gp of lesson.grammarPoints) {
-    if (fillBlanks.length >= 5) break;
+    if (fillBlanks.length >= 2) break;
     const s = gp.en.trim();
     // Skip compound or complex sentences
     if (s.includes("—") || s.includes("(") || s.includes(",")) continue;
@@ -304,8 +294,8 @@ export function buildChallenges(lesson: QuizLesson): Challenge[] {
     });
   }
 
-  // 8. MultipleChoice × 4 — vocab PT→EN
-  const vocabForMC2 = pick(lesson.vocabulary, 4);
+  // 8. MultipleChoice × 1 — vocab PT→EN
+  const vocabForMC2 = pick(lesson.vocabulary, 1);
   for (const v of vocabForMC2) {
     const { options, answer } = makeOptions(vocabEnPool, v.en);
     challenges.push({
@@ -313,15 +303,6 @@ export function buildChallenges(lesson: QuizLesson): Challenge[] {
       question: `"${v.pt}" in English is:`,
       options,
       answer,
-    });
-  }
-
-  // 9. Matching × 1 — 5 more vocab pairs (batch 2)
-  const matchVocab2 = pick(vocabBatch2.length >= 5 ? vocabBatch2 : lesson.vocabulary, 5);
-  if (matchVocab2.length >= 2) {
-    challenges.push({
-      type: "matching",
-      pairs: matchVocab2.map((v) => ({ en: v.en, pt: v.pt })),
     });
   }
 
@@ -334,8 +315,8 @@ export function buildChallenges(lesson: QuizLesson): Challenge[] {
     });
   }
 
-  // 11. MultipleChoice × 4 — expression EN→PT
-  const exprsForMC = pick(lesson.expressions, 4);
+  // 11. MultipleChoice × 1 — expression EN→PT
+  const exprsForMC = pick(lesson.expressions, 1);
   for (const e of exprsForMC) {
     const { options, answer } = makeOptions(exprPtPool, e.pt);
     challenges.push({
@@ -355,14 +336,14 @@ export function buildChallenges(lesson: QuizLesson): Challenge[] {
     });
   }
 
-  // 13. WordOrder × 3 — grammar point sentences with 4+ words
+  // 13. WordOrder × 2 — grammar point sentences with 4+ words
   const wordOrderCandidates = lesson.grammarPoints.filter((gp) => {
     const s = gp.en.trim().replace(/[.!?]$/, "");
     const words = s.split(" ");
     return words.length >= 4 && !gp.en.includes("—") && !gp.en.includes("(");
   });
 
-  const wordOrderPicked = pick(wordOrderCandidates, 3);
+  const wordOrderPicked = pick(wordOrderCandidates, 2);
   for (const gp of wordOrderPicked) {
     const answer = gp.en.trim().replace(/[.!?]$/, "");
     const words = shuffle(answer.split(" "));

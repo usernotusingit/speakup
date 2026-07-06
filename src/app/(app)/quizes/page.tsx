@@ -1,6 +1,7 @@
 import booksData from "@/data/books.json";
 import Link from "next/link";
 import { Lock, ChevronRight } from "lucide-react";
+import { buildChallenges } from "@/lib/quizGenerator";
 
 const levelColor: Record<string, string> = {
   A1: "#dc2626", "A1+": "#ea580c", A2: "#2563eb",
@@ -13,26 +14,10 @@ function isReady(lesson: Lesson): boolean {
   return lesson.vocabulary.length >= 10 && lesson.grammarPoints.length >= 3;
 }
 
+// Single source of truth: the generator's output length is deterministic
+// (shuffle/pick change which items appear, not how many).
 function challengeCount(lesson: Lesson): number {
-  const blankable = lesson.grammarPoints.filter(
-    (g) => !g.en.includes("—") && !g.en.includes("(")
-  );
-  const wordOrderable = blankable.filter((g) => g.en.split(" ").length >= 4);
-  return (
-    1 + // flip cards batch 1
-    lesson.verbs.length + // verb multiple choice
-    4 + // true / false
-    5 + // vocab MC (EN → PT)
-    (lesson.vocabulary.length > 8 ? 1 : 0) + // flip cards batch 2
-    Math.min(5, blankable.length) + // fill the blank
-    1 + // matching batch 1
-    4 + // vocab MC (PT → EN)
-    (lesson.vocabulary.length > 10 ? 1 : 0) + // matching batch 2
-    1 + // expressions flip cards
-    Math.min(4, lesson.expressions.length) + // expression MC
-    (lesson.expressions.length >= 4 ? 1 : 0) + // expression matching
-    Math.min(3, wordOrderable.length) // word order
-  );
+  return buildChallenges(lesson as Parameters<typeof buildChallenges>[0]).length;
 }
 
 export default function QuizesPage() {
