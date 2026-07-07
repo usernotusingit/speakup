@@ -40,21 +40,34 @@ export default function NewsFeed({ feed }: { feed: NewsFeedData | null }) {
                 href={item.link}
                 target="_blank"
                 rel="noopener noreferrer"
-                className="group flex items-start gap-3 rounded-xl p-3 transition-all hover:bg-white/5"
+                className="group flex items-center gap-3 rounded-xl p-2 transition-all hover:bg-white/5"
               >
-                <span className="mt-0.5 flex-1 text-sm text-[var(--text)] leading-snug group-hover:text-indigo-300">
-                  {item.title}
-                </span>
-                <span className="flex shrink-0 items-center gap-2 pt-0.5">
-                  <span className="text-[var(--text-faint)] text-xs whitespace-nowrap">
+                {item.image ? (
+                  // eslint-disable-next-line @next/next/no-img-element
+                  <img
+                    src={item.image}
+                    alt=""
+                    loading="lazy"
+                    className="h-14 w-20 shrink-0 rounded-lg object-cover bg-white/5"
+                  />
+                ) : (
+                  <span className="flex h-14 w-20 shrink-0 items-center justify-center rounded-lg bg-white/5">
+                    <Newspaper size={18} className="text-[var(--text-faint)]" />
+                  </span>
+                )}
+                <span className="min-w-0 flex-1">
+                  <span className="block text-sm text-[var(--text)] leading-snug group-hover:text-indigo-300">
+                    {item.title}
+                  </span>
+                  <span className="mt-1 block text-[var(--text-faint)] text-xs">
                     {item.source}
                     {item.pubDate ? ` · ${relativeTime(item.pubDate)}` : ""}
                   </span>
-                  <ExternalLink
-                    size={13}
-                    className="text-[var(--text-faint)] group-hover:text-indigo-400"
-                  />
                 </span>
+                <ExternalLink
+                  size={13}
+                  className="shrink-0 text-[var(--text-faint)] group-hover:text-indigo-400"
+                />
               </a>
             </li>
           ))}

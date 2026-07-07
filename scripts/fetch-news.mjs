@@ -38,6 +38,24 @@ function field(block, tag) {
   return m ? decodeEntities(m[1]) : "";
 }
 
+// Picks the largest <media:thumbnail> in an item and upscales the BBC ichef
+// resizer path (…/standard/240/…) to 480px for a crisper thumbnail.
+function thumbnail(block) {
+  const tags = block.match(/<media:thumbnail\b[^>]*>/gi) || [];
+  let best = "";
+  let bestW = -1;
+  for (const tag of tags) {
+    const url = tag.match(/url="([^"]+)"/i)?.[1];
+    if (!url) continue;
+    const w = Number(tag.match(/width="(\d+)"/i)?.[1] ?? 0);
+    if (w > bestW) {
+      bestW = w;
+      best = url;
+    }
+  }
+  return best ? best.replace(/\/(?:standard|ing)\/\d+\//, "/standard/480/") : "";
+}
+
 function parseItems(xml, source) {
   const items = [];
   const re = /<item>([\s\S]*?)<\/item>/gi;
@@ -47,8 +65,9 @@ function parseItems(xml, source) {
     const title = field(block, "title");
     const link = field(block, "link");
     const pubDate = field(block, "pubDate");
+    const image = thumbnail(block);
     if (title && link) {
-      items.push({ title, link, source, pubDate });
+      items.push({ title, link, source, pubDate, image });
     }
   }
   return items;
