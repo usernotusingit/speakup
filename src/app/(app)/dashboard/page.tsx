@@ -11,6 +11,8 @@ import {
   CalendarResult,
 } from "@/lib/googleCalendar";
 import ReconnectCalendarBanner from "@/components/ReconnectCalendarBanner";
+import NewsFeed from "@/components/NewsFeed";
+import { getNews } from "@/lib/news";
 
 export default async function DashboardPage() {
   const session = await auth();
@@ -36,6 +38,8 @@ export default async function DashboardPage() {
     (calendarResult.status === "scope_missing" ||
       calendarResult.status === "no_calendar");
   const loadError = calendarResult.status === "error";
+
+  const news = await getNews();
 
   return (
     <div className="space-y-5 fade-in">
@@ -150,6 +154,9 @@ export default async function DashboardPage() {
           <LessonsChart />
         </div>
       </div>
+
+      {/* Daily News */}
+      <NewsFeed feed={news} />
     </div>
   );
 }

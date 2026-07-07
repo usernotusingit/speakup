@@ -52,3 +52,6 @@ next-env.d.ts
 # python (audio generation tooling)
 .venv/
 __pycache__/
+
+# runtime news cache + cron log (regenerated twice daily by scripts/fetch-news.mjs)
+/data/
