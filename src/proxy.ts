@@ -15,7 +15,14 @@ const SESSION_COOKIES = [
 //
 // API routes are intentionally excluded (see matcher) so they enforce their
 // own auth and return JSON 401/403 instead of an HTML redirect.
+// Public marketing routes that must stay reachable without a session.
+const PUBLIC_PATHS = ["/"];
+
 export function proxy(request: NextRequest) {
+  if (PUBLIC_PATHS.includes(request.nextUrl.pathname)) {
+    return;
+  }
+
   const hasSession = SESSION_COOKIES.some((name) => request.cookies.has(name));
 
   if (!hasSession) {

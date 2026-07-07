@@ -41,6 +41,10 @@
   color-scheme: light;
 }
 
+html {
+  scroll-behavior: smooth;
+}
+
 body {
   background-color: var(--navy);
   color: var(--text);
@@ -48,6 +52,14 @@ body {
   min-height: 100vh;
   transition: background-color 0.2s ease, color 0.2s ease;
 }
+
+@keyframes float {
+  0%, 100% { transform: translateY(0); }
+  50%      { transform: translateY(-10px); }
+}
+
+.float-slow { animation: float 6s ease-in-out infinite; }
+.float-slower { animation: float 8s ease-in-out infinite; }
 
 @keyframes fadeIn {
   from { opacity: 0; transform: translateY(8px); }
