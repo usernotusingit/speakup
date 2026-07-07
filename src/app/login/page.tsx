@@ -37,16 +37,10 @@ export default function LoginPage() {
         <div className="bg-white rounded-2xl shadow-2xl overflow-hidden">
           {/* Header */}
           <div className="px-8 pt-8 pb-4 text-center">
-            <div className="flex items-center justify-center gap-2 mb-1">
-              <div className="w-10 h-10 rounded-full flex items-center justify-center"
-                style={{ backgroundColor: "var(--accent)" }}>
-                <MessageCircle size={20} color="white" />
-              </div>
-              <div className="text-left">
-                <p className="text-xs font-semibold uppercase tracking-widest"
-                  style={{ color: "var(--accent)" }}>Speak-Up</p>
-                <p className="text-sm font-bold text-gray-800 -mt-0.5">English School</p>
-              </div>
+            <div className="flex flex-col items-center justify-center mb-1">
+              {/* eslint-disable-next-line @next/next/no-img-element */}
+              <img src="/logo.png" alt="Speak-Up English" className="h-16 w-auto" />
+              <p className="text-sm font-bold text-gray-800 mt-1">English School</p>
             </div>
           </div>
 

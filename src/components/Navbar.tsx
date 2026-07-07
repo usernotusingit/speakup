@@ -3,7 +3,7 @@
 import Link from "next/link";
 import { usePathname } from "next/navigation";
 import { signOut } from "next-auth/react";
-import { Home, BookOpen, Headphones, ClipboardList, LogOut, MessageCircle, CalendarDays } from "lucide-react";
+import { Home, BookOpen, Headphones, ClipboardList, LogOut, CalendarDays } from "lucide-react";
 import ThemeToggle from "./ThemeToggle";
 
 const baseLinks = [
@@ -26,12 +26,9 @@ export default function Navbar({ role }: { role?: string }) {
       style={{ backgroundColor: "var(--navy-card)", borderBottom: "1px solid var(--border)" }}>
       <div className="max-w-6xl mx-auto px-4 h-14 flex items-center gap-6">
         {/* Logo */}
-        <Link href="/dashboard" className="flex items-center gap-2 mr-4 shrink-0">
-          <div className="w-7 h-7 rounded-lg flex items-center justify-center"
-            style={{ backgroundColor: "var(--accent)" }}>
-            <MessageCircle size={14} color="white" />
-          </div>
-          <span className="font-bold text-sm hidden sm:block" style={{ color: "var(--text)" }}>Speak-Up</span>
+        <Link href="/dashboard" className="flex items-center mr-4 shrink-0">
+          {/* eslint-disable-next-line @next/next/no-img-element */}
+          <img src="/logo.png" alt="Speak-Up English" className="h-8 w-auto" />
         </Link>
 
         {/* Nav links */}

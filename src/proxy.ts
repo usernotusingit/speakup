@@ -19,7 +19,12 @@ const SESSION_COOKIES = [
 const PUBLIC_PATHS = ["/"];
 
 export function proxy(request: NextRequest) {
-  if (PUBLIC_PATHS.includes(request.nextUrl.pathname)) {
+  const { pathname } = request.nextUrl;
+
+  // Public landing page, plus any static asset served from /public (logo,
+  // speech-bubble images, etc.). Static files always carry a file extension;
+  // page routes in this app never do, so this can't leak a gated page.
+  if (PUBLIC_PATHS.includes(pathname) || /\.[a-zA-Z0-9]+$/.test(pathname)) {
     return;
   }
 
