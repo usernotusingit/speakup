@@ -1,4 +1,5 @@
 import booksData from "@/data/books.json";
+import practiceData from "@/data/books-practice.json";
 import Link from "next/link";
 import { Lock, ChevronRight } from "lucide-react";
 import { buildChallenges } from "@/lib/quizGenerator";
@@ -16,8 +17,14 @@ function isReady(lesson: Lesson): boolean {
 
 // Single source of truth: the generator's output length is deterministic
 // (shuffle/pick change which items appear, not how many).
-function challengeCount(lesson: Lesson): number {
-  return buildChallenges(lesson as Parameters<typeof buildChallenges>[0]).length;
+function challengeCount(lesson: Lesson, bookId: number): number {
+  const practice = practiceData.practice.find(
+    (p) => p.bookId === bookId && p.lessonId === lesson.id
+  );
+  return buildChallenges({
+    ...lesson,
+    practicingPart2: practice?.practicingPart2 ?? [],
+  } as Parameters<typeof buildChallenges>[0]).length;
 }
 
 export default function QuizesPage() {
@@ -46,7 +53,7 @@ export default function QuizesPage() {
             <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4 gap-3">
               {book.lessons.map((lesson, idx) => {
                 const ready = isReady(lesson);
-                const count = ready ? challengeCount(lesson) : 0;
+                const count = ready ? challengeCount(lesson, book.id) : 0;
 
                 return ready ? (
                   <Link

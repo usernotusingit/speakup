@@ -1,4 +1,5 @@
 import booksData from "@/data/books.json";
+import practiceData from "@/data/books-practice.json";
 import { notFound } from "next/navigation";
 import Link from "next/link";
 import { buildChallenges } from "@/lib/quizGenerator";
@@ -44,7 +45,13 @@ export default async function QuizPage({
     );
   }
 
-  const challenges = buildChallenges(lesson as Parameters<typeof buildChallenges>[0]);
+  const practice = practiceData.practice.find(
+    (p) => p.bookId === Number(id) && p.lessonId === Number(lessonId)
+  );
+  const challenges = buildChallenges({
+    ...lesson,
+    practicingPart2: practice?.practicingPart2 ?? [],
+  } as Parameters<typeof buildChallenges>[0]);
 
   return (
     <div className="fade-in">
