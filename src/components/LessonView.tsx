@@ -2,6 +2,7 @@
 
 import { useState } from "react";
 import SectionDrill from "@/components/SectionDrill";
+import CheckpointSpotlight, { type Checkpoint } from "@/components/CheckpointSpotlight";
 import {
   BookOpen,
   MessageCircle,
@@ -19,7 +20,7 @@ import {
 type PracticeSentence = { pt: string; en: string };
 
 type Lesson = {
-  id: number;
+  id: number | string;
   title: string;
   verbs: { en: string; pt: string }[];
   grammarPoints: { en: string; pt: string }[];
@@ -27,6 +28,7 @@ type Lesson = {
   expressions: { en: string; pt: string }[];
   curiosity: string;
   teachingGuide: string;
+  checkpoint?: Checkpoint;
   homework?: string[];
   readingText?: {
     title: string;
@@ -241,6 +243,12 @@ export default function LessonView({ lesson, role = "student", bookId }: { lesso
       <div className="px-6 py-4 border-b border-gray-100">
         <h3 className="text-gray-800 font-bold text-lg">{lesson.title}</h3>
       </div>
+
+      {lesson.checkpoint && (
+        <div className="px-4 pt-4">
+          <CheckpointSpotlight checkpoint={lesson.checkpoint} />
+        </div>
+      )}
 
       <div className="divide-y divide-gray-100">
         {sections

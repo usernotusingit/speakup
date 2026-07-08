@@ -400,8 +400,8 @@
               "pt": "Eu quero uma fatia de queijo."
             },
             {
-              "en": "Do you want to speak English?",
-              "pt": "Você quer falar inglês?"
+              "en": "Do I want to speak English?",
+              "pt": "Eu quero falar inglês?"
             },
             {
               "en": "You sleep with your parents.",
@@ -560,6 +560,36 @@
               "pt": "Todos os dias."
             }
           ],
+          "checkpoint": {
+            "label": "Preposition Rule",
+            "tagline": "IN · ON · AT — the size rule",
+            "intro": "This is the heart of Lesson 3. Prepositions of place and time follow one rule: the bigger the thing, the bigger the word.",
+            "words": [
+              { "word": "in", "size": "BIG", "hint": "country, city, month" },
+              { "word": "on", "size": "MEDIUM", "hint": "street, day" },
+              { "word": "at", "size": "SMALL", "hint": "exact address, exact time" }
+            ],
+            "dimensions": [
+              {
+                "label": "PLACE",
+                "pt": "Lugar",
+                "rows": [
+                  { "prep": "in", "scope": "Big — city, country", "example": "I work in New York." },
+                  { "prep": "on", "scope": "Street", "example": "I work on this street." },
+                  { "prep": "at", "scope": "Small — exact spot", "example": "I work at the bank." }
+                ]
+              },
+              {
+                "label": "TIME",
+                "pt": "Tempo",
+                "rows": [
+                  { "prep": "in", "scope": "Big — month, year", "example": "I don't work in January." },
+                  { "prep": "on", "scope": "Day", "example": "I don't work on Monday." },
+                  { "prep": "at", "scope": "Small — exact hour", "example": "I don't work at seven o'clock." }
+                ]
+              }
+            ]
+          },
           "curiosity": "In English, prepositions for place and time follow a size rule: IN (big: country, city, month), ON (medium: street, day of week), AT (small: specific address, exact time). Ex.: I live in Brazil. I work on Main Street. I start at 9 o'clock.",
           "teachingGuide": "Verbs: 'to go' — sempre seguido de 'to' quando indica destino. Ex.: I go TO school. I go TO the market. Exceção: I go HOME (sem 'to').\n\n'To have to' = obrigação. Explique a diferença: I need to go (necessidade pessoal) vs I have to go (obrigação externa).\n\nPreposição IN/ON/AT — regra do tamanho:\n• LUGAR: IN (maior: cidade, país) → ON (rua) → AT (menor: endereço específico)\n• TEMPO: IN (maior: mês, ano) → ON (dia) → AT (hora exata)\nEx.: I work in New York. / I work on this street. / I work at the bank.\n\nDo/Does em perguntas: 3ª pessoa singular usa 'does'. Ex.: Do you want? / Does he want?",
           "homework": [

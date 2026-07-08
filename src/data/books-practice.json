@@ -137,10 +137,10 @@
         { "pt": "Eu quero dormir./ ir/ falar/ estudar", "en": "I want to sleep/ to go/ to speak/ to study" },
         { "pt": "Você quer falar./ comer/ ir/ dormir", "en": "You want to speak/ to eat/ to go/ to sleep" },
         { "pt": "Eu tenho que dormir./ ir/ trabalhar", "en": "I have to sleep/ to go/ to work" },
-        { "pt": "Você não quer ir./ estudar/ beber/ dormir", "en": "You don't want to go/ to study/ to drink/ to slee" },
+        { "pt": "Você não quer ir./ estudar/ beber/ dormir", "en": "You don't want to go/ to study/ to drink/ to sleep" },
         { "pt": "Eu não tenho que jogar./ dormir/ ir", "en": "I don't have to play/ to sleep/ to go" },
         { "pt": "Você quer dormir?/ quer ir?/ tem que dormir?/ tem que brincar?", "en": "Do you want to sleep?/ to go/ have to sleep?/ have to play?" },
-        { "pt": "Você tem que beber?/ estudar?/ ir?/ dormir?", "en": "Do you want to drink?/ study/ go/ sleep" },
+        { "pt": "Você tem que beber?/ estudar?/ ir?/ dormir?", "en": "Do you have to drink?/ study/ go/ sleep" },
         { "pt": "Você precisa trabalhar?/ ir?/ dormir?", "en": "Do you need to work?/ go/ sleep" }
       ],
       "practiceVocabulary": [
