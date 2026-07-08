@@ -1,8 +1,10 @@
 import { auth } from "@/lib/auth";
 import { redirect } from "next/navigation";
+import { prisma } from "@/lib/prisma";
 import { getTeacherEvents, formatEventTime } from "@/lib/googleCalendar";
-import { Calendar, Users, Clock } from "lucide-react";
+import { Calendar, Users, Clock, Inbox } from "lucide-react";
 import ScheduleForm from "@/components/ScheduleForm";
+import BookingRequests from "@/components/BookingRequests";
 import ReconnectCalendarBanner from "@/components/ReconnectCalendarBanner";
 
 export default async function SchedulePage() {
@@ -17,6 +19,17 @@ export default async function SchedulePage() {
   const showReconnect =
     result.status === "scope_missing" || result.status === "no_calendar";
   const loadError = result.status === "error";
+
+  const pendingRequests = await prisma.booking.findMany({
+    where: { teacherId: session.user.id, status: "pending" },
+    orderBy: { start: "asc" },
+  });
+  const requests = pendingRequests.map((b) => ({
+    id: b.id,
+    studentEmail: b.studentEmail,
+    studentName: b.studentName,
+    startISO: b.start.toISOString(),
+  }));
 
   return (
     <div className="space-y-6 fade-in">
@@ -79,8 +92,26 @@ export default async function SchedulePage() {
           )}
         </div>
 
-        {/* New class form */}
-        <ScheduleForm />
+        {/* Right column: booking requests + new class form */}
+        <div className="space-y-6">
+          <div className="rounded-2xl p-5 shadow-lg" style={{ backgroundColor: "var(--navy-card)" }}>
+            <h2 className="text-[var(--text)] font-semibold text-sm mb-4 flex items-center gap-2">
+              <Inbox size={14} className="text-indigo-400" />
+              Booking Requests
+              {requests.length > 0 && (
+                <span
+                  className="text-xs px-2 py-0.5 rounded-full"
+                  style={{ backgroundColor: "#f59e0b22", color: "#f59e0b" }}
+                >
+                  {requests.length}
+                </span>
+              )}
+            </h2>
+            <BookingRequests requests={requests} />
+          </div>
+
+          <ScheduleForm />
+        </div>
       </div>
     </div>
   );

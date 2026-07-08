@@ -281,6 +281,189 @@ export async function createClassEvent(
   return (await res.json()) as CalendarEvent;
 }
 
+// ---------------------------------------------------------------------------
+// Availability (for student booking)
+// ---------------------------------------------------------------------------
+
+export interface Slot {
+  startISO: string;
+  endISO: string;
+}
+
+const SP_TZ = "America/Sao_Paulo";
+
+// Offset (ms) of a timezone at a given instant: wall-clock-as-UTC minus the real
+// instant. For America/Sao_Paulo (UTC-3, no DST) this is a constant -3h.
+function tzOffsetMs(tz: string, at: Date): number {
+  const dtf = new Intl.DateTimeFormat("en-US", {
+    timeZone: tz,
+    hour12: false,
+    year: "numeric",
+    month: "2-digit",
+    day: "2-digit",
+    hour: "2-digit",
+    minute: "2-digit",
+    second: "2-digit",
+  });
+  const map: Record<string, number> = {};
+  for (const p of dtf.formatToParts(at)) {
+    if (p.type !== "literal") map[p.type] = Number(p.value);
+  }
+  const asUTC = Date.UTC(
+    map.year,
+    map.month - 1,
+    map.day,
+    map.hour,
+    map.minute,
+    map.second
+  );
+  return asUTC - at.getTime();
+}
+
+// Convert a wall-clock time in `tz` to the corresponding UTC instant.
+function zonedWallToUtc(
+  y: number,
+  monthIndex: number,
+  d: number,
+  hour: number,
+  tz: string
+): Date {
+  const wallAsUTC = Date.UTC(y, monthIndex, d, hour, 0, 0);
+  const offset = tzOffsetMs(tz, new Date(wallAsUTC));
+  return new Date(wallAsUTC - offset);
+}
+
+// Y/M/D of an instant as seen in `tz`.
+function spDateParts(at: Date, tz: string): { y: number; mo: number; d: number } {
+  const dtf = new Intl.DateTimeFormat("en-US", {
+    timeZone: tz,
+    year: "numeric",
+    month: "2-digit",
+    day: "2-digit",
+  });
+  const map: Record<string, number> = {};
+  for (const p of dtf.formatToParts(at)) {
+    if (p.type !== "literal") map[p.type] = Number(p.value);
+  }
+  return { y: map.year, mo: map.month, d: map.day };
+}
+
+function overlaps(
+  aStart: number,
+  aEnd: number,
+  bStart: number,
+  bEnd: number
+): boolean {
+  return aStart < bEnd && aEnd > bStart;
+}
+
+// Fetch the teacher's busy intervals from the Google Calendar FreeBusy API.
+async function fetchBusy(
+  token: string,
+  calendarId: string,
+  timeMin: string,
+  timeMax: string
+): Promise<{ start: number; end: number }[] | null> {
+  const res = await fetch("https://www.googleapis.com/calendar/v3/freeBusy", {
+    method: "POST",
+    headers: {
+      Authorization: `Bearer ${token}`,
+      "Content-Type": "application/json",
+    },
+    body: JSON.stringify({ timeMin, timeMax, items: [{ id: calendarId }] }),
+  });
+
+  if (!res.ok) {
+    console.error(`fetchBusy: ${res.status} for calendar ${calendarId}`);
+    return null;
+  }
+
+  const data = await res.json();
+  const busy = data.calendars?.[calendarId]?.busy ?? [];
+  return (busy as { start: string; end: string }[]).map((b) => ({
+    start: new Date(b.start).getTime(),
+    end: new Date(b.end).getTime(),
+  }));
+}
+
+// Open, bookable slots for a teacher over the next `days`. "Available" = any gap
+// in the teacher's Google Calendar (FreeBusy) that is also not already held by an
+// active (pending/confirmed) Booking, bounded to sensible day hours in the
+// school's timezone. Returns null on token/API failure.
+export async function getTeacherAvailability(
+  teacherId: string,
+  opts: {
+    days?: number;
+    slotMinutes?: number;
+    dayStartHour?: number;
+    dayEndHour?: number;
+  } = {}
+): Promise<Slot[] | null> {
+  const days = opts.days ?? 14;
+  const slotMinutes = opts.slotMinutes ?? 60;
+  const dayStartHour = opts.dayStartHour ?? 8;
+  const dayEndHour = opts.dayEndHour ?? 20;
+
+  const resolved = await resolveTeacherCalendarId(teacherId);
+  if ("result" in resolved) return null;
+
+  const token = await getAccessToken(teacherId);
+  if (!token) return null;
+
+  const now = new Date();
+  const rangeEnd = new Date(now.getTime() + days * 86400000);
+
+  const busy = await fetchBusy(
+    token,
+    resolved.calendarId,
+    now.toISOString(),
+    rangeEnd.toISOString()
+  );
+  if (busy === null) return null;
+
+  const activeBookings = await prisma.booking.findMany({
+    where: {
+      teacherId,
+      status: { in: ["pending", "confirmed"] },
+      start: { lt: rangeEnd },
+      end: { gt: now },
+    },
+    select: { start: true, end: true },
+  });
+  const bookedIntervals = activeBookings.map((b) => ({
+    start: b.start.getTime(),
+    end: b.end.getTime(),
+  }));
+
+  const slots: Slot[] = [];
+  const nowMs = now.getTime();
+
+  for (let dayOffset = 0; dayOffset < days; dayOffset++) {
+    const dayInstant = new Date(nowMs + dayOffset * 86400000);
+    const { y, mo, d } = spDateParts(dayInstant, SP_TZ);
+
+    for (let hour = dayStartHour; hour < dayEndHour; hour++) {
+      const start = zonedWallToUtc(y, mo - 1, d, hour, SP_TZ);
+      const startMs = start.getTime();
+      const endMs = startMs + slotMinutes * 60000;
+
+      if (startMs <= nowMs) continue;
+
+      const clashesBusy = busy.some((b) => overlaps(startMs, endMs, b.start, b.end));
+      if (clashesBusy) continue;
+
+      const clashesBooking = bookedIntervals.some((b) =>
+        overlaps(startMs, endMs, b.start, b.end)
+      );
+      if (clashesBooking) continue;
+
+      slots.push({ startISO: start.toISOString(), endISO: new Date(endMs).toISOString() });
+    }
+  }
+
+  return slots;
+}
+
 export function formatEventTime(event: CalendarEvent): string {
   const start = event.start.dateTime ?? event.start.date;
   if (!start) return "";

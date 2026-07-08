@@ -3,7 +3,7 @@
 import Link from "next/link";
 import { usePathname } from "next/navigation";
 import { signOut } from "next-auth/react";
-import { Home, BookOpen, Headphones, ClipboardList, LogOut, CalendarDays } from "lucide-react";
+import { Home, BookOpen, Headphones, ClipboardList, LogOut, CalendarDays, CalendarPlus } from "lucide-react";
 import ThemeToggle from "./ThemeToggle";
 
 const baseLinks = [
@@ -17,9 +17,16 @@ const teacherLinks = [
   { href: "/schedule", label: "Schedule", icon: CalendarDays },
 ];
 
+const studentLinks = [
+  { href: "/book", label: "Book", icon: CalendarPlus },
+];
+
 export default function Navbar({ role }: { role?: string }) {
   const pathname = usePathname();
-  const links = role === "teacher" ? [...baseLinks, ...teacherLinks] : baseLinks;
+  const links =
+    role === "teacher"
+      ? [...baseLinks, ...teacherLinks]
+      : [...baseLinks, ...studentLinks];
 
   return (
     <nav className="sticky top-0 z-50 shadow-lg"

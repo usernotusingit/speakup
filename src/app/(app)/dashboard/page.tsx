@@ -1,6 +1,6 @@
 import { auth } from "@/lib/auth";
 import { redirect } from "next/navigation";
-import { BookOpen, Headphones, ClipboardList, MapPin, User, Calendar } from "lucide-react";
+import { BookOpen, Headphones, ClipboardList, MapPin, User, Calendar, CalendarPlus } from "lucide-react";
 import Link from "next/link";
 import LessonsChart from "@/components/LessonsChart";
 import books from "@/data/books.json";
@@ -130,6 +130,9 @@ export default async function DashboardPage() {
           <h3 className="text-[var(--text)] font-semibold mb-4 text-sm">Quick Access</h3>
           <div className="space-y-2">
             {[
+              ...(role !== "teacher"
+                ? [{ label: "Book a class", href: "/book", icon: CalendarPlus, color: "#16a34a" }]
+                : []),
               { label: "Books", href: "/books", icon: BookOpen, color: "#dc2626" },
               { label: "Listening", href: "/listenings", icon: Headphones, color: "#5c6bc0" },
               { label: "Quiz", href: "/quizes", icon: ClipboardList, color: "#7c3aed" },

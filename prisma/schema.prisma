@@ -48,6 +48,7 @@ model User {
   turmas        Turma[]
   enrollments         Enrollment[]
   lessonNotes         LessonNote[]
+  bookings            Booking[]
 }
 
 model LessonNote {
@@ -74,6 +75,25 @@ model Enrollment {
   @@unique([studentEmail, teacherId])
   @@index([studentEmail])
   @@index([teacherId])
+}
+
+model Booking {
+  id            String   @id @default(cuid())
+  studentEmail  String
+  studentName   String?
+  teacherId     String
+  teacher       User     @relation(fields: [teacherId], references: [id], onDelete: Cascade)
+  start         DateTime
+  end           DateTime
+  summary       String   @default("English Class")
+  status        String   @default("pending") // pending | confirmed | declined
+  googleEventId String?
+  createdAt     DateTime @default(now())
+  updatedAt     DateTime @updatedAt
+
+  @@index([teacherId, status])
+  @@index([studentEmail, status])
+  @@index([teacherId, start])
 }
 
 model VerificationToken {
