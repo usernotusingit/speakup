@@ -1556,6 +1556,26 @@
               "pt": "toda semana"
             }
           ],
+          "checkpoint": {
+            "type": "conjugation",
+            "label": "Verb TO BE — Present",
+            "tagline": "Affirmative · Negative · Contracted · Interrogative",
+            "intro": "This is the heart of Lesson 11. TO BE is the only English verb that changes with every subject — and it takes no do/does. It builds its own negatives and questions.",
+            "columns": [
+              { "key": "affirmative", "label": "Affirmative" },
+              { "key": "negative", "label": "Negative" },
+              { "key": "contracted", "label": "Contracted" },
+              { "key": "interrogative", "label": "Interrogative" }
+            ],
+            "rows": [
+              { "subject": "I", "affirmative": "I am", "negative": "I am not", "contracted": "I'm · I'm not", "interrogative": "Am I?" },
+              { "subject": "You", "affirmative": "You are", "negative": "You are not", "contracted": "You're · You aren't", "interrogative": "Are you?" },
+              { "subject": "He / She / It", "affirmative": "He is", "negative": "He is not", "contracted": "He's · He isn't", "interrogative": "Is he?" },
+              { "subject": "We", "affirmative": "We are", "negative": "We are not", "contracted": "We're · We aren't", "interrogative": "Are we?" },
+              { "subject": "They", "affirmative": "They are", "negative": "They are not", "contracted": "They're · They aren't", "interrogative": "Are they?" }
+            ],
+            "note": "No do / does with TO BE — the verb itself makes the negative and the question."
+          },
           "curiosity": "The verb \"to be\" is the most common verb in English — and the only one that fully changes with the subject (I am, you/we/they are, he/she/it is). It also powers the present continuous (I am working), which English speakers use constantly to talk about what's happening right now.",
           "teachingGuide": "Verbs: o verbo 'to be' é especial — funciona como auxiliar, então as frases negativas e interrogativas são feitas com o próprio verbo (sem 'do/does'). Ex.: She is not here. / Are you at home? É o único verbo em inglês que muda conforme o sujeito: I am / you-we-they are / he-she-it is. Significados: to be = ser E estar.\n\nPresent Continuous: to be + verbo-ing descreve a ação acontecendo agora. Ex.: I am studying. / They are not working. / Are you reading?\n\nVocabulário: 'chicken' serve para o animal e a carne. 'every' é sempre seguido de palavra no singular (every day, every week). Dias da semana sempre com letra maiúscula e preposição 'on': on Monday.\n\nReview: não inicie a próxima lição sem fazer o Quiz e o Listening.",
           "homework": [
