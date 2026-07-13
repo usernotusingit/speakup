@@ -24,6 +24,22 @@ async function requestOrigin() {
   }
 }
 
+/**
+ * Record a sign-in that was refused because the email is not on the roster.
+ * There is no User row to link to (the adapter never created one), so this
+ * stores the email only.
+ */
+export async function recordDenied(email: string) {
+  try {
+    const { ip, userAgent } = await requestOrigin();
+    await prisma.accessLog.create({
+      data: { email, userId: null, event: "denied", ip, userAgent },
+    });
+  } catch (err) {
+    console.error("[access] failed to record denied sign-in", err);
+  }
+}
+
 /** Record a fresh sign-in (OAuth round-trip completed). */
 export async function recordLogin(userId: string, email: string) {
   try {

@@ -2,7 +2,8 @@ import NextAuth from "next-auth";
 import GoogleProvider from "next-auth/providers/google";
 import { PrismaAdapter } from "@auth/prisma-adapter";
 import { prisma } from "@/lib/prisma";
-import { recordLogin } from "@/lib/access";
+import { recordLogin, recordDenied } from "@/lib/access";
+import { lookupRoster } from "@/lib/roster";
 
 export const { handlers, auth, signIn, signOut } = NextAuth({
   adapter: PrismaAdapter(prisma),
@@ -21,6 +22,16 @@ export const { handlers, auth, signIn, signOut } = NextAuth({
     }),
   ],
   callbacks: {
+    // The access gate. This runs BEFORE the adapter creates a User, so an
+    // email that is not on the roster never reaches the database at all.
+    async signIn({ user }) {
+      const entry = await lookupRoster(user.email);
+      if (!entry) {
+        await recordDenied(user.email ?? "unknown");
+        return false;
+      }
+      return true;
+    },
     session({ session, user }) {
       session.user.id = user.id;
       session.user.role = (user as { role?: string }).role ?? "student";

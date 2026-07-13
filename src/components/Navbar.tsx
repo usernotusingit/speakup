@@ -3,7 +3,7 @@
 import Link from "next/link";
 import { usePathname } from "next/navigation";
 import { signOut } from "next-auth/react";
-import { Home, BookOpen, Headphones, ClipboardList, LogOut, CalendarDays, CalendarPlus } from "lucide-react";
+import { Home, BookOpen, Headphones, ClipboardList, LogOut, CalendarDays, CalendarPlus, ShieldCheck } from "lucide-react";
 import ThemeToggle from "./ThemeToggle";
 
 const baseLinks = [
@@ -21,12 +21,19 @@ const studentLinks = [
   { href: "/book", label: "Book", icon: CalendarPlus },
 ];
 
-export default function Navbar({ role }: { role?: string }) {
+// Admin-only, and admin is by email — so this survives the admin switching
+// their own role to student to test the student view.
+const adminLinks = [
+  { href: "/admin/access", label: "Access", icon: ShieldCheck },
+];
+
+export default function Navbar({ role, isAdmin }: { role?: string; isAdmin?: boolean }) {
   const pathname = usePathname();
-  const links =
-    role === "teacher"
-      ? [...baseLinks, ...teacherLinks]
-      : [...baseLinks, ...studentLinks];
+  const links = [
+    ...baseLinks,
+    ...(role === "teacher" ? teacherLinks : studentLinks),
+    ...(isAdmin ? adminLinks : []),
+  ];
 
   return (
     <nav className="sticky top-0 z-50 shadow-lg"

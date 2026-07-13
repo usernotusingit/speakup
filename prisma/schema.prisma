@@ -54,12 +54,27 @@ model User {
   accessLogs          AccessLog[]
 }
 
+/// The roster. An email must have an active row here to sign in at all —
+/// enforced in callbacks.signIn (src/lib/auth.ts), which runs before the
+/// adapter creates any User, so denied strangers never reach the database.
+model AllowedEmail {
+  id        String   @id @default(cuid())
+  email     String   @unique
+  role      String   @default("student") // student | teacher
+  status    String   @default("active") // active | revoked
+  note      String?
+  createdAt DateTime @default(now())
+  updatedAt DateTime @updatedAt
+
+  @@index([status])
+}
+
 model AccessLog {
   id        String   @id @default(cuid())
   email     String
   userId    String?
   user      User?    @relation(fields: [userId], references: [id], onDelete: SetNull)
-  event     String   @default("login") // "login" = fresh sign-in | "visit" = resumed session
+  event     String   @default("login") // login = fresh sign-in | visit = resumed session | denied = blocked by roster
   ip        String?
   userAgent String?
   createdAt DateTime @default(now())
