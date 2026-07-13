@@ -44,6 +44,7 @@ model User {
   role                String    @default("student")
   speakupCalendarId   String?   @unique
   lastLoginAt         DateTime?
+  lastSeenAt          DateTime?
   accounts            Account[]
   sessions      Session[]
   turmas        Turma[]
@@ -58,10 +59,14 @@ model AccessLog {
   email     String
   userId    String?
   user      User?    @relation(fields: [userId], references: [id], onDelete: SetNull)
+  event     String   @default("login") // "login" = fresh sign-in | "visit" = resumed session
+  ip        String?
+  userAgent String?
   createdAt DateTime @default(now())
 
   @@index([email, createdAt])
   @@index([createdAt])
+  @@index([event, createdAt])
 }
 
 model LessonNote {

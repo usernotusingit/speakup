@@ -2,6 +2,7 @@ import NextAuth from "next-auth";
 import GoogleProvider from "next-auth/providers/google";
 import { PrismaAdapter } from "@auth/prisma-adapter";
 import { prisma } from "@/lib/prisma";
+import { recordLogin } from "@/lib/access";
 
 export const { handlers, auth, signIn, signOut } = NextAuth({
   adapter: PrismaAdapter(prisma),
@@ -28,21 +29,7 @@ export const { handlers, auth, signIn, signOut } = NextAuth({
   },
   events: {
     async signIn({ user }) {
-      // Never let logging break a sign-in.
-      try {
-        const email = user.email ?? "unknown";
-        await prisma.accessLog.create({
-          data: { email, userId: user.id ?? null },
-        });
-        if (user.id) {
-          await prisma.user.update({
-            where: { id: user.id },
-            data: { lastLoginAt: new Date() },
-          });
-        }
-      } catch (err) {
-        console.error("[accesslog] failed to record sign-in", err);
-      }
+      if (user.id) await recordLogin(user.id, user.email ?? "unknown");
     },
   },
   pages: {
