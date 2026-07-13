@@ -43,12 +43,25 @@ model User {
   image         String?
   role                String    @default("student")
   speakupCalendarId   String?   @unique
+  lastLoginAt         DateTime?
   accounts            Account[]
   sessions      Session[]
   turmas        Turma[]
   enrollments         Enrollment[]
   lessonNotes         LessonNote[]
   bookings            Booking[]
+  accessLogs          AccessLog[]
+}
+
+model AccessLog {
+  id        String   @id @default(cuid())
+  email     String
+  userId    String?
+  user      User?    @relation(fields: [userId], references: [id], onDelete: SetNull)
+  createdAt DateTime @default(now())
+
+  @@index([email, createdAt])
+  @@index([createdAt])
 }
 
 model LessonNote {
