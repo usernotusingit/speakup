@@ -1,25 +1,49 @@
 "use client";
 
 import { useCallback, useEffect, useRef, useState } from "react";
-import { StickyNote, Check, Loader2, AlertCircle } from "lucide-react";
+import {
+  StickyNote,
+  Check,
+  Loader2,
+  AlertCircle,
+  ChevronDown,
+  ChevronUp,
+} from "lucide-react";
 
 type SaveState = "idle" | "saving" | "saved" | "error";
 
 export default function LessonNotes({
   bookId,
   lessonId,
+  collapsed,
+  onToggle,
 }: {
   bookId: number;
   lessonId: number;
+  collapsed: boolean;
+  onToggle: () => void;
 }) {
   const [content, setContent] = useState("");
   const [loading, setLoading] = useState(true);
   const [state, setState] = useState<SaveState>("idle");
   const timer = useRef<ReturnType<typeof setTimeout> | null>(null);
   const lastSaved = useRef("");
+  const loaded = useRef(false);
 
-  // Load existing note
+  // Moving to another lesson invalidates whatever was loaded.
   useEffect(() => {
+    setContent("");
+    setState("idle");
+    setLoading(true);
+    lastSaved.current = "";
+    loaded.current = false;
+  }, [bookId, lessonId]);
+
+  // Load existing note, but only once the panel is actually open: a collapsed
+  // panel must never pull the note text into the page, since the whole point of
+  // collapsing is to keep it off a shared screen.
+  useEffect(() => {
+    if (collapsed || loaded.current) return;
     let active = true;
     setLoading(true);
     fetch(`/api/lesson-notes?bookId=${bookId}&lessonId=${lessonId}`)
@@ -28,13 +52,14 @@ export default function LessonNotes({
         if (!active) return;
         setContent(data.content ?? "");
         lastSaved.current = data.content ?? "";
+        loaded.current = true;
       })
       .catch(() => {})
       .finally(() => active && setLoading(false));
     return () => {
       active = false;
     };
-  }, [bookId, lessonId]);
+  }, [bookId, lessonId, collapsed]);
 
   const save = useCallback(
     async (value: string) => {
@@ -64,8 +89,9 @@ export default function LessonNotes({
     }, 800);
   }
 
-  // Flush immediately when the field loses focus (e.g. before navigating away),
-  // so a pending debounced save is never dropped by the component unmounting.
+  // Flush immediately when the field loses focus (e.g. before navigating away,
+  // or when the panel is collapsed), so a pending debounced save is never
+  // dropped by the component unmounting.
   function onBlur() {
     if (timer.current) clearTimeout(timer.current);
     if (content !== lastSaved.current) save(content);
@@ -78,6 +104,26 @@ export default function LessonNotes({
     };
   }, []);
 
+  if (collapsed) {
+    return (
+      <aside className="rounded-2xl overflow-hidden shadow-lg bg-white">
+        <button
+          type="button"
+          onClick={onToggle}
+          aria-expanded={false}
+          className="w-full flex items-center gap-3 px-5 py-3.5 text-left hover:bg-gray-50 transition-colors"
+        >
+          <div className="w-7 h-7 rounded-lg flex items-center justify-center shrink-0 bg-amber-100">
+            <StickyNote size={14} className="text-amber-600" />
+          </div>
+          <span className="font-semibold text-gray-700 text-sm">My Notes</span>
+          <span className="text-xs text-gray-400 flex-1">Hidden</span>
+          <ChevronDown size={16} className="text-gray-400 shrink-0" />
+        </button>
+      </aside>
+    );
+  }
+
   return (
     <aside className="rounded-2xl overflow-hidden shadow-lg bg-white flex flex-col lg:h-full">
       <div className="flex items-center gap-3 px-5 py-4 border-b border-gray-100">
@@ -86,6 +132,15 @@ export default function LessonNotes({
         </div>
         <span className="font-semibold text-gray-700 text-sm flex-1">My Notes</span>
         <StatusBadge loading={loading} state={state} />
+        <button
+          type="button"
+          onClick={onToggle}
+          aria-expanded={true}
+          title="Hide notes"
+          className="w-7 h-7 -mr-1.5 rounded-lg flex items-center justify-center shrink-0 text-gray-400 hover:text-gray-600 hover:bg-gray-100 transition-colors"
+        >
+          <ChevronUp size={16} />
+        </button>
       </div>
       <div className="p-4 flex flex-col flex-1">
         <textarea
