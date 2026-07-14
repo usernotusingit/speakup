@@ -109,6 +109,19 @@ for (const book of books.books) {
       }
     }
   });
+
+  // optional mid-term review (unnumbered, sits between lessons 18 and 19)
+  const review = (book as any).midReview;
+  if (review) {
+    const where = `Book ${book.id} / midReview`;
+    if (typeof review.title !== "string" || !review.title.trim())
+      errors.push(`${where}: missing/empty "title"`);
+    checkPairs(`${where}.grammarPoints`, review.grammarPoints);
+    if ((review.grammarPoints?.length ?? 0) < 3)
+      errors.push(`${where}: needs >= 3 grammarPoints (has ${review.grammarPoints?.length ?? 0})`);
+    if (!Array.isArray(review.homework) || review.homework.some((h: unknown) => typeof h !== "string") || review.homework.length === 0)
+      errors.push(`${where}.homework: must be a non-empty array of strings`);
+  }
 }
 
 // practice entries with no matching lesson (orphans)
